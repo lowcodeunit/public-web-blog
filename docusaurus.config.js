@@ -2,7 +2,7 @@ module.exports = {
   title: 'IoT Ensemble',
   tagline: 'Cloud-native IoT Solutions: Explore and Scale',
   url: 'https://www.fathym.com',
-  baseUrl: '/',
+  baseUrl: '/iot/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'iot-ensemble', // Usually your GitHub org/user name.
