@@ -1,18 +1,18 @@
 module.exports = {
   title: 'IoT Ensemble',
-  tagline: 'Cloud-native IoT Solutions: Explore and Scale',
-  url: 'https://www.fathym.com',
-  baseUrl: '/iot/',
+  tagline: 'Experience IoT in minutes. No credit card required.',
+  url: 'https://www.iotensemble.com',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'iot-ensemble', // Usually your GitHub org/user name.
-  projectName: 'public-web', // Usually your repo name.
+  organizationName: 'fathym', // Usually your GitHub org/user name.
+  projectName: 'iot-ensemble', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: '',
+      title: 'IoT Ensemble',
       logo: {
-        alt: 'Fathym Framework',
-        src: 'img/logo.png',
+        alt: 'IoT Ensemble',
+        src: 'img/Fathym-logo-aqua-01.png',
       },
       items: [
         {
@@ -20,13 +20,7 @@ module.exports = {
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
-        },
-        {to: 'blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/iot-ensemble',
-          label: 'GitHub',
-          position: 'right',
-        },
+        },        
       ],
     },
     footer: {
@@ -35,14 +29,14 @@ module.exports = {
         {
           title: 'Docs',
           items: [
-            // {
-            //   label: 'Style Guide',
-            //   to: 'docs/',
-            // },
-            // {
-            //   label: 'Second Doc',
-            //   to: 'docs/doc2/',
-            // },
+            {
+              label: 'Style Guide',
+              to: 'docs/',
+            },
+            {
+              label: 'Second Doc',
+              to: 'docs/doc2/',
+            },
           ],
         },
         {
@@ -76,7 +70,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Fathym`,
     },
   },
   presets: [
