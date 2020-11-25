@@ -1,12 +1,12 @@
 module.exports = {
   title: 'IoT Ensemble',
   tagline: 'Experience IoT in minutes. No credit card required.',
-  url: 'https://www.iotensemble.com',
+  url: 'https://www.iot-ensemble.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'fathym', // Usually your GitHub org/user name.
-  projectName: 'iot-ensemble', // Usually your repo name.
+  organizationName: 'iot-ensemble', // Usually your GitHub org/user name.
+  projectName: 'public-web', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'IoT Ensemble',
@@ -20,7 +20,13 @@ module.exports = {
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
-        },        
+        },
+        { to: 'blog', label: 'Blog', position: 'left' },
+        {
+          href: 'https://github.com/iot-ensemble',
+          label: 'GitHub',
+          position: 'right',
+        },
       ],
     },
     footer: {
@@ -33,10 +39,10 @@ module.exports = {
               label: 'Style Guide',
               to: 'docs/',
             },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
+            // {
+            //   label: 'Second Doc',
+            //   to: 'docs/doc2/',
+            // },
           ],
         },
         {
@@ -44,15 +50,15 @@ module.exports = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://stackoverflow.com/questions/tagged/iot-ensemble',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discordapp.com/invite/iot-ensemble',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/iot-ensemble',
             },
           ],
         },
@@ -65,12 +71,12 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/iot-ensemble',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Fathym`,
+      copyright: `Copyright © ${new Date().getFullYear()} Fathym, Inc`,
     },
   },
   presets: [
@@ -80,14 +86,12 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          editUrl: 'https://github.com/iot-ensemble/public-web/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          editUrl: 'https://github.com/iot-ensemble/public-web/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

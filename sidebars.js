@@ -1,6 +1,11 @@
 module.exports = {
   someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
+    Introduction: ['introduction/overview'],
+    'Getting Started': [
+      'getting-started/setup',
+      {
+        'For Devs': ['getting-started/for-devs/iot-setup-explained'],
+      },
+    ],
   },
 };
