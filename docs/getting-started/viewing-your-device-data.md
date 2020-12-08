@@ -5,3 +5,9 @@ sidebar_label: View Device Data
 ---
 
 # Viewing Your Device Data
+
+## Telemetry and Payloads
+
+## Freeboard Dashboard
+
+## Observations and Metadata
