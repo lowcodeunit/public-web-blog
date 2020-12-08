@@ -5,13 +5,13 @@ module.exports = {
       'getting-started/setup',
       'getting-started/emulated-data',
       'getting-started/connecting-your-first-device',
-      {
-        'For Devs': [
-          // 'getting-started/for-devs/iot-setup-explained',
-          'getting-started/for-devs/iot-best-practice-schema-explained',
-          'getting-started/for-devs/azure-iot-hub-explained',
-        ],
-      },
+      'getting-started/viewing-your-device-data',
+      'getting-started/connecting-your-downstream-services',
+    ],
+    'Developers': [
+      'developers/device-setup-explained',
+      'developers/iot-best-practice-schema-explained',
+      'developers/azure-iot-hub-explained',
     ],
   },
 };

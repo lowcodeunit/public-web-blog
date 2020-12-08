@@ -14,7 +14,7 @@ To kick things off, you can visit our [IoT Ensemble](https://www.iot-ensemble.co
 
 :::note
 
-Need help during setup?  Read the following for [support and details](for-devs/iot-setup-explained) on the setup process.
+Need help during setup?  Read the following for [support and details](../developers/iot-setup-explained) on the setup process.
 
 :::
 
