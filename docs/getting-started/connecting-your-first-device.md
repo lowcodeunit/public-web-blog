@@ -10,9 +10,11 @@ If you worked through our emulated data, then you've seen the dashboard in actio
 
 ## Add a Device
 
-Getting started with a new device is simple, all you need to do is enter a device name and  enroll it.
+Getting started with a new device is simple, all you need to do is enter a device name and enroll it.
 
 ![Enroll New Device](/img/screenshots/dashboard-enroll-device.png)
+
+We'll start you off with a symmetric key protected device, and you can move to SSL and other security in the future.
 
 ## Send Device Data
 
@@ -35,6 +37,8 @@ Connection string, send
 Here we'll walk you through some common connection workflows.  Check out our detailed guide on [Device Setup](developers/device-setup-explained) for more ways to connect and get your data flowing.
 
 ### Send Via HTTP
+
+### Send Via MQTT
 
 ### Device Simulator
 
