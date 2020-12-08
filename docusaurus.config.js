@@ -8,6 +8,13 @@ module.exports = {
   organizationName: 'iot-ensemble', // Usually your GitHub org/user name.
   projectName: 'public-web', // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      // "light" | "dark"
+      defaultMode: 'dark',
+      // Hides the switch in the navbar
+      // Useful if you want to support a single color mode
+      disableSwitch: true
+    },
     navbar: {
       title: 'IoT Ensemble',
       logo: {
@@ -15,18 +22,17 @@ module.exports = {
         src: 'img/Fathym-logo-aqua-01.png',
       },
       items: [
+        //{
+        //  to: 'docs/',
+        //  activeBasePath: 'docs',
+        //  label: 'Docs',
+        //  position: 'left',
+        //},
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
-        },
-        { to: 'blog', label: 'Blog', position: 'left' },
-        {
-          href: 'https://github.com/iot-ensemble',
-          label: 'GitHub',
-          position: 'right',
-        },
+          href: 'https://www.iot-ensemble.com/dashboard',
+          label: 'Sign In',
+          position: 'right'
+        }
       ],
     },
     footer: {
@@ -36,13 +42,9 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
+              label: 'Getting Started',
               to: 'docs/',
             },
-            // {
-            //   label: 'Second Doc',
-            //   to: 'docs/doc2/',
-            // },
           ],
         },
         {
@@ -63,15 +65,11 @@ module.exports = {
           ],
         },
         {
-          title: 'More',
+          title: 'Powered by Fathym',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/iot-ensemble',
+              label: 'Learn More',
+              href: 'https://www.fathym.com',
             },
           ],
         },
@@ -85,12 +83,12 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
+          // The iot-ensemble website repo
           editUrl: 'https://github.com/iot-ensemble/public-web/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
+          // The iot-ensemble website blog repo
           editUrl: 'https://github.com/iot-ensemble/public-web/edit/master/website/blog/',
         },
         theme: {
