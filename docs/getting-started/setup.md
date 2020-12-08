@@ -16,7 +16,7 @@ To kick things off, you can visit the [IoT Ensemble](https://www.iot-ensemble.co
 
 Once signed in, you'll land in the IoT Ensemble Dashboard with a Free License.  Your one stop, cloud-native IoT starting point, the dashboard is your control system for data emulation, connecting devices, visualizing data and connecting with downstream services.
 
-![Dashboard New](/img/screenshots/getting-started-dashboard-new.png)
+![Dashboard New](/img/screenshots/dashboard-new.png)
 
 <!-- 
 ## Next Steps
