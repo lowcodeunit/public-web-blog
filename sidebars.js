@@ -7,6 +7,7 @@ module.exports = {
       'getting-started/connecting-your-first-device',
       'getting-started/viewing-your-device-data',
       'getting-started/connecting-your-downstream-services',
+      'getting-started/scaling-your-devices',
     ],
     'Developers': [
       'developers/device-setup-explained',
