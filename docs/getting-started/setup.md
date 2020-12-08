@@ -8,21 +8,15 @@ sidebar_label: Setup
 
 Fathym IoT Ensemble enables developers to rapidly connect devices using best practice workflows for cloud-native IoT applications.
 
-In the getting started guide, in only a few clicks, we'll walk you through connecting your first device.  You'll be able to choose between connecting with your own devices, emulated device data, or existing device feeds.  Once setup, we'll show you how you can deploy and manage visualizations across a variety of technologies (JS, PowerBI, Jupiter Notebooks).  Finally we'll walk you through how you can deliver these visualizations to your customers in a secure way.  
+In the getting started guide, in only a few clicks, we'll walk you through connecting your first device.  You'll be able to work with your own devices or emulated device data.  Once setup, we'll show you how you can access your device data and connect it with downstream technologies (JS, PowerBI, Jupiter Notebooks).  Finally we'll walk you through how you can deliver these visualizations to your customers in a secure way.  
 
-To kick things off, you can visit our [IoT Ensemble](https://www.iot-ensemble.com/dashboard) sign up page (no credit card required).
-
-:::note
-
-Need help during setup?  Read the following for [support and details](../developers/iot-setup-explained) on the setup process.
-
-:::
+To kick things off, you can visit the [IoT Ensemble](https://www.iot-ensemble.com/dashboard) sign up page (no credit card required) and access your dashboard.
 
 ## IoT Ensemble Dashboard
 
-Once signed in, you'll land in the IoT Ensemble Dashboard with a Free License.  The dashboard is your control system for data emulation, connecting your own device, visualizing your data and accessing it via APIs for down-stream processing.  Your one stop, cloud-native IoT starting point.
+Once signed in, you'll land in the IoT Ensemble Dashboard with a Free License.  Your one stop, cloud-native IoT starting point, the dashboard is your control system for data emulation, connecting devices, visualizing data and connecting with downstream services.
 
-![IDE Welcome Journeys](/img/screenshots/getting-started/dashboard-new.png)
+![Dashboard New](/img/screenshots/getting-started-dashboard-new.png)
 
 <!-- 
 ## Next Steps

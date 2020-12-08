@@ -16,6 +16,8 @@ sidebar_label: Connect Downstream
 
 ### Power BI
 
+### Jupiter Notebooks
+
 ### Azure Machine Learning
 
 ### Grafana

@@ -13,8 +13,8 @@ Managing the learning path, usage and growth of cloud-native IoT development str
 
 ## Connect, Understand, Scale
 
-Typically when starting with a new cloud-native IoT solution, your not only wokring towards connecting your device, but also on how to process and store its data in order to do tasks like anomaly detection or predictive-maintenance.
+Typically when starting with a new cloud-native IoT solution, your not only wokring towards connecting your device, but also on how to process and store its data in order to do tasks like visualization, anomaly detection or predictive-maintenance.  This requires learning a number of cloud-native technologies before being able to deliver your solution.
 
-IoT Ensemble operates as a virtual development team that automates best practices for IoT application delivery. In order to help you focus on building applications and creating value, we built the platform to augment your team’s skills and do your heavy lifting.
+IoT Ensemble operates as a virtual development team that automates best practices for IoT application delivery.  In order to help you focus on building applications and creating value, we built the platform to augment your team’s skills and do your heavy lifting.
 
 The platform radically reduces the time and work involved in getting your devices connected, understanding your data, delivering applications, and bringing end-to-end customer driven IoT applications to bear.
