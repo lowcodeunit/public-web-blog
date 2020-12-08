@@ -38,6 +38,20 @@ Here we'll walk you through some common connection workflows.  Check out our det
 
 ### Send Via HTTP
 
+Need to get this right, but this is the gist...
+
+```cli
+curl -X POST \
+  https://iothubname.azure-devices.net/twins/myfirstdevice/methods?api-version=2018-06-30 \
+  -H 'Authorization: SharedAccessSignature sr=iothubname.azure-devices.net&sig=x&se=x&skn=iothubowner' \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "methodName": "SetTelemetryInterval",
+    "responseTimeoutInSeconds": 200,
+    "payload": 10
+}'
+```
+
 ### Send Via MQTT
 
 ### Device Simulator
