@@ -7,12 +7,14 @@ slug: /
 
 # Welcome to Fathym IoT Ensemble
 
-A platform and framework focused on helping you take charge of your IoT applications and deployment strategies.
+A platform focused on helping you connect your devices, understand your data and scale your IoT applications.
 
-Managing the learning path, usage and growth of cloud-native infrastructure and application development strategies can be a daunting challenge. With the Fathym Framework you can reliably deliver IoT applications across hybrid-clouds.
+Managing the learning path, usage and growth of cloud-native IoT development strategies can be a daunting challenge. With IoT Ensemble you can reliably deliver IoT applications across hybrid-clouds.
 
-## Virtual Development Team
+## Connect, Understand, Scale
 
-Fathym operates as a virtual development team that automates best practices for IoT application delivery. In order to help you focus on building applications and creating value, we built the framework to augment your team’s skills and do your heavy lifting.
+Typically when starting with a new cloud-native IoT solution, your not only wokring towards connecting your device, but also on how to process and store its data in order to do tasks like anomaly detection or predictive-maintenance.
 
-The Fathym Framework radically reduces the time and work involved in getting your device connected, visualizing your data, delivering applications, and bringing end-to-end customer driven IoT applications to bear.
+IoT Ensemble operates as a virtual development team that automates best practices for IoT application delivery. In order to help you focus on building applications and creating value, we built the platform to augment your team’s skills and do your heavy lifting.
+
+The platform radically reduces the time and work involved in getting your devices connected, understanding your data, delivering applications, and bringing end-to-end customer driven IoT applications to bear.
