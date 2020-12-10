@@ -28,4 +28,4 @@ While emulated data is enabled, the emulated data will be mixed with any real de
 
 If you would like to remove the emulated data from your dashboard and APIs, simply disable the emulated data.
 
-![Emulated Data Enabled](/img/screenshots/dashboard-emulated-enabled.png)
+![Emulated Data Enabled](/img/screenshots/dashboard-emulated-disabled.png)
