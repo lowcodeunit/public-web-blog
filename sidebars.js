@@ -11,7 +11,7 @@ module.exports = {
     ],
     Developers: [
       {
-        'Device Setup': ['developers/device-setup/explained'],
+        'Device Setup': ['developers/device-setup/explained', 'developers/device-setup/connect'],
       },
       'developers/iot-best-practice-schema-explained',
       'developers/azure-iot-hub-explained',
