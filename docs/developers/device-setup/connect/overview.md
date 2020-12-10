@@ -1,7 +1,7 @@
 ---
-title: Getting Started - For Devs - Device Setup - Connecting Devices
+title: Developers - Device Setup - Connect - Overview
 hide_title: true
-sidebar_label: Connecting Devices 
+sidebar_label: Overview 
 ---
 
 # Connecting Devices

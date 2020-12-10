@@ -24,7 +24,7 @@ At times, the IoT process can feel like a challenge.  We've done a lot to spring
 
 ### Best Practice IoT Ensemble Schema
 
-When starting with our shared plans, to get the most out of the system, there is a [best practice schema](developers/iot-best-practice-schema-explained) that we recommend you send your IoT messages in.  This allows you to collect device data, sensor readings, and sensor metadata to deliver a rich, pre-configured IoT experience.   In short, the structure is as follows:
+When starting with our shared plans, to get the most out of the system, there is a [best practice schema](../developers/iot-best-practice-schema-explained) that we recommend you send your IoT messages in.  This allows you to collect device data, sensor readings, and sensor metadata to deliver a rich, pre-configured IoT experience.   In short, the structure is as follows:
 
 ```json
 {
@@ -68,7 +68,7 @@ On top of the readings our sensors are taking, there can often be additional inf
   - **_**<br />
   This special property on the SensorMetadata allows you to send information relating to your gateway, or other non-sensor health information.
 
-We do have a [detailed explanation of the best practice schema](developers/iot-best-practice-schema-explained) if you need more information on how to use it from your device.  Here is a full example of what the telemetry payload would look like (as used by our emulated device):
+We do have a [detailed explanation of the best practice schema](../developers/iot-best-practice-schema-explained) if you need more information on how to use it from your device.  Here is a full example of what the telemetry payload would look like (as used by our emulated device):
 
 ```json
 {
@@ -121,7 +121,7 @@ When connecting your devices, you are connecting to a cloud-native Azure IoT Hub
 
 ## Connection Quick Starts
 
-Here we'll walk you through some common connection workflows.  We'll start it off simple, and build towards some other scenarios.  Check out our detailed guide on [device setup](developers/device-setup-explained) for more ways to connect and get your data flowing.
+Here we'll walk you through some common connection workflows.  We'll start it off simple, and build towards some other scenarios.  Check out our detailed guide on [device setup](../developers/device-setup/explained) for more ways to connect and get your data flowing.
 
 ### Send Via HTTP
 
@@ -133,7 +133,7 @@ curl -X POST \
   -H 'Authorization: SharedAccessSignature {connection-string}' \
   -H 'Content-Type: application/json' \
   -d '{
-    "DeviceID":"Emulated-4",
+    "DeviceID":"{device-id}",
     "DeviceType":"Generic",
     "Timestamp":"2020-12-10T00:26:30.0217778+00:00",
     "Version":"0.0.2",
@@ -164,6 +164,12 @@ Once sent, you'll begin to see the new telemetry show up in your dashboard (it w
 
 ### Device Simulator
 
+Quick connect with simulator and download, reference to full article for the rest
+
 ### Raspberry Pi 3 with DHT-22
 
+Brief explanation of what this entails, with a deep link into a full article
+
 ### Node Red
+
+Brief explanation of what this entails, with a deep link into a full article
