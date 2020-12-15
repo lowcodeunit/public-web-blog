@@ -22,12 +22,12 @@ module.exports = {
         src: 'img/Fathym-logo-aqua-01.png',
       },
       items: [
-        //{
-        //  to: 'docs/',
-        //  activeBasePath: 'docs',
-        //  label: 'Docs',
-        //  position: 'left',
-        //},
+        {
+         to: 'docs/',
+         activeBasePath: 'docs',
+         label: 'Docs',
+         position: 'left',
+        },
         {
           href: 'https://www.iot-ensemble.com/dashboard',
           label: 'Sign In',
