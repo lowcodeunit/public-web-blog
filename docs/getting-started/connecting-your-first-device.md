@@ -60,7 +60,7 @@ Other than the fact that these values should be strings, they are under your con
 - **Timestamp**<br />
 To properly sequence the messages you send from device to cloud, a timestamp is required.  It should be in the ______ format as shown in the example below.
 - **DeviceData**<br />
-When working with sensor/gateway setups, there is often a set of information more static to your device.  This could be latitudue and longitude information, building information, or anything else that isn't really a sensor reading.  
+When working with sensor/gateway setups, there is often a set of information more static to your device.  This could be latitudue and longitude information, building information, or anything else that isn't a sensor reading.  
 - **SensorReadings**<br />
 The information collected here should be numeric in order to work with the downstream processing.  If your sensor is not returning numeric values, you should convert them on the client side.
 - **SensorMetadata**<br />
@@ -125,7 +125,13 @@ Here we'll walk you through some common connection workflows.  We'll start it of
 
 ### Send Via HTTP
 
-To get started, we'll layout how you can use a simple HTTP request to send data.  Here, we've laid out a curl command, though this will work from any tool like Postman as well.
+To get started, we'll layout how you can use a simple HTTP request to send data to the Azure IoT Hub.  Here, we've laid out a curl command, though this will work from any tool like [Postman](https://www.postman.com/) or [Insomnia](https://insomnia.rest/) as well.
+
+#### Generate SAS Token
+
+The easiest way to get a SAS Token going for some of these examples will be via your IoT Ensemble dashboard.  Next to the device, you will find a link to generate a SAS token.  This is never saved in the system, and  can only be accessed the first time you see it.
+
+#### Send Request
 
 ```cli
 curl -X POST \

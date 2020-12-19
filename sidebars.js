@@ -10,6 +10,8 @@ module.exports = {
       'getting-started/scaling-your-devices',
     ],
     Developers: [
+      'developers/iot-best-practice-schema-explained',
+      // 'developers/azure-iot-hub-explained',
       {
         'Device Setup': [
           'developers/device-setup/explained',
@@ -22,8 +24,6 @@ module.exports = {
           },
         ],
       },
-      'developers/iot-best-practice-schema-explained',
-      'developers/azure-iot-hub-explained',
     ],
   },
 };

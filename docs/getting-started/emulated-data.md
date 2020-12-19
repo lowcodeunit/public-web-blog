@@ -20,7 +20,7 @@ Once enabled, if no devices have been added yet, the telemtry sync will automati
 
 :::note
 
-While emulated data is enabled, the emulated data will be mixed with any real device data you have streaming into the system.  Not just in the dashboard, but also in your API calls.
+While emulated data is enabled, the emulated data will be mixed with any real device data you have streaming into the system.  Not just in the dashboard, but also in your API calls.  This can be filtered out using various aspects of our system.
 
 :::
 

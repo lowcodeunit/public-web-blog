@@ -1,7 +1,7 @@
 ---
-title: Developers - Device Setup - Connect - Raspberry Pi with Spark Fun
+title: Developers - Device Setup - Connect - Node Red
 hide_title: true
-sidebar_label: Raspberry Pi with Spark Fun
+sidebar_label: Node Red
 ---
 
 # Connecting Raspberry Pi with Spark Fun
