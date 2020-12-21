@@ -30,7 +30,7 @@ When first connecting your devices, this is a great place to start seeing your d
 
 ![Devices Telemetry Table](/img/screenshots/dashboard-devices-telemetry-table.png)
 
-The telemetry row provides only your Device ID and the time at which the message was processed.  The system is dynamic in terms of how the payload can come in, so to see what real data is flowing through you'll have to either copy or expand the payload.  
+The system is dynamic in terms of how the payload can come in, so the telemetry row provides only your Device ID and the time at which the message was processed.  To see what real data is flowing through you'll have to either copy or expand the payload.  
 
 To quickly copy the payload of one of your messages, use the <img src="/img/screenshots/icon-telemetry-copy-payload.png" class="text-image" /> button.  Using the <img src="/img/screenshots/icon-telemetry-expand-payload.png" class="text-image" /> button will expand the row to show the raw payload of the message.
 
@@ -46,7 +46,7 @@ If you are seeing emulated data in the table and only want to see your devices, 
 
 #### Telemetry Actions
 
-As previously talked about in our [connecting your own device](../getting-started/connecting-your-first-device) guide, you can use the Send Device Message form to easily send sample data for a device into the system.
+As previously talked about in our [connecting your own device](../getting-started/connecting-your-first-device#send-via-dashboard) guide, you can use the Send Device Message form to easily send sample data for a device into the system.
 
 ### Freeboard Dashboard
 
@@ -54,7 +54,7 @@ As an inline example of how your data can be visualized, we use an open source t
 
 ![Devices Freeboard](/img/screenshots/dashboard-devices-freeboard.png)
 
-To edit the freeboard, click the settings icon at the top of the freeboard.  This will change the freeboard into edit mode.  You can add new panes, edit existing ones and when complete click Save Freeboard.  Choose a path on your local computer to save the freeboard, and the next time you come back, simply use the Load Freeboard option to pull in your custom freeboard.
+To edit the freeboard, click the <img src="/img/screenshots/dashboard-devices-freeboard-settings.png" class="text-image" /> icon at the top of the freeboard.  This will change the freeboard into edit mode.  You can add new panes, edit existing ones and when complete click <img src="/img/screenshots/dashboard-devices-freeboard-save.png" class="text-image" />.  Choose a path on your local computer to save the freeboard, and the next time you come back, simply use the <img src="/img/screenshots/dashboard-devices-freeboard-load.png" class="text-image" /> option to pull in your custom freeboard.
 
 For more information on freeboard, how it works, and how to code it, please visit their [documentation](https://github.com/Freeboard/freeboard).
 
