@@ -6,11 +6,45 @@ sidebar_label: View Device Data
 
 # Viewing Your Device Data
 
+Viewing device messages is often the first step in understanding and debugging IoT data flows.  In this portion of the guide, we'll go through what the dashboard makes available out-of-the-box and some of the APIs that can be used for storage access.
+
 ## Dashboard Views
+
+The IoT Ensemble dashboard provides two quick ways to start loooking at your data.  Using these, you will be able to see raw device message payloads and visualize your data in an open source dashboard.
 
 ### Devices Telemetry
 
-Device Name, processed time.  Click to copy, click to view full payload
+You've seen the devices telemetry table in action if you worked through the [emulated data](../getting-started/emulated-data) or [connecting your own device](../getting-started/connecting-your-first-device) guides, here we'll dig in a bit deeper on how it works.  
+
+#### Telemetry Sync
+
+Each of the dashboard views is powered by the telemetry sync.  The sync is responsible for preloading a set of telemetry based on the settings in this section.  It will only run for 30 minutes at a time, and must be restarted after that.  At the top of the Devices Telemetry section are the settings for the majority of the telemetry sync.  
+
+![Devices Telemetry Header](/img/screenshots/dashboard-devices-telemetry-header.png)
+
+Here you'll find the toggle that enables and disables the telemetry sync.  Every time it is enabled (or that the connection refreshes while enabled), a fresh 30 minute sync window is started.  You can control the rate at which the sync refreshes by selecting one of the values in the drop down.  In addition, you'll find a status indicator and last synced date in the top left.
+
+#### Telemetry Table
+
+When first connecting your devices, this is a great place to start seeing your data.  A new row will show up for each message sent for any of your devices (and will include emulated data when enabled).
+
+![Devices Telemetry Table](/img/screenshots/dashboard-devices-telemetry-table.png)
+
+Device Name, processed time.  Click to copy, click to view full payload.
+
+Using the <img src="/img/screenshots/icon-telemetry-expand-payload.png" class="text-image" /> button will expand the row to show the raw payload of the message.
+
+<img src="/img/screenshots/dashboard-devices-telemetry-table-payload.png" />
+
+:::note
+
+If you are seeing emulated data in the table and only want to see your devices, make sure to disable the emulated data.
+
+:::
+
+#### Telemetry Actions
+
+Send Device Message
 
 ### Freeboard Dashboard
 

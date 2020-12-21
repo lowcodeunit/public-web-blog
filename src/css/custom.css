@@ -27,3 +27,9 @@
 .text-image {
   height: 36px;
 }
+
+
+.feature-image {
+  height: 300px;
+  width: 300px;
+}
