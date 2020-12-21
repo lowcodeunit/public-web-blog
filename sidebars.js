@@ -7,10 +7,11 @@ module.exports = {
       'getting-started/connecting-your-first-device',
       'getting-started/viewing-your-device-data',
       'getting-started/connecting-your-downstream-services',
-      'getting-started/scaling-your-devices',
+      'getting-started/buy-and-scale',
     ],
     Developers: [
       'developers/iot-best-practice-schema-explained',
+      'developers/licenses',
       // 'developers/azure-iot-hub-explained',
       {
         'Device Setup': [

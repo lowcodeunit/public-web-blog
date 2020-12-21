@@ -18,23 +18,25 @@ You've seen the devices telemetry table in action if you worked through the [emu
 
 #### Telemetry Sync
 
-Each of the dashboard views is powered by the telemetry sync.  The sync is responsible for preloading a set of telemetry based on the settings in this section.  It will only run for 30 minutes at a time, and must be restarted after that.  At the top of the Devices Telemetry section are the settings for the majority of the telemetry sync.  
+Each of the dashboard views is powered by the telemetry sync.  The sync is responsible for preloading a set of telemetry based on the settings in this section.  It will only run for 30 minutes at a time, and must be restarted after that (the last loaded data will stay in sync once disabled).  At the top of the Devices Telemetry section are the settings for the majority of the telemetry sync.  
 
 ![Devices Telemetry Header](/img/screenshots/dashboard-devices-telemetry-header.png)
 
-Here you'll find the toggle that enables and disables the telemetry sync.  Every time it is enabled (or that the connection refreshes while enabled), a fresh 30 minute sync window is started.  You can control the rate at which the sync refreshes by selecting one of the values in the drop down.  In addition, you'll find a status indicator and last synced date in the top left.
+Here you'll find the toggle that enables and disables the telemetry sync.  Every time it is enabled, a fresh 30 minute sync window is started.  You can control the rate at which the sync refreshes by selecting one of the values in the drop down.  In addition, you'll find a status indicator and last synced date in the top left.
 
 #### Telemetry Table
 
-When first connecting your devices, this is a great place to start seeing your data.  A new row will show up for each message sent for any of your devices (and will include emulated data when enabled).
+When first connecting your devices, this is a great place to start seeing your data.  A new row will show up for each message sent for any of your devices (and will include emulated telemetry data as well, when enabled).
 
 ![Devices Telemetry Table](/img/screenshots/dashboard-devices-telemetry-table.png)
 
-The telemetry row provides only your Device ID and the time at which the message was processed.  The system is dynamic in terms of how the payload can come in, so to see what real data is flowing though you'll have to either copy or expand the payload.  
+The telemetry row provides only your Device ID and the time at which the message was processed.  The system is dynamic in terms of how the payload can come in, so to see what real data is flowing through you'll have to either copy or expand the payload.  
 
 To quickly copy the payload of one of your messages, use the <img src="/img/screenshots/icon-telemetry-copy-payload.png" class="text-image" /> button.  Using the <img src="/img/screenshots/icon-telemetry-expand-payload.png" class="text-image" /> button will expand the row to show the raw payload of the message.
 
 <img src="/img/screenshots/dashboard-devices-telemetry-table-payload.png" />
+
+Finally, you can use the paging controls at the bottom to determine how many telemetry records are in each response, and to work through the pages.
 
 :::note
 
@@ -44,9 +46,17 @@ If you are seeing emulated data in the table and only want to see your devices, 
 
 #### Telemetry Actions
 
-Send Device Message
+As previously talked about in our [connecting your own device](../getting-started/connecting-your-first-device) guide, you can use the Send Device Message form to easily send sample data for a device into the system.
 
 ### Freeboard Dashboard
+
+As an inline example of how your data can be visualized, we use an open source tool called [freeboard](http://freeboard.io/).  You can use this tool to create and locally save your own visualizations and later load them into view.  In addition, we'll talk you through connecting with a hosted freeboard account in the next article.
+
+![Devices Freeboard](/img/screenshots/dashboard-devices-freeboard.png)
+
+To edit the freeboard, click the settings icon at the top of the freeboard.  This will change the freeboard into edit mode.  You can add new panes, edit existing ones and when complete click Save Freeboard.  Choose a path on your local computer to save the freeboard, and the next time you come back, simply use the Load Freeboard option to pull in your custom freeboard.
+
+For more information on freeboard, how it works, and how to code it, please visit their [documentation](https://github.com/Freeboard/freeboard).
 
 <!-- ### Observations 
 
@@ -56,7 +66,7 @@ Send Device Message
 
 :::note
 
-This storage access documentation focuses around our pre-built APIs, available to all shared and enterprise licenses.  When using our enterprise licenses you will also have direct access to the data via the many storage options.  For more information read our complete guide on [storage access](../developers/storage-access/overview).
+This storage access documentation focuses around our pre-built APIs, available to all shared and enterprise licenses.  When using our enterprise licenses you will also have direct access to the many data options.  For more information read our complete guide on [storage access](../developers/storage-access/overview).
 
 :::
 
