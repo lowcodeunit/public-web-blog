@@ -56,7 +56,7 @@ When starting with our shared plans, to get the most out of the system, there is
 Here is a breif explanation of our best practice schema, and how you can use it:
 
 - **DeviceID, DeviceType, Version**<br />
-Other than the fact that these values should be strings, they are under your control.  The Device ID is required, while the other two are optional (though recommended to properly work with your historic data).
+These values are under your control and should be strings.  The Device ID is required and we recommend you use the Device Name from the device you created (though not required).  The DeviceType and Version are optional, though recommended to properly work with your historic data.
 - **Timestamp**<br />
 To properly sequence the messages you send from device to cloud, a timestamp is required.  It should be in the ______ format as shown in the example below.
 - **DeviceData**<br />
@@ -121,61 +121,36 @@ When connecting your devices, you are connecting to a cloud-native Azure IoT Hub
 
 ## Connection Quick Starts
 
-Here we'll walk you through some common connection workflows.  We'll start it off simple, and build towards some other scenarios.  Check out our detailed guide on [device setup](../developers/device-setup/explained) for more ways to connect and get your data flowing.
+Starting off simple, then working up to some real device connection examples, we'll walk you through some common connection workflows.  Check out our detailed guide on [device setup](../developers/device-setup/explained) for more ways to connect and get your data flowing.
+
+### Send Via Dashboard
+
+To get started, using our send device message form from the dashboard is the easiest way to start seeing what data for your devices would look like throughout the system.  To open up the form, go to the <img src="/img/screenshots/icon-devices-telemetry.png" class="text-image" /> Devices Telemetry section and at the bottom click the <img src="/img/screenshots/dashboard-send-device-message.png" class="text-image" /> button.
+
+![Send Device Message](/img/screenshots/dashboard-send-device-message-dialog.png)
+
+Once opened, select the device you would like to send from and adjust any of the values.  Press <img src="/img/screenshots/dashboard-send-device-message-dialog-send-message.png" class="text-image" /> when your ready, and on the next telemetry sync your device data will be visible.  The telemetry table is only one way to see your data, read on for more details on [viewing your data](viewing-your-device-data).
 
 ### Send Via HTTP
 
-To get started, we'll layout how you can use a simple HTTP request to send data to the Azure IoT Hub.  Here, we've laid out a curl command, though this will work from any tool like [Postman](https://www.postman.com/) or [Insomnia](https://insomnia.rest/) as well.
+Here we'll layout how you can use your connection string to generate an HTTP request to send data to the Azure IoT Hub.
 
-#### Generate SAS Token
-
-The easiest way to get a SAS Token going for some of these examples will be via your IoT Ensemble dashboard.  Next to the device, you will find a link to generate a SAS token.  This is never saved in the system, and  can only be accessed the first time you see it.
-
-#### Send Request
-
-```cli
-curl -X POST \
-  https://fathym-prd.azure-devices.net/twins/{device-id}/methods?api-version=2018-06-30 \
-  -H 'Authorization: SharedAccessSignature {connection-string}' \
-  -H 'Content-Type: application/json' \
-  -d '{
-    "DeviceID":"{device-id}",
-    "DeviceType":"Generic",
-    "Timestamp":"2020-12-10T00:26:30.0217778+00:00",
-    "Version":"0.0.2",
-    "DeviceData": {
-        "Latitude": 40.7578,
-        "Longitude": -104.9733,
-        "Floor": 2,
-        "Room": "Conference Room 5"
-    },
-    "SensorReadings": {
-        "Temperature": 105,
-        "Humidity": 83,
-        "Occupancy": 8,
-        "Occupied": 1
-    },
-    "SensorMetadata": {
-        "_": {
-            "SignalStrength": 1
-        },
-        "Temperature": {
-            "Battery": 0.4
-        }
-    },
-}'
-```
-
-Once sent, you'll begin to see the new telemetry show up in your dashboard (it will also be accessible through the API).
+[Connect with HTTP](../developers/device-setup/connect/http)
 
 ### Device Simulator
 
 Quick connect with simulator and download, reference to full article for the rest
 
-### Raspberry Pi 3 with DHT-22
+[Connect with Device Simulator](../developers/device-setup/connect/device-simulator)
+
+### Raspberry Pi with SparkFun
 
 Brief explanation of what this entails, with a deep link into a full article
+
+[Connect with Raspberry PI and SparkFun](../developers/device-setup/connect/rasp-pi-spark-fun)
 
 ### Node Red
 
-Brief explanation of what this entails, with a deep link into a full article
+Brief explanation of what node red is and what this entails, with a deep link into a full article
+
+[Connect with Node Red](../developers/device-setup/connect/node-red)

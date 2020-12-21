@@ -18,10 +18,16 @@ module.exports = {
           {
             Connect: [
               'developers/device-setup/connect/overview',
+              'developers/device-setup/connect/http',
+              'developers/device-setup/connect/azure-iot-devices-sdk',
+              'developers/device-setup/connect/device-simulator',
               'developers/device-setup/connect/rasp-pi-spark-fun',
               'developers/device-setup/connect/node-red',
             ],
           },
+        ],
+        'Storage Access': [
+          'developers/storage-access/overview',
         ],
       },
     ],

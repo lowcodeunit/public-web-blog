@@ -1,5 +1,5 @@
 ---
-title: Getting Started - For Devs - Device Setup - Explained
+title: Developers - Device Setup - Explained
 hide_title: true
 sidebar_label: Explained 
 ---
