@@ -6,7 +6,7 @@ sidebar_label: View Device Data
 
 # Viewing Your Device Data
 
-Viewing device messages is often the first step in understanding and debugging IoT data flows.  In this portion of the guide, we'll go through what the dashboard makes available out-of-the-box and some of the APIs that can be used for storage access.
+Viewing device messages is often the first step in understanding and debugging IoT data flows.  In this portion of the guide, we'll go through what the dashboard makes available out-of-the-box.
 
 ## Dashboard Views
 
@@ -61,17 +61,3 @@ For more information on freeboard, how it works, and how to code it, please visi
 <!-- ### Observations 
 
 ### Sensor Metadata -->
-
-## Storage Access
-
-:::note
-
-This storage access documentation focuses around our pre-built APIs, available to all shared and enterprise licenses.  When using our enterprise licenses you will also have direct access to the many data options.  For more information read our complete guide on [storage access](../developers/storage-access/overview).
-
-:::
-
-### Cold Storage
-
-### Warm Storage
-
-### Hot Storage Webhooks
