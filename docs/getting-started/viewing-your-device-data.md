@@ -30,9 +30,9 @@ When first connecting your devices, this is a great place to start seeing your d
 
 ![Devices Telemetry Table](/img/screenshots/dashboard-devices-telemetry-table.png)
 
-Device Name, processed time.  Click to copy, click to view full payload.
+The telemetry row provides only your Device ID and the time at which the message was processed.  The system is dynamic in terms of how the payload can come in, so to see what real data is flowing though you'll have to either copy or expand the payload.  
 
-Using the <img src="/img/screenshots/icon-telemetry-expand-payload.png" class="text-image" /> button will expand the row to show the raw payload of the message.
+To quickly copy the payload of one of your messages, use the <img src="/img/screenshots/icon-telemetry-copy-payload.png" class="text-image" /> button.  Using the <img src="/img/screenshots/icon-telemetry-expand-payload.png" class="text-image" /> button will expand the row to show the raw payload of the message.
 
 <img src="/img/screenshots/dashboard-devices-telemetry-table-payload.png" />
 
