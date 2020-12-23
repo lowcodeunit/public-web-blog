@@ -1,12 +1,12 @@
 module.exports = {
-  someSidebar: {
+  docs: {
     Introduction: ['introduction/overview'],
     'Getting Started': [
       'getting-started/setup',
       'getting-started/emulated-data',
-      'getting-started/connecting-your-first-device',
-      'getting-started/viewing-your-device-data',
-      'getting-started/connecting-your-downstream-services',
+      'getting-started/connecting-first-device',
+      'getting-started/viewing-device-data',
+      'getting-started/connecting-downstream-services',
       'getting-started/buy-and-scale',
     ],
     Developers: [
@@ -27,10 +27,11 @@ module.exports = {
             ],
           },
         ],
-        'Storage Access': [
-          'developers/storage-access/overview',
-        ],
+        'Storage Access': ['developers/storage-access/overview'],
       },
     ],
+  },
+  'api-docs': {
+    Introduction: ['introduction/overview'],
   },
 };
