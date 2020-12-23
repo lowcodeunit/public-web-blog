@@ -30,7 +30,7 @@ When first connecting devices, this is a great place to start seeing data.  A ne
 
 ![Devices Telemetry Table](/img/screenshots/dashboard-devices-telemetry-table.png)
 
-The system is dynamic in terms of how the payload can come in, so the telemetry row provides only the Device ID and the time at which the message was processed.  To see what real data is flowing through, the copy or expand payload features can be used.  Using the <img src="/img/screenshots/icon-telemetry-expand-payload.png" class="text-image" /> button will expand the row to show the raw payload of the message.  To quickly copy the payload of one of the messages, use the <img src="/img/screenshots/icon-telemetry-copy-payload.png" class="text-image" /> button.
+The system is dynamic in terms of how the payload can come in, so the telemetry row provides only the Device ID and the time at which the message was processed.  To see what real data is flowing through, the copy or expand payload features can be used.  Using the <img src="/img/screenshots/icon-expand.png" class="text-image" /> button will expand the row to show the raw payload of the message.  To quickly copy the payload of one of the messages, use the <img src="/img/screenshots/icon-copy.png" class="text-image" /> button.
 
 <img src="/img/screenshots/dashboard-devices-telemetry-table-payload.png" />
 
