@@ -6,7 +6,7 @@ sidebar_label: Connect a Device
 
 # Connecting First Device
 
-In the previous guides, we worked through our emulated data and saw the dashboard in action.  Now its time to connect a custom device and see its data flowing through the system.
+In the previous guide, we worked through our emulated data and saw the dashboard in action.  Now its time to connect a custom device and see its data flowing through the system.
 
 ## Enroll a Device
 
@@ -109,9 +109,9 @@ If not using the best practice schema, data will still be accessible throughout 
 
 With an understanding of the device schema options, connecting is fairly straight forward.  The following connection quick starts will walk through some initial ways to get data flowing, then dig into more complex connection scenarios.  
 
-All that's needed for the following sections is the device connection string.   Copy it from the dashboard after creating a first custom device.
+All that's needed for the following sections is the device connection string.  Copy it from the dashboard, after creating a first device, using the <img src="/img/screenshots/icon-copy.png" class="text-image" /> button.
 
-![Copy Connection String](/img/screenshots/dashboard-device-list-copy-connection-string.png)
+![Copy Connection String](/img/screenshots/dashboard-device-list-single-record.png)
 
 :::note
 
@@ -133,11 +133,57 @@ Once opened, select the device to send from and adjust any of the values.  Press
 
 ### Send Via HTTP
 
-Here we'll layout how to use the connection string to generate an HTTP request to send data to the Azure IoT Hub.
+Next, a look at how to use HTTP to send a device-to-cloud message.   HTTP is a multi-platform communication protocol that can securely send data from a device to the IoT Hub.  Here we'll layout how to use the connection string to generate an HTTP request to send data to the Azure IoT Hub.  To accomplish this, the API requires a SAS Token be generated from the connection string.  For more details on how to create a SAS Token from a connection string, read our [full device setup](../developers/device-setup/connect/overview) documentation.
 
-[Connect with HTTP](../developers/device-setup/connect/http)
+The easiest way to try out an HTTP request, with valid SAS Token, is to grab a SAS Token from the dashboard (only good for 1 hour).  Use the <img src="/img/screenshots/icon-setup.png" class="text-image" /> button to open a dialog where the <img src="/img/screenshots/icon-copy.png" class="text-image" /> button will copy the SAS Token signature.
 
-### Device Simulator
+![Send Device Message](/img/screenshots/dashboard-devices-sas-tokens-dialog.png)
+
+With SAS Token in hand, we can execute a curl command like the following to send a device message.  Continue reading For a complete guide on [sending messages with HTTP](../developers/device-setup/connect/http).
+
+```cli
+curl -X POST \
+  https://fathym-prd.azure-devices.net/devices/{device-id}/messages/events?api-version=2018-06-30 \
+  -H 'Authorization: {sas-token}' \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "DeviceID":"{device-name}",
+    "DeviceType":"Generic",
+    "Timestamp":"2020-12-10T00:26:30.0217778+00:00",
+    "Version":"0.0.2",
+    "DeviceData": {
+        "Latitude": 40.7578,
+        "Longitude": -104.9733,
+        "Floor": 2,
+        "Room": "Conference Room 5"
+    },
+    "SensorReadings": {
+        "Temperature": 105,
+        "Humidity": 83,
+        "Occupancy": 8,
+        "Occupied": 1
+    },
+    "SensorMetadata": {
+        "_": {
+            "SignalStrength": 1
+        },
+        "Temperature": {
+            "Battery": 0.4
+        }
+    },
+}'
+```
+
+There are a couple of values to replace, and adust the payload as desired.  Here is a description on where to find the values for replacement.
+
+- **{device-id}**<br />
+The {device-id} can be located in the connection string, and is the value after "DeviceId=" prior to the ";".  Set this value in the path  to ensure messages are sent to the correct device
+- **{sas-token}**<br />
+The {sas-token} is the value copied from the dialog in the previous step, this is the complete SharedAccessSignature.
+- **{device-name}**<br />
+The {device-name} can be any unique value, though it is recommended to use the Device Name from the created devices in the dashboard.
+
+<!-- ### Device Simulator
 
 Quick connect with simulator and download, reference to full article for the rest
 
@@ -153,4 +199,4 @@ Brief explanation of what this entails, with a deep link into a full article
 
 Brief explanation of what node red is and what this entails, with a deep link into a full article
 
-[Connect with Node Red](../developers/device-setup/connect/node-red)
+[Connect with Node Red](../developers/device-setup/connect/node-red) -->
