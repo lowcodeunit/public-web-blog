@@ -68,7 +68,7 @@ On top of the readings sensors are taking, there can often be additional informa
   - **_**<br />
   This special property on the SensorMetadata allows sending information relating to a gateway or other non-sensor health information.
 
-We do have a [detailed explanation of the best practice schema](../developers/iot-best-practice-schema-explained) if needing more information on how to use it from a custom device.  Here is a full example of what the telemetry payload would look like (as used by our emulated device):
+We do have a [detailed explanation of the best practice schema](../developers/device-setup/iot-best-practice-schema-explained) if needing more information on how to use it from a custom device.  Here is a full example of what the telemetry payload would look like (as used by our emulated device):
 
 ```json
 {
