@@ -1,7 +1,7 @@
 ---
-title: Developers - Device Setup - Explained
+title: Developers - Device Setup - Overview
 hide_title: true
-sidebar_label: Explained 
+sidebar_label: Overview 
 ---
 
 # Device Setup Explained

@@ -10,12 +10,12 @@ module.exports = {
       'getting-started/buy-and-scale',
     ],
     Developers: [
-      'developers/iot-best-practice-schema-explained',
       'developers/licenses',
       // 'developers/azure-iot-hub-explained',
       {
         'Device Setup': [
-          'developers/device-setup/explained',
+          'developers/device-setup/overview',
+          'developers/device-setup/iot-best-practice-schema-explained',
           {
             Connect: [
               'developers/device-setup/connect/overview',

@@ -4,7 +4,7 @@ hide_title: true
 sidebar_label: Licenses
 ---
 
-# IoT Ensemble Virtual Developer Licenses Explained 
+# Virtual Developer Licenses
 
 ## Shared Plans
 
