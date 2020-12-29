@@ -24,7 +24,7 @@ At times, the IoT process can feel like a challenge.  We've done a lot to spring
 
 ### Best Practice IoT Ensemble Schema
 
-When starting with our shared plans, to get the most out of the system, there is a [best practice schema](../developers/iot-best-practice-schema-explained) that we recommend using to send IoT messages.  This allows for the collection of device data, sensor readings, and sensor metadata to deliver a rich, pre-configured IoT experience.   In short, the structure is as follows:
+When starting with our shared plans, to get the most out of the system, there is a [best practice schema](../developers/device-setup/iot-best-practice-schema-explained) that we recommend using to send IoT messages.  This allows for the collection of device data, sensor readings, and sensor metadata to deliver a rich, pre-configured IoT experience.   In short, the structure is as follows:
 
 ```json
 {
@@ -121,7 +121,7 @@ When connecting devices, the connection is to a cloud-native Azure IoT Hub.  We 
 
 ## Connection Quick Starts
 
-Starting off simple, then working up to some real device connection examples, we'll walk through some common connection workflows.  Check out our detailed guide on [device setup](../developers/device-setup/explained) for more ways to connect and get data flowing.
+Starting off simple, then working up to some real device connection examples, we'll walk through some common connection workflows.  Check out our detailed guide on [device setup](../developers/device-setup/overview) for more ways to connect and get data flowing.
 
 ### Send Via Dashboard
 
