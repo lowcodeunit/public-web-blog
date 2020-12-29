@@ -139,7 +139,7 @@ The easiest way to try out an HTTP request, with valid SAS Token, is to grab a S
 
 ![Send Device Message](/img/screenshots/dashboard-devices-sas-tokens-dialog.png)
 
-With SAS Token in hand, we can execute a curl command like the following to send a device message.  Continue reading For a complete guide on [sending messages with HTTP](../developers/device-setup/connect/http).
+With SAS Token in hand, we can execute a curl command like the following to send a device message.  Continue reading for a complete guide on [sending messages with HTTP](../developers/device-setup/connect/http).
 
 ```cli
 curl -X POST \
