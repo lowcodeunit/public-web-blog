@@ -177,11 +177,17 @@ curl -X POST \
 There are a couple of values to replace, and adust the payload as desired.  Here is a description on where to find the values for replacement.
 
 - **{device-id}**<br />
-The {device-id} can be located in the connection string, and is the value after "DeviceId=" prior to the ";".  Set this value in the path  to ensure messages are sent to the correct device
+The {device-id} can be located in the connection string, and is the value after "DeviceId=" prior to the ";".  Set this value in the path  to ensure messages are sent to the correct device.
 - **{sas-token}**<br />
 The {sas-token} is the value copied from the dialog in the previous step, this is the complete SharedAccessSignature.
 - **{device-name}**<br />
 The {device-name} can be any unique value, though it is recommended to use the Device Name from the created devices in the dashboard.
+
+:::note
+
+The same information can be used to execute requests from [Postman or custom devices](../developers/device-setup/connect/http).
+
+:::
 
 <!-- ### Device Simulator
 

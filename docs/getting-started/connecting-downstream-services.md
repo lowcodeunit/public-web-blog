@@ -6,7 +6,7 @@ sidebar_label: Connect Downstream
 
 # Connecting Downstream Services
 
-The main goal of an IoT Solution is often the need to collect device data and bring it into a set of preferred tools for visualization, AI/ML, application development, and more.  The following is a high level look at the APIs available for storage access and how to use them to get data downstream to other services.
+The main goal of an IoT Solution is the need to collect device data and bring it into a set of preferred tools for visualization, AI/ML, application development, and more.  The following is a high level look at the APIs available for storage access and how to use them to get data downstream to other services.
 
 ## Storage Access
 
@@ -22,7 +22,7 @@ This storage access documentation focuses around our pre-built APIs, available t
 
 ### Access Keys
 
-There are few different places to locate API keys, the simplest is from the Storage Access section at the bottom of the dashboard.
+There are a few different places to locate API keys, the simplest is from the Storage Access section at the bottom of the dashboard.
 
 ![Storage Access](/img/screenshots/dashboard-storage-access.png)
 
@@ -30,11 +30,52 @@ To quickly copy storage access keys, use the <img src="/img/screenshots/icon-cop
 
 ### Cold Storage
 
-For many use cases, cold storage historic data can be formatted in an efficient way to support service integrations.  The APIs we provide to access this data are geared at helping users grab a time period of data and format it in a number of ways (JSON, CSV, JSON Lines,etc).  
+For many use cases, cold storage historic data can be formatted in an efficient way to support service integrations.  The APIs provdied to access this data are geared at helping grab a time period of data and format it in a number of ways (JSON, CSV, JSON Lines, etc).  Use the dashboard to link out to complete API documentation in the [API portal](https://fathym-prd.portal.azure-api.net/docs/services/), here is a quick look at querying the cold storage API.
+
+```cli
+curl -X POST \
+  https://fathym-prd.azure-api.net/iot-ensemble/coldquery \
+  -H 'lcu-subscription-key: {subscription-key}' \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "Arguments": {
+        "Page": 1,
+        "PageSize": 10,
+        "ResultType": "JSON",
+        "DataType": "Telemetry",
+        "Flatten": true,
+        "Zip": false
+    }
+}'
+```
+
+There are values to replace and adjust the arguments as desired.  Here is a description on where to find the values for replacement.
+
+- **{subscription-key}**<br />
+The {subscription-key} can be located in the API Keys section as described above.
 
 ### Warm Storage
 
-A more efficient queryable storage location, warm storage offers a way to work with data in a more dynamic, no-sql way.  The storage type comes with a larger cost, and for that reason, controlling the amount of data in this storage is important.  Depending on license, the amount of data available in warm storage will vary.  With enterprise licenses, the retention period can be tuned to meet application needs and cost concerns.
+A queryable storage location, warm storage offers a way to work with data in a dynamic, no-sql way.  This storage type comes with a larger cost, and for that reason, controlling the amount of data in this storage is important.  Depending on license, the amount of data available in warm storage will vary.  With enterprise licenses, the retention period can be tuned to meet application needs and cost concerns.  Use the dashboard to link out to complete API documentation in the [API portal](https://fathym-prd.portal.azure-api.net/docs/services/), here is a quick look at querying the cold storage API.
+
+```cli
+curl -X POST \
+  https://fathym-prd.azure-api.net/iot-ensemble/warmquery \
+  -H 'lcu-subscription-key: {subscription-key}' \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "Arguments": {
+        "Page": 1,
+        "PageSize": 10
+    }
+}'
+```
+
+There are values to replace and adjust the arguments as desired.  Here is a description on where to find the values for replacement.
+
+- **{subscription-key}**<br />
+The {subscription-key} can be located in the API Keys section as described above.
+
 <!-- 
 ### Hot Storage
 
@@ -42,14 +83,16 @@ A more efficient queryable storage location, warm storage offers a way to work w
 
 ## Example Connections
 
+The purpose of the storage access APIs is to provide a secure way to access data for visualization, AI/ML, application development and more.  We'll look quickly here at some ways to use these APIs to connect data, read the [complete guide](../developers/storage-access/overview) for more connection options.
+
 ### Power BI
 
-### Jupiter Notebooks
+<!-- ### Jupiter Notebooks -->
 
 ### Azure Machine Learning
 
-### Grafana
+<!-- ### Grafana -->
 
-### Azure Logic Apps
+<!-- ### Azure Logic Apps -->
 
 <!-- ### AWS ____ -->

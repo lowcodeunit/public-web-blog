@@ -6,7 +6,7 @@ sidebar_label: View Device Data
 
 # Viewing Device Data
 
-Viewing device messages is often the first step in understanding and debugging IoT data flows.  In this portion of the guide, we'll go through what the dashboard makes available out-of-the-box.
+Viewing device messages is the first step in understanding and debugging IoT data flows.  In this portion of the guide, we'll go through what the dashboard makes available out-of-the-box.
 
 ## Dashboard Views
 
@@ -26,7 +26,7 @@ The toggle in this header enables and disables the telemetry sync.  Every time i
 
 #### Telemetry Table
 
-When first connecting devices, this is a great place to start seeing data.  A new row will show up for each message sent for any devices when the sync is enabled and will include emulated telemetry if turned on.
+When first connecting devices, this is a great place to start seeing data.  A new row will show up for each message sent for any devices, when the sync is enabled, and will include emulated telemetry if turned on.
 
 ![Devices Telemetry Table](/img/screenshots/dashboard-devices-telemetry-table.png)
 
