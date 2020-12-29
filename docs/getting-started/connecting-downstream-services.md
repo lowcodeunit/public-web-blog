@@ -56,7 +56,7 @@ The {subscription-key} can be located in the API Keys section as described above
 
 ### Warm Storage
 
-A queryable storage location, warm storage offers a way to work with data in a dynamic, no-sql way.  This storage type comes with a larger cost, and for that reason, controlling the amount of data in this storage is important.  Depending on license, the amount of data available in warm storage will vary.  With enterprise licenses, the retention period can be tuned to meet application needs and cost concerns.  Use the dashboard to link out to complete API documentation in the [API portal](https://fathym-prd.portal.azure-api.net/docs/services/), here is a quick look at querying the cold storage API.
+A queryable storage location, warm storage offers a way to work with data in a dynamic, no-sql way.  This storage type comes with a larger cost, and for that reason, controlling the amount of data in this storage is important.  Depending on license, the amount of data available in warm storage will vary.  With enterprise licenses, the retention period can be tuned to meet application needs and cost concerns.  Use the dashboard to link out to complete API documentation in the [API portal](https://fathym-prd.portal.azure-api.net/docs/services/), here is a quick look at querying the warm storage API.
 
 ```cli
 curl -X POST \
@@ -83,4 +83,4 @@ The {subscription-key} can be located in the API Keys section as described above
 
 ## Example Connections
 
-The purpose of the storage access APIs is to provide a secure way to access data for visualizations, AI/ML, application development and more.  Using the provided APIs, many different types of integrations are possible.  For a complete look at some examples, read the [complete storage access guide](../developers/storage-access/overview) or dive right into [the examples](../developers/storage-access/examples/overview).
+The purpose of the storage access APIs is to provide a secure way to access data for visualizations, AI/ML, application development and more.  Using the provided APIs, many different types of integrations are possible.  For a complete look, read the [storage access guide](../developers/storage-access/overview) or dive right into [the examples](../developers/storage-access/examples/overview).
