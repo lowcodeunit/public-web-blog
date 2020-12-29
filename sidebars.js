@@ -27,7 +27,12 @@ module.exports = {
             ],
           },
         ],
-        'Storage Access': ['developers/storage-access/overview'],
+        'Storage Access': [
+          'developers/storage-access/overview',
+          {
+            Examples: ['developers/storage-access/examples/overview'],
+          },
+        ],
       },
     ],
   },

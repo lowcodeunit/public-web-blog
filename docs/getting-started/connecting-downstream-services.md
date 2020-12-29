@@ -83,24 +83,4 @@ The {subscription-key} can be located in the API Keys section as described above
 
 ## Example Connections
 
-The purpose of the storage access APIs is to provide a secure way to access data for visualization, AI/ML, application development and more.  We'll look quickly here at some ways to use these APIs to connect data, read the [complete guide](../developers/storage-access/overview) for more connection options.
-
-### Power BI
-
-[Sign up for Power BI](https://powerbi.microsoft.com/en-us/) (use a work or school account).
-
-<img src="/img/screenshots/power-bi-new-report.png" class="text-image" />
-
-[Download Power BI desktop](https://aka.ms/pbidesktopstore?cid=QuickCreate)
-
-### Azure Machine Learning
-
-<!-- ### AWS ____ -->
-
-<!-- ### GoodData -->
-
-<!-- ### Grafana -->
-
-<!-- ### Azure Logic Apps -->
-
-<!-- ### Azure Jupiter Notebooks -->
+The purpose of the storage access APIs is to provide a secure way to access data for visualizations, AI/ML, application development and more.  Using the provided APIs, many different types of integrations are possible.  For a complete look at some examples, read the [complete storage access guide](../developers/storage-access/overview) or dive right into [the examples](../developers/storage-access/examples/overview).
