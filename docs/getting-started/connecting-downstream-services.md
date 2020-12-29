@@ -87,12 +87,20 @@ The purpose of the storage access APIs is to provide a secure way to access data
 
 ### Power BI
 
-<!-- ### Jupiter Notebooks -->
+[Sign up for Power BI](https://powerbi.microsoft.com/en-us/) (use a work or school account).
+
+<img src="/img/screenshots/power-bi-new-report.png" class="text-image" />
+
+[Download Power BI desktop](https://aka.ms/pbidesktopstore?cid=QuickCreate)
 
 ### Azure Machine Learning
+
+<!-- ### AWS ____ -->
+
+<!-- ### GoodData -->
 
 <!-- ### Grafana -->
 
 <!-- ### Azure Logic Apps -->
 
-<!-- ### AWS ____ -->
+<!-- ### Azure Jupiter Notebooks -->
