@@ -71,7 +71,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('dashboard/')}>
+              to={siteConfig.url + useBaseUrl('dashboard/')}>
               Sign Up
             </Link>
           </div>
