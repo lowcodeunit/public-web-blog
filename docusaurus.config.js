@@ -7,7 +7,13 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'iot-ensemble', // Usually your GitHub org/user name.
   projectName: 'public-web', // Usually your repo name.
+  plugins: ['@docusaurus/plugin-google-gtag'],
   themeConfig: {
+    gtag: {
+      trackingID: 'G-NEWEXH7W8C',
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
     colorMode: {
       // "light" | "dark"
       defaultMode: 'dark',
