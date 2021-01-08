@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'IoT Ensemble',
-  tagline: 'Experience IoT in minutes. No credit card required.',
+  title: 'Fathym IoT Ensemble',
+  tagline: 'Experience IoT in minutes.',
   url: 'https://www.iot-ensemble.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -34,6 +34,12 @@ module.exports = {
          label: 'Docs',
          position: 'left',
         },
+        // {
+        //  to: 'api-docs/',
+        //  activeBasePath: 'api-docs',
+        //  label: 'API Docs',
+        //  position: 'left',
+        // },
         {
           href: 'https://www.iot-ensemble.com/dashboard',
           label: 'Sign In',
@@ -45,12 +51,20 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Next Steps',
           items: [
             {
               label: 'Getting Started',
               to: 'docs/',
             },
+            {
+              label: 'Pricing',
+              to: 'docs/',
+            },
+            {
+              label: 'Support',
+              to: 'docs/introduction/support',
+            }            
           ],
         },
         {
@@ -60,10 +74,10 @@ module.exports = {
               label: 'Stack Overflow',
               href: 'https://stackoverflow.com/questions/tagged/iot-ensemble',
             },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/iot-ensemble',
-            },
+            //{
+            //  label: 'Discord',
+            //  href: 'https://discordapp.com/invite/iot-ensemble',
+            //},
             {
               label: 'Twitter',
               href: 'https://twitter.com/iot-ensemble',
@@ -87,6 +101,11 @@ module.exports = {
     [
       '@docusaurus/preset-classic',
       {
+        'api-docs': {
+          sidebarPath: require.resolve('./sidebars.js'),
+          // The iot-ensemble website repo
+          editUrl: 'https://github.com/iot-ensemble/public-web/edit/master/website/',
+        },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // The iot-ensemble website repo
