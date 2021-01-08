@@ -1,6 +1,9 @@
 module.exports = {
   docs: {
-    Introduction: ['introduction/overview'],
+    Introduction: [
+      'introduction/overview',
+      'introduction/support'
+    ],
     'Getting Started': [
       'getting-started/setup',
       'getting-started/emulated-data',

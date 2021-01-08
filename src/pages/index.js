@@ -22,8 +22,8 @@ const features = [
     imageUrl: 'img/focus-on-what-matters.png',
     description: (
       <>
-        IoT Ensemble lets you focus on your user experience, and we&apos;ll do all the heavy lifting. 
-        Try it for free. No credit card required.
+        IoT Ensemble lets you focus on your applications and user experience – we’ll do the heavy lifting. 
+        Try it for free.
       </>
     ),
   },
@@ -32,7 +32,8 @@ const features = [
     imageUrl: 'img/iot-accelerated.png',
     description: (
       <>
-        Accelerate your adoption and usage of IoT technologies. Start today.
+        Fathym automates best practice cloud infrastructure out of the box. Accelerate your adoption and 
+        usage of IoT technologies. Start today. 
       </>
     ),
   },
@@ -58,8 +59,8 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`${siteConfig.title}`}
-      description="IoT Ensemble <head />">
+      title={`Home`}
+      description="IoT Ensemble">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
@@ -71,7 +72,7 @@ function Home() {
                 styles.getStarted,
               )}
               to={siteConfig.url + useBaseUrl('dashboard/')}>
-              Sign In
+              Sign Up
             </Link>
           </div>
         </div>
