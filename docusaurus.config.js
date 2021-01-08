@@ -9,7 +9,7 @@ module.exports = {
   projectName: 'public-web', // Usually your repo name.
   themeConfig: {
     gtag: {
-      trackingID: 'G-NEWEXH7W8C',
+      trackingID: 'GTM-MDPMXLL',
     },
     colorMode: {
       // "light" | "dark"
