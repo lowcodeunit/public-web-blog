@@ -6,11 +6,11 @@ sidebar_label: View Device Data
 
 # Viewing Device Data
 
-Viewing device messages is the first step in understanding and debugging IoT data flows.  In this portion of the guide, we'll go through what the dashboard makes available out-of-the-box.
+Viewing device messages is the first step in understanding and debugging IoT data flows.  In this portion of the guide, we'll go through what the dashboard offers out-of-the-box.
 
 ## Dashboard Views
 
-The IoT Ensemble dashboard provides two quick ways to start looking at data.  Using these, easily see raw device message payloads and visualize data in an open source dashboard.
+The IoT Ensemble dashboard provides two quick ways to start looking at data.  Using these, easily view raw device message payloads and visualize data in an open source dashboard.
 
 ### Devices Telemetry
 
@@ -44,7 +44,7 @@ If seeing emulated data in the table and only wanting to see custom devices, mak
 
 #### Telemetry Actions
 
-As previously talked about in our [connecting a device](../getting-started/connecting-first-device#send-via-dashboard) guide, use the send device message form to easily send sample data for a device into the system.
+As outlined previously in our [connecting a device](../getting-started/connecting-first-device#send-via-dashboard) guide, use the send device message form to easily send sample data for a device into the system.
 
 ### Freeboard Dashboard
 
@@ -52,7 +52,7 @@ As an inline example of how data can be visualized, we use an open source tool c
 
 ![Devices Freeboard](/img/screenshots/dashboard-devices-freeboard.png)
 
-To edit the freeboard, click the <img src="/img/screenshots/dashboard-devices-freeboard-settings.png" class="text-image" /> icon at the top of the freeboard.  This will change the freeboard into edit mode.  Now add new panes, edit existing ones and when complete click <img src="/img/screenshots/dashboard-devices-freeboard-save.png" class="text-image" />.  Choose a path on the local computer to save the freeboard, and the next time visiting the dashboard, simply use the <img src="/img/screenshots/dashboard-devices-freeboard-load.png" class="text-image" /> option to load the custom freeboard configuration.
+To edit the freeboard, click the <img src="/img/screenshots/dashboard-devices-freeboard-settings.png" class="text-image" /> icon at the top of the freeboard.  This will change the freeboard into edit mode.  Now add new panes, edit existing ones and when complete click <img src="/img/screenshots/dashboard-devices-freeboard-save.png" class="text-image" />.  Choose a path on the local computer to save the freeboard, and next time visiting the dashboard, simply use the <img src="/img/screenshots/dashboard-devices-freeboard-load.png" class="text-image" /> option to load the custom freeboard configuration.
 
 For more information on freeboard, how it works, and how to code it, please visit their [documentation](https://github.com/Freeboard/freeboard).
 
