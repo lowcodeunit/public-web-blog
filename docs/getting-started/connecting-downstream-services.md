@@ -12,7 +12,7 @@ The main goal of an IoT Solution is the need to collect device data and bring it
 
 While our enterprise licenses allow connections directly with data sources, there is still often a need to massage the data into the correct format for other integrations (Azure Machine Learning's automated ML feature needs data in json lines or CSV format).  
 
-When working with IoT storage data, how it is stored and what interval it is stored at is extremely important to the overall cost of the system.  We break our storage into three categories that support a cost-efficient way to handle data storage and access.  Cold storage contians historic data, warm storage contains near-term queryable data, and hot storage provides a way to stream individual messages to other services in real time.  The following high level walk through shows APIs for accessing these storage types.  For a complete API reference, first make sure to sign up and load the [dashboard](https://www.iot-ensemble.com/dashboard), then visit the [API portal](https://fathym-prd.portal.azure-api.net/docs/services/).
+When working with IoT storage data, how it is stored and what interval it is stored at is extremely important to the overall cost of the system.  We break our storage into three categories that support a cost-efficient way to handle data storage and access.  Cold storage contians historic data, warm storage contains near-term queryable data, and hot storage provides a way to stream individual messages to other services in real time.  The following high-level walk-through outlines APIs for accessing these storage types.  For a complete API reference, first make sure to sign up and load the [dashboard](https://www.iot-ensemble.com/dashboard), then visit the [API portal](https://fathym-prd.portal.azure-api.net/docs/services/).
 
 :::note
 
@@ -30,7 +30,7 @@ To quickly copy storage access keys, use the <img src="/img/screenshots/icon-cop
 
 ### Cold Storage
 
-For many use cases, cold storage historic data can be formatted in an efficient way to support service integrations.  The APIs provdied to access this data are geared at helping grab a time period of data and format it in a number of ways (JSON, CSV, JSON Lines, etc).  Use the dashboard to link out to complete API documentation in the [API portal](https://fathym-prd.portal.azure-api.net/docs/services/), here is a quick look at querying the cold storage API.
+For many use cases, cold storage historic data can be formatted in an efficient way to support service integrations.  The APIs provided to access this data are geared at helping grab a time period of data and format it in a number of ways (JSON, CSV, JSON Lines, etc).  Use the dashboard to link out to complete API documentation in the [API portal](https://fathym-prd.portal.azure-api.net/docs/services/), here is a quick look at querying the cold storage API.
 
 ```cli
 curl -X POST \
@@ -56,7 +56,7 @@ The {subscription-key} can be located in the API Keys section as described above
 
 ### Warm Storage
 
-A queryable storage location, warm storage offers a way to work with data in a dynamic, no-sql way.  This storage type comes with a larger cost, and for that reason, controlling the amount of data in this storage is important.  Depending on license, the amount of data available in warm storage will vary.  With enterprise licenses, the retention period can be tuned to meet application needs and cost concerns.  Use the dashboard to link out to complete API documentation in the [API portal](https://fathym-prd.portal.azure-api.net/docs/services/), here is a quick look at querying the warm storage API.
+A queryable storage location, warm storage offers a way to work with data in a dynamic, no-sql way.  This storage type comes with a larger cost, and for that reason, controlling the amount of data in this storage is important.  Depending on license, the amount of data available in warm storage will vary.  With enterprise licenses, the retention period can be tuned to meet application needs and cost concerns.  Use the dashboard to link out to complete API documentation in the [API portal](https://fathym-prd.portal.azure-api.net/docs/services/). Here is a quick look at querying the warm storage API.
 
 ```cli
 curl -X POST \
@@ -71,7 +71,7 @@ curl -X POST \
 }'
 ```
 
-There are values to replace and adjust the arguments as desired.  Here is a description on where to find the values for replacement.
+You can replace values and adjust the arguments as desired.  Here is a description of where to find the values for replacement.
 
 - **{subscription-key}**<br />
 The {subscription-key} can be located in the API Keys section as described above.

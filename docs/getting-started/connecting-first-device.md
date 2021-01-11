@@ -6,11 +6,11 @@ sidebar_label: Connect a Device
 
 # Connecting First Device
 
-In the previous guide, we worked through our emulated data and saw the dashboard in action.  Now its time to connect a custom device and see its data flowing through the system.
+In the previous guide, we worked through our emulated data and saw the dashboard in action.  Now it's time to connect a custom device and see its data flowing through the system.
 
 ## Enroll a Device
 
-Getting started with a new device is simple, enter a device name and enroll it.
+To get started with a device, simply enter a device name and enroll it.
 
 ![Enroll New Device](/img/screenshots/dashboard-enroll-device.png)
 
@@ -53,7 +53,7 @@ When starting with our shared plans, to get the most out of the system, there is
 }
 ```
 
-Here is a breif explanation of our best practice schema, and how to use it:
+Here is a brief explanation of our best practice schema and how to use it:
 
 - **DeviceID, DeviceType, Version**<br />
 These values are under your control and should be strings.  The Device ID is required and we recommend using the Device Name from the devices created (though not required).  The DeviceType and Version are optional, though recommended to properly work with historic data.
@@ -68,7 +68,7 @@ On top of the readings sensors are taking, there can often be additional informa
   - **_**<br />
   This special property on the SensorMetadata allows sending information relating to a gateway or other non-sensor health information.
 
-We do have a [detailed explanation of the best practice schema](../developers/device-setup/iot-best-practice-schema-explained) if needing more information on how to use it from a custom device.  Here is a full example of what the telemetry payload would look like (as used by our emulated device):
+We do have a [detailed explanation of the best practice schema](../developers/device-setup/iot-best-practice-schema-explained) if you need more information on how to use it from a custom device.  Here is a full example of what the telemetry payload would look like (as used by our emulated device):
 
 ```json
 {
@@ -101,7 +101,7 @@ We do have a [detailed explanation of the best practice schema](../developers/de
 
 :::note
 
-If not using the best practice schema, data will still be accessible throughout the system, however, some more advanced features won't be accessible.
+If not using the best practice schema, data will still be accessible throughout the system. However, some more advanced features won't be accessible.
 
 :::
 
