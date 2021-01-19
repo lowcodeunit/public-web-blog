@@ -96,7 +96,19 @@ Click on the <img src="../static/img/screenshots/icon-copy.png" class="text-imag
 
 Within the connection string, there are two key parts that we need: The device ID, and the device key. Both of these values need to be a part of our data payload. Let's add them to our payload now.
 
-<ol>
+<ul>
 <li> Copy both the **YourDeviceID** and **YourDeviceKey** portions of your connection string (not including the "DeviceId=", "SharedAccessKey=", and the ";" at the end of DeviceID)</li>
-<li> Go back to your Node-Red browser, and double click on the yellow "Format JSON" module. 
-</ol>
+<li> Go back to your Node-Red browser, and double click on the yellow "Format JSON" module. This will pull up a "Properties" screen, shown below.</li>
+
+<img src="../static/img/screenshots/format_json_properties_screen.png" class="text-image" />
+
+<li> Next, click on the three-dot menu screen (shown in the red box above). This will pull up an "Edit" screen, shown below</li>
+
+<img src="../static/img/screenshots/replace_id_and_key.png" class="text-image" />
+
+<li> From here, take the DeviceID and Key values from your connection string, and paste them into the properties shown in the red boxes above. Click "Done"</li>
+</ul>
+
+Once this is complete, click the red "Deploy" button in the top right corner. Your pi is now sending real time data to IoT Ensemble!
+
+
