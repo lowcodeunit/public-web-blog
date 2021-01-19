@@ -22,14 +22,14 @@ Take your data to set up a PowerBI visualization
 
 ## Part 1: Setting up your new Raspberry Pi 
 
-This process includes putting the Raspberry Pi Operating System (Raspbian) onto your micro SD card and interacting with the Pi to complete initial setup (Connect to Wifi, allow permissions to access your Pi from another computer, etc).
+This process includes putting the Raspberry Pi Operating System (formerly known as Raspbian) onto your micro SD card and interacting with the Pi to complete initial setup (Connect to Wifi, allow permissions to access your Pi from another computer, etc).
 
 The official Raspberry Pi website has an excellent tool called the Raspberry Pi Imager, which walks you through the process of creating an SD card that will power and control your Raspberry PI
 https://www.raspberrypi.org/software/
 
 Now that you have your SD card ready to go, we can fire up the Pi! You will need to plug in your keyboard and mouse into 2 of the 4 USB inputs. You will also need to plug in your monitor with an HDMI cable into your Pi.
 
-Once you get all your peripherals connected, plug in the power source and connect to the raspberry Pi. On your monitor, the Raspbian first time setup wizard should show up. Navigate through the provided steps, which will include connecting your Raspberry Pi to your WiFi. More information on that wizard process can be found here: https://www.raspberrypi.org/blog/raspbian-update-june-2018/ (Note: you can skip over the “Recommended Software” portion, it is not important to this tutorial)
+Once you get all your peripherals connected, plug in the power source and connect to the raspberry Pi. On your monitor, the Raspberry Pi OS first time setup wizard should show up. Navigate through the provided steps, which will include connecting your Raspberry Pi to your WiFi. More information on that wizard process can be found here: https://www.raspberrypi.org/blog/raspbian-update-june-2018/ (Note: you can skip over the “Recommended Software” portion, it is not important to this tutorial)
 
 After you complete the setup steps, you will be taken to the main Raspberry Pi desktop.
 
@@ -56,7 +56,7 @@ Next, we need to wire up your DHT11 sensor to your raspberry Pi. Thankfully, thi
 
 Once you’re done wiring your sensor, go back to your terminal window on the Raspberry Pi. Then enter this command: node-red-start which will start the node red service. When the service starts, it will look similar to this:
 
-<img src="https://steemitimages.com/DQmZreKyQYHjEe2KUJHdHT4dGPNtofUqbcct6WLRx8rfHJs/Inkedterminal_LI.jpg" class="text-image" />
+<img src="static/img/modifiedPiWiring.png" class="text-image" />
 
 
 In the top right, there will be a URL that usually starts with “http://192…” (inside the red box above). You can then use the built in Raspberry Pi web browser to navigate to this website.  You will then be taken to a screen that looks like this:
@@ -64,10 +64,10 @@ In the top right, there will be a URL that usually starts with “http://192…�
 <img src="https://steemitimages.com/640x0/https://steemitimages.com/DQmTsV5oGxLJa3MgJWrqQJ43a5SfdKJDrqtY1yjWJuBRD4J/DQmTsV5oGxLJa3MgJWrqQJ43a5SfdKJDrqtY1yjWJuBRD4J.png" class="text-image" />
 
 Welcome to Node-Red! There are a few additional modules that we will need in order to create our device flow. In the top right corner of the screen, click on the three horizontal line button, and then click “Manage palette”. On the new screen, click on the “Install” tab. In the search bar, type in the following and install each of them:
-
-node-red-contrib-azure-iot-hub
+<br>
+node-red-contrib-azure-iot-hub<br>
 node-red-contrib-dht-sensor
-
+<br>
 For the sake of simplicity, we are able to import previously created flows into Node Red. The following flow template takes temperature and humidity information from the DHT11, formats the JSON payload to use Fathyms Best Practice Schema (in addition, uses a few extra fields like “key” and “protocol” to work with Azure Iot Hub module), and takes a reading every 30 seconds. To use this template, copy the following Node-Red JSON template
 
 ```json
@@ -78,8 +78,6 @@ In your Node-Red browser screen, click on the three horizontal line button at th
 <br>
 Before we start sending actual device readings, we first need to provide Node-Red some information for your device. This is where IoT Ensemble comes in!
 
-
-
 ## Part 5 - Register your Device with IoT Ensemble
 Before we can tell your device where to send data, we first need to register the device. Follow these steps to create a new device in Iot Ensemble. For more details, check out our [full documentation.](../docs/getting-started/connecting-first-device)
 
@@ -89,4 +87,10 @@ Before we can tell your device where to send data, we first need to register the
 <li>Provide a name for your new device and click “Enroll Device”</li>
 </ol>
 
-That’s it! Your device is now registered. 
+That’s it! Your device is now registered. You should now see your newly created device, along with its associated connection string, in the “Connected Devices” section. 
+
+<img src="static/img/screenshots/dashboard-device-list-first-device.png" class="text-image" />
+
+Click on the <img src="/img/screenshots/icon-copy.png" class="text-image" /> button to copy your connection string to your clipboard. Your connection string should look something like this:
+
+HostName=fathym-prd.azure-devices.net;DeviceId=**YourDeviceID**;SharedAccessKey=**YourDeviceKey**
