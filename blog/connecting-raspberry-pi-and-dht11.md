@@ -88,8 +88,15 @@ Before we can tell your device where to send data, we first need to register the
 
 That’s it! Your device is now registered. You should now see your newly created device, along with its associated connection string, in the “Connected Devices” section. 
 
-<img src="static/img/screenshots/dashboard-device-list-first-device.png" class="text-image" />
+<img src="../static/img/screenshots/dashboard-device-list-first-device.png" class="text-image" />
 
-Click on the <img src="/img/screenshots/icon-copy.png" class="text-image" /> button to copy your connection string to your clipboard. Your connection string should look something like this:
+Click on the <img src="../static/img/screenshots/icon-copy.png" class="text-image" /> button to copy your connection string to your clipboard. Your connection string should look something like this:
 
 HostName=fathym-prd.azure-devices.net;DeviceId=**YourDeviceID**;SharedAccessKey=**YourDeviceKey**
+
+Within the connection string, there are two key parts that we need: The device ID, and the device key. Both of these values need to be a part of our data payload. Let's add them to our payload now.
+
+<ol>
+<li> Copy both the **YourDeviceID** and **YourDeviceKey** portions of your connection string (not including the "DeviceId=", "SharedAccessKey=", and the ";" at the end of DeviceID)</li>
+<li> Go back to your Node-Red browser, and double click on the yellow "Format JSON" module. 
+</ol>
