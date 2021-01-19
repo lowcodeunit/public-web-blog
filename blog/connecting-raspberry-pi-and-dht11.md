@@ -92,7 +92,7 @@ That’s it! Your device is now registered. You should now see your newly create
 
 Click on the <img src="../static/img/screenshots/icon-copy.png" class="text-image" /> button to copy your connection string to your clipboard. Your connection string should look something like this:
 
-HostName=fathym-prd.azure-devices.net;DeviceId=**YourDeviceID**;SharedAccessKey=**YourDeviceKey**
+> HostName=fathym-prd.azure-devices.net;DeviceId=**YourDeviceID**;SharedAccessKey=**YourDeviceKey**
 
 Within the connection string, there are two key parts that we need: The device ID, and the device key. Both of these values need to be a part of our data payload. Let's add them to our payload now.
 
