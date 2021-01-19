@@ -49,15 +49,14 @@ Enter the command bash <(curl -sL https://raw.githubusercontent.com/node-red/lin
 
 Next, we need to wire up your DHT11 sensor to your raspberry Pi. Thankfully, this simple sensor doesn’t need any complex wiring, resistors, or breadboards. Simply follow the wiring diagram provided below:
 
-
+<img src="../static/img/modifiedPiWiring.png" class="text-image" />
 
 
 ## Part 4 - Using Node-Red to Read your Sensor Data
 
 Once you’re done wiring your sensor, go back to your terminal window on the Raspberry Pi. Then enter this command: node-red-start which will start the node red service. When the service starts, it will look similar to this:
 
-<img src="static/img/modifiedPiWiring.png" class="text-image" />
-
+<img src="https://steemitimages.com/DQmZreKyQYHjEe2KUJHdHT4dGPNtofUqbcct6WLRx8rfHJs/Inkedterminal_LI.jpg" class="text-image" />
 
 In the top right, there will be a URL that usually starts with “http://192…” (inside the red box above). You can then use the built in Raspberry Pi web browser to navigate to this website.  You will then be taken to a screen that looks like this:
 
