@@ -39,7 +39,7 @@ In the top left, click on the Raspberry logo, which will show a drop down of opt
 
 In order to program our Pi to do what we want, we need to install a couple of tools first, mainly Node.js and Node-Red 
 Enter the command ```sudo apt-get update``` which updates your system package list
-Enter the command ```sudo apt-get dist-upgrade which installs the latest versions of your system packages```
+Enter the command ```sudo apt-get dist-upgrade``` which installs the latest versions of your system packages
 Enter the command ```curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash``` - which grabs the Node.js package we need to install
 Enter the command ```sudo apt-get install -y nodejs``` which installs the package we just grabbed in the previous step
 Enter the command ```bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)```  This will run a script that automatically installs Node Red to your Pi
@@ -54,7 +54,7 @@ Next, we need to wire up your DHT11 sensor to your raspberry Pi. Thankfully, thi
 
 ## Part 4 - Using Node-Red to Read your Sensor Data
 
-Once you’re done wiring your sensor, go back to your terminal window on the Raspberry Pi. Then enter this command: node-red-start which will start the node red service. When the service starts, it will look similar to this:
+Once you’re done wiring your sensor, go back to your terminal window on the Raspberry Pi. Then enter this command: ```node-red-start``` which will start the node red service. When the service starts, it will look similar to this:
 
 <img src="https://steemitimages.com/DQmZreKyQYHjEe2KUJHdHT4dGPNtofUqbcct6WLRx8rfHJs/Inkedterminal_LI.jpg" class="text-image" />
 
