@@ -38,11 +38,11 @@ After you complete the setup steps, you will be taken to the main Raspberry Pi d
 In the top left, click on the Raspberry logo, which will show a drop down of options. Click on the “Programming” tab, then click “Terminal”.
 
 In order to program our Pi to do what we want, we need to install a couple of tools first, mainly Node.js and Node-Red 
-Enter the command sudo apt-get update which updates your system package list
-Enter the command sudo apt-get dist-upgrade which installs the latest versions of your system packages
-Enter the command curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash - which grabs the Node.js package we need to install
-Enter the command sudo apt-get install -y nodejs which installs the package we just grabbed in the previous step
-Enter the command bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)  This will run a script that automatically installs Node Red to your Pi
+Enter the command ```sudo apt-get update which updates your system package list```
+Enter the command ```sudo apt-get dist-upgrade which installs the latest versions of your system packages```
+Enter the command ```curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash``` - which grabs the Node.js package we need to install
+Enter the command ```sudo apt-get install -y nodejs``` which installs the package we just grabbed in the previous step
+Enter the command ```bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)```  This will run a script that automatically installs Node Red to your Pi
 
 
 ## Part 3 - Wire up your DHT11 sensor
