@@ -70,7 +70,7 @@ node-red-contrib-dht-sensor
 For the sake of simplicity, we are able to import previously created flows into Node Red. The following flow template takes temperature and humidity information from the DHT11, formats the JSON payload to use Fathyms Best Practice Schema (in addition, uses a few extra fields like “key” and “protocol” to work with Azure Iot Hub module), and takes a reading every 30 seconds. To use this template, copy the following Node-Red JSON template
 
 ```json
-[{"id":"e97f8ba8.2829d8","type":"tab","label":"DHT11 Sensor to Fathym Iot Ensemble","disabled":false,"info":""},{"id":"2fe1190e.141286","type":"inject","z":"e97f8ba8.2829d8","name":"Take reading every 30 seconds","props":[{"p":"payload"}],"repeat":"30","crontab":"","once":true,"onceDelay":0.1,"topic":"","payload":"","payloadType":"date","x":190,"y":440,"wires":[["2f3407d4.26b858"]]},{"id":"2f3407d4.26b858","type":"rpi-dht22","z":"e97f8ba8.2829d8","name":"DHT11 Sensor","topic":"","dht":"11","pintype":"0","pin":4,"x":500,"y":440,"wires":[["1fa2f6c2.9637b9"]]},{"id":"1fa2f6c2.9637b9","type":"change","z":"e97f8ba8.2829d8","name":"Format JSON","rules":[{"t":"set","p":"payload","pt":"msg","to":"{\t\t\"deviceId\": \"Your Device ID\",\t\t\"key\": \"Your Device Key\",\t\t\"protocol\": \"mqtt\",\t\t\"data\": {\t\t\"DeviceData\": {\t\t\t\"Latitude\": \"40.5853° N\",\t\t\t\"Longitude\": \"105.0844° W\"\t\t},\t\t\"SensorReadings\": {\t\t\t\"Temperature\": $number(payload),\t\t\t\"Humidity\": $number(humidity)\t\t},\t\t\"SensorMetadata\": {\t\t\t\"_\": {\t\t\t\t\"SignalStrength\": \"Good\",\t\t\t\t\"SensorType\": \"DHT11\"\t\t\t}\t\t}\t\t}\t}","tot":"jsonata"}],"action":"","property":"","from":"","to":"","reg":false,"x":760,"y":440,"wires":[["8601cbe1.84e998","fc1e92ea.2210b"]]},{"id":"8601cbe1.84e998","type":"debug","z":"e97f8ba8.2829d8","name":"Local Debug","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"payload","targetType":"msg","statusVal":"","statusType":"auto","x":990,"y":360,"wires":[]},{"id":"fc1e92ea.2210b","type":"azureiothub","z":"e97f8ba8.2829d8","name":"Azure IoT Hub","protocol":"mqtt","x":1000,"y":520,"wires":[[]]}]
+[{"id":"e97f8ba8.2829d8","type":"tab","label":"DHT11 Sensor to Fathym Iot Ensemble","disabled":false,"info":""},{"id":"2fe1190e.141286","type":"inject","z":"e97f8ba8.2829d8","name":"Take reading every 30 seconds","props":[{"p":"payload"}],"repeat":"30","crontab":"","once":true,"onceDelay":0.1,"topic":"","payload":"","payloadType":"date","x":190,"y":440,"wires":[["2f3407d4.26b858"]]},{"id":"2f3407d4.26b858","type":"rpi-dht22","z":"e97f8ba8.2829d8","name":"DHT11 Sensor","topic":"","dht":"11","pintype":"0","pin":4,"x":500,"y":440,"wires":[["1fa2f6c2.9637b9"]]},{"id":"1fa2f6c2.9637b9","type":"change","z":"e97f8ba8.2829d8","name":"Format JSON","rules":[{"t":"set","p":"payload","pt":"msg","to":"{\t\t\"deviceId\": \"Your Device ID\",\t\t\"key\": \"Your Device Key\",\t\t\"protocol\": \"mqtt\",\t\t\"data\": {\t\t\"DeviceData\": {\t\t\t\"Latitude\": \"40.5853° N\",\t\t\t\"Longitude\": \"105.0844° W\"\t\t},\t\t\"SensorReadings\": {\t\t\t\"Temperature\": $number(payload),\t\t\t\"Humidity\": $number(humidity)\t\t},\t\t\"SensorMetadata\": {\t\t\t\"_\": {\t\t\t\t\"SignalStrength\": \"Good\",\t\t\t\t\"SensorType\": \"DHT11\"\t\t\t}\t\t}\t\t}\t}","tot":"jsonata"}],"action":"","property":"","from":"","to":"","reg":false,"x":760,"y":440,"wires":[["8601cbe1.84e998","fc1e92ea.2210b"]]},{"id":"8601cbe1.84e998","type":"debug","z":"e97f8ba8.2829d8","name":"Local Debug","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"payload","targetType":"msg","statusVal":"","statusType":"auto","x":990,"y":360,"wires":[]},{"id":"fc1e92ea.2210b","type":"azureiothub","z":"e97f8ba8.2829d8","name":"Azure IoT Hub", "protocol":"mqtt","x":1000,"y":520,"wires":[[]]}]
 ```
 
 In your Node-Red browser screen, click on the three horizontal line button at the top right of the screen, and choose “Import”. Paste the JSON into the text box, and click “Import”. You will now have a visual representation of the flow of data from your device.
@@ -97,10 +97,12 @@ Click on the <img src="../static/img/screenshots/icon-copy.png" class="text-imag
 Within the connection string, there are two key parts that we need: The device ID, and the device key. Both of these values need to be a part of our data payload. Let's add them to our payload now.
 
 <ul>
-<li> Copy both the **YourDeviceID** and **YourDeviceKey** portions of your connection string (not including the "DeviceId=", "SharedAccessKey=", and the ";" at the end of DeviceID)</li>
+<li> Copy both the **YourDeviceID** and **YourDeviceKey** portions of your connection string (not including the "DeviceId=", "SharedAccessKey=", or the ";" at the end of DeviceID)</li>
 <li> Go back to your Node-Red browser, and double click on the yellow "Format JSON" module. This will pull up a "Properties" screen, shown below.</li>
 
-<img src="../static/img/screenshots/format_json_properties_screen.png" class="text-image" />
+<img src="../static/img/screenshots/format_json_properties_updated.png" class="text-image" />
+
+> **Note**: For this specific example, "DeviceID" has to be entered >twice. This because the Azure Iot Hub module requires the deviceID >in order to build a connection string. The Iot Hub itself also >requires a deviceID in the data payload
 
 <li> Next, click on the three-dot menu screen (shown in the red box above). This will pull up an "Edit" screen, shown below</li>
 
@@ -108,6 +110,8 @@ Within the connection string, there are two key parts that we need: The device I
 
 <li> From here, take the DeviceID and Key values from your connection string, and paste them into the properties shown in the red boxes above. Click "Done"</li>
 </ul>
+
+
 
 Once this is complete, click the red "Deploy" button in the top right corner. Your pi is now sending real time data to IoT Ensemble!
 
