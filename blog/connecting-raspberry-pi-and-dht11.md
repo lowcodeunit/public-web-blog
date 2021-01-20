@@ -1,3 +1,10 @@
+---
+title: Connecting your first Pi and DHT11 with IoT ensemble and a PowerBI dashboard
+hide_title: true
+sidebar_label: Connecting your first Pi and DHT11 with IoT ensemble and a PowerBI dashboard
+---
+
+
 # Connecting your first Pi and DHT11 with IoT ensemble and a PowerBI dashboard
 
 
@@ -102,7 +109,7 @@ Within the connection string, there are two key parts that we need: The device I
 
 <img src="../static/img/screenshots/format_json_properties_updated.png" class="text-image" />
 
-> **Note**: For this specific example, "DeviceID" has to be entered >twice. This because the Azure Iot Hub module requires the deviceID >in order to build a connection string. The Iot Hub itself also >requires a deviceID in the data payload
+> **Note**: For this specific example, "DeviceID" has to be entered twice. This because the Azure Iot Hub module requires the deviceID >in order to build a connection string. The Iot Hub itself also >requires a deviceID in the data payload
 
 <li> Next, click on the three-dot menu screen (shown in the red box above). This will pull up an "Edit" screen, shown below</li>
 
