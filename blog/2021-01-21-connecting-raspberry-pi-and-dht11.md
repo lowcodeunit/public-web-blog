@@ -21,6 +21,8 @@ For many, the Internet of Things (IoT) can seem like a difficult challenge, espe
 
 This may seem like a lot, and can take some teams weeks or even months.  So grab your gear, and we'll have you up and running in the next 30 - 60 minutes.
 
+<!--truncate-->
+
 ### Things you will need
 
 In this walk through, we use the Model 3B Raspberry Pi (but you can use a Model 4 as well) and a DHT11 sensor.  If your like me, you may have as many as 3 or more Raspberry Pis laying around your house.  Mix this with a multitude of sensors and starter kits, and you'll quickly get a sense for why my wife made me move to the garage.  
