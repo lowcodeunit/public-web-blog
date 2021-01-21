@@ -5,7 +5,7 @@ author: Michael Gearhardt
 author_title: CTO @ Fathym
 author_url: https://www.iot-ensemble.com
 author_image_url: https://github.com/mcgear.png
-tags: [fathym, iot, iot ensemble, raspberry pi, node red, dht11, temperature, humidity, sensor]
+tags: [fathym, iot, iot ensemble, raspberry pi, node red, dht11, temperature, humidity, sensor, power bi]
 ---
 
 ## Getting Started
@@ -148,6 +148,8 @@ Next, click on the three-dot menu screen (shown in the red box above). This will
 
 ![Replace ID and key](/img/screenshots/replace_id_and_key.png)
 
- From here, take the **YourDeviceID** and **YourDeviceKey** values from your connection string and paste them into the properties shown in the red boxes above. Click "Done"
+ From here, take the **YourDeviceID** and **YourDeviceKey** values from your connection string and paste them into the properties shown in the red boxes above. Click "Done".
 
 Once this is complete, click the red "Deploy" button in the top right corner. Your pi is now sending real time data to IoT Ensemble!
+
+## Part 6 - Connecting Data to Power BI Desktop
