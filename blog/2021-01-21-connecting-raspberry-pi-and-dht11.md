@@ -31,7 +31,7 @@ If this is you, dust off an RPi and if you don't have a DHT11, grab another sens
 - [MicroSD card](https://www.amazon.com/SanDisk-Ultra-microSDHC-Memory-Adapter/dp/B08GY9NYRM/ref=sr_1_3?crid=2XJMC54SCHQQD&dchild=1&keywords=micro+sd+card+32gb&qid=1610743336&sprefix=micro+sd+card%2Caps%2C229&sr=8-3), at least 16GB
 - [DHT11 humidity/temperature sensor w/ wires](https://www.amazon.com/HiLetgo-Temperature-Humidity-Digital-3-3V-5V/dp/B01DKC2GQ0)
 - A [Fathym IoT Ensemble](https://www.iot-ensemble.com/dashboard) account (we’re using the free, shared version)
-- [Power BI desktop](https://powerbi.microsoft.com/en-us/downloads/)
+- [Power BI Desktop](https://powerbi.microsoft.com/en-us/downloads/)
 - A USB Keyboard and mouse
 - A computer monitor
 - Your normal computer with an SD card reader (or you can buy an SD to USB dongle)
@@ -155,3 +155,71 @@ Next, click on the three-dot menu screen (shown in the red box above). This will
 Once this is complete, click the red "Deploy" button in the top right corner. Your pi is now sending real time data to IoT Ensemble!
 
 ## Part 6 - Connecting Data to Power BI Desktop
+
+There are a lot of options in Power BI Desktop for importing data to be used in reports and visualizations for data interpretation.  IoT Ensemble provides connection URLs and Storage Access Keys so you can import data from your devices into Power BI using the Web data source.
+
+Your IoT Ensemble Dashboard will give you access to API Access Storage Keys as well as links to the Developer Portal to obtain Request URLs for Cold and Warm Storage queries.  This is all you need to get started visualizing data with Power BI!
+
+### IoT Ensemble Storage Access
+
+IoT Ensemble provides out of the box APIs that allow you to interact with your data and devices.  Leveraging the cold query endpoint will allow us to easily connect with Power BI.
+
+![Storage Access](/img/screenshots/dashboard-storage-access.png)
+
+:::note
+
+IoT Ensemble Storage Access can be leveraged to connect to many diffrent types of services, check the [full documentation](https://www.iot-ensemble.com/docs/getting-started/connecting-downstream-services) for more details.
+
+:::
+
+### Configuring Power BI Desktop
+
+Make sure that you've downloaded and installed [Power BI Desktop](https://powerbi.microsoft.com/en-us/downloads/).  Launch Power BI Desktop and go to Get Data -> Web. This Data Source will allow us to import data from HTTP.
+
+![Power BI Get Data Web](/img/screenshots/power-bi-get-data-web.png)
+
+Once this has been selected, a popup will allow input of the API URL. You will need to select the “Advanced” radio button to input the Access Key as an additional header parameter.
+
+![Power BI From Web Advanced](/img/screenshots/power-bi-from-web-advanced.png)
+
+- The API Request URLs can be obtained from the Developer Portal using either the Cold or Warm Query APIs.  The Developer Portal will also assist in setting the parameters for your query. Note: you need to have an IoT Ensemble account to access the links in the Developer Portal.
+  - https://fathym-prd.portal.azure-api.net/docs/services/iot-ensemble-state-api/operations/coldquery
+  - https://fathym-prd.portal.azure-api.net/docs/services/iot-ensemble-state-api/operations/warmquery
+- Input the Request URL property obtained from Developer Portal in the Power BI “URL Parts” text field. Screenshot below.
+- Input the lcu-subscription-key property as a header parameter, along with Access Key copied from IoT Ensemble Dashboard in the “HTTP request header parameters” text fields.  Please note your lcu-subscription-key can also be found in the Developer Portal. Screenshot below.
+
+![Power BI From web Advanced Enter Values](/img/screenshots/power-bi-from-web-advanced-enter-values.png)
+
+- Select OK
+- This will launch Power Query Editor and load your JSON payloads.  These will need to be converted to a table before you can visualize your data.
+
+### Preparing Data for Use
+
+- To convert to a table, select “To Table”.
+
+![Power BI Get Data Web to Table](/img/screenshots/power-bi-get-data-web-to-table.png)
+
+- Select OK from popup
+
+![Power BI Get Data Web to Table Prompt](/img/screenshots/power-bi-get-data-web-to-table-prompt.png)
+
+- Select the “Expand Arrows” icon.  This will expand the data fields where you can begin viewing your data.
+
+![Power BI Get Data Web Table Expand](/img/screenshots/power-bi-get-data-web-table-expand.png)
+
+- Select OK
+- After converting to a table, you may notice that some columns still say “Record”. You will need to repeat this expanding process on those columns to expose the nested json data for use in Power BI.
+
+Congratulations! The device data has now been loaded into Power BI. The final step before you can use the data in visualizations is to transform the data from a Text type to Number, Dates, and other types.
+
+### Next Steps with Power BI
+
+Transforming Data with power BI will allow you to customize data based on requirements. Power BI allows the user to remove duplicate values, create new columns, define table headers, convert data types, use calculated columns etc.  Power BI has an incredible number of features that are dedicated to helping clean and prepare data for analysis.  You may want to use Power Query Editor to clean up and shape this data before you start building reports.
+
+Additional information on how to shape your data can be found all over the internet, here are a couple places to get started.  You may want a learning path for [cleaning, transforming and loading data](https://docs.microsoft.com/en-us/learn/modules/clean-data-power-bi/), and to expand on that, look into [shaping and combing data](https://docs.microsoft.com/en-us/power-bi/connect-data/desktop-shape-and-combine-data#shape-data).
+  
+When your query is where you want it, select **Close & Apply** from Power Query Editor's File menu.
+
+![Power BI Get Data Web Close and Apply](/img/screenshots/power-bi-get-data-web-close-apply.png)
+
+This action applies the changes and closes the editor.  The transformed dataset appears in the Power BI Desktop, ready to be used for creating reports.
