@@ -40,14 +40,8 @@ const features = [
 ];
 
 function Feature({imageUrl, title, description}) {
-  const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={clsx('col col--4', styles.feature)}>
-      {imgUrl && (
-        <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
-        </div>
-      )}
+    <div className={clsx('col col--4', styles.feature)}>      
       <h3>{title}</h3>
       <p>{description}</p>
     </div>
@@ -63,8 +57,8 @@ function Home() {
       description="IoT Ensemble">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <h1 className="home_title">{siteConfig.title}</h1>
+          <p className="home_subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
               className={clsx(
@@ -89,7 +83,24 @@ function Home() {
             </div>
           </section>
         )}
-      </main>
+      </main>  
+      <div className="hero hero--primary" style={{padding:0, paddingBottom:'4rem'}}>
+        <div className="container">
+          <div className="text--center">
+            <img src={useBaseUrl("img/iot-ensemble-diagram.png")} alt="IoT Ensemble" />
+          </div>
+          <div className={styles.buttons}>
+            <Link
+              className={clsx(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted,
+              )}
+              to={siteConfig.url + useBaseUrl('dashboard/')}>
+              Sign Up
+            </Link>
+          </div>
+        </div>
+      </div>    
     </Layout>
   );
 }
