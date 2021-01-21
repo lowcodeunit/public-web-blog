@@ -22,7 +22,7 @@ module.exports = {
       title: 'IoT Ensemble',
       logo: {
         alt: 'IoT Ensemble',
-        src: 'img/Fathym-logo-aqua-01.png',
+        src: 'img/Fathym-logo-white-01.png',
       },
       items: [
         {

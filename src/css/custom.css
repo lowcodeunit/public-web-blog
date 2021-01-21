@@ -32,3 +32,13 @@
   height: 300px;
   width: 300px;
 }
+
+.home_title {
+  font-size: 3rem;
+  color: white;
+}
+
+.home_subtitle {
+  font-size: 1.5rem;
+  color: white;
+}
