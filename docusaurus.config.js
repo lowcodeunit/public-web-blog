@@ -16,7 +16,7 @@ module.exports = {
       defaultMode: 'dark',
       // Hides the switch in the navbar
       // Useful if you want to support a single color mode
-      disableSwitch: true
+      disableSwitch: true,
     },
     navbar: {
       title: 'IoT Ensemble',
@@ -26,11 +26,12 @@ module.exports = {
       },
       items: [
         {
-         to: 'docs/',
-         activeBasePath: 'docs',
-         label: 'Docs',
-         position: 'left',
+          to: 'docs/',
+          activeBasePath: 'docs',
+          label: 'Docs',
+          position: 'left',
         },
+        { to: 'blog', label: 'Blog', position: 'left' },
         // {
         //  to: 'api-docs/',
         //  activeBasePath: 'api-docs',
@@ -40,8 +41,8 @@ module.exports = {
         {
           href: 'https://www.iot-ensemble.com/dashboard',
           label: 'Sign In',
-          position: 'right'
-        }
+          position: 'right',
+        },
       ],
     },
     footer: {
@@ -61,7 +62,7 @@ module.exports = {
             {
               label: 'Support',
               to: 'docs/introduction/support',
-            }            
+            },
           ],
         },
         {
