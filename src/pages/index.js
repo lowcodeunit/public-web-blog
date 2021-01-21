@@ -9,45 +9,39 @@ import styles from './styles.module.css';
 const features = [
   {
     title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    imageUrl: 'img/easy-to-use.png',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Start with emulated device data and immediately see it flowing to a real-time dashboard. Connect
+        your physical device when you're ready. 
       </>
     ),
   },
   {
     title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    imageUrl: 'img/focus-on-what-matters.png',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        IoT Ensemble lets you focus on your applications and user experience – we’ll do the heavy lifting. 
+        Try it for free.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: 'IoT Accelerated',
+    imageUrl: 'img/iot-accelerated.png',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Fathym automates best practice cloud infrastructure out of the box. Accelerate your adoption and 
+        usage of IoT technologies. Start today. 
       </>
     ),
   },
 ];
 
 function Feature({imageUrl, title, description}) {
-  const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={clsx('col col--4', styles.feature)}>
-      {imgUrl && (
-        <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
-        </div>
-      )}
+    <div className={clsx('col col--4', styles.feature)}>      
       <h3>{title}</h3>
       <p>{description}</p>
     </div>
@@ -59,20 +53,20 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Home`}
+      description="IoT Ensemble">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <h1 className="home_title">{siteConfig.title}</h1>
+          <p className="home_subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
               className={clsx(
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/')}>
-              Get Started
+              to={siteConfig.url + useBaseUrl('dashboard/')}>
+              Sign Up
             </Link>
           </div>
         </div>
@@ -89,7 +83,24 @@ function Home() {
             </div>
           </section>
         )}
-      </main>
+      </main>  
+      <div className="hero hero--primary" style={{padding:0, paddingBottom:'4rem'}}>
+        <div className="container">
+          <div className="text--center">
+            <img src={useBaseUrl("img/iot-ensemble-diagram.png")} alt="IoT Ensemble" />
+          </div>
+          <div className={styles.buttons}>
+            <Link
+              className={clsx(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted,
+              )}
+              to={siteConfig.url + useBaseUrl('dashboard/')}>
+              Sign Up
+            </Link>
+          </div>
+        </div>
+      </div>    
     </Layout>
   );
 }

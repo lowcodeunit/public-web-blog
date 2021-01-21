@@ -7,12 +7,14 @@ slug: /
 
 # Welcome to Fathym IoT Ensemble
 
-A platform and framework focused on helping you take charge of your IoT applications and deployment strategies.
+Fathym IoT Ensemble is a platform focused on helping you to connect devices, understand data and scale IoT applications.
 
-Managing the learning path, usage and growth of cloud-native infrastructure and application development strategies can be a daunting challenge. With the Fathym Framework you can reliably deliver IoT applications across hybrid-clouds.
+Managing the learning path, usage and growth of cloud-native IoT development strategies can be a daunting challenge. Use IoT Ensemble to reliably deliver IoT applications across hybrid-clouds. [Get started](https://www.iot-ensemble.com/dashboard) today.
 
-## Virtual Development Team
+## Connect, Understand, Scale
 
-Fathym operates as a virtual development team that automates best practices for IoT application delivery. In order to help you focus on building applications and creating value, we built the framework to augment your team’s skills and do your heavy lifting.
+When getting started with a new cloud-native IoT solution, you’re not only working towards connecting a device, but also on how to process and store its data in order to perform tasks such as visualization, machine learning, and application development. This requires learning a number of cloud-native technologies before being able to deliver a solution.
 
-The Fathym Framework radically reduces the time and work involved in getting your device connected, visualizing your data, delivering applications, and bringing end-to-end customer driven IoT applications to bear.
+IoT Ensemble operates as a virtual development team that automates best practices for IoT application delivery.  In order to help you focus on building applications and creating value, we built the platform to augment your team’s skills and do the heavy lifting.
+
+[Using the platform](https://www.iot-ensemble.com/dashboard) radically reduces the time and work involved in getting devices connected, understanding their data, and delivering end-to-end customer driven IoT applications.

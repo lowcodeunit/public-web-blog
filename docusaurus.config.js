@@ -1,48 +1,67 @@
 module.exports = {
-  title: 'IoT Ensemble',
-  tagline: 'Cloud-native IoT Solutions: Explore and Scale',
-  url: 'https://www.fathym.com',
+  title: 'Fathym IoT Ensemble',
+  tagline: 'Experience IoT in minutes.',
+  url: 'https://www.iot-ensemble.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'iot-ensemble', // Usually your GitHub org/user name.
   projectName: 'public-web', // Usually your repo name.
   themeConfig: {
+    gtag: {
+      trackingID: 'G-NEWEXH7W8C',
+    },
+    colorMode: {
+      // "light" | "dark"
+      defaultMode: 'dark',
+      // Hides the switch in the navbar
+      // Useful if you want to support a single color mode
+      disableSwitch: true
+    },
     navbar: {
-      title: '',
+      title: 'IoT Ensemble',
       logo: {
-        alt: 'Fathym Framework',
-        src: 'img/logo.png',
+        alt: 'IoT Ensemble',
+        src: 'img/Fathym-logo-white-01.png',
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
+         to: 'docs/',
+         activeBasePath: 'docs',
+         label: 'Docs',
+         position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        // {
+        //  to: 'api-docs/',
+        //  activeBasePath: 'api-docs',
+        //  label: 'API Docs',
+        //  position: 'left',
+        // },
         {
-          href: 'https://github.com/iot-ensemble',
-          label: 'GitHub',
-          position: 'right',
-        },
+          href: 'https://www.iot-ensemble.com/dashboard',
+          label: 'Sign In',
+          position: 'right'
+        }
       ],
     },
     footer: {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Next Steps',
           items: [
-            // {
-            //   label: 'Style Guide',
-            //   to: 'docs/',
-            // },
-            // {
-            //   label: 'Second Doc',
-            //   to: 'docs/doc2/',
-            // },
+            {
+              label: 'Getting Started',
+              to: 'docs/',
+            },
+            {
+              label: 'Pricing',
+              to: 'docs/',
+            },
+            {
+              label: 'Support',
+              to: 'docs/introduction/support',
+            }            
           ],
         },
         {
@@ -50,50 +69,49 @@ module.exports = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://stackoverflow.com/questions/tagged/iot-ensemble',
             },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
+            //{
+            //  label: 'Discord',
+            //  href: 'https://discordapp.com/invite/iot-ensemble',
+            //},
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/iot-ensemble',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'Powered by Fathym',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Learn More',
+              href: 'https://www.fathym.com',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Fathym, Inc`,
     },
   },
   presets: [
     [
       '@docusaurus/preset-classic',
       {
+        'api-docs': {
+          sidebarPath: require.resolve('./sidebars.js'),
+          // The iot-ensemble website repo
+          editUrl: 'https://github.com/iot-ensemble/public-web/edit/master/website/',
+        },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          // The iot-ensemble website repo
+          editUrl: 'https://github.com/iot-ensemble/public-web/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          // The iot-ensemble website blog repo
+          editUrl: 'https://github.com/iot-ensemble/public-web/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
