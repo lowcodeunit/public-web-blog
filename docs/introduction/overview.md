@@ -11,6 +11,8 @@ Fathym IoT Ensemble is a platform focused on helping you to connect devices, und
 
 Managing the learning path, usage and growth of cloud-native IoT development strategies can be a daunting challenge. Use IoT Ensemble to reliably deliver IoT applications across hybrid-clouds. [Get started](https://www.iot-ensemble.com/dashboard) today.
 
+![Modified Pi Wiring](/img/iot-ensemble-diagram.png)
+
 ## Connect, Understand, Scale
 
 When getting started with a new cloud-native IoT solution, you’re not only working towards connecting a device, but also on how to process and store its data in order to perform tasks such as visualization, machine learning, and application development. This requires learning a number of cloud-native technologies before being able to deliver a solution.

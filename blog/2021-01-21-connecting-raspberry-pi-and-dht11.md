@@ -1,33 +1,35 @@
 ---
-title: Connecting your first Pi and DHT11 with IoT ensemble and a PowerBI dashboard
-hide_title: true
-sidebar_label: Connecting your first Pi and DHT11 with IoT ensemble and a PowerBI dashboard
+slug: connecting-raspberry-pi-dht11-iot-ensemble-power-bi
+title: IoT Ensemble - Conneting RPi, DHT11, and Power BI
+author: Trevor Richardson
+author_title: Engineer @ Fathym
+author_url: https://www.iot-ensemble.com
+author_image_url: https://github.com/ttrichar.png
+tags: [fathym, iot, iot ensemble, raspberry pi, node red, dht11, temperature, humidity, sensor]
 ---
 
+## Getting Started
 
-# Connecting your first Pi and DHT11 with IoT ensemble and a PowerBI dashboard
+For many, IoT can seem like a difficult challenge, especially when thinking through getting an end-to-end IoT Solution out the door.  This will take you through, step-by-step, the process of setting up your own personal temperature sensor by:
 
+- Configuring and setting up a Raspberry Pi
+- Connecting a simple temperature sensor to your Raspberry Pi
+- Reading the data with Node-Red
+- Using IoT Ensemble to listen to your Pi, and provide you with a suite of helpful data tools (the easy part!)
+- Set up a PowerBI visualization
 
-This will take you through, step-by-step, the process of setting up your own personal temperature sensor by:
-Configuring and setting up a Raspberry Pi
-Connecting a simple temperature sensor to your Raspberry Pi, and reading the data with Node-Red
-Using IoT Ensemble to listen to your Pi, and provide you with a suite of helpful data tools (the easy part!)
-Take your data to set up a PowerBI visualization
+### Things you will need
 
+- Raspberry Pi with a Power Source (we will be using the Model 3B in this example, but you can use a Model 4 as well)
+- A [MicroSD card](https://www.amazon.com/SanDisk-Ultra-microSDHC-Memory-Adapter/dp/B08GY9NYRM/ref=sr_1_3?crid=2XJMC54SCHQQD&dchild=1&keywords=micro+sd+card+32gb&qid=1610743336&sprefix=micro+sd+card%2Caps%2C229&sr=8-3), at least 16GB
+- A [DHT11 humidity/temperature sensor w/ wires](https://www.amazon.com/HiLetgo-Temperature-Humidity-Digital-3-3V-5V/dp/B01DKC2GQ0)
+- A USB Keyboard and mouse
+- A computer monitor
+- Your normal computer with an SD card reader (or you can buy a SD to USB dongle)
+- A Fathym IoT Ensemble account (we’re using the free, shared version)
+- And PowerBI desktop
 
-### Things you will need:
-<ul>
-<li>Raspberry Pi with a Power Source (we will be using the Model 3B in this example, but you can use a Model 4 as well) </li>
-<li>A <a href="https://www.amazon.com/SanDisk-Ultra-microSDHC-Memory-Adapter/dp/B08GY9NYRM/ref=sr_1_3?crid=2XJMC54SCHQQD&dchild=1&keywords=micro+sd+card+32gb&qid=1610743336&sprefix=micro+sd+card%2Caps%2C229&sr=8-3">MicroSD card</a>, at least 16GB</li>
-<li>A <a href="https://www.amazon.com/HiLetgo-Temperature-Humidity-Digital-3-3V-5V/dp/B01DKC2GQ0">DHT11 humidity/temperature sensor w/ wires</a></li>
-<li>A USB Keyboard and mouse</li>
-<li>A computer monitor</li>
-<li>Your normal computer with an SD card reader (or you can buy a SD to USB dongle)</li>
-<li>A Fathym IoT Ensemble account (we’re using the free, shared version)</li>
-<li>A PowerBI account</li>
-</ul>
-
-## Part 1: Setting up your new Raspberry Pi 
+## Part 1: Setting up your new Raspberry Pi
 
 This process includes putting the Raspberry Pi Operating System (formerly known as Raspbian) onto your micro SD card and interacting with the Pi to complete initial setup (Connect to Wifi, allow permissions to access your Pi from another computer, etc).
 
@@ -44,36 +46,36 @@ After you complete the setup steps, you will be taken to the main Raspberry Pi d
 
 In the top left, click on the Raspberry logo, which will show a drop down of options. Click on the “Programming” tab, then click “Terminal”.
 
-In order to program our Pi and get connected, we will need to install a couple of tools first, mainly Node.js and Node-Red by completing the following steps: 
+In order to program our Pi and get connected, we will need to install a couple of tools first, mainly Node.js and Node-Red by completing the following steps:
+
 1. Enter the command ```sudo apt-get update``` which updates your system package list
 2. Enter the command ```sudo apt-get dist-upgrade``` which installs the latest versions of your system packages
 3. Enter the command ```curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash``` - which grabs the Node.js package we need to install
 4. Enter the command ```sudo apt-get install -y nodejs``` which installs the package we just grabbed in the previous step
 5. Enter the command ```bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)```  This will run a script that automatically installs Node Red to your Pi
 
-
 ## Part 3 - Wire up your DHT11 sensor
 
 Next, we need to wire up your DHT11 sensor to your raspberry Pi. Thankfully, this simple sensor doesn’t need any complex wiring, resistors, or breadboards. Simply follow the wiring diagram provided below:
 
-<img src="../static/img/modifiedPiWiring.png" class="text-image" />
-
+![Modified Pi Wiring](/img/modifiedPiWiring.png)
 
 ## Part 4 - Using Node-Red to Read your Sensor Data
 
 Once you’re done wiring your sensor, go back to your terminal window on the Raspberry Pi. Then enter this command: ```node-red-start``` which will start the node red service. When the service starts, it will look similar to this:
 
-<img src="https://steemitimages.com/DQmZreKyQYHjEe2KUJHdHT4dGPNtofUqbcct6WLRx8rfHJs/Inkedterminal_LI.jpg" class="text-image" />
+![Terminal](https://steemitimages.com/DQmZreKyQYHjEe2KUJHdHT4dGPNtofUqbcct6WLRx8rfHJs/Inkedterminal_LI.jpg)
 
 In the top right, there will be a URL that usually starts with “http://192…” (inside the red box above). You can then use the built in Raspberry Pi web browser to navigate to this website.  You will then be taken to a screen that looks like this:
 
-<img src="https://steemitimages.com/640x0/https://steemitimages.com/DQmTsV5oGxLJa3MgJWrqQJ43a5SfdKJDrqtY1yjWJuBRD4J/DQmTsV5oGxLJa3MgJWrqQJ43a5SfdKJDrqtY1yjWJuBRD4J.png" class="text-image" />
+![Node Red](https://steemitimages.com/640x0/https://steemitimages.com/DQmTsV5oGxLJa3MgJWrqQJ43a5SfdKJDrqtY1yjWJuBRD4J/DQmTsV5oGxLJa3MgJWrqQJ43a5SfdKJDrqtY1yjWJuBRD4J.png)
 
 Welcome to Node-Red! There are a few additional modules that we will need in order to create our device flow. In the top right corner of the screen, click on the three horizontal line button, and then click “Manage palette”. On the new screen, click on the “Install” tab. In the search bar, type in the following and install each of them:
-<br>
-node-red-contrib-azure-iot-hub<br>
+
+node-red-contrib-azure-iot-hub
+
 node-red-contrib-dht-sensor
-<br>
+
 For the sake of simplicity, we are able to import previously created flows into Node Red. The following flow template takes temperature and humidity information from the DHT11, formats the JSON payload to use Fathyms Best Practice Schema (in addition, uses a few extra fields like “key” and “protocol” to work with Azure Iot Hub module), and takes a reading every 30 seconds. To use this template, copy the following Node-Red JSON template
 
 ```json
@@ -81,21 +83,22 @@ For the sake of simplicity, we are able to import previously created flows into 
 ```
 
 In your Node-Red browser screen, click on the three horizontal line button at the top right of the screen, and choose “Import”. Paste the JSON into the text box, and click “Import”. You will now have a visual representation of the flow of data from your device.
-<br>
+
 Before we start sending actual device readings, we first need to provide Node-Red some information for your device. This is where IoT Ensemble comes in!
 
 ## Part 5 - Register your Device with IoT Ensemble
-Before we can tell your device where to send data, we first need to register the device. Follow these steps to create a new device in Iot Ensemble. For more details, check out our [full documentation.](../docs/getting-started/connecting-first-device)
 
-<ol>
-<li>Navigate to iot-ensemble.com/dashboard</li>
-<li>In the “Connected Devices” section, click the “Enroll New Device” button</li>
-<li>Provide a name for your new device and click “Enroll Device”</li>
-</ol>
+Before we can tell your device where to send data, we first need to register the device. Follow these steps to create a new device in Iot Ensemble. For more details, check out our [full documentation](../docs/getting-started/connecting-first-device).
 
-That’s it! Your device is now registered. You should now see your newly created device, along with its associated connection string, in the “Connected Devices” section. 
+Navigate to iot-ensemble.com/dashboard
 
-<img src="../static/img/screenshots/dashboard-device-list-first-device.png" class="text-image" />
+In the “Connected Devices” section, click the “Enroll New Device” button
+
+Provide a name for your new device and click “Enroll Device”
+
+That’s it! Your device is now registered. You should now see your newly created device, along with its associated connection string, in the “Connected Devices” section.
+
+![Dashboard device list first device](/img/screenshots/dashboard-device-list-first-device.png)
 
 Click on the <img src="../static/img/screenshots/icon-copy.png" class="text-image" /> button to copy your connection string to your clipboard. Your connection string should look something like this:
 
@@ -103,23 +106,17 @@ Click on the <img src="../static/img/screenshots/icon-copy.png" class="text-imag
 
 Within the connection string, there are two key parts that we need: The device ID, and the device key. Both of these values need to be a part of our data payload. Let's add them to our payload now.
 
-<ul>
-<li> Copy both the **YourDeviceID** and **YourDeviceKey** portions of your connection string (not including the "DeviceId=", "SharedAccessKey=", or the ";" at the end of DeviceID)</li>
-<li> Go back to your Node-Red browser, and double click on the yellow "Format JSON" module. This will pull up a "Properties" screen, shown below.</li>
+ Copy both the **YourDeviceID** and **YourDeviceKey** portions of your connection string (not including the "DeviceId=", "SharedAccessKey=", or the ";" at the end of DeviceID)
+ Go back to your Node-Red browser, and double click on the yellow "Format JSON" module. This will pull up a "Properties" screen, shown below.
 
-<img src="../static/img/screenshots/format_json_properties_updated.png" class="text-image" />
+![Format JSON Properties Updated](/img/screenshots/format_json_properties_updated.png)
 
 > **Note**: For this specific example, "DeviceID" has to be entered twice. This because the Azure Iot Hub module requires the deviceID >in order to build a connection string. The Iot Hub itself also >requires a deviceID in the data payload
 
-<li> Next, click on the three-dot menu screen (shown in the red box above). This will pull up an "Edit" screen, shown below</li>
+ Next, click on the three-dot menu screen (shown in the red box above). This will pull up an "Edit" screen, shown below
 
-<img src="../static/img/screenshots/replace_id_and_key.png" class="text-image" />
+![Replace ID and key](/img/screenshots/replace_id_and_key.png)
 
-<li> From here, take the DeviceID and Key values from your connection string, and paste them into the properties shown in the red boxes above. Click "Done"</li>
-</ul>
-
-
+ From here, take the DeviceID and Key values from your connection string, and paste them into the properties shown in the red boxes above. Click "Done"
 
 Once this is complete, click the red "Deploy" button in the top right corner. Your pi is now sending real time data to IoT Ensemble!
-
-
