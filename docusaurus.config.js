@@ -56,7 +56,7 @@ module.exports = {
             },
             {
               label: 'Pricing',
-              to: 'pricing/',
+              to: 'docs/',
             },
             {
               label: 'Support',
