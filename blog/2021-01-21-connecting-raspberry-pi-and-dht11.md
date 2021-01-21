@@ -8,7 +8,7 @@ author_image_url: https://github.com/mcgear.png
 tags: [iot, raspberry pi, node red, sensors, power bi]
 ---
 
-## Getting Started
+## End-to-end IoT with IoT Ensemble
 
 For many, the Internet of Things (IoT) can seem like a difficult challenge, especially thinking through getting an end-to-end IoT Solution out the door (or stood up for the first time).  In this post, we'll take you step-by-step through the process of setting up your own personal temperature sensor with IoT Ensemble.<!--truncate-->  Here's a look at what we'll do:
 
@@ -114,7 +114,7 @@ If you chose to use a sensor other than the DHT11, you can still start from the 
 
 Before we start sending actual device readings, we first need to provide Node Red some device conifguration information. This is where IoT Ensemble comes in!
 
-## Part 5 - Setting Up IoT Ensemble
+## Part 5 - Configuring IoT Ensemble
 
 Before we can tell your device where to send data, we first need somewhere to send the data.  There are a number of different ways this can be accomplished, with IoT Ensemble the focus is helping you leverage best practice cloud IoT technology.  Here we'll using the Azure IoT Hub to connect devices to a shared data flow, and then make it avaiable downstream for use in other applications.
 
@@ -122,7 +122,7 @@ Follow these steps to create a new device in IoT Ensemble. For more details on t
 
 Start by navigating to the [IoT Ensemble Dashboard](https://www.iot-ensemble.com/dashboard) and sugn in or sign up.  For the purposes of moving forward, you will only need the Free license and no credit card will be required.
 
-### Enrolling a Device
+### Enroll a Device
 
 In the **Connected Devices** section, click the **Enroll New Device** button, provide a name for your device (i.e. my-first-device) and click **Enroll Device**.  That’s it!  Your device is now registered and should be visible in the dashboard, along with its associated connection string.
 
@@ -133,6 +133,8 @@ Click on the <img src="../static/img/screenshots/icon-copy.png" class="text-imag
 > HostName=fathym-prd.azure-devices.net;DeviceId=**YourDeviceID**;SharedAccessKey=**YourDeviceKey**
 
 Within the connection string, there are two key parts that we need: The **DeviceID**, and the **SharedAccessKey**. Both of these values need to be a part of the data payload. Let's add them to the payload now.
+
+### Update Node Red
 
  Copy both the **YourDeviceID** and **YourDeviceKey** portions of your connection string (not including the "**DeviceId=**", "**SharedAccessKey=**", or the "**;**" at the end of DeviceID).  Go back to your Node-Red browser, and double click on the yellow **Format JSON** module, which will pull up a **Properties** screen, shown below.
 
