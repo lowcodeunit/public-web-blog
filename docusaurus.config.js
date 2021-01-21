@@ -26,12 +26,12 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
+          to: '/docs/',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
         },
-        { to: 'blog', label: 'Blog', position: 'left' },
+        { to: '/blog', label: 'Blog', position: 'left' },
         // {
         //  to: 'api-docs/',
         //  activeBasePath: 'api-docs',
