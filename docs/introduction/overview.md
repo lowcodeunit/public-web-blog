@@ -3,6 +3,11 @@ title: Introduction - Overview
 hide_title: true
 sidebar_label: Overview
 slug: /
+keywords:
+    - iot
+    - azure
+    - connect a device
+    - iot hub
 ---
 
 # Welcome to Fathym IoT Ensemble

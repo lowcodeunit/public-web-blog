@@ -78,7 +78,7 @@ module.exports = {
             //},
             {
               label: 'Twitter',
-              href: 'https://twitter.com/iot-ensemble',
+              href: 'https://twitter.com/iotensemble',
             },
           ],
         },
