@@ -233,7 +233,7 @@ This action applies the changes and closes the editor.  The transformed dataset 
 
 ### Next Steps with Power BI
 
-![Power BI Get Data Web Close and Apply](/img/screenshots/do-you-see.png)
+![Power BI Get Data Web Close and Apply](/img/screenshots/do-you-see.gif)
 
 Now that you have transformed and loaded your data, it is time to prepare reports and visualizations for data interpretation and analysis.  In the Fields pane on the right, you see the fields in the data model you just transformed and created.
 
