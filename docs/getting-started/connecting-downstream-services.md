@@ -2,6 +2,11 @@
 title: Getting Started - Connecting Downstream Services
 hide_title: true
 sidebar_label: Connect Downstream
+keywords:
+    - iot
+    - azure
+    - connect a device
+    - iot hub
 ---
 
 # Connecting Downstream Services
@@ -12,7 +17,7 @@ The main goal of an IoT Solution is the need to collect device data and bring it
 
 While our enterprise licenses allow connections directly with data sources, there is still often a need to massage the data into the correct format for other integrations (Azure Machine Learning's automated ML feature needs data in json lines or CSV format).  
 
-When working with IoT storage data, how it is stored and what interval it is stored at is extremely important to the overall cost of the system.  We break our storage into three categories that support a cost-efficient way to handle data storage and access.  Cold storage contians historic data, warm storage contains near-term queryable data, and hot storage provides a way to stream individual messages to other services in real time.  The following high-level walk-through outlines APIs for accessing these storage types.  For a complete API reference, first make sure to sign up and load the [dashboard](https://www.iot-ensemble.com/dashboard), then visit the [API portal](https://fathym-prd.portal.azure-api.net/docs/services/).
+When working with IoT storage data, how it is stored and what interval it is stored at is extremely important to the overall cost of the system.  We break our storage into three categories that support a cost-efficient way to handle data storage and access.  Cold storage contains historic data, warm storage contains near-term queryable data, and hot storage provides a way to stream individual messages to other services in real time.  The following high-level walk-through outlines APIs for accessing these storage types.  For a complete API reference, first make sure to sign up and load the [dashboard](https://www.iot-ensemble.com/dashboard), then visit the [developer portal](https://fathym-prd.portal.azure-api.net/docs/services/).
 
 :::note
 
@@ -79,8 +84,9 @@ The {subscription-key} can be located in the API Keys section as described above
 <!-- 
 ### Hot Storage
 
-#### Webhooks -->
+#### Webhooks
 
 ## Example Connections
 
 The purpose of the storage access APIs is to provide a secure way to access data for visualizations, AI/ML, application development and more.  Using the provided APIs, many different types of integrations are possible.  For a complete look, read the [storage access guide](../developers/storage-access/overview) or dive right into [the examples](../developers/storage-access/examples/overview).
+ -->

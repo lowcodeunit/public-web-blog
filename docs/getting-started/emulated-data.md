@@ -2,6 +2,11 @@
 title: Getting Started - Emulated Data
 hide_title: true
 sidebar_label: Emulated Data
+keywords:
+    - iot
+    - azure
+    - connect a device
+    - iot hub
 ---
 
 # Working with Emulated Data

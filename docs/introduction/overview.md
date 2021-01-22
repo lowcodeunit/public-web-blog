@@ -3,6 +3,11 @@ title: Introduction - Overview
 hide_title: true
 sidebar_label: Overview
 slug: /
+keywords:
+    - iot
+    - azure
+    - connect a device
+    - iot hub
 ---
 
 # Welcome to Fathym IoT Ensemble
@@ -10,6 +15,8 @@ slug: /
 Fathym IoT Ensemble is a platform focused on helping you to connect devices, understand data and scale IoT applications.
 
 Managing the learning path, usage and growth of cloud-native IoT development strategies can be a daunting challenge. Use IoT Ensemble to reliably deliver IoT applications across hybrid-clouds. [Get started](https://www.iot-ensemble.com/dashboard) today.
+
+![Modified Pi Wiring](/img/iot-ensemble-diagram.png)
 
 ## Connect, Understand, Scale
 

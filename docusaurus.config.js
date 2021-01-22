@@ -1,8 +1,12 @@
-module.exports = {
+var init = {
   title: 'Fathym IoT Ensemble',
   tagline: 'Experience IoT in minutes.',
   url: 'https://www.iot-ensemble.com',
-  baseUrl: '/',
+  baseUrl: '/'
+};
+
+module.exports = {
+  ...init,
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'iot-ensemble', // Usually your GitHub org/user name.
@@ -16,7 +20,7 @@ module.exports = {
       defaultMode: 'dark',
       // Hides the switch in the navbar
       // Useful if you want to support a single color mode
-      disableSwitch: true
+      disableSwitch: true,
     },
     navbar: {
       title: 'IoT Ensemble',
@@ -26,11 +30,12 @@ module.exports = {
       },
       items: [
         {
-         to: 'docs/',
-         activeBasePath: 'docs',
-         label: 'Docs',
-         position: 'left',
+          to: `${init.baseUrl}docs/`,
+          activeBasePath: 'docs',
+          label: 'Docs',
+          position: 'left',
         },
+        { to: `${init.baseUrl}blog`, label: 'Blog', position: 'left' },
         // {
         //  to: 'api-docs/',
         //  activeBasePath: 'api-docs',
@@ -40,8 +45,8 @@ module.exports = {
         {
           href: 'https://www.iot-ensemble.com/dashboard',
           label: 'Sign In',
-          position: 'right'
-        }
+          position: 'right',
+        },
       ],
     },
     footer: {
@@ -61,7 +66,7 @@ module.exports = {
             {
               label: 'Support',
               to: 'docs/introduction/support',
-            }            
+            },
           ],
         },
         {
@@ -77,7 +82,7 @@ module.exports = {
             //},
             {
               label: 'Twitter',
-              href: 'https://twitter.com/iot-ensemble',
+              href: 'https://twitter.com/iotensemble',
             },
           ],
         },

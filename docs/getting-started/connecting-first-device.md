@@ -2,6 +2,11 @@
 title: Getting Started - Connecting First Device
 hide_title: true
 sidebar_label: Connect a Device
+keywords:
+    - iot
+    - azure
+    - connect a device
+    - iot hub
 ---
 
 # Connecting First Device
@@ -115,7 +120,7 @@ All that's needed for the following sections is the device connection string.  C
 
 :::note
 
-When connecting devices, the connection is to a cloud-native Azure IoT Hub.  We don't place any technology between the device and the IoT Hub, making it possible to develop solutions with the full capabilities of Azure Iot Hub.  [Read more](https://docs.microsoft.com/en-us/azure/iot-hub/quickstart-send-telemetry-cli) on how to connect devices using the connection string.
+When connecting devices, the connection is to a cloud-native Azure IoT Hub.  We don't place any technology between the device and the IoT Hub, making it possible to develop solutions with the full capabilities of Azure IoT Hub.  [Read more](https://docs.microsoft.com/en-us/azure/iot-hub/quickstart-send-telemetry-cli) on how to connect devices using the connection string.
 
 :::
 

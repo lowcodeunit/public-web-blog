@@ -18,24 +18,24 @@ module.exports = {
       {
         'Device Setup': [
           'developers/device-setup/overview',
-          'developers/device-setup/iot-best-practice-schema-explained',
+          //'developers/device-setup/iot-best-practice-schema-explained',
           {
             Connect: [
-              'developers/device-setup/connect/overview',
+              //'developers/device-setup/connect/overview',
               'developers/device-setup/connect/http',
-              'developers/device-setup/connect/azure-iot-devices-sdk',
-              'developers/device-setup/connect/device-simulator',
-              'developers/device-setup/connect/rasp-pi-spark-fun',
-              'developers/device-setup/connect/node-red',
+              //'developers/device-setup/connect/azure-iot-devices-sdk',
+              //'developers/device-setup/connect/device-simulator',
+              //'developers/device-setup/connect/rasp-pi-spark-fun',
+              //'developers/device-setup/connect/node-red',
             ],
           },
         ],
-        'Storage Access': [
-          'developers/storage-access/overview',
-          {
-            Examples: ['developers/storage-access/examples/overview'],
-          },
-        ],
+        //'Storage Access': [
+        //  'developers/storage-access/overview',
+        //  {
+        //    Examples: ['developers/storage-access/examples/overview'],
+        //  },
+        //],
       },
     ],
   },
