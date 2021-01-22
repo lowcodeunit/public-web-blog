@@ -2,6 +2,11 @@
 title: Getting Started - Viewing Device Data
 hide_title: true
 sidebar_label: View Device Data
+keywords:
+    - iot
+    - azure
+    - connect a device
+    - iot hub
 ---
 
 # Viewing Device Data

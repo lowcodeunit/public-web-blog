@@ -2,6 +2,12 @@
 title: Fathym IoT Ensemble Support
 hide_title: true
 sidebar_label: Support
+keywords:
+    - iot
+    - azure
+    - connect a device
+    - iot hub
+    - support
 ---
 
 # IoT Ensemble Support

@@ -2,6 +2,11 @@
 title: Getting Started - Buy and Scale
 hide_title: true
 sidebar_label: Buy and Scale
+keywords:
+    - iot
+    - azure
+    - connect a device
+    - iot hub
 ---
 
 # Buy and Scale Devices
@@ -20,7 +25,7 @@ Our shared plans are geared at offering a more structured understanding of cost 
 
 Need more data velocity?  Looking to host on a private cloud?  Bring the same great solutions and simplicty (with additional tools and horsepower) to deliver IoT solutions at scale in private enterprise clouds.
 
-Enterprise plans are available, though not yet entirely self-service.  To get started, choose an [enterprise license](https://www.fathym-it.com/billing/lcu) then use our docs, blogs, and customer support to get the IoT Ensemble deployed in a private cloud.
+Enterprise plans are available, though not yet entirely self-service.  To get started, email <a href="mailto:sales@fathym.com">sales@fathym.com</a>.
 
 ## Adding More Devices
 

@@ -2,6 +2,11 @@
 title: Getting Started - Setup
 hide_title: true
 sidebar_label: Setup
+keywords:
+    - iot
+    - azure
+    - connect a device
+    - iot hub
 ---
 
 # Setting Up IoT Ensemble

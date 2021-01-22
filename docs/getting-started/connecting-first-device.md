@@ -2,6 +2,11 @@
 title: Getting Started - Connecting First Device
 hide_title: true
 sidebar_label: Connect a Device
+keywords:
+    - iot
+    - azure
+    - connect a device
+    - iot hub
 ---
 
 # Connecting First Device
