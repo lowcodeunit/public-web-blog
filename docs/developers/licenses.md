@@ -43,7 +43,7 @@ $70/month or $700/year
 - **7 days of Data Retention**
 
 ## Enterprise Plans
-Need more data velocity?  Looking to host on a private cloud?  Bring the same great solutions and simplicty (with additional tools and horsepower) to deliver IoT solutions at scale in private enterprise clouds.
+Need more data velocity?  Looking to host on your cloud?  Bring the same great solutions and simplicty (with additional tools and horsepower) to deliver IoT solutions at scale in private enterprise clouds.
 
 :::note
 
