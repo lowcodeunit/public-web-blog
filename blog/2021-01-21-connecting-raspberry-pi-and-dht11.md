@@ -83,6 +83,18 @@ Next, we need to wire up the DHT11 sensor to the Raspberry Pi. Thankfully, this 
 
 ![Modified Pi Wiring](/img/modifiedPiWiring.png)
 
+:::note
+
+The [GPIO pins](https://www.raspberrypi.org/documentation/usage/gpio/) allow the Raspberry Pi to control and monitor the outside world by being connected to electronic circuits.  It's important to be aware of which pin is which.  The DHT11 Sensor has been wired as follows:
+
+DHT11 Positive – Pi PIN 4 (Power)
+DHT11 Negative – Pi PIN 20 (Ground)
+DHT11 Out – Pi PIN 7 (Data)
+
+You can check [here](https://pinout.xyz/#) for more information on other pin configurations for your sensors and equipment.
+
+:::
+
 ## Part 4 - Using Node-Red to Read Sensor Data
 
 Once you’re done wiring your sensor, go back to your terminal window on the Raspberry Pi. Then enter the command `node-red-start` which will start the node red service. When the service starts, the terminal will look similar to this:
