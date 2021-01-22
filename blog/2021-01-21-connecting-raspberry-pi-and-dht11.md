@@ -219,7 +219,7 @@ When selecting one of the APIs from the dashboard, you may need to sign into the
 
 Congratulations! The device data has now been loaded into Power BI. The final step before you can use the data in visualizations is to transform the data from a Text type to Number, Dates, and other types.
 
-### Next Steps with Power BI
+### Transforming Data with Power BI
 
 Transforming Data with power BI will allow you to customize data based on requirements. Power BI allows the user to remove duplicate values, create new columns, define table headers, convert data types, use calculated columns etc.  Power BI has an incredible number of features that are dedicated to helping clean and prepare data for analysis.  You may want to use Power Query Editor to clean up and shape this data before you start building reports.
 
@@ -230,3 +230,19 @@ When your query is where you want it, select **Close & Apply** from Power Query 
 ![Power BI Get Data Web Close and Apply](/img/screenshots/power-bi-get-data-web-close-apply.png)
 
 This action applies the changes and closes the editor.  The transformed dataset appears in the Power BI Desktop, ready to be used for creating reports.
+
+### Next Steps with Power BI
+
+![Power BI Get Data Web Close and Apply](/img/screenshots/do-you-see.png)
+
+Now that you have transformed and loaded your data, it is time to prepare reports and visualizations for data interpretation and analysis.  In the Fields pane on the right, you see the fields in the data model you just transformed and created.
+
+![Power BI Data Fields](/img/screenshots/power-bi-data-fields.png)
+
+Power BI can help you create compelling reports where you can change visualizations, customize colors or axes, apply filters, drag fields, and more!  All these changes are fun to do, easy to undo, and quick to take effect.  The **Visualizations** pane provides the tools necessary for adding and configuring multiple visualizations.  Power BI has a growing list of visualizations you can download and use in your own reports that transforms complicated data into something easy to understand.  This ease provides insights to make informed decisions quickly.
+
+![Power BI Get Data Web Close and Apply](/img/screenshots/power-bi-visualizations.png)
+
+Additional information on how to visualize and bring your data to life can be located here: 
+https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-excel-stunning-report#build-your-report
+https://docs.microsoft.com/en-us/learn/modules/build-your-first-power-bi-report/4-exercise-create-visuals-in-power-bi
