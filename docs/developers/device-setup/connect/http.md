@@ -2,6 +2,13 @@
 title: Developers - Device Setup - Connect - HTTP
 hide_title: true
 sidebar_label: HTTP
+keywords:
+    - iot
+    - azure
+    - connect a device
+    - iot hub
+    - postman
+    - insomnia
 ---
 
 # Connecting with HTTP
