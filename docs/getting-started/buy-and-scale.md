@@ -11,22 +11,26 @@ keywords:
 
 # Buy and Scale Devices
 
-From our own experience and that of our customers, we know that starting new IoT projects at a cost effective pace is important to success.  Unfortunately, all to often teams usually run into longer than estimated timelines and unknown cost spikes as they begin their cloud-native IoT journey.  Fathym's IoT Ensemble delivers an IoT project starting point that works for novices through senior architects, to deliver a repeatable, scalable enterprise IoT solution.  [Get started](https://www.iot-ensemble.com/billing/iot) now, no credit card required.
+From our own and our customer’s experience, we know that starting new IoT projects at a cost-effective pace is critical to success. All too often teams run into longer than estimated timelines and unknown cost spikes. IoT Ensemble provides an IoT project starting point that works for novices through to senior architects, to deliver repeatable and scalable enterprise-grade IoT solutions. 
+
+[Get started](https://www.iot-ensemble.com/billing/iot) now and connect your first device for free, no credit card required.
 
 ## Choosing a Plan
 
-Choosing a plan will have a lot to do with decisions around private vs shared cloud, and the velocity at which data needs to move through the IoT system.  Here are some high level descriptions of our plans to help you try and determine the right place to start, or read the [complete licenses guide](../developers/licenses) for more in depth information.
+Choosing a plan that best suits your needs depends on whether you wish to leverage cloud infrastructure in a managed shared environment, or in your own Azure environment. Another consideration is the velocity at which data needs to move through the system.  
 
-### Shared Plans
+The following are high-level descriptions of our plans to help you determine the best place to start. Read the [complete licenses guide](../developers/licenses) for more in-depth information.
 
-Our shared plans are geared at offering a more structured understanding of cost and data velocity.  Great for teams new to IoT or lacking cloud-native experience, one of our shared plans will offer a cost per device understanding as the IoT solution scales.  If our shared plans don't fit the IoT project needs, look at how the enterprise plans can help you.  
+### Shared Cloud Plans
 
-### Enterprise Plans
+Our shared plans are geared at offering a structured understanding of cost and data velocity. Great for teams new to IoT or lacking cloud-native experience, one of our shared plans will offer a cost per device understanding as the IoT solution scales. If our shared plans don't fit your IoT project needs, look at how the enterprise plans can help you. 
 
-Need more data velocity?  Looking to host on a private cloud?  Bring the same great solutions and simplicty (with additional tools and horsepower) to deliver IoT solutions at scale in private enterprise clouds.
+### Enterprise Cloud Plans
 
-Enterprise plans are available, though not yet entirely self-service.  To get started, email <a href="mailto:sales@fathym.com">sales@fathym.com</a>.
+Need more data velocity? Looking to host in your personal or organization’s cloud environment? Leverage the same simplicity of the shared plans with additional tools and horsepower to deliver IoT solutions at scale. Fathym can automate a best practice IoT cloud in your own Azure environment for unlimited devices. You have full access to this infrastructure as it is hosted in your own Azure account.
+
+Enterprise plans are available, though not yet entirely self-service. To get started, email <a href="mailto:sales@fathym.com">sales@fathym.com</a>.
 
 ## Adding More Devices
 
-With an additional license (shared or enterprise), all of the tools we have reviewed so far (and the ones we'll look deeper at now) are ready to use for multiple devices.  Enroll additional devices to get more data flowing and continue reading through the documentation to learn how to leverage additional security practices, APIs, and functionality.
+With your IoT Ensemble license (shared or enterprise), all the tools we have reviewed so far are ready to use for multiple devices. Enroll additional devices to get more data flowing and continue reading through the documentation to learn how to leverage additional security practices, APIs, and functionality.
