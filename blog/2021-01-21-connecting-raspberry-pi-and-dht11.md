@@ -231,7 +231,7 @@ When your query is where you want it, select **Close & Apply** from Power Query 
 
 This action applies the changes and closes the editor.  The transformed dataset appears in the Power BI Desktop, ready to be used for creating reports.
 
-### Next Steps with Power BI
+### Visualize Data with Power BI
 
 Now that you have transformed and loaded your data, it is time to prepare reports and visualizations for data interpretation and analysis.  In the Fields pane on the right, you see the fields in the data model you just transformed and created.
 
@@ -241,6 +241,4 @@ Power BI can help you create compelling reports where you can change visualizati
 
 ![Power BI Get Data Web Close and Apply](/img/screenshots/power-bi-visualizations.png)
 
-Additional information on how to visualize and bring your data to life can be located here: 
-https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-excel-stunning-report#build-your-report
-https://docs.microsoft.com/en-us/learn/modules/build-your-first-power-bi-report/4-exercise-create-visuals-in-power-bi
+Additional information on how to visualize and bring your data to life can be located across the internet.  You can get started on [building your report](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-excel-stunning-report#build-your-report) and work through a quick [10 minutes example](https://docs.microsoft.com/en-us/learn/modules/build-your-first-power-bi-report/4-exercise-create-visuals-in-power-bi) to get you going.

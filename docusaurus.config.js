@@ -1,12 +1,8 @@
-var init = {
+module.exports = {
   title: 'Fathym IoT Ensemble',
   tagline: 'Experience IoT in minutes.',
   url: 'https://www.iot-ensemble.com',
-  baseUrl: '/'
-};
-
-module.exports = {
-  ...init,
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'iot-ensemble', // Usually your GitHub org/user name.
@@ -30,12 +26,12 @@ module.exports = {
       },
       items: [
         {
-          to: `${init.baseUrl}docs/`,
+          to: `docs/`,
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
         },
-        { to: `${init.baseUrl}blog`, label: 'Blog', position: 'left' },
+        { to: `blog`, label: 'Blog', position: 'left' },
         // {
         //  to: 'api-docs/',
         //  activeBasePath: 'api-docs',
