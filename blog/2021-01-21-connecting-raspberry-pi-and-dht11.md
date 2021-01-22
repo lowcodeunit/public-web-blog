@@ -174,17 +174,24 @@ IoT Ensemble Storage Access can be leveraged to connect to many diffrent types o
 
 ### Configuring Power BI Desktop
 
-Make sure that you've downloaded and installed [Power BI Desktop](https://powerbi.microsoft.com/en-us/downloads/).  Launch Power BI Desktop and go to Get Data -> Web. This Data Source will allow us to import data from HTTP.
+Make sure that you've downloaded and installed [Power BI Desktop](https://powerbi.microsoft.com/en-us/downloads/).  Once installed, launch it and go to Get Data -> Web. As you may have guessed, this data source will allow you to import data from the web.
 
 ![Power BI Get Data Web](/img/screenshots/power-bi-get-data-web.png)
 
-Once this has been selected, a popup will allow input of the API URL. You will need to select the “Advanced” radio button to input the Access Key as an additional header parameter.
+Once this has been selected, a popup will appear allowing input of the API URL. You will need to select the **Advanced** radio button to input the **Access Key** as an additional header parameter.
 
 ![Power BI From Web Advanced](/img/screenshots/power-bi-from-web-advanced.png)
 
-- The API Request URLs can be obtained from the Developer Portal using either the Cold or Warm Query APIs.  The Developer Portal will also assist in setting the parameters for your query. Note: you need to have an IoT Ensemble account to access the links in the Developer Portal.
-  - https://fathym-prd.portal.azure-api.net/docs/services/iot-ensemble-state-api/operations/coldquery
-  - https://fathym-prd.portal.azure-api.net/docs/services/iot-ensemble-state-api/operations/warmquery
+The API Request URL can be obtained from the developer portal using either the Cold or Warm Query APIs.  The developer portal will also assist in setting the parameters for your query.
+
+:::note
+
+When selecting one of the APIs from the dashboard, you may need to sign into the [developer portal](https://fathym-prd.portal.azure-api.net/docs/services/) and re-navigate to the appropriate API.  You will have to access the [dashboard](https://www.iot-ensemble.com/dashboard) at least once in order to have API portal access.
+
+:::
+
+- https://fathym-prd.portal.azure-api.net/docs/services/iot-ensemble-state-api/operations/coldquery
+- https://fathym-prd.portal.azure-api.net/docs/services/iot-ensemble-state-api/operations/warmquery
 - Input the Request URL property obtained from Developer Portal in the Power BI “URL Parts” text field. Screenshot below.
 - Input the lcu-subscription-key property as a header parameter, along with Access Key copied from IoT Ensemble Dashboard in the “HTTP request header parameters” text fields.  Please note your lcu-subscription-key can also be found in the Developer Portal. Screenshot below.
 
