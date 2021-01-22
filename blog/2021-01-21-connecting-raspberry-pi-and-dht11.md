@@ -60,6 +60,12 @@ More information on that wizard process can be found [here](https://www.raspberr
 
 ## Part 2 - Installing Software on the Raspberry Pi
 
+:::note
+
+For more advanced users, there is an option to control your Raspberry Pi remotely using SSH, instead of using a monitor, keyboard and mouse. More information and instructions can be found [here](https://www.raspberrypi.org/documentation/remote-access/ssh/).
+
+::: 
+
 After completing the setup steps in Part 1, you will be taken to the main Raspberry Pi desktop.  In the top left, click on the Raspberry logo, which will show a drop down of options.  Click on the **Programming** tab, then click **Terminal**.
 
 In order to program our Pi and get connected, we will need to install a couple of tools first, mainly Node.js and Node-Red by completing the following terminal commands:
