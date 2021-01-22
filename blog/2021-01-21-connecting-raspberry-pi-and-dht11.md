@@ -142,27 +142,33 @@ In the **Connected Devices** section, click the **Enroll New Device** button, pr
 
 Click on the <img src="../static/img/screenshots/icon-copy.png" class="text-image" /> button to copy your connection string to your clipboard. Your connection string should look something like this:
 
-> HostName=fathym-prd.azure-devices.net;DeviceId=**YourDeviceID**;SharedAccessKey=**YourDeviceKey**
+> HostName=**YourHostName**;DeviceId=**YourDeviceID**;SharedAccessKey=**YourDeviceKey**
 
-Within the connection string, there are two key parts that we need: The **DeviceID**, and the **SharedAccessKey**. Both of these values need to be a part of the data payload. Let's add them to the payload now.
+Within the connection string, there are three key parts that we need: The **HostName**, the **DeviceID**, and the **SharedAccessKey**. All of these values need to be a part of either the data payload, or as a config value. Let's add them now.
 
 ### Update Node Red
 
- Copy both the **YourDeviceID** and **YourDeviceKey** portions of your connection string (not including the "**DeviceId=**", "**SharedAccessKey=**", or the "**;**" at the end of DeviceID).  Go back to your Node-Red browser, and double click on the yellow **Format JSON** module, which will pull up a **Properties** screen, shown below.
+ Copy **YourHostName**, **YourDeviceID** and **YourDeviceKey** portions of your connection string (not including the "**Hostname=**", "**DeviceId=**", "**SharedAccessKey=**", or the "**;**" at the end of each value).  Go back to your Node-Red browser, and double click on the yellow **Format JSON** module, which will pull up a **Properties** screen, shown below.
 
 ![Format JSON Properties Updated](/img/screenshots/format_json_properties_screen.png)
-
-:::note
-
-**Note**: For this specific example, **DeviceID** has to be entered twice. This is because the Azure IoT Hub module requires the deviceID in order to build a connection string. The IoT Hub itself also requires a DeviceID in the data payload.
-
-:::
 
 Next, click on the three-dot menu screen (shown in the red box above). This will pull up an "Edit" screen, shown below:
 
 ![Replace ID and key](/img/screenshots/replace_id_and_key.png)
 
- From here, take the **YourDeviceID** and **YourDeviceKey** values from your connection string and paste them into the properties shown in the red boxes above. Click "Done".
+ From here, take the **YourDeviceID** and **YourDeviceKey** values from your connection string and paste them into the properties shown in the red boxes above. Click "Done", and then "Done" again to close the module properties screen.
+
+ :::note
+
+**Note**: For this specific example, **DeviceID** has to be entered twice. This is because the Azure IoT Hub module requires the deviceID in order to build a connection string. The IoT Hub itself also requires a DeviceID in the data payload.
+
+:::
+
+Next, double click on the **"Azure IoT Hub"** node module. This will open a **Properties** screen, shown below.
+
+![Update Hostname](/img/screenshots/update_hostname.png)
+
+Take your **HostName**, and paste it into the red box shown above. Click "Done", and then "Done" again to close the module properties screen.
 
 Once this is complete, click the red "Deploy" button in the top right corner. Your pi is now sending real time data to IoT Ensemble!
 
