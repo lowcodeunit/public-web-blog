@@ -32,12 +32,6 @@ module.exports = {
           position: 'left',
         },
         { to: `blog`, label: 'Blog', position: 'left' },
-        // {
-        //  to: 'api-docs/',
-        //  activeBasePath: 'api-docs',
-        //  label: 'API Docs',
-        //  position: 'left',
-        // },
         {
           href: 'https://www.iot-ensemble.com/dashboard',
           label: 'Sign In',
@@ -57,7 +51,7 @@ module.exports = {
             },
             {
               label: 'Pricing',
-              to: 'docs/',
+              to: '/pricing',
             },
             {
               label: 'Support',
