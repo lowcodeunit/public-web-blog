@@ -8,7 +8,7 @@ author_image_url: https://github.com/mcgear.png
 tags: [iot, raspberry pi, node red, sensors, power bi]
 ---
 
-## Conneting RPi/DHT11, Node Red, and Power BI with IoT Ensemble
+## Connecting RPi/DHT11, Node Red, and Power BI with IoT Ensemble
 
 For many, the Internet of Things (IoT) can seem like a difficult challenge, especially thinking through getting an end-to-end IoT Solution out the door (or stood up for the first time).  In this post, we'll take you step-by-step through the process of setting up your own personal temperature sensor with IoT Ensemble.<!--truncate-->  Here's a look at what we'll do:
 
