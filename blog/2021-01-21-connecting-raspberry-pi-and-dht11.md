@@ -60,6 +60,12 @@ More information on that wizard process can be found [here](https://www.raspberr
 
 ## Part 2 - Installing Software on the Raspberry Pi
 
+:::note
+
+For more advanced users, there is an option to control your Raspberry Pi remotely using SSH, instead of using a monitor, keyboard and mouse. More information and instructions can be found [here](https://www.raspberrypi.org/documentation/remote-access/ssh/).
+
+::: 
+
 After completing the setup steps in Part 1, you will be taken to the main Raspberry Pi desktop.  In the top left, click on the Raspberry logo, which will show a drop down of options.  Click on the **Programming** tab, then click **Terminal**.
 
 In order to program our Pi and get connected, we will need to install a couple of tools first, mainly Node.js and Node-Red by completing the following terminal commands:
@@ -113,7 +119,7 @@ Welcome to Node-Red! There are a few additional modules that we will need in ord
 For the sake of simplicity, we are able to import previously created flows into Node Red. The following flow template takes temperature and humidity information from the DHT11, formats the JSON payload to use [IoT Ensemble's Best Practice Schema](http://www.iot-ensemble.com/docs/developers/device-setup/iot-best-practice-schema-explained) (in addition, uses a few extra fields like **key** and **protocol** to work with the Azure IoT Hub module), and takes a reading every 30 seconds. To use this template, copy the following Node-Red JSON template:
 
 ```json
-[{"id":"e97f8ba8.2829d8","type":"tab","label":"DHT11 Sensor to Fathym IoT Ensemble","disabled":false,"info":""},{"id":"2fe1190e.141286","type":"inject","z":"e97f8ba8.2829d8","name":"Take reading every 30 seconds","props":[{"p":"payload"}],"repeat":"30","crontab":"","once":true,"onceDelay":0.1,"topic":"","payload":"","payloadType":"date","x":190,"y":440,"wires":[["2f3407d4.26b858"]]},{"id":"2f3407d4.26b858","type":"rpi-dht22","z":"e97f8ba8.2829d8","name":"DHT11 Sensor","topic":"","dht":"11","pintype":"0","pin":4,"x":500,"y":440,"wires":[["1fa2f6c2.9637b9"]]},{"id":"1fa2f6c2.9637b9","type":"change","z":"e97f8ba8.2829d8","name":"Format JSON","rules":[{"t":"set","p":"payload","pt":"msg","to":"{\t\t\"deviceId\": \"Your Device ID\",\t\t\"key\": \"Your Device Key\",\t\t\"protocol\": \"mqtt\",\t\t\"data\": {\t\t\"DeviceData\": {\t\t\t\"Latitude\": \"40.5853° N\",\t\t\t\"Longitude\": \"105.0844° W\"\t\t},\t\t\"SensorReadings\": {\t\t\t\"Temperature\": $number(payload),\t\t\t\"Humidity\": $number(humidity)\t\t},\t\t\"SensorMetadata\": {\t\t\t\"_\": {\t\t\t\t\"SignalStrength\": \"Good\",\t\t\t\t\"SensorType\": \"DHT11\"\t\t\t}\t\t}\t\t}\t}","tot":"jsonata"}],"action":"","property":"","from":"","to":"","reg":false,"x":760,"y":440,"wires":[["8601cbe1.84e998","fc1e92ea.2210b"]]},{"id":"8601cbe1.84e998","type":"debug","z":"e97f8ba8.2829d8","name":"Local Debug","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"payload","targetType":"msg","statusVal":"","statusType":"auto","x":990,"y":360,"wires":[]},{"id":"fc1e92ea.2210b","type":"azureiothub","z":"e97f8ba8.2829d8","name":"Azure IoT Hub", "protocol":"mqtt","x":1000,"y":520,"wires":[[]]}]
+[{"id":"e97f8ba8.2829d8","type":"tab","label":"DHT11 Sensor with Raspberry Pi to Fathym Iot Ensemble","disabled":false,"info":"This simple flow is designed to get basic temperature and humidity readings into Fathym's Iot Ensemble dashboard"},{"id":"2fe1190e.141286","type":"inject","z":"e97f8ba8.2829d8","name":"Take reading every 30 seconds","props":[{"p":"payload"}],"repeat":"30","crontab":"","once":true,"onceDelay":0.1,"topic":"","payload":"","payloadType":"date","x":190,"y":440,"wires":[["2f3407d4.26b858"]]},{"id":"2f3407d4.26b858","type":"rpi-dht22","z":"e97f8ba8.2829d8","name":"DHT11 Sensor","topic":"","dht":"11","pintype":"0","pin":4,"x":500,"y":440,"wires":[["1fa2f6c2.9637b9"]]},{"id":"1fa2f6c2.9637b9","type":"change","z":"e97f8ba8.2829d8","name":"Format JSON","rules":[{"t":"set","p":"payload","pt":"msg","to":"{\t\t\"deviceId\": \"Your Device ID\",\t\t\"key\": \"Your Device Key\",\t\t\"protocol\": \"mqtt\",\t\t\"data\": {\t\t\"deviceId\": \"Your Device ID\",\t\t\"DeviceData\": {\t\t\t\"Latitude\": \"40.5853° N\",\t\t\t\"Longitude\": \"105.0844° W\"\t\t},\t\t\"SensorReadings\": {\t\t\t\"Temperature\": $number(payload),\t\t\t\"Humidity\": $number(humidity)\t\t},\t\t\"SensorMetadata\": {\t\t\t\"_\": {\t\t\t\t\"SignalStrength\": \"Good\",\t\t\t\t\"SensorType\": \"DHT11\"\t\t\t}\t\t}\t\t}\t}","tot":"jsonata"}],"action":"","property":"","from":"","to":"","reg":false,"x":760,"y":440,"wires":[["8601cbe1.84e998","fc1e92ea.2210b"]]},{"id":"8601cbe1.84e998","type":"debug","z":"e97f8ba8.2829d8","name":"Local Debug","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"payload","targetType":"msg","statusVal":"","statusType":"auto","x":970,"y":380,"wires":[]},{"id":"fc1e92ea.2210b","type":"azureiothub","z":"e97f8ba8.2829d8","name":"Azure IoT Hub","protocol":"mqtt","x":980,"y":500,"wires":[[]]}]
 ```
 
 In the Node-Red browser screen, click on the <img src="../static/img/screenshots/icon-node-red-menu.png" class="text-image" /> at the top right of the screen, and choose **Import**. Paste the JSON into the text box, and click **Import**. You will now have a visual representation of the flow of data from the device.
@@ -142,27 +148,33 @@ In the **Connected Devices** section, click the **Enroll New Device** button, pr
 
 Click on the <img src="../static/img/screenshots/icon-copy.png" class="text-image" /> button to copy your connection string to your clipboard. Your connection string should look something like this:
 
-> HostName=fathym-prd.azure-devices.net;DeviceId=**YourDeviceID**;SharedAccessKey=**YourDeviceKey**
+> HostName=**YourHostName**;DeviceId=**YourDeviceID**;SharedAccessKey=**YourDeviceKey**
 
-Within the connection string, there are two key parts that we need: The **DeviceID**, and the **SharedAccessKey**. Both of these values need to be a part of the data payload. Let's add them to the payload now.
+Within the connection string, there are three key parts that we need: The **HostName**, the **DeviceID**, and the **SharedAccessKey**. All of these values need to be a part of either the data payload, or as a config value. Let's add them now.
 
 ### Update Node Red
 
- Copy both the **YourDeviceID** and **YourDeviceKey** portions of your connection string (not including the "**DeviceId=**", "**SharedAccessKey=**", or the "**;**" at the end of DeviceID).  Go back to your Node-Red browser, and double click on the yellow **Format JSON** module, which will pull up a **Properties** screen, shown below.
+ Copy **YourHostName**, **YourDeviceID** and **YourDeviceKey** portions of your connection string (not including the "**Hostname=**", "**DeviceId=**", "**SharedAccessKey=**", or the "**;**" at the end of each value).  Go back to your Node-Red browser, and double click on the yellow **Format JSON** module, which will pull up a **Properties** screen, shown below.
 
 ![Format JSON Properties Updated](/img/screenshots/format_json_properties_screen.png)
-
-:::note
-
-**Note**: For this specific example, **DeviceID** has to be entered twice. This is because the Azure IoT Hub module requires the deviceID in order to build a connection string. The IoT Hub itself also requires a DeviceID in the data payload.
-
-:::
 
 Next, click on the three-dot menu screen (shown in the red box above). This will pull up an "Edit" screen, shown below:
 
 ![Replace ID and key](/img/screenshots/replace_id_and_key.png)
 
- From here, take the **YourDeviceID** and **YourDeviceKey** values from your connection string and paste them into the properties shown in the red boxes above. Click "Done".
+ From here, take the **YourDeviceID** and **YourDeviceKey** values from your connection string and paste them into the properties shown in the red boxes above. Click "Done", and then "Done" again to close the module properties screen.
+
+ :::note
+
+**Note**: For this specific example, **DeviceID** has to be entered twice. This is because the Azure IoT Hub module requires the deviceID in order to build a connection string. The IoT Hub itself also requires a DeviceID in the data payload.
+
+:::
+
+Next, double click on the **"Azure IoT Hub"** node module. This will open a **Properties** screen, shown below.
+
+![Update Hostname](/img/screenshots/update_hostname.png)
+
+Take your **HostName**, and paste it into the red box shown above. Click "Done", and then "Done" again to close the module properties screen.
 
 Once this is complete, click the red "Deploy" button in the top right corner. Your pi is now sending real time data to IoT Ensemble!
 
