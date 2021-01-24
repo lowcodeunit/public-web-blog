@@ -34,7 +34,7 @@ When you sign up for your free account of IoT Ensemble, you can enable emulated 
 
 IoT Ensemble provides a Devices Telemetry table that displays payload messages of your emulated and connected device data. You can easily view and copy payload schema and send sample device messages into the system. We provide a best practice schema that we recommend for sending IoT messages. This allows for the collection of device data, sensor readings and sensor metadata to deliver a rich, pre-configured IoT experience.
 
-![Dashboard Devices Telemetry Table Payload](dashboard-devices-telemetry-table-payload.png)
+![Dashboard Devices Telemetry Table Payload](/img/screenshots/dashboard-devices-telemetry-table-payload.png)
 
 IoT Ensemble also provides the open-source dashboard Freeboard as an out of the box example of how to visualize your data. You can use this tool to create and locally save custom visualizations and later load them into view.
 
