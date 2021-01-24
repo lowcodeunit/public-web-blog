@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Fathym IoT Ensemble',
+  title: 'Fathym IoT Ensemble Beta',
   tagline: 'Experience IoT in minutes.',
   url: 'https://www.iot-ensemble.com',
   baseUrl: '/',
@@ -19,7 +19,7 @@ module.exports = {
       disableSwitch: true,
     },
     navbar: {
-      title: 'IoT Ensemble',
+      title: 'IoT Ensemble Beta',
       logo: {
         alt: 'IoT Ensemble',
         src: 'img/Fathym-logo-white-01.png',
