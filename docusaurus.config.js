@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Fathym IoT Ensemble',
+  title: 'Fathym IoT Ensemble Beta',
   tagline: 'Experience IoT in minutes.',
   url: 'https://www.iot-ensemble.com',
   baseUrl: '/',
@@ -19,7 +19,7 @@ module.exports = {
       disableSwitch: true,
     },
     navbar: {
-      title: 'IoT Ensemble',
+      title: 'IoT Ensemble Beta',
       logo: {
         alt: 'IoT Ensemble',
         src: 'img/Fathym-logo-white-01.png',
@@ -32,12 +32,6 @@ module.exports = {
           position: 'left',
         },
         { to: `blog`, label: 'Blog', position: 'left' },
-        // {
-        //  to: 'api-docs/',
-        //  activeBasePath: 'api-docs',
-        //  label: 'API Docs',
-        //  position: 'left',
-        // },
         {
           href: 'https://www.iot-ensemble.com/dashboard',
           label: 'Sign In',
@@ -57,7 +51,7 @@ module.exports = {
             },
             {
               label: 'Pricing',
-              to: 'docs/',
+              to: '/pricing',
             },
             {
               label: 'Support',
