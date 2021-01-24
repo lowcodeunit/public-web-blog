@@ -1,6 +1,6 @@
 ---
 slug: introducing-iot-ensemble
-title: Introducing IoT Ensemble: Your Virtual IoT Developer
+title: Introducing IoT Ensemble - Your Virtual IoT Developer
 author: Michael Gearhardt
 author_title: CTO @ Fathym
 author_url: https://www.iot-ensemble.com
