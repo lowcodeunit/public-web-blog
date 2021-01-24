@@ -21,4 +21,4 @@ We'll start off with a symmetric key protected device, and can move to other sec
 
 ![Device List](/img/screenshots/dashboard-device-list-first-device.png)
 
-[Click here](/blog/connecting-raspberry-pi-dht11-node-red-iot-ensemble-power-bi) to learn how to connect a Raspberry Pi, a DHT11 temperature sensor, and NodeRed to IoT Ensemble.
+[Click here](/blog/raspberry-pi-dht11-node-red-iot-ensemble-power-bi) to learn how to connect a Raspberry Pi, a DHT11 temperature sensor, and NodeRed to IoT Ensemble.
