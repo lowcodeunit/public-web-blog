@@ -266,4 +266,6 @@ Additional information on how to visualize and bring your data to life can be lo
 
 ## Wrapping Up
 
-That's it!  End-to-end IoT leveraging cloud IoT architectures, mixed with the open source.  Ok, so in the grander scheme of things, that isn't "it".  At scale, IoT is a monster all its own.  Join with [IoT Ensemble](https://www.iot-ensemble.com/dashboard) for your IoT journey, leverage our shared tier products and grow into an enterprise cloud deployment leveraging the same great tools.
+That's it! In this tutorial you have leveraged IoT cloud architecture, open-source programming and affordable hardware to create an end-to-end solution. Granted, in the grander scheme of things there is a whole lot more to IoT than this, but this is a great starting point for your IoT journey.
+
+To continue your journey, leverage [IoT Ensemble's](https://www.iot-ensemble.com/dashboard) shared plans to expand your number of devices and data velocity. When you’re ready, move onto an enterprise plan to take advantage of IoT Ensemble’s simplicity but with access to best practice cloud infrastructure in your own cloud environment.
