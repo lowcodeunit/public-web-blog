@@ -36,6 +36,12 @@ If this is you, dust off an RPi and if you don't have a DHT11, grab another sens
 - A computer monitor
 - Your normal computer with an SD card reader (or you can buy an SD to USB dongle)
 
+:::note
+
+If you want to move forward without the physical device, you can still see what the end-to-end IoT eperience looks like by leveraging our emulated data.  Simply enable the [emulated data](https://www.iot-ensemble.com/docs/getting-started/emulated-data) and follow instructions in connecting to emulated data in the cold query API.
+
+:::
+
 ## Part 1: Setting up the Raspberry Pi
 
 This process includes putting the Raspberry Pi Operating System (formerly known as Raspbian) onto your micro SD card and interacting with the Pi to complete initial setup (Connect to Wifi, allow permissions to access your Pi from another computer, etc).
@@ -174,7 +180,7 @@ Next, double click on the **"Azure IoT Hub"** node module. This will open a **Pr
 
 ![Update Hostname](/img/screenshots/update_hostname.png)
 
-Once this is complete, click the red "Deploy" button in the top right corner. Your pi is now sending real time data to IoT Ensemble!
+Once this is complete, click the red **Deploy** button in the top right corner. Your Pi is now sending real time data to IoT Ensemble!  Simply [enable live telemetry](https://www.iot-ensemble.com/docs/getting-started/viewing-device-data) and investigate your data.
 
 ## Part 6 - Connecting Data to Power BI Desktop
 
@@ -217,6 +223,18 @@ The API request URL can be obtained from the developer portal using either the c
 https://fathym-prd.azure-api.net/iot-ensemble/ColdQuery?flatten=false&resultType=JSON
 
 ```
+
+:::note
+
+If you would like to use the [emulated data](https://www.iot-ensemble.com/docs/getting-started/emulated-data), add an additional query string parameter of `includeEmulated=true`:
+
+```console
+
+https://fathym-prd.azure-api.net/iot-ensemble/ColdQuery?flatten=false&resultType=JSON&includeEmulated=true
+
+```
+
+:::
 
 Now input the request URL from above (or obtained from the developer portal) into the Power BI **URL Parts** text field.  Then enter `lcu-subscription-key` as a header parameter key, along with the **Access Key** copied from IoT Ensemble Dashboard in the value text field.  Please note your lcu-subscription-key can also be found in the developer portal.
 
