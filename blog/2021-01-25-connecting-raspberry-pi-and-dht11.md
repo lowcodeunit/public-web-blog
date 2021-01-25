@@ -54,17 +54,11 @@ Once all peripherals are connected, plug in the power source and connect it to t
 
 :::note
 
-More information on that wizard process can be found [here](https://www.raspberrypi.org/blog/raspbian-update-june-2018/).  You can skip over the “Recommended Software” portion if desired, it is not important to this tutorial
+More information on that wizard process can be found [here](https://www.raspberrypi.org/blog/raspbian-update-june-2018/).  You can skip over the **Recommended Software** portion if desired, it is not important to this tutorial
 
 :::
 
 ## Part 2 - Installing Software on the Raspberry Pi
-
-:::note
-
-For more advanced users, there is an option to control your Raspberry Pi remotely using SSH, instead of using a monitor, keyboard and mouse. More information and instructions can be found [here](https://www.raspberrypi.org/documentation/remote-access/ssh/).
-
-::: 
 
 After completing the setup steps in Part 1, you will be taken to the main Raspberry Pi desktop.  In the top left, click on the Raspberry logo, which will show a drop down of options.  Click on the **Programming** tab, then click **Terminal**.
 
@@ -83,19 +77,25 @@ In order to program our Pi and get connected, we will need to install a couple o
 
 Once all commands have been run in the terminal, the RPi is setup with Node Red.
 
+:::note
+
+For more advanced users, there is an option to control your Raspberry Pi remotely using SSH, instead of using a monitor, keyboard and mouse. More information and instructions can be found [here](https://www.raspberrypi.org/documentation/remote-access/ssh/).
+
+:::
+
 ## Part 3 - Wire up the DHT11 Sensor
 
 Next, we need to wire up the DHT11 sensor to the Raspberry Pi. Thankfully, this simple sensor doesn’t need any complex wiring, resistors, or breadboards. Simply follow the wiring diagram provided below:
 
 ![Modified Pi Wiring](/img/modifiedPiWiring.png)
 
-:::note
-
 The [GPIO pins](https://www.raspberrypi.org/documentation/usage/gpio/) allow the Raspberry Pi to control and monitor the outside world by being connected to electronic circuits.  It's important to be aware of which pin is which.  The DHT11 Sensor has been wired as follows:
 
-DHT11 Positive – Pi PIN 4 (Power)
-DHT11 Negative – Pi PIN 20 (Ground)
-DHT11 Out – Pi PIN 7 (Data)
+- DHT11 Positive – Pi PIN 4 (Power)
+- DHT11 Negative – Pi PIN 20 (Ground)
+- DHT11 Out – Pi PIN 7 (Data)
+
+:::note
 
 You can check [here](https://pinout.xyz/#) for more information on other pin configurations for your sensors and equipment.
 
@@ -134,7 +134,7 @@ Before we start sending actual device readings, we first need to provide Node Re
 
 ## Part 5 - Configuring IoT Ensemble
 
-Before we can tell your device where to send data, we first need somewhere to send the data.  There are a number of different ways this can be accomplished, with IoT Ensemble the focus is helping you leverage best practice cloud IoT technology.  Here we'll using the Azure IoT Hub to connect devices to a shared data flow, and then make it avaiable downstream for use in other applications.
+Before we can tell your device where to send data, we first need somewhere to send the data.  There are a number of different ways this can be accomplished, with IoT Ensemble the focus is helping you leverage best practice cloud IoT technology.  Here we'll be using the Azure IoT Hub to connect devices to a shared data flow, and then make it avaiable downstream for use in other applications.
 
 Follow these steps to create a new device in IoT Ensemble. For more details on the full IoT ensemble experience, check out our [full documentation](https://www.iot-ensemble.com/docs/getting-started/connecting-first-device).
 
@@ -156,25 +156,23 @@ Within the connection string, there are three key parts that we need: The **Host
 
  Copy **YourHostName**, **YourDeviceID** and **YourDeviceKey** portions of your connection string (not including the "**Hostname=**", "**DeviceId=**", "**SharedAccessKey=**", or the "**;**" at the end of each value).  Go back to your Node-Red browser, and double click on the yellow **Format JSON** module, which will pull up a **Properties** screen, shown below.
 
+Next, click on the three-dot menu screen (shown in the red box below). This will pull up an "Edit" screen for your flow.
+
 ![Format JSON Properties Updated](/img/screenshots/format_json_properties_screen.png)
 
-Next, click on the three-dot menu screen (shown in the red box above). This will pull up an "Edit" screen, shown below:
+ From here, take the **YourDeviceID** and **YourDeviceKey** values from your connection string and paste them into the properties shown in the red boxes below. Click **Done**, and then **Done** again to close the module properties screen.
 
 ![Replace ID and key](/img/screenshots/replace_id_and_key.png)
 
- From here, take the **YourDeviceID** and **YourDeviceKey** values from your connection string and paste them into the properties shown in the red boxes above. Click "Done", and then "Done" again to close the module properties screen.
+:::note
 
- :::note
-
-**Note**: For this specific example, **DeviceID** has to be entered twice. This is because the Azure IoT Hub module requires the deviceID in order to build a connection string. The IoT Hub itself also requires a DeviceID in the data payload.
+For this specific example, **DeviceID** has to be entered twice. This is because the Azure IoT Hub module requires the deviceID in order to build a connection string. The IoT Hub itself also requires a DeviceID in the data payload.
 
 :::
 
-Next, double click on the **"Azure IoT Hub"** node module. This will open a **Properties** screen, shown below.
+Next, double click on the **"Azure IoT Hub"** node module. This will open a **Properties** screen, shown below.  Take your **HostName**, and paste it into the red box shown above. Click **Done**, and then **Done** again to close the module properties screen.
 
 ![Update Hostname](/img/screenshots/update_hostname.png)
-
-Take your **HostName**, and paste it into the red box shown above. Click "Done", and then "Done" again to close the module properties screen.
 
 Once this is complete, click the red "Deploy" button in the top right corner. Your pi is now sending real time data to IoT Ensemble!
 
@@ -182,7 +180,7 @@ Once this is complete, click the red "Deploy" button in the top right corner. Yo
 
 There are a lot of options in Power BI Desktop for importing data to be used in reports and visualizations for data interpretation.  IoT Ensemble provides connection URLs and Storage Access Keys so you can import data from your devices into Power BI using the Web data source.
 
-Your IoT Ensemble Dashboard will give you access to API Access Storage Keys as well as links to the Developer Portal to obtain Request URLs for Cold and Warm Storage queries.  This is all you need to get started visualizing data with Power BI!
+Your IoT Ensemble Dashboard will give you access to API Access Storage Keys as well as links to the Developer portal to obtain request URLs for cold and warm storage queries.  This is all you need to get started visualizing data with Power BI!
 
 ### IoT Ensemble Storage Access
 
@@ -206,40 +204,39 @@ Once this has been selected, a popup will appear allowing input of the API URL. 
 
 ![Power BI From Web Advanced](/img/screenshots/power-bi-from-web-advanced.png)
 
-The API Request URL can be obtained from the developer portal using either the Cold or Warm Query APIs.  The developer portal will also assist in setting the parameters for your query.
-
 :::note
 
 When selecting one of the APIs from the dashboard, you may need to sign into the [developer portal](https://fathym-prd.portal.azure-api.net/docs/services/) and re-navigate to the appropriate API.  You will have to access the [dashboard](https://www.iot-ensemble.com/dashboard) at least once in order to have API portal access.
 
 :::
 
-- https://fathym-prd.portal.azure-api.net/docs/services/iot-ensemble-state-api/operations/coldquery
-- https://fathym-prd.portal.azure-api.net/docs/services/iot-ensemble-state-api/operations/warmquery
-- Input the Request URL property obtained from Developer Portal in the Power BI “URL Parts” text field. Screenshot below.
-- Input the lcu-subscription-key property as a header parameter, along with Access Key copied from IoT Ensemble Dashboard in the “HTTP request header parameters” text fields.  Please note your lcu-subscription-key can also be found in the Developer Portal. Screenshot below.
+The API request URL can be obtained from the developer portal using either the cold or warm query APIs.  Here is a sample cold query URL you can start with, the [developer portal](https://fathym-prd.portal.azure-api.net/docs/services/iot-ensemble-state-api/operations/coldquery) will also assist in setting the parameters for this query.
+
+```console
+
+https://fathym-prd.azure-api.net/iot-ensemble/ColdQuery?flatten=false&resultType=JSON
+
+```
+
+Now input the request URL from above (or obtained from the developer portal) into the Power BI **URL Parts** text field.  Then enter `lcu-subscription-key` as a header parameter key, along with the **Access Key** copied from IoT Ensemble Dashboard in the value text field.  Please note your lcu-subscription-key can also be found in the developer portal.
 
 ![Power BI From web Advanced Enter Values](/img/screenshots/power-bi-from-web-advanced-enter-values.png)
 
-- Select OK
-- This will launch Power Query Editor and load your JSON payloads.  These will need to be converted to a table before you can visualize your data.
+With these values entered, select **OK** and the Power Query Editor will load your JSON payloads.  These will need to be converted to a table before you can visualize your data.
 
 ### Preparing Data for Use
 
-- To convert to a table, select “To Table”.
+Now that the data is connected into our report, we need to convert it to a table.  Do this by selecting **To Table** and then **OK** from the following popup.
 
 ![Power BI Get Data Web to Table](/img/screenshots/power-bi-get-data-web-to-table.png)
 
-- Select OK from popup
-
 ![Power BI Get Data Web to Table Prompt](/img/screenshots/power-bi-get-data-web-to-table-prompt.png)
 
-- Select the “Expand Arrows” icon.  This will expand the data fields where you can begin viewing your data.
+The data is still showing as a single complex option.  Select the **expand arrows** icon and Power BI will begin to break down the complex object into columns.
 
 ![Power BI Get Data Web Table Expand](/img/screenshots/power-bi-get-data-web-table-expand.png)
 
-- Select OK
-- After converting to a table, you may notice that some columns still say “Record”. You will need to repeat this expanding process on those columns to expose the nested json data for use in Power BI.
+After converting to a table and expanding the record, you may notice that some columns still say **Record**. You will need to repeat this expanding process on those columns to expose the nested json data for use in Power BI.
 
 Congratulations! The device data has now been loaded into Power BI. The final step before you can use the data in visualizations is to transform the data from a Text type to Number, Dates, and other types.
 
@@ -265,4 +262,8 @@ Power BI can help you create compelling reports where you can change visualizati
 
 ![Power BI Get Data Web Close and Apply](/img/screenshots/power-bi-visualizations.png)
 
-Additional information on how to visualize and bring your data to life can be located across the internet.  You can get started on [building your report](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-excel-stunning-report#build-your-report) and work through a quick [10 minutes example](https://docs.microsoft.com/en-us/learn/modules/build-your-first-power-bi-report/4-exercise-create-visuals-in-power-bi) to get you going.
+Additional information on how to visualize and bring your data to life can be located across the internet.  You can get started on [building your report](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-excel-stunning-report#build-your-report) and work through a quick [10 minute example](https://docs.microsoft.com/en-us/learn/modules/build-your-first-power-bi-report/4-exercise-create-visuals-in-power-bi) to get you going.
+
+## Wrapping Up
+
+That's it!  End-to-end IoT leveraging cloud IoT architectures, mixed with the open source.
