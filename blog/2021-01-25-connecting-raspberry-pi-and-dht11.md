@@ -266,4 +266,4 @@ Additional information on how to visualize and bring your data to life can be lo
 
 ## Wrapping Up
 
-That's it!  End-to-end IoT leveraging cloud IoT architectures, mixed with the open source.
+That's it!  End-to-end IoT leveraging cloud IoT architectures, mixed with the open source.  Ok, so in the grander scheme of things, that isn't "it".  At scale, IoT is a monster all its own.  Join with [IoT Ensemble](https://www.iot-ensemble.com/dashboard) for your IoT journey, leverage our shared tier products and grow into an enterprise cloud deployment leveraging the same great tools.
