@@ -97,17 +97,17 @@ module.exports = {
         'api-docs': {
           sidebarPath: require.resolve('./sidebars.js'),
           // The iot-ensemble website repo
-          editUrl: 'https://github.com/iot-ensemble/public-web/edit/master/website/',
+          // editUrl: 'https://github.com/iot-ensemble/public-web/edit/master/website/',
         },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // The iot-ensemble website repo
-          editUrl: 'https://github.com/iot-ensemble/public-web/edit/master/website/',
+          // editUrl: 'https://github.com/iot-ensemble/public-web/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
           // The iot-ensemble website blog repo
-          editUrl: 'https://github.com/iot-ensemble/public-web/edit/master/website/blog/',
+          // editUrl: 'https://github.com/iot-ensemble/public-web/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
