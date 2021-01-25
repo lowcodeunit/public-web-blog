@@ -178,7 +178,7 @@ Once this is complete, click the red "Deploy" button in the top right corner. Yo
 
 ## Part 6 - Connecting Data to Power BI Desktop
 
-There are a lot of options in Power BI Desktop for importing data to be used in reports and visualizations for data interpretation.  IoT Ensemble provides connection URLs and Storage Access Keys so you can import data from your devices into Power BI using the Web data source.
+There are a lot of options in Power BI Desktop for importing data to be used in reports and visualizations for data interpretation.  IoT Ensemble provides connection URLs and Storage Access Keys so you can import data from your devices into Power BI using the **Web** data source.
 
 Your IoT Ensemble Dashboard will give you access to API Access Storage Keys as well as links to the Developer portal to obtain request URLs for cold and warm storage queries.  This is all you need to get started visualizing data with Power BI!
 
