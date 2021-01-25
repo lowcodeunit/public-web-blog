@@ -130,15 +130,15 @@ If you chose to use a sensor other than the DHT11, you can still start from the 
 
 :::
 
-Before we start sending actual device readings, we first need to provide Node Red some device conifguration information. This is where IoT Ensemble comes in!
+Before we start sending actual device readings, we first need to provide Node Red some device configuration information. This is where IoT Ensemble comes in!
 
 ## Part 5 - Configuring IoT Ensemble
 
 Before we can tell your device where to send data, we first need somewhere to send the data.  There are a number of different ways this can be accomplished, with IoT Ensemble the focus is helping you leverage best practice cloud IoT technology.  Here we'll be using the Azure IoT Hub to connect devices to a shared data flow, and then make it avaiable downstream for use in other applications.
 
-Follow these steps to create a new device in IoT Ensemble. For more details on the full IoT ensemble experience, check out our [full documentation](https://www.iot-ensemble.com/docs/getting-started/connecting-first-device).
+Follow these steps to create a new device in IoT Ensemble. For more details on the full IoT Ensemble experience, check out our [full documentation](https://www.iot-ensemble.com/docs/getting-started/connecting-first-device).
 
-Start by navigating to the [IoT Ensemble Dashboard](https://www.iot-ensemble.com/dashboard) and sugn in or sign up.  For the purposes of moving forward, you will only need the Free license and no credit card will be required.
+Start by navigating to the [IoT Ensemble Dashboard](https://www.iot-ensemble.com/dashboard) and sign in or sign up.  For the purposes of moving forward, you will only need the Free license and no credit card will be required.
 
 ### Enroll a Device
 
