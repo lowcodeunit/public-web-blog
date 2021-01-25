@@ -19,7 +19,7 @@ function Pricing() {
     <Layout title="Pricing">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className="home_title">IOT Ensemble Pricing</h1>
+          <h1 className="home_title">IoT Ensemble Pricing</h1>
 
           <h1 className="home_title"></h1>
         </div>
