@@ -23,9 +23,9 @@ This may seem like a lot, and can take some teams weeks or even months.  So grab
 
 ### Things you will need
 
-In this walk through, we use the Model 3B Raspberry Pi (but you can use a Model 4 as well) and a DHT11 sensor.  If your like me, you may have as many as 3 or more Raspberry Pis laying around your house.  Mix this with a multitude of sensors and starter kits, and you'll quickly get a sense for why my wife made me move to the garage.  
+In this walk through, we use the Model 3B Raspberry Pi (but you can use a Model 4 as well) and a DHT11 sensor.  If you're like me, you may have as many as 3 or more Raspberry Pis laying around your house.  Mix this with a multitude of sensors and starter kits, and you'll quickly get a sense for why my wife made me move to the garage.  
 
-If this is you, dust off an RPi and if you don't have a DHT11, grab another sensor and make the necessary adjustments when we hook up Node Red.  If that isn't you or your somewhere in between, you may have to make a few quick purchases and gather some supplies:
+If this is you, dust off an RPi and if you don't have a DHT11, grab another sensor and make the necessary adjustments when we hook up Node Red.  If that isn't you or you're somewhere in between, you may have to make a few quick purchases and gather some supplies:
 
 - [Raspberry Pi](https://www.amazon.com/CanaKit-Raspberry-Premium-Clear-Supply/dp/B07BC7BMHY/ref=sr_1_8?dchild=1&keywords=raspberry+pi&qid=1611254779&sr=8-8) with a Power Source
 - [MicroSD card](https://www.amazon.com/SanDisk-Ultra-microSDHC-Memory-Adapter/dp/B08GY9NYRM/ref=sr_1_3?crid=2XJMC54SCHQQD&dchild=1&keywords=micro+sd+card+32gb&qid=1610743336&sprefix=micro+sd+card%2Caps%2C229&sr=8-3), at least 16GB
