@@ -7,4 +7,4 @@ slug: /
 
 # Tutorials
 
-Our tutorials look through different ways to use IoT ensemble to deliver end-to-end IoT applications.  
+Our tutorials look through different ways to use IoT Ensemble to deliver end-to-end IoT applications.  

@@ -23,9 +23,9 @@ This may seem like a lot, and can take some teams weeks or even months.  So grab
 
 ### Things you will need
 
-In this walk through, we use the Model 3B Raspberry Pi (but you can use a Model 4 as well) and a DHT11 sensor.  If your like me, you may have as many as 3 or more Raspberry Pis laying around your house.  Mix this with a multitude of sensors and starter kits, and you'll quickly get a sense for why my wife made me move to the garage.  
+In this walk through, we use the Model 3B Raspberry Pi (but you can use a Model 4 as well) and a DHT11 sensor.  If you're like me, you may have as many as 3 or more Raspberry Pis laying around your house.  Mix this with a multitude of sensors and starter kits, and you'll quickly get a sense for why my wife made me move to the garage.  
 
-If this is you, dust off an RPi and if you don't have a DHT11, grab another sensor and make the necessary adjustments when we hook up Node Red.  If that isn't you or your somewhere in between, you may have to make a few quick purchases and gather some supplies:
+If this is you, dust off an RPi and if you don't have a DHT11, grab another sensor and make the necessary adjustments when we hook up Node Red.  If that isn't you or you're somewhere in between, you may have to make a few quick purchases and gather some supplies:
 
 - [Raspberry Pi](https://www.amazon.com/CanaKit-Raspberry-Premium-Clear-Supply/dp/B07BC7BMHY/ref=sr_1_8?dchild=1&keywords=raspberry+pi&qid=1611254779&sr=8-8) with a Power Source
 - [MicroSD card](https://www.amazon.com/SanDisk-Ultra-microSDHC-Memory-Adapter/dp/B08GY9NYRM/ref=sr_1_3?crid=2XJMC54SCHQQD&dchild=1&keywords=micro+sd+card+32gb&qid=1610743336&sprefix=micro+sd+card%2Caps%2C229&sr=8-3), at least 16GB
@@ -111,7 +111,7 @@ In the top right, there will be a URL that usually starts with '**http://192…*
 
 ![Node Red Interface](https://steemitimages.com/640x0/https://steemitimages.com/DQmTsV5oGxLJa3MgJWrqQJ43a5SfdKJDrqtY1yjWJuBRD4J/DQmTsV5oGxLJa3MgJWrqQJ43a5SfdKJDrqtY1yjWJuBRD4J.png)
 
-Welcome to Node-Red! There are a few additional modules that we will need in order to create our device flow. In the top right corner of the screen, click on the <img src="../static/img/screenshots/icon-node-red-menu.png" class="text-image" />, and then click **Manage palette**. On the new screen, click on the **Install** tab. In the search bar, type in the following and install each of them:
+Welcome to Node-Red! There are a few additional modules that we will need in order to create our device flow. In the top right corner of the screen, click on the <img src="/img/screenshots/icon-node-red-menu.png" class="text-image" />, and then click **Manage palette**. On the new screen, click on the **Install** tab. In the search bar, type in the following and install each of them:
 
 - node-red-contrib-azure-iot-hub
 - node-red-contrib-dht-sensor
@@ -119,10 +119,10 @@ Welcome to Node-Red! There are a few additional modules that we will need in ord
 For the sake of simplicity, we are able to import previously created flows into Node Red. The following flow template takes temperature and humidity information from the DHT11, formats the JSON payload to use [IoT Ensemble's Best Practice Schema](http://www.iot-ensemble.com/docs/developers/device-setup/iot-best-practice-schema-explained) (in addition, uses a few extra fields like **key** and **protocol** to work with the Azure IoT Hub module), and takes a reading every 30 seconds. To use this template, copy the following Node-Red JSON template:
 
 ```json
-[{"id":"e97f8ba8.2829d8","type":"tab","label":"DHT11 Sensor with Raspberry Pi to Fathym Iot Ensemble","disabled":false,"info":"This simple flow is designed to get basic temperature and humidity readings into Fathym's Iot Ensemble dashboard"},{"id":"2fe1190e.141286","type":"inject","z":"e97f8ba8.2829d8","name":"Take reading every 30 seconds","props":[{"p":"payload"}],"repeat":"30","crontab":"","once":true,"onceDelay":0.1,"topic":"","payload":"","payloadType":"date","x":190,"y":440,"wires":[["2f3407d4.26b858"]]},{"id":"2f3407d4.26b858","type":"rpi-dht22","z":"e97f8ba8.2829d8","name":"DHT11 Sensor","topic":"","dht":"11","pintype":"0","pin":4,"x":500,"y":440,"wires":[["1fa2f6c2.9637b9"]]},{"id":"1fa2f6c2.9637b9","type":"change","z":"e97f8ba8.2829d8","name":"Format JSON","rules":[{"t":"set","p":"payload","pt":"msg","to":"{\t\t\"deviceId\": \"Your Device ID\",\t\t\"key\": \"Your Device Key\",\t\t\"protocol\": \"mqtt\",\t\t\"data\": {\t\t\"deviceId\": \"Your Device ID\",\t\t\"DeviceData\": {\t\t\t\"Latitude\": \"40.5853° N\",\t\t\t\"Longitude\": \"105.0844° W\"\t\t},\t\t\"SensorReadings\": {\t\t\t\"Temperature\": $number(payload),\t\t\t\"Humidity\": $number(humidity)\t\t},\t\t\"SensorMetadata\": {\t\t\t\"_\": {\t\t\t\t\"SignalStrength\": \"Good\",\t\t\t\t\"SensorType\": \"DHT11\"\t\t\t}\t\t}\t\t}\t}","tot":"jsonata"}],"action":"","property":"","from":"","to":"","reg":false,"x":760,"y":440,"wires":[["8601cbe1.84e998","fc1e92ea.2210b"]]},{"id":"8601cbe1.84e998","type":"debug","z":"e97f8ba8.2829d8","name":"Local Debug","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"payload","targetType":"msg","statusVal":"","statusType":"auto","x":970,"y":380,"wires":[]},{"id":"fc1e92ea.2210b","type":"azureiothub","z":"e97f8ba8.2829d8","name":"Azure IoT Hub","protocol":"mqtt","x":980,"y":500,"wires":[[]]}]
+[{"id":"e97f8ba8.2829d8","type":"tab","label":"DHT11 Sensor with Raspberry Pi to Fathym IoT Ensemble","disabled":false,"info":"This simple flow is designed to get basic temperature and humidity readings into Fathym's IoT Ensemble dashboard"},{"id":"2fe1190e.141286","type":"inject","z":"e97f8ba8.2829d8","name":"Take reading every 30 seconds","props":[{"p":"payload"}],"repeat":"30","crontab":"","once":true,"onceDelay":0.1,"topic":"","payload":"","payloadType":"date","x":190,"y":440,"wires":[["2f3407d4.26b858"]]},{"id":"2f3407d4.26b858","type":"rpi-dht22","z":"e97f8ba8.2829d8","name":"DHT11 Sensor","topic":"","dht":"11","pintype":"0","pin":4,"x":500,"y":440,"wires":[["1fa2f6c2.9637b9"]]},{"id":"1fa2f6c2.9637b9","type":"change","z":"e97f8ba8.2829d8","name":"Format JSON","rules":[{"t":"set","p":"payload","pt":"msg","to":"{\t\t\"deviceId\": \"Your Device ID\",\t\t\"key\": \"Your Device Key\",\t\t\"protocol\": \"mqtt\",\t\t\"data\": {\t\t\"deviceId\": \"Your Device ID\",\t\t\"DeviceData\": {\t\t\t\"Latitude\": \"40.5853° N\",\t\t\t\"Longitude\": \"105.0844° W\"\t\t},\t\t\"SensorReadings\": {\t\t\t\"Temperature\": $number(payload),\t\t\t\"Humidity\": $number(humidity)\t\t},\t\t\"SensorMetadata\": {\t\t\t\"_\": {\t\t\t\t\"SignalStrength\": \"Good\",\t\t\t\t\"SensorType\": \"DHT11\"\t\t\t}\t\t}\t\t}\t}","tot":"jsonata"}],"action":"","property":"","from":"","to":"","reg":false,"x":760,"y":440,"wires":[["8601cbe1.84e998","fc1e92ea.2210b"]]},{"id":"8601cbe1.84e998","type":"debug","z":"e97f8ba8.2829d8","name":"Local Debug","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"payload","targetType":"msg","statusVal":"","statusType":"auto","x":970,"y":380,"wires":[]},{"id":"fc1e92ea.2210b","type":"azureiothub","z":"e97f8ba8.2829d8","name":"Azure IoT Hub","protocol":"mqtt","x":980,"y":500,"wires":[[]]}]
 ```
 
-In the Node-Red browser screen, click on the <img src="../static/img/screenshots/icon-node-red-menu.png" class="text-image" /> at the top right of the screen, and choose **Import**. Paste the JSON into the text box, and click **Import**. You will now have a visual representation of the flow of data from the device.
+In the Node-Red browser screen, click on the <img src="/img/screenshots/icon-node-red-menu.png" class="text-image" /> at the top right of the screen, and choose **Import**. Paste the JSON into the text box, and click **Import**. You will now have a visual representation of the flow of data from the device.
 
 :::note
 
@@ -130,15 +130,15 @@ If you chose to use a sensor other than the DHT11, you can still start from the 
 
 :::
 
-Before we start sending actual device readings, we first need to provide Node Red some device conifguration information. This is where IoT Ensemble comes in!
+Before we start sending actual device readings, we first need to provide Node Red some device configuration information. This is where IoT Ensemble comes in!
 
 ## Part 5 - Configuring IoT Ensemble
 
 Before we can tell your device where to send data, we first need somewhere to send the data.  There are a number of different ways this can be accomplished, with IoT Ensemble the focus is helping you leverage best practice cloud IoT technology.  Here we'll be using the Azure IoT Hub to connect devices to a shared data flow, and then make it avaiable downstream for use in other applications.
 
-Follow these steps to create a new device in IoT Ensemble. For more details on the full IoT ensemble experience, check out our [full documentation](https://www.iot-ensemble.com/docs/getting-started/connecting-first-device).
+Follow these steps to create a new device in IoT Ensemble. For more details on the full IoT Ensemble experience, check out our [full documentation](https://www.iot-ensemble.com/docs/getting-started/connecting-first-device).
 
-Start by navigating to the [IoT Ensemble Dashboard](https://www.iot-ensemble.com/dashboard) and sugn in or sign up.  For the purposes of moving forward, you will only need the Free license and no credit card will be required.
+Start by navigating to the [IoT Ensemble Dashboard](https://www.iot-ensemble.com/dashboard) and sign in or sign up.  For the purposes of moving forward, you will only need the Free license and no credit card will be required.
 
 ### Enroll a Device
 
@@ -146,7 +146,7 @@ In the **Connected Devices** section, click the **Enroll New Device** button, pr
 
 ![Dashboard device list first device](/img/screenshots/dashboard-device-list-first-device.png)
 
-Click on the <img src="../static/img/screenshots/icon-copy.png" class="text-image" /> button to copy your connection string to your clipboard. Your connection string should look something like this:
+Click on the <img src="/img/screenshots/icon-copy.png" class="text-image" /> button to copy your connection string to your clipboard. Your connection string should look something like this:
 
 > HostName=**YourHostName**;DeviceId=**YourDeviceID**;SharedAccessKey=**YourDeviceKey**
 
@@ -178,7 +178,7 @@ Once this is complete, click the red "Deploy" button in the top right corner. Yo
 
 ## Part 6 - Connecting Data to Power BI Desktop
 
-There are a lot of options in Power BI Desktop for importing data to be used in reports and visualizations for data interpretation.  IoT Ensemble provides connection URLs and Storage Access Keys so you can import data from your devices into Power BI using the Web data source.
+There are a lot of options in Power BI Desktop for importing data to be used in reports and visualizations for data interpretation.  IoT Ensemble provides connection URLs and Storage Access Keys so you can import data from your devices into Power BI using the **Web** data source.
 
 Your IoT Ensemble Dashboard will give you access to API Access Storage Keys as well as links to the Developer portal to obtain request URLs for cold and warm storage queries.  This is all you need to get started visualizing data with Power BI!
 
@@ -266,4 +266,6 @@ Additional information on how to visualize and bring your data to life can be lo
 
 ## Wrapping Up
 
-That's it!  End-to-end IoT leveraging cloud IoT architectures, mixed with the open source.  Ok, so in the grander scheme of things, that isn't "it".  At scale, IoT is a monster all its own.  Join with [IoT Ensemble](https://www.iot-ensemble.com/dashboard) for your IoT journey, leverage our shared tier products and grow into an enterprise cloud deployment leveraging the same great tools.
+That's it! In this tutorial you have leveraged IoT cloud architecture, open-source programming and affordable hardware to create an end-to-end solution. Granted, in the grander scheme of things there is a whole lot more to IoT than this, but this is a great starting point for your IoT journey.
+
+To continue your journey, leverage [IoT Ensemble's](https://www.iot-ensemble.com/dashboard) shared plans to expand your number of devices and data velocity. When you’re ready, move onto an enterprise plan to take advantage of IoT Ensemble’s simplicity but with access to best practice cloud infrastructure in your own cloud environment.
