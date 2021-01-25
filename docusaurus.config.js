@@ -25,6 +25,7 @@ module.exports = {
         src: 'img/Fathym-logo-white-01.png',
       },
       items: [
+        { to: `pricing`, label: 'Pricing', position: 'left' },
         {
           to: `docs/`,
           activeBasePath: 'docs',

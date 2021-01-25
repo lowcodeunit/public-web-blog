@@ -20,7 +20,7 @@ Have you ever spent weeks researching and configuring stream analytics jobs, dat
 
 IoT Ensemble eliminates this pain by providing the best practice IoT cloud infrastructure you need to process, store, and query your data. IoT Ensemble abstracts all this complexity so you can focus on what matters: collecting and understanding your data.  
 
-IoT ensemble leverages Microsoft Azure to provide a shared cloud environment. You do not need any knowledge of Azure or even an Azure account to get started. Let us handle the heavy lifting of automating and managing your best practice cloud environment while you focus on visualizing data or application delivery.
+IoT Ensemble leverages Microsoft Azure to provide a shared cloud environment. You do not need any knowledge of Azure or even an Azure account to get started. Let us handle the heavy lifting of automating and managing your best practice cloud environment while you focus on visualizing data or application delivery.
 
 ![Dashboard New](/img/screenshots/dashboard-new.png)
 
@@ -54,6 +54,6 @@ We also offer a customizable enterprise tier. We can automate a best practice Io
 
 ## Frustrated by IoT? Try IoT Ensemble
 
-If you are an IoT cloud architect who needs to get a project started quickly instead of spending hours configuring cloud services, try IoT Ensemble. If you are an embedded device engineer who needs to get a prototype working and sending data downstream without soliciting the services of a cloud engineer, try IoT Ensemble. If you are a hobbyist that wants to view and make use of the data your Raspberry Pi is collecting, try IoT ensemble.
+If you are an IoT cloud architect who needs to get a project started quickly instead of spending hours configuring cloud services, try IoT Ensemble. If you are an embedded device engineer who needs to get a prototype working and sending data downstream without soliciting the services of a cloud engineer, try IoT Ensemble. If you are a hobbyist that wants to view and make use of the data your Raspberry Pi is collecting, try IoT Ensemble.
 
 IoT does not have to be so difficult and frustrating. Accelerate your usage and adoption of IoT technologies and [try IoT Ensemble](https://www.iot-ensemble.com).
