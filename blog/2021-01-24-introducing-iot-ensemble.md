@@ -12,7 +12,7 @@ tags: [iot, raspberry pi, node red, sensors, power bi]
 
 IoT is still way too hard. Whether you are connecting devices, configuring stream analytics jobs, IoT hubs, and cloud storage, or processing data to send downstream for visualization, application development or machine learning, one thing is certain: These processes are fraught with difficulty.
 
-There has to be a better way for getting started with an IoT project that does not require weeks or even months of configuration. That is why today we are launching [Fathym IoT Ensemble](https://www.iot-ensemble.com), a simple but powerful platform that provides the cloud-native infrastructure for your IoT project out of the box. IoT Ensemble operates as your virtual IoT development team. The platform radically reduces the time and work involved in getting devices connected, understanding their data, and delivering end-to-end customer driven IoT applications. 
+There has to be a better way for getting started with an IoT project that does not require weeks or even months of configuration.<!--truncate--> That is why today we are launching [Fathym IoT Ensemble](https://www.iot-ensemble.com), a simple but powerful platform that provides the cloud-native infrastructure for your IoT project out of the box. IoT Ensemble operates as your virtual IoT development team. The platform radically reduces the time and work involved in getting devices connected, understanding their data, and delivering end-to-end customer driven IoT applications.
 
 ## Best Practice IoT Cloud Infrastructure, Out of the Box
 

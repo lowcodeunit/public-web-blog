@@ -27,7 +27,7 @@ Each of the dashboard views is powered by the telemetry sync.  The sync is respo
 
 ![Devices Telemetry Header](/img/screenshots/dashboard-devices-telemetry-header.png)
 
-The toggle in this header enables and disables the telemetry sync.  Every time it is enabled, a fresh 30 minute sync window is started. The rate at which the sync refreshes can be controlled by selecting one of the values in the drop down.  In addition, the top left status indicator will show if the sync is active and when it was last run.
+The toggle in this header enables and disables the telemetry sync, and the device telemetry can be downloaded using the <img src="/img/screenshots/icon-download.png" class="text-image" /> button.  Every time telemetry is enabled, a fresh 30 minute sync window is started.  In addition, the top left status indicator will show if the sync is active and when it was last run.
 
 #### Telemetry Table
 
@@ -53,7 +53,9 @@ As outlined previously in our [connecting a device](../getting-started/connectin
 
 ### Freeboard Dashboard
 
-As an inline example of how data can be visualized, we use an open source tool called [freeboard](http://freeboard.io/).  Use this tool to create and locally save custom visualizations and later load them into view.  In addition, we'll talk through connecting with a hosted freeboard account in the next article.
+As an inline example of how data can be visualized, we use an open source tool called [freeboard](http://freeboard.io/).  Use this tool to create and locally save custom visualizations and later load them into view.  
+
+<!-- In addition, we'll talk through connecting with a hosted freeboard account in the next article. -->
 
 ![Devices Freeboard](/img/screenshots/dashboard-devices-freeboard.png)
 
