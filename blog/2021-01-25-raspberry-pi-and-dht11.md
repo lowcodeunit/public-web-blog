@@ -274,6 +274,8 @@ Power BI can help you create compelling reports where you can change visualizati
 
 Additional information on how to visualize and bring your data to life can be located across the internet.  You can get started on [building your report](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-excel-stunning-report#build-your-report) and work through a quick [10 minute example](https://docs.microsoft.com/en-us/learn/modules/build-your-first-power-bi-report/4-exercise-create-visuals-in-power-bi) to get you going.
 
+![Completed Power BI Dashboard](https://powerbicdn.azureedge.net/mediahandler/blog/legacymedia/5078.dashboard5.png)
+
 ## Wrapping Up
 
 That's it! In this tutorial you have leveraged IoT cloud architecture, open-source programming and affordable hardware to create an end-to-end solution. Granted, in the grander scheme of things there is a whole lot more to IoT than this, but this is a great starting point for your IoT journey.
