@@ -2,7 +2,6 @@
 title: Tutorials - Overview
 hide_title: true
 sidebar_label: Overview
-slug: /
 ---
 
 # Tutorials
