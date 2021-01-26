@@ -60,17 +60,17 @@ When starting with our shared plans, to get the most out of the system, there is
 
 Here is a brief explanation of our best practice schema and how to use it:
 
-- **DeviceID, DeviceType, Version**<br />
+- **DeviceID, DeviceType, Version**  
 These values are under your control and should be strings.  The Device ID is required and we recommend using the Device Name from the devices created (though not required).  The DeviceType and Version are optional, though recommended to properly work with historic data.
-- **Timestamp**<br />
+- **Timestamp**  
 To properly sequence the messages sent from device to cloud, a timestamp is required.  It should be in the ______ format as shown in the example below.
-- **DeviceData**<br />
+- **DeviceData**  
 When working with sensor/gateway setups, there is often a set of information more static to the device.  This could be latitudue and longitude information, building information, or anything else that isn't a sensor reading.  
-- **SensorReadings**<br />
+- **SensorReadings**  
 The information collected here should be numeric in order to work with downstream processing.  If the sensor is not returning numeric values, they should  be converted on the client side.
-- **SensorMetadata**<br />
+- **SensorMetadata**  
 On top of the readings sensors are taking, there can often be additional information to track (power, connectivity) for use in health monitoring and maintenance.  These values should be numeric and represent any valid number between 0 and 1 where 1 represents fully functioning and 0 represents not working.  As an example, a battery that is fully charged would be set to 1, where as a depleted battery would be set to 0.
-  - **_**<br />
+  - **_**  
   This special property on the SensorMetadata allows sending information relating to a gateway or other non-sensor health information.
 
 We do have a [detailed explanation of the best practice schema](../developers/device-setup/iot-best-practice-schema-explained) if you need more information on how to use it from a custom device.  Here is a full example of what the telemetry payload would look like (as used by our emulated device):
@@ -138,7 +138,13 @@ Once opened, select the device to send from and adjust any of the values.  Press
 
 ### Send Via HTTP
 
-Next, a look at how to use HTTP to send a device-to-cloud message.   HTTP is a multi-platform communication protocol that can securely send data from a device to the IoT Hub.  Here we'll layout how to use the connection string to generate an HTTP request to send data to the Azure IoT Hub.  To accomplish this, the API requires a SAS Token be generated from the connection string.  For more details on how to create a SAS Token from a connection string, read our [full device setup](../developers/device-setup/connect/overview) documentation.
+Next, a look at how to use HTTP to send a device-to-cloud message.   HTTP is a multi-platform communication protocol that can securely send data from a device to the IoT Hub.  Here we'll layout how to use the connection string to generate an HTTP request to send data to the Azure IoT Hub.  To accomplish this, the API requires a SAS Token be generated from the connection string.  
+
+<!-- :::note
+
+For more details on how to create a SAS Token from a connection string, read our [full device setup](../developers/device-setup/connect/http) documentation.
+
+::: -->
 
 The easiest way to try out an HTTP request, with valid SAS Token, is to grab a SAS Token from the dashboard (only good for 1 hour).  Use the <img src="/img/screenshots/icon-setup.png" class="text-image" /> button to open a dialog where the <img src="/img/screenshots/icon-copy.png" class="text-image" /> button will copy the SAS Token signature.
 
@@ -181,11 +187,11 @@ curl -X POST \
 
 There are a couple of values to replace, and adust the payload as desired.  Here is a description on where to find the values for replacement.
 
-- **{device-id}**<br />
+- **{device-id}**  
 The {device-id} can be located in the connection string, and is the value after "DeviceId=" prior to the ";".  Set this value in the path  to ensure messages are sent to the correct device.
-- **{sas-token}**<br />
+- **{sas-token}**  
 The {sas-token} is the value copied from the dialog in the previous step, this is the complete SharedAccessSignature.
-- **{device-name}**<br />
+- **{device-name}**  
 The {device-name} can be any unique value, though it is recommended to use the Device Name from the created devices in the dashboard.
 
 :::note

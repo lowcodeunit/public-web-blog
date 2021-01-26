@@ -22,11 +22,11 @@ In this tutorial we'll look at connecting a NodeJS library to the Azure IoT Hub 
 
 ### Create Simulation
 
-```note
+:::note
 
-To connect with real sensors, check out our device connection guide. You can also walk through the RaspberryPI with NodeJS tutorial to dive in deeper. 
+To connect with real sensors, check out our device connection guide. You can also walk through the RaspberryPI with NodeJS tutorial to dive in deeper.
 
-```
+:::
 
 ## 2) Connect to IoT Hub
 

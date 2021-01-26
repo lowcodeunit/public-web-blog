@@ -29,8 +29,8 @@ We've laid out a curl command for the example below.
 
 ```cli
 curl -X POST \
-  https://fathym-prd.azure-devices.net/twins/{device-id}/methods?api-version=2018-06-30 \
-  -H 'Authorization: SharedAccessSignature {connection-string}' \
+  https://fathym-prd.azure-devices.net/devices/{device-id}/messages/events?api-version=2018-06-30 \
+  -H 'Authorization: {sas-token}' \
   -H 'Content-Type: application/json' \
   -d '{
     "DeviceID":"{device-id}",
@@ -82,7 +82,7 @@ To send a request with Postman, follow these steps:
 3. Change the request method from **GET** to **POST** via the dropdown at the top of the request.
 4. Enter the following URL in the **Enter request URL** text box.  Replace **{device-id}** in the URL with the **DeviceId** from the connection string from your IoT Ensemble dashboard (described above).
 
-    https://fathym-prd.azure-devices.net/twins/{device-id}/methods?api-version=2018-06-30
+    https://fathym-prd.azure-devices.net/devices/{device-id}/messages/events?api-version=2018-06-30
 
     For example, if your connection string looked like this:
 
@@ -90,7 +90,7 @@ To send a request with Postman, follow these steps:
 
     Then the URL would look like this:
 
-    `https://fathym-prd.azure-devices.net/twins/f1e5c1b5-f86b-4d08-99c1-efbf8fbbf6f1-Test-Device/methods?api-version=2018-06-30`
+    `https://fathym-prd.azure-devices.net/devices/f1e5c1b5-f86b-4d08-99c1-efbf8fbbf6f1-Test-Device/messages/events?api-version=2018-06-30`
 
 5. Select the **Headers** tab on your Postman request, then add a new header with a key of **Authorization** and set its value to the value of the **SAS Token** from the IoT Ensemble dashboard (described above).  It should look similar to this:
 
@@ -98,7 +98,7 @@ To send a request with Postman, follow these steps:
 
 6. Select the **Body** tab on your Postman request, then select the **Raw** radio button and paste the following JSON into the body text box.  Replace **{device-id}** with the **DeviceId** from the connection string from your IoT Ensemble dashboard (described above).
    
-```
+```console
 {
     "DeviceID":"{device-id}",
     "DeviceType":"Generic",    
@@ -147,7 +147,7 @@ To send a request with Insomnia, follow these steps:
 2. Give the request a name of your choosing, change the request method dropdown from **GET** to **POST**, then select **Create*.
 4. Enter the following URL in the URL text box.  Replace **{device-id}** in the URL with the **DeviceId** from the connection string from your IoT Ensemble dashboard (described above).
 
-    https://fathym-prd.azure-devices.net/twins/{device-id}/methods?api-version=2018-06-30
+    https://fathym-prd.azure-devices.net/devices/{device-id}/messages/events?api-version=2018-06-30
 
     For example, if your connection string looked like this:
 
@@ -155,7 +155,7 @@ To send a request with Insomnia, follow these steps:
 
     Then the URL would look like this:
 
-    `https://fathym-prd.azure-devices.net/twins/f1e5c1b5-f86b-4d08-99c1-efbf8fbbf6f1-Test-Device/methods?api-version=2018-06-30`
+    `https://fathym-prd.azure-devices.net/devices/f1e5c1b5-f86b-4d08-99c1-efbf8fbbf6f1-Test-Device/messages/events?api-version=2018-06-30`
 
 5. Select the **Header** tab, then add a new header with a New header key of **Authorization** and set its value to the value of the **SAS Token** from the IoT Ensemble dashboard (described above).  It should look similar to this:
 
@@ -164,8 +164,8 @@ To send a request with Insomnia, follow these steps:
 6. Select the **Body** tab then select the dropdown triangle which is just to the right of the word *Body* and choose **JSON**.
 
 7. Paste the following JSON into the body text box.  Replace **{device-id}** with the **DeviceId** from the connection string from your IoT Ensemble dashboard (described above).
-   
-```
+
+```console
 {
     "DeviceID":"{device-id}",
     "DeviceType":"Generic",    
@@ -192,5 +192,7 @@ To send a request with Insomnia, follow these steps:
         }
     }
 }
+
 ```
-7. Select **Send** to send the request.  You should receive a **204 No Content** response.
+
+1. Select **Send** to send the request.  You should receive a **204 No Content** response.

@@ -30,12 +30,12 @@ module.exports = {
             ],
           },
         ],
-        //'Storage Access': [
+        'Storage Access': [
         //  'developers/storage-access/overview',
-        //  {
-        //    Examples: ['developers/storage-access/examples/overview'],
-        //  },
-        //],
+         {
+           Examples: ['developers/storage-access/examples/power-bi'],
+         },
+        ],
       },
     ],
   },
