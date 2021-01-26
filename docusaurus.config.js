@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Fathym IoT Ensemble Beta',
-  tagline: 'Experience IoT in minutes.',
+  tagline: 'Experience IoT in minutes | No credit card required',
   url: 'https://www.iot-ensemble.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',

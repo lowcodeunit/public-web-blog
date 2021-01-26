@@ -182,6 +182,8 @@ Next, double click on the **"Azure IoT Hub"** node module. This will open a **Pr
 
 Once this is complete, click the red **Deploy** button in the top right corner. Your Pi is now sending real time data to IoT Ensemble!  Simply [enable live telemetry](https://www.iot-ensemble.com/docs/getting-started/viewing-device-data) and investigate your data.
 
+![Dashboard First Device Telemetry](/img/screenshots/dashboard-first-device-telemetry.png)
+
 ## Part 6 - Connecting Data to Power BI Desktop
 
 There are a lot of options in Power BI Desktop for importing data to be used in reports and visualizations for data interpretation.  IoT Ensemble provides connection URLs and Storage Access Keys so you can import data from your devices into Power BI using the **Web** data source.
@@ -271,6 +273,8 @@ Power BI can help you create compelling reports where you can change visualizati
 ![Power BI Get Data Web Close and Apply](/img/screenshots/power-bi-visualizations.png)
 
 Additional information on how to visualize and bring your data to life can be located across the internet.  You can get started on [building your report](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-excel-stunning-report#build-your-report) and work through a quick [10 minute example](https://docs.microsoft.com/en-us/learn/modules/build-your-first-power-bi-report/4-exercise-create-visuals-in-power-bi) to get you going.
+
+![Completed Power BI Dashboard](https://powerbicdn.azureedge.net/mediahandler/blog/legacymedia/5078.dashboard5.png)
 
 ## Wrapping Up
 
