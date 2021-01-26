@@ -3,6 +3,8 @@ import Layout from '@theme/Layout';
 import clsx from 'clsx';
 import { Helmet } from 'react-helmet';
 import pricingImage from '../../static/img/pricing-page-final.png';
+import pricingImageEnt from '../../static/img/pricing-page-enterprise.png';
+import pricingImageFree from '../../static/img/pricing-page-free.png';
 import pricingImageStarter from '../../static/img/pricing-page-starter.png';
 import pricingImagePro from '../../static/img/pricing-page-pro.png';
 import styles from './styles.module.css';
@@ -27,6 +29,12 @@ function Pricing() {
 
       <div style={{ display: 'flex', alignContent: 'center', justifyContent: 'center', margin: '2em' }}>
         <div style={{ width: '375px', margin: '1em' }}>
+          <a href="https://www.iot-ensemble.com/dashboard">
+            <img src={pricingImageFree} />
+          </a>
+        </div>
+
+        <div style={{ width: '375px', margin: '1em' }}>
           <a href="https://www.iot-ensemble.com/billing/iot/plan/starter/month">
             <img src={pricingImageStarter} />
           </a>
@@ -35,6 +43,12 @@ function Pricing() {
         <div style={{ width: '375px', margin: '1em' }}>
           <a href="https://www.iot-ensemble.com/billing/iot/plan/pro/month">
             <img src={pricingImagePro} />
+          </a>
+        </div>
+
+        <div style={{ width: '375px', margin: '1em' }}>
+          <a href="mailto: sales@fathym.com">
+            <img src={pricingImageEnt} />
           </a>
         </div>
       </div>
