@@ -2,7 +2,6 @@
 title: Tutorials - NodeJS to PowerBI
 hide_title: true
 sidebar_label: NodeJS to PowerBI
-slug: /
 ---
 
 # NodeJS to PowerBI
