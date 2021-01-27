@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = {
   title: 'Fathym IoT Ensemble Beta',
   tagline: 'Experience IoT in minutes | No credit card required',
@@ -10,6 +12,9 @@ module.exports = {
   themeConfig: {
     gtag: {
       trackingID: 'G-NEWEXH7W8C',
+    },
+    oribi: {
+      trackingID: 'XzcwMzAwMzkyNA',
     },
     colorMode: {
       // "light" | "dark"
@@ -115,4 +120,5 @@ module.exports = {
       },
     ],
   ],
+  plugins: [path.resolve(__dirname, 'plugins/oribi')],
 };
