@@ -51,7 +51,9 @@ function Pricing() {
           </a>
         </div>
 
-        <div style={{ margin: '2em 1em' }}>{/* <lcu-billing-plan-view-element plan-group="iot"></lcu-billing-plan-view-element> */}</div>
+        <div style={{ margin: '2em 1em' }}>
+          <lcu-billing-plan-view-element plan-group="iot"></lcu-billing-plan-view-element>
+        </div>
 
         <div style={{ width: '275px', height: '422.5px', margin: '2em 1em' }}>
           <a href="mailto: sales@fathym.com">
