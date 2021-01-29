@@ -9,6 +9,7 @@ keywords:
     - iot hub
     - power bi
     - iot dashboard
+hide_table_of_contents: true
 ---
 
 # Storage Access with Microsoft Power BI

@@ -7,6 +7,7 @@ keywords:
     - azure
     - connect a device
     - iot hub
+hide_table_of_contents: true
 ---
 
 # Working with Emulated Data

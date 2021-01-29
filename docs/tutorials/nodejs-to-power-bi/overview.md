@@ -2,6 +2,7 @@
 title: Tutorials - NodeJS to PowerBI
 hide_title: true
 sidebar_label: NodeJS to PowerBI
+hide_table_of_contents: true
 ---
 
 # NodeJS to PowerBI

@@ -2,6 +2,7 @@
 title: Getting Started - For Devs - IoT Schema Explained
 hide_title: true
 sidebar_label: IoT Schema Explained 
+hide_table_of_contents: true
 ---
 
 # IoT Best Practice Schema Explained
