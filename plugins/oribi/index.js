@@ -27,7 +27,7 @@ module.exports = function (context, options) {
         return {};
       }
 
-      if (window.LCU && window.LCU.User && window.LCU.User.Email) {
+      if (window && window.LCU && window.LCU.User && window.LCU.User.Email) {
         ORIBI.api("setUserEmail", window.LCU.User.Email);
       }
 
