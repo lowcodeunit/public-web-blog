@@ -10,15 +10,41 @@ import pricingImagePro from '../../static/img/pricing-page-pro.png';
 import styles from './styles.module.css';
 
 function Pricing() {
-  // const lcu = JSON.stringify({ "State": { "ActionRoot": "/api/state", "Root": "/api/state" } });
-  // const script = document.getElementById("lcu-reg") || document.createElement("script");
-  // script.id = "lcu-reg";
+  // const lcu = JSON.stringify({ State: { ActionRoot: '/api/state', Root: '/api/state' } });
+
+  // const script = document.getElementById('lcu-reg') || document.createElement('script');
+
+  // script.id = 'lcu-reg';
+
   // script.innerHTML = `window.LCU=${lcu};`;
-  // if (!document.getElementById("lcu-reg")) {
-  //     document.body.appendChild(script);
-  // };
+
+  // if (!document.getElementById('lcu-reg')) {
+  //   document.body.appendChild(script);
+  // }
+
+  const lcuStr = JSON.stringify({ State: { ActionRoot: '/api/state', Root: '/api/state' } });
+
+  function buyNowClick(plan) {
+    debugger;
+    alert('Buy Now Click');
+
+    const link = `https://www.iot-ensemble.com/billing/iot/plan/${plan.PlanGroup}/${plan.Interval}`;
+
+    window.location.href = link;
+  }
+
   return (
     <Layout title="Pricing">
+      <Helmet>
+        <script src="https://www.iot-ensemble.com/billing/lcu/wc/lcu-billing.lcu.js" type="text/javascript" />
+
+        <script type="text/javascript">
+          {`
+            window.LCU = ${lcuStr};
+          `}
+        </script>
+      </Helmet>
+
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="home_title">IoT Ensemble Pricing</h1>
@@ -28,38 +54,23 @@ function Pricing() {
       </header>
 
       <div style={{ display: 'flex', alignContent: 'center', justifyContent: 'center', margin: '2em' }}>
-        <div style={{ width: '375px', margin: '1em' }}>
+        <div style={{ width: '275px', height: '422.5px', margin: '2em 1em' }}>
           <a href="https://www.iot-ensemble.com/dashboard">
-            <img src={pricingImageFree} />
+            <img src={pricingImageFree} className="pricing-image" />
           </a>
         </div>
 
-        <div style={{ width: '375px', margin: '1em' }}>
-          <a href="https://www.iot-ensemble.com/billing/iot/plan/starter/month">
-            <img src={pricingImageStarter} />
-          </a>
+        <div style={{ margin: '2em 1em' }}>
+          <lcu-billing-plan-view-element plan-group="iot" buy-now-click={buyNowClick}></lcu-billing-plan-view-element>
         </div>
 
-        <div style={{ width: '375px', margin: '1em' }}>
-          <a href="https://www.iot-ensemble.com/billing/iot/plan/pro/month">
-            <img src={pricingImagePro} />
-          </a>
-        </div>
-
-        <div style={{ width: '375px', margin: '1em' }}>
+        <div style={{ width: '275px', height: '422.5px', margin: '2em 1em' }}>
           <a href="mailto: sales@fathym.com">
-            <img src={pricingImageEnt} />
+            <img src={pricingImageEnt} className="pricing-image" />
           </a>
         </div>
       </div>
     </Layout>
-
-    /* <Helmet>
-        <script src="https://www.iot-ensemble.com/billing/lcu/wc/lcu-billing.lcu.js" type="text/javascript" />
-        </Helmet>
-        <lcu-billing-plan-view-element
-        plan-group="iot">
-        </lcu-billing-plan-view-element> */
   );
 }
 
