@@ -9,6 +9,7 @@ keywords:
     - iot hub
     - postman
     - insomnia
+hide_table_of_contents: true
 ---
 
 # Connecting with HTTP
