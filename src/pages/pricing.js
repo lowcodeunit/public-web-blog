@@ -24,6 +24,15 @@ function Pricing() {
 
   const lcuStr = JSON.stringify({ State: { ActionRoot: '/api/state', Root: '/api/state' } });
 
+  function buyNowClick(plan) {
+    debugger;
+    alert('Buy Now Click');
+
+    const link = `https://www.iot-ensemble.com/billing/iot/plan/${plan.PlanGroup}/${plan.Interval}`;
+
+    window.location.href = link;
+  }
+
   return (
     <Layout title="Pricing">
       <Helmet>
@@ -52,7 +61,7 @@ function Pricing() {
         </div>
 
         <div style={{ margin: '2em 1em' }}>
-          <lcu-billing-plan-view-element plan-group="iot"></lcu-billing-plan-view-element>
+          <lcu-billing-plan-view-element plan-group="iot" buy-now-click={buyNowClick}></lcu-billing-plan-view-element>
         </div>
 
         <div style={{ width: '275px', height: '422.5px', margin: '2em 1em' }}>
