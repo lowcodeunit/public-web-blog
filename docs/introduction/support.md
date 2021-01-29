@@ -8,6 +8,7 @@ keywords:
     - connect a device
     - iot hub
     - support
+hide_table_of_contents: true
 ---
 
 # IoT Ensemble Support

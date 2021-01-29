@@ -6,6 +6,7 @@ author_title: CTO @ Fathym
 author_url: https://www.iot-ensemble.com
 author_image_url: https://github.com/mcgear.png
 tags: [iot, raspberry pi, node red, sensors, power bi]
+hide_table_of_contents: true
 ---
 
 ## Connecting Raspberry Pi/DHT11, Node Red, and Power BI with IoT Ensemble
