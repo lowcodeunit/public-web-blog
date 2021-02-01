@@ -59,7 +59,7 @@ https://fathym-prd.azure-api.net/iot-ensemble/coldquery?resultType=JSONLines&fla
 
 :::note
 
-This guide is using data returned from our emulated data, and [getting started blog](../../../../blog/2021-01-24-introducing-iot-ensemble).  If you would like to use the [emulated data](../../../getting-started/emulated-data), add an additional query string parameter of `includeEmulated=true`:
+This guide is using data returned from our emulated data, and [getting started blog](../../../../blog/raspberry-pi-dht11-node-red-iot-ensemble-power-bi).  If you would like to use the [emulated data](../../../getting-started/emulated-data), add an additional query string parameter of `includeEmulated=true`:
 
 ```console
 https://fathym-prd.azure-api.net/iot-ensemble/coldquery?resultType=JSONLines&flatten=true&includeEmulated=true&lcu-subscription-key={subscription-key}
