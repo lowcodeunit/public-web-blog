@@ -61,7 +61,7 @@ function Pricing() {
         </div>
 
         <div style={{ margin: '2em 1em' }}>
-          <lcu-billing-plan-view-element plan-group="iot" buy-now-click={buyNowClick}></lcu-billing-plan-view-element>
+          <lcu-billing-plan-view-element license-type="iot" buy-now-click={buyNowClick}></lcu-billing-plan-view-element>
         </div>
 
         <div style={{ width: '275px', height: '422.5px', margin: '2em 1em' }}>

@@ -51,6 +51,26 @@ This will open the Automated ML Run wizard, where you can click **Create Dataset
 
 ![Azure ML Automated ML Run Create Dataset](/img/screenshots/azure-ml-automated-ml-run-wizard-create-dataset.png)
 
+When the dataset create wizard opens, you'll need to input some values.  For **Web URL**, you'll use something like the following cold query call (make sure to replace **{subscription-key}** with one of the key values from your IoT Ensemble dashboard):
+
+```console
+https://fathym-prd.azure-api.net/iot-ensemble/coldquery?resultType=JSON&flatten=true&lcu-subscription-key={subscription-key}
+```
+
+:::note
+
+If you would like to use the [emulated data](../../../getting-started/emulated-data), add an additional query string parameter of `includeEmulated=true`:
+
+```console
+https://fathym-prd.azure-api.net/iot-ensemble/coldquery?resultType=JSON&flatten=true&includeEmulated=true&lcu-subscription-key={subscription-key}
+```
+
+:::
+
+![Azure ML Automated ML Run Dataset Wizard](/img/screenshots/azure-ml-automated-ml-run-dataset-wizard.png)
+
+
+
 Once installed, launch it and go to **Get Data -> Web**. As you may have guessed, this data source will allow you to import data from the web.
 
 ![Power BI Get Data Web](/img/screenshots/power-bi-get-data-web.png)
@@ -64,16 +84,6 @@ The API request URL can be obtained from the dashboard using either the cold or 
 ```console
 https://fathym-prd.azure-api.net/iot-ensemble/ColdQuery?flatten=false&resultType=JSONLines
 ```
-
-:::note
-
-If you would like to use the [emulated data](https://www.iot-ensemble.com/docs/getting-started/emulated-data), add an additional query string parameter of `includeEmulated=true`:
-
-```console
-https://fathym-prd.azure-api.net/iot-ensemble/ColdQuery?flatten=false&resultType=JSONLines&includeEmulated=true
-```
-
-:::
 
 Now input the request URL from above (or obtained from the dashboard) into the Power BI **URL Parts** text field.  Then enter `lcu-subscription-key` as a header parameter key, along with the **Access Key** copied from IoT Ensemble Dashboard in the value text field.
 
