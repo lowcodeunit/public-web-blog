@@ -27,9 +27,6 @@ module.exports = function (context, options) {
         return {};
       }
 
-      if (window && window.LCU && window.LCU.User && window.LCU.User.Email) {
-        ORIBI.api("setUserEmail", window.LCU.User.Email);
-      }
 
       return {
         headTags: [
@@ -57,6 +54,15 @@ module.exports = function (context, options) {
               "https://cdn.oribi.io/${trackingID}/oribi.js",
               "ORIBI"
             );`,
+          },
+          {
+            tagName: 'script',
+            async: true,
+            innerHTML: `
+            if (window && window.LCU && window.LCU.User && window.LCU.User.Email) {
+              ORIBI.api("setUserEmail", window.LCU.User.Email);
+            }
+            `,
           },
         ],
       };

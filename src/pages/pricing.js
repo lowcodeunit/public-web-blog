@@ -97,9 +97,24 @@ function Pricing() {
         </div>
       </header>
 
-    <div style={{ margin: '2em 1em' }}>
-        <lcu-billing-plan-view-element license-type="iot" buy-now-click={buyNowClick} billing-plan-options={billingPlans}></lcu-billing-plan-view-element>
-    </div>
+      <div style={{ display: 'flex', alignContent: 'center', justifyContent: 'center', margin: '2em' }}>
+        {/* <div style={{ width: '275px', height: '422.5px', margin: '2em 1em' }}>
+          <a href="https://www.iot-ensemble.com/dashboard">
+            <img src={pricingImageFree} className="pricing-image" />
+          </a>
+        </div> */}
+        
+        <div style={{ margin: '2em 1em' }}>
+            <lcu-billing-plan-view-element license-type="iot" buy-now-click={buyNowClick} billing-plan-options={billingPlans}></lcu-billing-plan-view-element>
+        </div>
+
+        {/* <div style={{ width: '275px', height: '422.5px', margin: '2em 1em' }}>
+          <a href="mailto: sales@fathym.com">
+            <img src={pricingImageEnt} className="pricing-image" />
+          </a>
+        </div> */}
+      </div>
+
     </Layout>
   );
 }
