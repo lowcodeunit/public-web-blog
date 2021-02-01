@@ -80,13 +80,15 @@ function Pricing() {
   return (
     <Layout title="Pricing">
       <Helmet>
-        <script src="https://www.iot-ensemble.com/billing/lcu/wc/lcu-billing.lcu.js" type="text/javascript" />
-
         <script type="text/javascript">
           {`
             window.LCU = ${lcuStr};
           `}
         </script>
+
+        <link href="https://www.iot-ensemble.com/billing/lcu/wc/lcu-billing.lcu.css" rel="stylesheet" />
+
+        <script src="https://www.iot-ensemble.com/billing/lcu/wc/lcu-billing.lcu.js" type="text/javascript" />
       </Helmet>
 
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
