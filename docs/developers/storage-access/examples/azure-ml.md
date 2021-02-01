@@ -21,7 +21,7 @@ Azure Machine Learning empowers developers and data scientists with a wide range
 
 IoT Ensemble provides out of the box APIs that allow you to interact with your data and devices.  Leveraging the cold query endpoint will allow us to easily connect with Azure ML.  Check out the [getting started guide](../../../getting-started/connecting-downstream-services) for more details.
 
-## Azure Automated Machine Learning
+## Azure Automated Machine Learning - Regression
 
 Apply automated ML when you want [Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml) to train and tune a model for you using the target metric you specify. Automated ML democratizes the machine learning model development process, and empowers its users, no matter their data science expertise, to identify an end-to-end machine learning pipeline for any problem.
 Data scientists, analysts, and developers across industries can use automated ML to:
@@ -93,9 +93,22 @@ The Cold Query parameter `flatten=true` is what unfolds complex properties in yo
 
 ### Configuring Automated ML Task
 
-Now, based on the data coming from devices, we can choose the Automated ML task that makes sense for our situation.  We are working with a temperature reading and will use the **Time series forecasting** task.  If your using [IoT Ensemble's Best Practice Schema](../../../developers/device-setup/iot-best-practice-schema-explained) then set the **Time column** to `Timestamp`, otherwise choose the appropriate value from your device payload schema or fall back to the system value `EventEnqueuedUtcTime`.  Now click on **Finish** to start the Automated ML run.
+Now, based on the data coming from devices, we can choose the Automated ML task that makes sense for our situation.  We will be working with our temperature reading and will use the **[Regression](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml#regression)** task.  Now click on **Finish** to start the Automated ML run.
 
 ![Azure ML Automated ML Run Task Settings](/img/screenshots/azure-ml-automated-ml-run-wizard-task-settings.png)
+
+Once the Automated ML is running, you'll have to wait for it to complete to move on to next steps.  In the end, this is how simple it is to leverage IoT Ensemble with Azure Machine Learning Automated ML experiments.  There is a lot more you can do with Azure Automated ML, read the full docs [here](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml).  You can see details on the completed model runs from the **Models** tab and with the click of a button **Deploy** the best fit model for use.
+
+![Azure ML Automated ML Run Running](/img/screenshots/azure-ml-automated-ml-running.png)
+
+<!-- 
+## Azure Automated Machine Learning - Classification
+
+## Azure Automated Machine Learning - Time Series Forecasting
+
+For use with Time series docs...
+
+If your using [IoT Ensemble's Best Practice Schema](../../../developers/device-setup/iot-best-practice-schema-explained) then set the **Time column** to `Timestamp`, otherwise choose the appropriate value from your device payload schema or fall back to the system value `EventEnqueuedUtcTime`. 
 
 :::note
 
@@ -104,7 +117,4 @@ You may get this error when trying to walkthrough this guide.  You can use the [
 ![Azure ML Automated ML Run Finish Not Enough Rows Error](/img/screenshots/azure-ml-automated-ml-run-wizard-finish-not-enough-rows.png)
 
 :::
-
-Once the Automated ML is running, you'll have to wait for it to complete to move on to next steps.  In the end though, this is how simple it is to leverage IoT Ensemble with Azure Machine Learning Automated ML experiments.  There is a lot more you can do with Azure Automated ML, read the full docs [here](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml).
-
-![Azure ML Automated ML Run Running](/img/screenshots/azure-ml-automated-ml-running.png)
+-->
