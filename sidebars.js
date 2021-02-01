@@ -1,9 +1,6 @@
 module.exports = {
   docs: {
-    Introduction: [
-      'introduction/overview',
-      'introduction/support'
-    ],
+    Introduction: ['introduction/overview', 'introduction/support'],
     'Getting Started': [
       'getting-started/setup',
       'getting-started/emulated-data',
@@ -31,10 +28,10 @@ module.exports = {
           },
         ],
         'Storage Access': [
-        //  'developers/storage-access/overview',
-         {
-           Examples: ['developers/storage-access/examples/power-bi'],
-         },
+          //  'developers/storage-access/overview',
+          {
+            Examples: ['developers/storage-access/examples/power-bi', 'developers/storage-access/examples/azure-ml'],
+          },
         ],
       },
     ],
