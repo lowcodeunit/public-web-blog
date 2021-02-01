@@ -10,18 +10,6 @@ import pricingImagePro from '../../static/img/pricing-page-pro.png';
 import styles from './styles.module.css';
 
 function Pricing() {
-  // const lcu = JSON.stringify({ State: { ActionRoot: '/api/state', Root: '/api/state' } });
-
-  // const script = document.getElementById('lcu-reg') || document.createElement('script');
-
-  // script.id = 'lcu-reg';
-
-  // script.innerHTML = `window.LCU=${lcu};`;
-
-  // if (!document.getElementById('lcu-reg')) {
-  //   document.body.appendChild(script);
-  // }
-
   const lcuStr = JSON.stringify({ State: { ActionRoot: '/api/state', Root: '/api/state' } });
 
   const billingPlans = [
