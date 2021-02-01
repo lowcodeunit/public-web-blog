@@ -61,14 +61,16 @@ function Pricing() {
     window.location.href = link;
   }
 
-  const platViewRef = useRef(null);
+  const planViewRef = useRef(null);
 
   useEffect(() => {
-    const planView = platViewRef.current;
+    const planView = planViewRef.current;
 
     var handler = (e) => buyNowClick(e.detail);
     
     planView.addEventListener('buy-now-click', handler);
+
+    planView['BillingPlanOptions'] = billingPlans;
 
     return () => planView.removeEventListener('buy-now-click', handler);
   }, []);
@@ -99,8 +101,7 @@ function Pricing() {
         <div style={{ margin: '2em 1em' }}>
           <lcu-billing-plan-view-element
             license-type="iot"
-            billing-plan-options={billingPlans}
-            ref={platViewRef}
+            ref={planViewRef}
           ></lcu-billing-plan-view-element>
         </div>
       </div>
