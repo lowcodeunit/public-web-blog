@@ -108,4 +108,3 @@ You may get this error when trying to walkthrough this guide.  You can use the [
 Once the Automated ML is running, you'll have to wait for it to complete to move on to next steps.  In the end though, this is how simple it is to leverage IoT Ensemble with Azure Machine Learning Automated ML experiments.  There is a lot more you can do with Azure Automated ML, read the full docs [here](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml).
 
 ![Azure ML Automated ML Run Running](/img/screenshots/azure-ml-automated-ml-running.png)
-    
