@@ -68,9 +68,6 @@ function Pricing() {
   ];
 
   function buyNowClick(plan) {
-    debugger;
-    alert('Buy Now Click');
-
     const link = `https://www.iot-ensemble.com/billing/iot/plan/${plan.PlanGroup}/${plan.Interval}`;
 
     window.location.href = link;
@@ -81,9 +78,11 @@ function Pricing() {
   useEffect(() => {
     const planView = platViewRef.current;
 
-    planView.addEventListener('buy-now-click', buyNowClick);
+    var handler = (e) => buyNowClick(e.detail);
+    
+    planView.addEventListener('buy-now-click', handler);
 
-    return () => planView.removeEventListener('buy-now-click', buyNowClick);
+    return () => planView.removeEventListener('buy-now-click', handler);
   }, []);
 
   return (
@@ -110,11 +109,10 @@ function Pricing() {
 
       <div style={{ display: 'flex', alignContent: 'center', justifyContent: 'center', margin: '2em' }}>
         <div style={{ margin: '2em 1em' }}>
-          <button onClick={buyNowClick}>Buy</button>
           <lcu-billing-plan-view-element
             license-type="iot"
-            ref={platViewRef}
             billing-plan-options={billingPlans}
+            ref={platViewRef}
           ></lcu-billing-plan-view-element>
         </div>
       </div>
