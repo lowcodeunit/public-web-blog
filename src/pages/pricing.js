@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import Layout from '@theme/Layout';
 import clsx from 'clsx';
 import { Helmet } from 'react-helmet';
@@ -23,49 +23,48 @@ function Pricing() {
   // }
 
   const lcuStr = JSON.stringify({ State: { ActionRoot: '/api/state', Root: '/api/state' } });
+
   const billingPlans = [
     {
-        ContactText: '',
-        DiscountedFrom: 0,
-        Interval: 'month',
-        Lookup: 'price_1HhIDIEoSnTpuGWGokN2x6wq',
-        Name: 'IoT - Free ',
-        PlanGroup: 'Free',
-        Price: 0,
-        Priority: 0,
-        LicenseType: 'iot',
-        Popular: 'true',
-        SuccessRedirect: 'https://www.iot-ensemble.com/dashboard',
-        Devices: '1',
-        DataInterval: '60',
-        DataRetention: '259200',
-        HeaderName: 'Fathym | IoT Ensemble',
-        LicenseName: 'Fathym IoT',
-        PlanFeatures:
-          'IoT Management|Shared Cloud|1 Device|60 second Data Velocity|3 Days of Data Retention',
-        TrialPeriodDays: 0,
-      },
-      {
-        ContactText: 'Contact sales for pricing information',
-        DiscountedFrom: '0',
-        Interval: 'month',
-        Lookup: 'price_1HhIGXEoSnTpuGWGwN29a2zo',
-        Name: 'IoT - Enterprise ',
-        PlanGroup: 'Enterprise',
-        Price: '10',
-        Priority: '40',
-        LicenseType: 'iot',
-        Featured: 'true',
-        SuccessRedirect: 'https://www.iot-ensemble.com/dashboard',
-        Devices: '50',
-        DataInterval: 80,
-        DataRetention: '604800',
-        HeaderName: 'Fathym | IoT Ensemble',
-        LicenseName: 'Fathym IoT',
-        PlanFeatures:
-          'IoT Management|Private Cloud|Unlimited Devices|30 second Data Velocity|7 Days of Data Retention',
-        TrialPeriodDays: 0,
-      }
+      ContactText: '',
+      DiscountedFrom: 0,
+      Interval: 'month',
+      Lookup: 'price_1HhIDIEoSnTpuGWGokN2x6wq',
+      Name: 'IoT - Free ',
+      PlanGroup: 'Free',
+      Price: 0,
+      Priority: 0,
+      LicenseType: 'iot',
+      Popular: 'true',
+      SuccessRedirect: 'https://www.iot-ensemble.com/dashboard',
+      Devices: '1',
+      DataInterval: '60',
+      DataRetention: '259200',
+      HeaderName: 'Fathym | IoT Ensemble',
+      LicenseName: 'Fathym IoT',
+      PlanFeatures: 'IoT Management|Shared Cloud|1 Device|60 second Data Velocity|3 Days of Data Retention',
+      TrialPeriodDays: 0,
+    },
+    {
+      ContactText: 'Contact sales for pricing information',
+      DiscountedFrom: '0',
+      Interval: 'month',
+      Lookup: 'price_1HhIGXEoSnTpuGWGwN29a2zo',
+      Name: 'IoT - Enterprise ',
+      PlanGroup: 'Enterprise',
+      Price: '10',
+      Priority: '40',
+      LicenseType: 'iot',
+      Featured: 'true',
+      SuccessRedirect: 'https://www.iot-ensemble.com/dashboard',
+      Devices: '50',
+      DataInterval: 80,
+      DataRetention: '604800',
+      HeaderName: 'Fathym | IoT Ensemble',
+      LicenseName: 'Fathym IoT',
+      PlanFeatures: 'IoT Management|Private Cloud|Unlimited Devices|30 second Data Velocity|7 Days of Data Retention',
+      TrialPeriodDays: 0,
+    },
   ];
 
   function buyNowClick(plan) {
@@ -76,6 +75,16 @@ function Pricing() {
 
     window.location.href = link;
   }
+
+  const platViewRef = useRef(null);
+
+  useEffect(() => {
+    const planView = platViewRef.current;
+
+    planView.addEventListener('buy-now-click', buyNowClick);
+
+    return () => planView.removeEventListener('buy-now-click', buyNowClick);
+  }, []);
 
   return (
     <Layout title="Pricing">
@@ -100,23 +109,15 @@ function Pricing() {
       </header>
 
       <div style={{ display: 'flex', alignContent: 'center', justifyContent: 'center', margin: '2em' }}>
-        {/* <div style={{ width: '275px', height: '422.5px', margin: '2em 1em' }}>
-          <a href="https://www.iot-ensemble.com/dashboard">
-            <img src={pricingImageFree} className="pricing-image" />
-          </a>
-        </div> */}
-        
         <div style={{ margin: '2em 1em' }}>
-            <lcu-billing-plan-view-element license-type="iot" buy-now-click={buyNowClick} billing-plan-options={billingPlans}></lcu-billing-plan-view-element>
+          <button onClick={buyNowClick}>Buy</button>
+          <lcu-billing-plan-view-element
+            license-type="iot"
+            ref={platViewRef}
+            billing-plan-options={billingPlans}
+          ></lcu-billing-plan-view-element>
         </div>
-
-        {/* <div style={{ width: '275px', height: '422.5px', margin: '2em 1em' }}>
-          <a href="mailto: sales@fathym.com">
-            <img src={pricingImageEnt} className="pricing-image" />
-          </a>
-        </div> */}
       </div>
-
     </Layout>
   );
 }
