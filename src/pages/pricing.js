@@ -40,7 +40,7 @@ function Pricing() {
       Lookup: 'price_1HhIGXEoSnTpuGWGwN29a2zo',
       Name: 'IoT - Enterprise ',
       PlanGroup: 'Enterprise',
-      Price: '10',
+      Price: '',
       Priority: '40',
       LicenseType: 'iot',
       Featured: 'true',
@@ -50,15 +50,20 @@ function Pricing() {
       DataRetention: '604800',
       HeaderName: 'Fathym | IoT Ensemble',
       LicenseName: 'Fathym IoT',
-      PlanFeatures: 'IoT Management|Private Cloud|Unlimited Devices|30 second Data Velocity|7 Days of Data Retention',
+      PlanFeatures: 'IoT Management|Private Cloud|Unlimited Devices|Dedicated Support|contact sales@fathym.com',
       TrialPeriodDays: 0,
     },
   ];
 
   function buyNowClick(plan) {
-    const link = `https://www.iot-ensemble.com/billing/iot/plan/${plan.PlanGroup}/${plan.Interval}`;
-
-    window.location.href = link;
+    console.log(plan.PlanGroup);
+    if(plan.PlanGroup==='Free') {
+      window.location.href = 'https://www.iot-ensemble.com/dashboard';
+    } else if(plan.PlanGroup==='Enterprise') {
+      window.location.href = 'mailto: sales@fathym.com';
+    } else {
+      window.location.href = `https://www.iot-ensemble.com/billing/iot/plan/${plan.PlanGroup}/${plan.Interval}`;
+    }
   }
 
   const planViewRef = useRef(null);
