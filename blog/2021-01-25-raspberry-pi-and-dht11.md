@@ -39,7 +39,7 @@ If this is you, dust off an RPi and if you don't have a DHT11, grab another sens
 
 :::note
 
-If you want to move forward without the physical device, you can still see what the end-to-end IoT eperience looks like by leveraging our emulated data.  Simply enable the [emulated data](https://www.iot-ensemble.com/docs/getting-started/emulated-data) and follow instructions in connecting to emulated data in the cold query API.
+If you want to move forward without the physical device, you can still see what the end-to-end IoT experience looks like by leveraging our emulated data.  Simply enable the [emulated data](https://www.iot-ensemble.com/docs/getting-started/emulated-data) and follow instructions in connecting to emulated data in the cold query API.
 
 :::
 

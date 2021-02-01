@@ -1,30 +1,57 @@
 ---
-title: Developers - Storage Access - Power BI
+title: Developers - Storage Access - Azure ML
 hide_title: true
-sidebar_label: Power BI
+sidebar_label: Azure ML
 keywords:
     - iot
     - azure
     - connect a device
     - iot hub
-    - power bi
+    - azure machine learning
+    - iot machine learning
     - iot dashboard
 hide_table_of_contents: true
 ---
 
-# Storage Access with Microsoft Power BI
+# Storage Access with Azure Machine Learning
 
-There are a lot of options in Power BI Desktop for importing data to be used in reports and visualizations for data interpretation.  IoT Ensemble provides connection URLs and Storage Access Keys so you can import data from your devices into Power BI using the **Web** data source.
-
-Your IoT Ensemble Dashboard will give you access to API Access Storage Keys as well as interactive forms to obtain request URLs for cold and warm storage queries.  This is all you need to get started visualizing data with Power BI!
+Azure Machine Learning empowers developers and data scientists with a wide range of productive experiences for building, training, and deploying machine learning models faster.  IoT Ensemble makes it simple to connect your devices and immediately use its data within Azure Machine Learning.
 
 ## IoT Ensemble Storage Access
 
-IoT Ensemble provides out of the box APIs that allow you to interact with your data and devices.  Leveraging the cold query endpoint will allow us to easily connect with Power BI.  Check out the [getting started guide](../../../getting-started/connecting-downstream-services) for more details.
+IoT Ensemble provides out of the box APIs that allow you to interact with your data and devices.  Leveraging the cold query endpoint will allow us to easily connect with Azure ML.  Check out the [getting started guide](../../../getting-started/connecting-downstream-services) for more details.
 
-## Configuring Power BI Desktop
+## Azure Machine Learning
 
-Make sure that you've downloaded and installed [Power BI Desktop](https://powerbi.microsoft.com/en-us/downloads/).  Once installed, launch it and go to **Get Data -> Web**. As you may have guessed, this data source will allow you to import data from the web.
+Apply automated ML when you want [Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml) to train and tune a model for you using the target metric you specify. Automated ML democratizes the machine learning model development process, and empowers its users, no matter their data science expertise, to identify an end-to-end machine learning pipeline for any problem.
+Data scientists, analysts, and developers across industries can use automated ML to:
+
+- Implement ML solutions without extensive programming knowledge
+- Save time and resources
+- Leverage data science best practices
+- Provide agile problem-solving
+
+Make sure that you've created your free [Azure account](https://azure.microsoft.com/en-us/free/services/machine-learning/), and walk through the setup process for a new subscription or use one that you've [already setup](https://ml.azure.com).  With your acccount and subscription in hand, you will also need to make sure you have an [Azure ML workspace](https://portal.azure.com/#create/Microsoft.MachineLearningServices).
+
+Once setup, you can access the [Macine Learning portal](https://ml.azure.com), and dig deeper into the [Azure Machine Learning docs](https://docs.microsoft.com/en-us/azure/machine-learning/overview-what-is-azure-ml) on your own.  We'll take you through some ways to start leveraging IoT Ensemble with Azure ML now.  
+
+:::note
+
+If using our Enterprise plan, Azure Machine Learning will already be setup and configured for you in your azure cloud.
+
+:::
+
+### Configuring Azure Automated Machine Learning
+
+Once setup, launch the [Azure Macine Learning portal](https://ml.azure.com) and you'll land on the dashboard.  From there, select the **Automated ML** option from the left, and then click <img src="/img/screenshots/azure-ml-add-automated-ml-run.png" class="text-image" />.
+
+![Azure ML Automated option](/img/screenshots/azure-ml-automated-option.png)
+
+This will open the Automated ML Run wizard, where you can click **Create Dataset > From web files** to open the dataset wizard.
+
+![Azure ML Automated ML Run Create Dataset](/img/screenshots/azure-ml-automated-ml-run-wizard-create-dataset.png)
+
+Once installed, launch it and go to **Get Data -> Web**. As you may have guessed, this data source will allow you to import data from the web.
 
 ![Power BI Get Data Web](/img/screenshots/power-bi-get-data-web.png)
 
@@ -35,7 +62,7 @@ Once this has been selected, a popup will appear allowing input of the API URL. 
 The API request URL can be obtained from the dashboard using either the cold or warm query APIs.  Here is a sample cold query URL you can start with, and the dashboard will assist in discovering the parameters for this query.
 
 ```console
-https://fathym-prd.azure-api.net/iot-ensemble/ColdQuery?flatten=false&resultType=JSON
+https://fathym-prd.azure-api.net/iot-ensemble/ColdQuery?flatten=false&resultType=JSONLines
 ```
 
 :::note
@@ -43,7 +70,7 @@ https://fathym-prd.azure-api.net/iot-ensemble/ColdQuery?flatten=false&resultType
 If you would like to use the [emulated data](https://www.iot-ensemble.com/docs/getting-started/emulated-data), add an additional query string parameter of `includeEmulated=true`:
 
 ```console
-https://fathym-prd.azure-api.net/iot-ensemble/ColdQuery?flatten=false&resultType=JSON&includeEmulated=true
+https://fathym-prd.azure-api.net/iot-ensemble/ColdQuery?flatten=false&resultType=JSONLines&includeEmulated=true
 ```
 
 :::
@@ -54,7 +81,7 @@ Now input the request URL from above (or obtained from the dashboard) into the P
 
 With these values entered, select **OK** and the Power Query Editor will load your JSON payloads.  These will need to be converted to a table before you can visualize your data.
 
-## Preparing Data for Use
+### Preparing Data for Use
 
 Now that the data is connected into our report, we need to convert it to a table.  Do this by selecting **To Table** and then **OK** from the following popup.
 
@@ -70,7 +97,7 @@ After converting to a table and expanding the record, you may notice that some c
 
 Congratulations! The device data has now been loaded into Power BI. The final step before you can use the data in visualizations is to transform the data from a Text type to Number, Dates, and other types.
 
-## Transforming Data with Power BI
+### Transforming Data with Power BI
 
 Transforming Data with power BI will allow you to customize data based on requirements. Power BI allows the user to remove duplicate values, create new columns, define table headers, convert data types, use calculated columns etc.  Power BI has an incredible number of features that are dedicated to helping clean and prepare data for analysis.  You may want to use Power Query Editor to clean up and shape this data before you start building reports.
 
@@ -82,7 +109,7 @@ When your query is where you want it, select **Close & Apply** from Power Query 
 
 This action applies the changes and closes the editor.  The transformed dataset appears in the Power BI Desktop, ready to be used for creating reports.
 
-## Visualize Data with Power BI
+### Visualize Data with Power BI
 
 Now that you have transformed and loaded your data, it is time to prepare reports and visualizations for data interpretation and analysis.  In the Fields pane on the right, you see the fields in the data model you just transformed and created.
 

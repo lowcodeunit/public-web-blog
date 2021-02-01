@@ -1,8 +1,10 @@
 ---
 title: Developers - Device Setup - Connect - Node Red
 hide_title: true
-sidebar_label: Node Red
+sidebar_label: Overview 
 hide_table_of_contents: true
 ---
 
-# Connecting with Node Red
+# Node Red
+
+<!-- ## Role in IoT -->
