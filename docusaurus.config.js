@@ -120,5 +120,5 @@ module.exports = {
       },
     ],
   ],
-  plugins: [path.resolve(__dirname, 'plugins/oribi')],
+  // plugins: [path.resolve(__dirname, 'plugins/oribi')],
 };
