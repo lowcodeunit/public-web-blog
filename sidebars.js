@@ -36,7 +36,7 @@ module.exports = {
       },
     ],
   },
-  'api': {
+  api: {
     Introduction: ['api/introduction/overview'],
   },
   drafts: {
