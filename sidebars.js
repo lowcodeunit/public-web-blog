@@ -40,6 +40,6 @@ module.exports = {
     Introduction: ['introduction/overview'],
   },
   drafts: {
-    Blogs: ['drafts/template-blog-entry', 'drafts/2021-02-04-iot-ensemble-for-reliable-brewing'],
+    Blogs: ['drafts/template-blog-entry', 'drafts/2021-02-05-iot-ensemble-for-brewing'],
   },
 };
