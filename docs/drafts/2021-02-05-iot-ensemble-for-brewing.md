@@ -20,7 +20,7 @@ A few of Fathym's senior engineers started with the IoT infrastructure in Micros
 
 For this project, we used a Raspberry Pi connected to an Infrared Temperature Sensor to monitor the brewery's boiler tank and a Waterproof Temperature Probe to monitor the glycol tank. The Raspberry Pi was connected to Azure and the data was streamed to the dashboards/alerts. 
 
-Any good brewer knows that complete temperature control is essential during the brewing process lest you ruin a perfectly good batch. Using the dashboard, we configured email/text alerts for when the boiler temp dropped below 150 degrees and a second alert if the glocol temp was greater than 41. The alerts had the potential to make a real difference. Within a couple of weeks all of the hard work paid off when the brewery lost power.
+Any good brewer knows that complete temperature control is essential during the brewing process lest you ruin a perfectly good batch. Using the dashboard, we configured email/text alerts for when the boiler temp dropped below 150 degrees and a second alert if the glycol temp was greater than 41. The alerts had the potential to make a real difference. Within a couple of weeks all of the hard work paid off when the brewery lost power.
 
 > "You saved us a whole day of brewing! If we didn’t have the alert and we didn’t come in to check Sunday or Monday, we would have walked in to cold water today. And it takes so long to heat up that we wouldn’t have been able to brew at all today, which messes up the whole week!"
 > Director of Operations at Crazy Mountain Brewery, Denver, Colorado
