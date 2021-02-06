@@ -30,13 +30,21 @@ module.exports = {
         'Storage Access': [
           //  'developers/storage-access/overview',
           {
-            Examples: ['developers/storage-access/examples/power-bi', 'developers/storage-access/examples/azure-ml'],
+            Examples: [
+              'developers/storage-access/examples/power-bi', 
+              'developers/storage-access/examples/azure-ml',
+              'developers/storage-access/examples/grafana',
+              'developers/storage-access/examples/tableau',
+            ],
           },
         ],
       },
     ],
   },
-  'api-docs': {
-    Introduction: ['introduction/overview'],
+  api: {
+    Introduction: ['api/introduction/overview'],
+  },
+  drafts: {
+    Blogs: ['drafts/template-blog-entry', 'drafts/2021-02-05-iot-ensemble-for-brewing'],
   },
 };
