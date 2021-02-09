@@ -1,5 +1,4 @@
 ---
-slug: /drafts
 title: Title - Hook
 author: Michael Gearhardt
 author_title: CTO @ Fathym
