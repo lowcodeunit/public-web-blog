@@ -45,6 +45,6 @@ module.exports = {
     Introduction: ['api/introduction/overview'],
   },
   drafts: {
-    Blogs: ['drafts/template-blog-entry', 'drafts/2021-02-05-iot-ensemble-for-brewing'],
+    Blogs: ['drafts/template-blog-entry'],
   },
 };
