@@ -23,9 +23,9 @@ In this tutorial, we will be taking a generic ESP32 board, connecting a simple e
 - A [Fathym IoT Ensemble](https://www.iot-ensemble.com/dashboard) account (we’re using the free, shared version)
 
 ## Part 1 - Hook Up Your Hardware 
-First, we need to attach the sensor to your board. Take the qwiic cable, and plug it into the ESP32 "Qwiic" port. Take the other end of the cable, and plug it into either of the two "Qwiic" ports on the Environmental Sensor. Your hardware is ready to go! <br>
+First, we need to attach the sensor to your board. Take the qwiic cable, and plug it into the ESP32 "Qwiic" port. Take the other end of the cable, and plug it into either of the two "Qwiic" ports on the Environmental Sensor. Your hardware is ready to go! <br></br>
 
-![Hardware Hookup](/static/img/screenshots/hardware-hookup.jpg)
+<!-- ![Hardware Hookup](/img/screenshots/hardware-hookup.jpg) -->
 
 ## Part 2 - Installing Arduino IDE and Necessary Software
 Next, we will need to install all of the required software/libraries on your computer
@@ -35,17 +35,17 @@ Download your version of Arudino IDE [here](https://www.arduino.cc/en/software).
 
 
 ### Add Sensor Libraries
-Once that is complete, we need to install some libraries. Click the following links to download each zip folder <br>
-<br>
+Once that is complete, we need to install some libraries. Click the following links to download each zip folder <br></br>
+
 [Download the BME280 Library (ZIP)](https://github.com/sparkfun/SparkFun_BME280_Arduino_Library/archive/master.zip)
-<br><br>
+<br></br>
 [Download the CCS811 Library (ZIP)](https://github.com/sparkfun/SparkFun_CCS811_Arduino_Library/archive/master.zip)
-<br><br>
+<br></br>
 
 Once you have downloaded those, go to your Arduino IDE screen. In the top toolbar, select **Sketch** -> **Include Library** -> **Add .ZIP Library**, as shown below:
 
-![Add .Zip Library](/static/img/screenshots/add-zip-library.png)
-<br><br>
+![Add .Zip Library](/img/screenshots/add-zip-library.png)
+<br></br>
 
 This will open a file browser. Navigate to your downloaded package, select the zip folder, and click "Open". Repeat this step for the second package.
 
@@ -61,21 +61,21 @@ In order for us to work with the ESP32, we need to add a board "definition".
 
 2. Back in your Arduino IDE, in the top toolbar, click **File** -> **Preferences**. You will be taken to the follow screen:
 
-![Add Board Definition](/static/img/screenshots/add-board-definition.png)
+![Add Board Definition](/img/screenshots/add-board-definition.png)
 
 Take the link from the previous step, and paste it into the "Additional Boards Manager URLs" field (highlighted above in red). Click "OK"
 
 3. Next, in the top toolbar, click **Tools** -> **Board: "Name of Board"** -> **Boards Manager...**, as shown below:
 
-![Open Boards Manager](/static/img/screenshots/boards-manager.png)
+![Open Boards Manager](/img/screenshots/boards-manager.png)
 
 In the next screen, type "esp32" into the search bar. A board definition with the same name will appear, click "Install", then click "Close" (as shown below)
 
-![ESP32 Board Definition](/static/img/screenshots/esp32-board-definition.png)
+![ESP32 Board Definition](/img/screenshots/esp32-board-definition.png)
 
 4. Next, navigate to **Tools** -> **Board: "Name of Board"** -> **ESP32 Arduino** and select **Adafruit ESP32 Feather**, as shown below:
 
-![Select Board Definition](/static/img/screenshots/select-board-definition.png)
+![Select Board Definition](/img/screenshots/select-board-definition.png)
 
 
 ## Determine Communication Port Number
@@ -84,11 +84,11 @@ Now that we have all the necessary libraries and dependencies, we need to tell A
 
 1. **Before plugging in the ESP32 to your computer**, click **Tools** -> **Port** in the top toolbar of Arduino IDE. This will display a list of ports that are currently being used. Generally, there will only be one or two ports listed, depending on what you have plugged into your computer. Take note of the ports in this list. The picture below shows a list of ports **before** the ESP32 board is plugged in. 
 
-![Ports Before Plugging In](/static/img/screenshots/com-port-before.png)
+![Ports Before Plugging In](/img/screenshots/com-port-before.png)
 
 2. Next, plug your ESP32 board directly into one of your computer's USB ports. After this, follow the previous step to view the list of available ports. You should now see an additional port that wasn't in the list before. This is the port that your ESP32 board is using. Click the port to select it. In the picture below, "COM3" is the port that is new in the list.
 
-![Ports After Plugging In](/static/img/screenshots/found-com-port.png)
+![Ports After Plugging In](/img/screenshots/found-com-port.png)
 
 ## Get Code Onto your ESP32 board
 
@@ -306,7 +306,7 @@ if (hasWifi && hasIoTHub)
   delay(10);
 }
 ```
-<br><br>
+<br></br>
 
 Next, in the ArduinoIDE, delete the existing template code. Then, paste the code you just copied.
 
@@ -324,9 +324,9 @@ Start by navigating to the [IoT Ensemble Dashboard](https://www.iot-ensemble.com
 
 In the **Connected Devices** section, click the **Enroll New Device** button, provide a name for your device (i.e. my-first-device) and click **Enroll Device**.  That’s it!  Your device is now registered and should be visible in the dashboard, along with its associated connection string.
 
-![Dashboard device list first device](/static/img/screenshots/dashboard-device-list-first-device.png)
+![Dashboard device list first device](/img/screenshots/dashboard-device-list-first-device.png)
 
-Click on the <img src="/static/img/screenshots/icon-copy.png" class="text-image" /> button to copy your connection string to your clipboard. Your connection string should look something like this:
+Click on the <img src="/img/screenshots/icon-copy.png" class="text-image" /> button to copy your connection string to your clipboard. Your connection string should look something like this:
 
 > HostName=**YourHostName**;DeviceId=**YourDeviceID**;SharedAccessKey=**YourDeviceKey**
 
@@ -337,7 +337,7 @@ In addition to the whole connection string, there is one key part that we need: 
 
 Back in the Arduino IDE, near the top of the code, your should see a section of four values that need to be filled in, like this:
 
-![Values to Fill In](/static/img/screenshots/arduino-fill-in-values.png)
+![Values to Fill In](/img/screenshots/arduino-fill-in-values.png)
 
 First, fill in the WiFi name and password of the network you plan on using.
 
@@ -352,18 +352,18 @@ Finally, take the **YourDeviceID** portion of your connection string, and paste 
 
 Now it is time to bring your ESP32 to life! In the top left corner of the Arduino IDE, click the "Verify" button, which looks like a checkbox (shown below)
 
-![Verify Code](/static/img/screenshots/verify-code.png)
+![Verify Code](/img/screenshots/verify-code.png)
 
 This will compile your code, and ensure that your code has no errors like missing libraries or incorrect syntax.
 
 Once this is complete, click on the "Upload" button, which looks like a horizontal arrow, and is right next to the "Verify" button (shown below)
 
-![Upload Code](/static/img/screenshots/upload-code.png)
+![Upload Code](/img/screenshots/upload-code.png)
 
 This will take your code, and flash it to the ESP32 board. You will see some red text outputted to the terminal on the bottom of the screen. The toolbar will say "Done Uploading" once complete, and should look something like this:
 
-![Done Uploading](/static/img/screenshots/done-uploading.png)
+![Done Uploading](/img/screenshots/done-uploading.png)
 
 Your ESP32 should now be taking sensor readings, and sending the information up to Iot Ensemble! If you want to see a live view of your code running, click **Tools** -> **Serial Monitor** in the top toolbar. You should be able to see your sensor readings every 30 seconds. In the Serial Monitor window, make sure that you have the baud rate set to "9600", as shown below:
 
-![Serial Monitor](/static/img/screenshots/serial-monitor.png)
+![Serial Monitor](/img/screenshots/serial-monitor.png)
