@@ -1,5 +1,4 @@
 ---
-slug: template-blog-slug
 title: Title - Hook
 author: Michael Gearhardt
 author_title: CTO @ Fathym
@@ -11,9 +10,9 @@ hide_table_of_contents: true
 
 ![IoT Ensemble Diagram](/img/iot-ensemble-diagram.png)
 
-... intro ...
+Not really the place to start.  It is expensive to build hardware, especially custom hardware...  And if that hardware doesn't collect the data needed to produce desired results, then 
 
-## Section 1
+## emulate / Simulate Device Data
 
 ### Sub Section
 

@@ -32,7 +32,7 @@ module.exports = {
       items: [
         { to: 'pricing', label: 'Pricing', position: 'left' },
         {
-          to: 'docs/introduction/overview',
+          to: 'docs',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
@@ -53,7 +53,7 @@ module.exports = {
           items: [
             {
               label: 'Getting Started',
-              to: '/docs/introduction/overview',
+              to: '/docs',
             },
             {
               label: 'Pricing',
