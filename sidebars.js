@@ -15,7 +15,7 @@ module.exports = {
       {
         'Device Setup': [
           'developers/device-setup/overview',
-          //'developers/device-setup/iot-best-practice-schema-explained',
+          'developers/device-setup/iot-best-practice-schema-explained',
           {
             Connect: [
               //'developers/device-setup/connect/overview',
