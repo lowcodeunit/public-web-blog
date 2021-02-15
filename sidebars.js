@@ -9,6 +9,9 @@ module.exports = {
       'getting-started/connecting-downstream-services',
       'getting-started/buy-and-scale',
     ],
+    Tutorials: [
+      "tutorials/arduino-esp32-and-enviro-sensor"
+    ],
     Developers: [
       'developers/licenses',
       // 'developers/azure-iot-hub-explained',
