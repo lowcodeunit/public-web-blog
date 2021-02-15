@@ -1,11 +1,13 @@
 ---
-slug: template-blog-slug
-title: Title - Hook
-author: Michael Gearhardt
-author_title: CTO @ Fathym
-author_url: https://www.iot-ensemble.com
-author_image_url: https://github.com/mcgear.png
-tags: []
+title: Arduino ESP32 and Enviro sensor
+hide_title: true
+sidebar_label: ESP32 / Enviro
+keywords:
+    - iot
+    - azure
+    - connect a device
+    - iot hub
+    - support
 hide_table_of_contents: true
 ---
 
