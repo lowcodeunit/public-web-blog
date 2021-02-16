@@ -125,7 +125,7 @@ char deviceVersion[] = "0.0.1";
 char deviceType[] = "ESP32";
 char latitude[] = "40.7578";
 char longitude[] = "-104.9733";
-const char *messageData = "{\"DeviceID\":\"%s\", \"DeviceType\":\"%s\", \"Version\":\"%s\", \"Timestamp\":%u, \"DeviceData\": {\"Latitude\":%s, \"Longitude\":%s}, \"SensorReadings\": {\"Temperature\":%f, \"Humidity\":%f, \"TVOC\":%d, \"CO2\":%d, \"Pressure\":%f, \"Altitude\":%f}, \"SensorMetadata\": {\"_\": {\"SignalStrength\": 1}}}";
+const char *messageData = "{\"DeviceID\":\"%s\", \"DeviceType\":\"%s\", \"Version\":\"%s\", \"DeviceData\": {\"Latitude\":%s, \"Longitude\":%s}, \"SensorReadings\": {\"Temperature\":%f, \"Humidity\":%f, \"TVOC\":%d, \"CO2\":%d, \"Pressure\":%f, \"Altitude\":%f}, \"SensorMetadata\": {\"_\": {\"SignalStrength\": 1}}}";
 static bool hasIoTHub = false;
 static bool hasWifi = false;
 int messageCount = 1;
@@ -294,7 +294,7 @@ if (hasWifi && hasIoTHub)
       tVOC = myCCS811.getTVOC();
       CO2 = myCCS811.getCO2();
       
-      snprintf(messagePayload, MESSAGE_MAX_LEN, messageData, deviceId, deviceType, deviceVersion, timeClient.getEpochTime(), latitude, longitude, tempf, humidity, tVOC, CO2, pressureInHg, altitudeFt);
+      snprintf(messagePayload, MESSAGE_MAX_LEN, messageData, deviceId, deviceType, deviceVersion, latitude, longitude, tempf, humidity, tVOC, CO2, pressureInHg, altitudeFt);
       Serial.println(messagePayload);
       EVENT_INSTANCE* message = Esp32MQTTClient_Event_Generate(messagePayload, MESSAGE);
       Esp32MQTTClient_SendEventInstance(message);
@@ -369,3 +369,14 @@ This will take your code, and flash it to the ESP32 board. You will see some red
 Your ESP32 should now be taking sensor readings, and sending the information up to Iot Ensemble! If you want to see a live view of your code running, click **Tools** -> **Serial Monitor** in the top toolbar. You should be able to see your sensor readings every 30 seconds. In the Serial Monitor window, make sure that you have the baud rate set to "9600", as shown below:
 
 ![Serial Monitor](/img/screenshots/serial-monitor.png)
+
+Once you confirm that messages are sending correctly, you can now go to [IoT Ensemble](https://www.iot-ensemble.com/dashboard/) and see your messages in real time. Messages will appear under the "Device Telemetry" section, as shown below:
+
+![Iot Ensemble ESP32 Telemetry](/img/screenshots/live-esp32-data.png)
+
+Just make sure that you have the Device Telemetry toggle set to "Enabled". For more information on Device Telemetry, check out our [docs](https://www.iot-ensemble.com/docs/getting-started/viewing-device-data).
+
+## Next Steps
+Hooking up the hardware is just the beginning of Iot Ensemble. There are a number of options for accessing and displaying your data easily. 
+- [Connecting Downstream Devices](https://www.iot-ensemble.com/docs/getting-started/connecting-downstream-services) will walk through the different ways to access your data.
+- Check out the documentation for connecting your data with outside toolsm, such as [Power BI](https://www.iot-ensemble.com/docs/developers/storage-access/examples/power-bi), [Grafana](https://www.iot-ensemble.com/docs/developers/storage-access/examples/grafana), and others. 
