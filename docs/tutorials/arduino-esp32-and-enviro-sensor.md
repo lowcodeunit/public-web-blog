@@ -118,7 +118,7 @@ First, copy the following code:
 const char* ssid     = "Your Wifi Name (SSID)";
 const char* password = "Your Wifi Password";
 static const char* connectionString = "Your Connection String";
-char deviceId[] = "Your DeviceID";
+char DeviceID[] = "Your DeviceID";
 //////////////////////////////////////////////////////////////
 
 char deviceVersion[] = "0.0.1";
@@ -294,7 +294,7 @@ if (hasWifi && hasIoTHub)
       tVOC = myCCS811.getTVOC();
       CO2 = myCCS811.getCO2();
       
-      snprintf(messagePayload, MESSAGE_MAX_LEN, messageData, deviceId, deviceType, deviceVersion, latitude, longitude, tempf, humidity, tVOC, CO2, pressureInHg, altitudeFt);
+      snprintf(messagePayload, MESSAGE_MAX_LEN, messageData, DeviceID, deviceType, deviceVersion, latitude, longitude, tempf, humidity, tVOC, CO2, pressureInHg, altitudeFt);
       Serial.println(messagePayload);
       EVENT_INSTANCE* message = Esp32MQTTClient_Event_Generate(messagePayload, MESSAGE);
       Esp32MQTTClient_SendEventInstance(message);
@@ -348,7 +348,7 @@ First, fill in the WiFi name and password of the network you plan on using.
 
 Next, take your connection string from Iot Ensemble, and paste it into the "connectionString" variable. 
 
-Finally, take the **YourDeviceID** portion of your connection string, and paste it into the "deviceId" variable. Save your code file.
+Finally, take the **YourDeviceID** portion of your connection string, and paste it into the "DeviceID" variable. Save your code file.
 
 ## Verify and Upload Your Code
 
