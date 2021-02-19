@@ -30,6 +30,9 @@ module.exports = {
             ],
           },
         ],
+        'Alerts/Notifications': [
+            "developers/alerts/logic-apps"
+        ],
         'Storage Access': [
           //  'developers/storage-access/overview',
           {
