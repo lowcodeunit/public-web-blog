@@ -20,7 +20,7 @@ The IoT Ensemble dashboard provides two quick ways to start looking at data.  Us
 
 ### Devices Telemetry
 
-The devices telemetry table was in action when working through the [emulated data](../getting-started/emulated-data) or [connecting a device](../getting-started/connecting-first-device) guides, here is a deeper look at how it works.  
+We used the devices telemetry table when working through the [emulated data](../getting-started/emulated-data) and [connecting a device](../getting-started/connecting-first-device) guides. Here is a deeper look at how it works.
 
 #### Telemetry Sync
 
@@ -44,7 +44,22 @@ Using the paging controls at the bottom will determine how many telemetry record
 
 :::note
 
-If seeing emulated data in the table and only wanting to see custom devices, make sure to disable the emulated data.
+If you're seeing emulated data in the table and only want to see custom device data, make sure to disable the emulated data.
+
+:::
+
+:::note
+
+In the screenshot above, the following properties are not part of the [IoT Best Practice Schema](../developers/device-setup/iot-best-practice-schema-explained). Fathym IoT Ensemble is not adding these properties. These are system properties that are added by the IoT Hub.
+
+- `"_ts": 1613087733`
+- `"EventProcessedUtcTime": "2021-02-11T23:55:30.227905Z"`
+- `"PartitionId": 29`
+- `"EventEnqueuedUtcTime": "2021-02-11T23:55:29.995Z"`
+- `"_rid": "8qpRAK49o3m60BAAAAAAAA=="`
+- `"_self": "dbs/8qpRAA==/colls/8qpRAK49o3k=/docs/8qpRAK49o3m60BAAAAAAAA==/"`
+- `"_etag": "\"09009632-0000-0700-0000-6025c3f50000\""`
+- `"_attachments": "attachments/"`
 
 :::
 
