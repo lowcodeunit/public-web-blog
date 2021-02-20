@@ -201,6 +201,22 @@ Fill in the email Body, Subject, and To fields based on your needs.
 
 ![Send Email Settings](/img/screenshots/alerts/sendemail-settings.png)
 
+
+## Step 8: Email to Text (SMS)
+
+Texting via email is easy. Type in the recipient's mobile number in front of the "@" sign based on the SMS Gateway. For example, if your recipient’s mobile number is 1-123-456-7891 and their carrier is AT&T, you would type in the following address in the "send to" box: `11234567891@txtatt.net`. Almost every single carrier has its own address for this specific purpose, here is a list of all the major carriers’ email to SMS gateways:
+
+- T-Mobile – number@tmomail.net
+- Virgin Mobile – number@vmobl.com
+- AT&T – number@txt.att.net
+- Sprint – number@messaging.sprintpcs.com
+- Verizon – number@vtext.com
+- Tracfone – number@mmst5.tracfone.com
+- Ting – number@message.ting.com
+- Boost Mobile – number@myboostmobile.com
+- U.S. Cellular – number@email.uscc.net
+- Metro PCS – number@mymetropcs.com
+
 ## Overview of Steps
 
 Here's an overview of the entire Logic App with the steps collapsed. The Logic App calls the IoT Ensemble warm query every 12 hours and checks if the Temperature of any of the results is greater than 90. If so, it sends an email alert.
