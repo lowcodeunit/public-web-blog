@@ -40,6 +40,7 @@ Download your version of Arudino IDE [here](https://www.arduino.cc/en/software).
 Once that is complete, we need to install some libraries. Click the following links to download each zip folder <br></br>
 
 [Download the BME280 Library (ZIP)](https://github.com/sparkfun/SparkFun_BME280_Arduino_Library/archive/master.zip)  
+
 [Download the CCS811 Library (ZIP)](https://github.com/sparkfun/SparkFun_CCS811_Arduino_Library/archive/master.zip)  
 
 
