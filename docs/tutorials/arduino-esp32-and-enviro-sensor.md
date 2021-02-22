@@ -39,11 +39,9 @@ Download your version of Arudino IDE [here](https://www.arduino.cc/en/software).
 ### Add Sensor Libraries
 Once that is complete, we need to install some libraries. Click the following links to download each zip folder <br></br>
 
-[Download the BME280 Library (ZIP)](https://github.com/sparkfun/SparkFun_BME280_Arduino_Library/archive/master.zip)
-<br></br>
+[Download the BME280 Library (ZIP)](https://github.com/sparkfun/SparkFun_BME280_Arduino_Library/archive/master.zip)  
+[Download the CCS811 Library (ZIP)](https://github.com/sparkfun/SparkFun_CCS811_Arduino_Library/archive/master.zip)  
 
-[Download the CCS811 Library (ZIP)](https://github.com/sparkfun/SparkFun_CCS811_Arduino_Library/archive/master.zip)
-<br></br>
 
 Once you have downloaded those, go to your Arduino IDE screen. In the top toolbar, select **Sketch** -> **Include Library** -> **Add .ZIP Library**, as shown below:
 
