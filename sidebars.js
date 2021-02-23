@@ -36,14 +36,11 @@ module.exports = {
         ],
         'Storage Access': [
           //  'developers/storage-access/overview',
-          {
-            Examples: [
-              'developers/storage-access/examples/power-bi', 
-              'developers/storage-access/examples/azure-ml',
-              'developers/storage-access/examples/grafana',
-              'developers/storage-access/examples/tableau',
-            ],
-          },
+              'developers/storage-access/power-bi', 
+              'developers/storage-access/azure-ml',
+              'developers/storage-access/grafana',
+              'developers/storage-access/tableau',
+              'developers/storage-access/sql-server',
         ],
       },
     ],
