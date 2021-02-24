@@ -43,15 +43,16 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://www.iot-ensemble.com/blog',
+          to: 'blog',
+          activeBasePath: 'blog',
           label: 'Blog',
           position: 'right',
-          target: '_top',
         },
         {
           href: 'https://www.iot-ensemble.com/dashboard',
           label: 'Sign In',
           position: 'right',
+          target: '_top',
         },
       ],
     },
