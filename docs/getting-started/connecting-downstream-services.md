@@ -71,7 +71,7 @@ The {subscription-key} can be located in the API Keys section as described above
 
 ## Example Connections
 
-The purpose of the storage access APIs is to provide a secure way to access data for visualizations, AI/ML, application development and more.  Using the provided APIs, many different types of integrations are possible.  For a complete look, read the [storage access guide](../developers/storage-access/overview) or dive right into [the examples](../developers/storage-access/examples/overview).
+The purpose of the storage access APIs is to provide a secure way to access data for visualizations, AI/ML, application development and more.  Using the provided APIs, many different types of integrations are possible.  For a complete look, read the [storage access guide](../developers/storage-access/overview) or dive right into [the examples](../developers/storage-access//overview).
  -->
 
 ## Downstream Services
@@ -84,4 +84,4 @@ There are a lot of options in Power BI Desktop for importing data to be used in 
 
 Your IoT Ensemble Dashboard will give you access to API Access Storage Keys as well as the interactive forms described above to obtain request URLs for cold and warm storage queries.  This is all you need to get started visualizing data with Power BI!
 
-You can get started with a [Power BI dashboard](../developers/storage-access/examples/power-bi), or for a complete look at how it fits in, check out our [Ent-to-end IoT blog](https://www.iot-ensemble.com/blog/raspberry-pi-dht11-node-red-iot-ensemble-power-bi).
+You can get started with a [Power BI dashboard](../developers/storage-access/power-bi), or for a complete look at how it fits in, check out our [Ent-to-end IoT blog](https://www.iot-ensemble.com/blog/raspberry-pi-dht11-node-red-iot-ensemble-power-bi).

@@ -20,7 +20,7 @@ Your IoT Ensemble Dashboard will give you access to API Access Storage Keys as w
 
 ## IoT Ensemble Storage Access
 
-IoT Ensemble provides out of the box APIs that allow you to interact with your data and devices.  Leveraging the cold query endpoint will allow us to easily connect with Power BI.  Check out the [getting started guide](../../../getting-started/connecting-downstream-services) for more details.
+IoT Ensemble provides out of the box APIs that allow you to interact with your data and devices.  Leveraging the cold query endpoint will allow us to easily connect with Power BI.  Check out the [getting started guide](../../getting-started/connecting-downstream-services) for more details.
 
 ## Configuring Power BI Desktop
 
