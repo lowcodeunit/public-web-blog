@@ -18,9 +18,9 @@ These instructions show how to send email and text alerts using Grafana and IoT 
 
 ## Step 1: SQL Server
 
-The first step is to call the IoT Ensemble warm or cold query and load your data into Microsoft Sql Server. This doc does not cover those steps, but we've done it before using Azure Logic Apps, as well as a few lines of C# code. If you need help loading your IoT Ensemble data into SQL Server please email support@fathym.com and we'll point you in the right direction.
+The first step is to call the IoT Ensemble warm or cold query and load your device data into Microsoft SQL Server. This doc explains how to use a [Logic App to load the data into SQL Server](/docs/developers/storage-access/sql-server). If you need help loading your IoT Ensemble data into SQL Server please email support@fathym.com and we'll point you in the right direction.
 
-This screenshot shows some sample IoT Ensemble data in SQL Server.
+This screenshot shows some sample IoT Ensemble data loaded in SQL Server.
 
 ![SQL Server Table](/img/screenshots/alerts/sql-server-data.png)
 
