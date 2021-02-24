@@ -31,6 +31,12 @@ module.exports = {
       },
       items: [
         {
+          href: 'https://www.iot-ensemble.com/',
+          label: 'Home',
+          position: 'left',
+          target: '_top',
+        },
+        {
           href: 'https://www.iot-ensemble.com/pricing',
           label: 'Pricing',
           position: 'right',
