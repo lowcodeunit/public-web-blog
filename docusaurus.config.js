@@ -4,7 +4,7 @@ module.exports = {
   title: 'Fathym IoT Ensemble Beta',
   tagline: 'Experience IoT in minutes | No credit card required',
   url: 'https://www.iot-ensemble.com',
-  baseUrl: '/docs/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'iot-ensemble', // Usually your GitHub org/user name.
@@ -40,7 +40,7 @@ module.exports = {
           to: 'docs',
           activeBasePath: 'docs',
           label: 'Docs',
-          position: 'left',
+          position: 'right',
         },
         {
           href: 'https://www.iot-ensemble.com/blog',
@@ -116,7 +116,6 @@ module.exports = {
         },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: '/',
           // The iot-ensemble website repo
           // editUrl: 'https://github.com/iot-ensemble/public-web/edit/master/website/',
         },
