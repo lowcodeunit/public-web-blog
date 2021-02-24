@@ -30,18 +30,29 @@ module.exports = {
         src: 'img/Fathym-logo-white-01.png',
       },
       items: [
-        { to: 'pricing', label: 'Pricing', position: 'left' },
+        {
+          href: 'https://www.iot-ensemble.com/pricing',
+          label: 'Pricing',
+          position: 'right',
+          target: '_top',
+        },
         {
           to: 'docs',
           activeBasePath: 'docs',
           label: 'Docs',
-          position: 'left',
+          position: 'right',
         },
-        { to: 'blog', label: 'Blog', position: 'left' },
+        {
+          to: 'blog',
+          activeBasePath: 'blog',
+          label: 'Blog',
+          position: 'right',
+        },
         {
           href: 'https://www.iot-ensemble.com/dashboard',
           label: 'Sign In',
           position: 'right',
+          target: '_top',
         },
       ],
     },
@@ -53,11 +64,11 @@ module.exports = {
           items: [
             {
               label: 'Getting Started',
-              to: '/docs',
+              to: 'https://www.iot-ensemble.com/dashboard',
             },
             {
               label: 'Pricing',
-              to: '/pricing',
+              to: 'https://www.iot-ensemble.com/pricing',
             },
             {
               label: 'Support',
