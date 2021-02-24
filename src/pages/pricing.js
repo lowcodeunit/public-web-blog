@@ -57,9 +57,9 @@ function Pricing() {
 
   function buyNowClick(plan) {
     console.log(plan.PlanGroup);
-    if(plan.PlanGroup==='Free') {
+    if (plan.PlanGroup === 'Free') {
       window.location.href = 'https://www.iot-ensemble.com/dashboard';
-    } else if(plan.PlanGroup==='Enterprise') {
+    } else if (plan.PlanGroup === 'Enterprise') {
       window.location.href = 'mailto: sales@fathym.com';
     } else {
       window.location.href = `https://www.iot-ensemble.com/billing/iot/plan/${plan.PlanGroup}/${plan.Interval}`;
@@ -72,10 +72,13 @@ function Pricing() {
     const planView = planViewRef.current;
 
     var handler = (e) => buyNowClick(e.detail);
-    
+
     planView.addEventListener('buy-now-click', handler);
 
-    planView['BillingPlanOptions'] = billingPlans;
+    planView['Context'] = {
+      BillingPlansAPIPath: 'https://www.iot-ensemble.com/api/state/usermanagement/ListBillingOptions?licenseType=iot',
+      BillingPlanOptions: billingPlans,
+    };
 
     return () => planView.removeEventListener('buy-now-click', handler);
   }, []);
@@ -89,9 +92,9 @@ function Pricing() {
           `}
         </script>
 
-        <link href="https://www.iot-ensemble.com/billing/lcu/wc/lcu-billing.lcu.css" rel="stylesheet" />
+        <link href="https://www.iot-ensemble.com/_lcu/lcu-billing-lcu/wc/lcu-billing.lcu.css" rel="stylesheet" />
 
-        <script src="https://www.iot-ensemble.com/billing/lcu/wc/lcu-billing.lcu.js" type="text/javascript" />
+        <script src="https://www.iot-ensemble.com/_lcu/lcu-billing-lcu/wc/lcu-billing.lcu.js" type="text/javascript" />
       </Helmet>
 
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
@@ -104,10 +107,7 @@ function Pricing() {
 
       <div style={{ display: 'flex', alignContent: 'center', justifyContent: 'center', margin: '2em' }}>
         <div style={{ margin: '2em 1em' }}>
-          <lcu-billing-plan-view-element
-            license-type="iot"
-            ref={planViewRef}
-          ></lcu-billing-plan-view-element>
+          <lcu-billing-plan-view-element license-type="iot" ref={planViewRef}></lcu-billing-plan-view-element>
         </div>
       </div>
     </Layout>
