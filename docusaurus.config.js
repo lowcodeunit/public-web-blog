@@ -8,7 +8,7 @@ module.exports = {
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'iot-ensemble', // Usually your GitHub org/user name.
-  projectName: 'public-web', // Usually your repo name.
+  projectName: 'public-web-blog', // Usually your repo name.
   themeConfig: {
     gtag: {
       trackingID: 'G-NEWEXH7W8C',
@@ -119,7 +119,7 @@ module.exports = {
           showReadingTime: true,
           routeBasePath: '/',
           // The iot-ensemble website blog repo
-          // editUrl: 'https://github.com/iot-ensemble/public-web/edit/master/website/blog/',
+          // editUrl: 'https://github.com/iot-ensemble/public-web-blog/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
