@@ -49,7 +49,7 @@ module.exports = {
           target: '_top',
         },
         {
-          to: 'blog',
+          to: '/',
           label: 'Blog',
           position: 'right',
         },
