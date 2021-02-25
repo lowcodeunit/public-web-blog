@@ -44,12 +44,12 @@ module.exports = {
         },
         {
           href: 'https://www.iot-ensemble.com/docs',
-          label: 'Pricing',
+          label: 'Docs',
           position: 'right',
           target: '_top',
         },
         {
-          to: 'blog',
+          to: '/',
           label: 'Blog',
           position: 'right',
         },
