@@ -1,5 +1,5 @@
 ---
-slug: raspberry-pi-dht11-node-red-iot-ensemble-power-bi
+slug: raspberry-pi-iot-ensemble-power-bi
 title: End-to-end IoT with IoT Ensemble
 author: Michael Gearhardt
 author_title: CTO @ Fathym
