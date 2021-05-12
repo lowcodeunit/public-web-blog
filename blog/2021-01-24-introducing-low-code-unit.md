@@ -11,7 +11,7 @@ hide_table_of_contents: true
 <!-- 
 ![Low Code Unit Diagram](/img/lowcodeunit-diagram.png) -->
 
-That worked. In a lot of ways, application building is still way to hard.  Sure, there are a number of way out there to host your websites and applications, but how do you create those sharp looking sites while still developing thee enterprise value we need?  How do we leverage unique solutions while still providing our consistent brand/UX?  How do we reliably deliver our solutions across our customer base?  
+In a lot of ways, application building is still way to hard.  Sure, there are a number of way out there to host your websites and applications, but how do you create those sharp looking sites while still developing thee enterprise value we need?  How do we leverage unique solutions while still providing our consistent brand/UX?  How do we reliably deliver our solutions across our customer base?  
 
 Low Code Unit aims to be the way business and individuals can work to deliver their solutions to and through eachother.
 
