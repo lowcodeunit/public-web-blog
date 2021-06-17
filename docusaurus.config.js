@@ -37,6 +37,12 @@ module.exports = {
           target: '_top',
         },
         {
+          href: 'https://www.lowcodeunit.com/dashboard',
+          label: 'Sign Up',
+          position: 'left',
+          target: '_top',
+        },
+        {
           href: 'https://www.iot-ensemble.com/pricing',
           label: 'Pricing',
           position: 'right',
