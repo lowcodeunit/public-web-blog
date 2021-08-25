@@ -2,7 +2,7 @@ name: Build GitHub Artifact
 
 on:
   push:
-    branches: [master]
+    branches: [master, integration]
 
 jobs:
   build:
