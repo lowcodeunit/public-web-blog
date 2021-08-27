@@ -118,6 +118,7 @@ module.exports = {
         blog: {
           showReadingTime: true,
           routeBasePath: '/',
+          postsPerPage: 1,
           // The lowcodeunit website blog repo
           // editUrl: 'https://github.com/lowcodeunit/public-web-blog/edit/master/website/blog/',
         },
