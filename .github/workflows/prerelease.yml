@@ -55,7 +55,7 @@ jobs:
 
     # install npm dependencies from package-lock.json
     - name: npm install
-      run: npm ci
+      run: npm i
 
     # build & publish npm packages to npmjs.org
     - name: npm build & publish
