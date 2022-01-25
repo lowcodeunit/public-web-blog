@@ -57,7 +57,7 @@ What are the benefits of LowCodeUnit? Let’s quickly recap:
 -	Automatic security – Provides an automatic security certificate (HTTPS).
 -	Easily track traffic – Using GetGist or Google Analytics (Fathym provides those).
 -	Create proxies – Easily connect any API to your site.
--	Real humans – We’re here to help, as is our technical documentation found here.
+-	Real humans – We’re here to help, as is our technical documentation found [here](https://www.lowcodeunit.com/docs).
 
 While we are releasing LowCodeUnit in a freemium way right now, it won’t always be that way. So, we invite you to jump on board this train before it leaves the station!
 
