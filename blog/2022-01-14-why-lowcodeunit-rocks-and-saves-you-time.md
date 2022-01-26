@@ -31,7 +31,7 @@ First and foremost, you own your code. That’s critical because you can control
 
 Similarly, we’ve worked with small businesses whose web host or developer moved on; they’re left hung out to dry. Imagine being a restauranteur and your website and menu are suddenly no longer online, which means missing out on all that day’s business, or worse, weeks while you find another developer. At Fathym, we’ve got your back. 
 
-And another specific coding benefit with LowCodeUnit is being able to use multiple different languages within your sites.
+Another specific coding benefit with LowCodeUnit is being able to use multiple different languages within your sites.
 
 “Most of the time all of the sites are built in the same language,” our Director of Engineering Jeremy Tomlinson explained. “With LowCodeUnit, you can start to decouple what language is used for different parts of your site. We're not the only ones doing this, but it is somewhat of a modern concept. (And it shows our ability to be agile in this quickly changing world).”
 
