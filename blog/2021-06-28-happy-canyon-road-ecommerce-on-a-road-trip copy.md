@@ -13,7 +13,7 @@ Coding has come a long way from the days when I shell programmed my TI-83 with p
 
 I always remember back to an eBay conference when I was maybe 19 or 20.  A presenter came on stage talking about how they (2 coders) used a satelite internet connection, some ebay APIs, and an ice fishing shack to develop their multi-million dollar enterprise.  The thought of such simplicity for all developers has been a focal point of my entire development philosophy for the better part of 2 decades.  Let's try this out a bit, and see what we can do with a hotspot from my phone, some SaaS and Open Source tools, and a Ford Expedition.
 
-## Happy Canyon Road
+## Happy Canyon Travels
 
 We started our family road trip to Arizona today, stopping for lunch in south Denver, and by the time we reached Happy Canyon Road, I had my laptop out while the boys napped in the back and my wife (pregnant with our 3rd) drove us south for Albuquerque.  I should also note, it is our 12th anniversary, so I won't have a lot of time except for on the road.  Alanis in the background, I wondered what I could do with Fathym's LowCodeUnit product to showcase the possibilities of technology in the modern era.  With any not-invented-here syndrome checked at the door and a handful of 7-hour drive days, let's take a look at where today's technology can take us.
 
