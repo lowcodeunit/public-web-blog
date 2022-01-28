@@ -16,7 +16,7 @@ Maybe you want to start a blog and discuss your favorite sports team, say, the D
 
 That’s probably why there are so many options out there when it comes to creating your own website. Luckily, we bring you a new option.  
 
-Our LowCodeUnit is easy, straightforward and by utilizing some nifty tools, our front end engineer George Hatch was able to create a website which was ready to improve and show off his partner’s small business. 
+Our LowCodeUnit is easy, straightforward and by utilizing some nifty tools, our [front end engineer George Hatch](https://www.lowcodeunit.com/blog/meet-team-fathym-george-hatch) was able to create a website which was ready to improve and show off his partner’s small business. 
 
 ## LowCodeUnit vs. Wix
 
