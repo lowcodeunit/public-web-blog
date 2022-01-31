@@ -1,6 +1,6 @@
 ---
 slug: how-our-microfrontends-help-businesses-big-and-small
-title: How our micro-frontends help businesses big and small
+title: How our micro frontends help businesses big and small
 author: Rich Kurtzman
 author_title: Content Creator @ Fathym
 author_url: https://www.lowcodeunit.com
@@ -30,13 +30,15 @@ Micro frontends as a concept are somewhat simple; they break down the monolithic
 
 Within LowCodeUnit, they allow a developer to create a main branch, and then many branches off that. Think of a tree’s trunk, the main branches growing away from it, and then the smaller twigs on the ends of the branches. 
 
-![power bi report](/img/AdobeStock_102372931_Preview.jpeg)
-
 It means simple, straightforward routes to your different pages or kinds of utilities, like e-commerce, blogs or technical documentation software like Docusaurus. 
+
+## Small businesses
 
 For a small group, it helps because you can have one branch as your live page, and another as a test page to test as you go. Meaning, you can handle the job of multiple people thanks to the heavy lifting being performed on the back end by LowCodeUnit. And then others can jump in and help thanks to the organization associated with micro frontends.  
 
 “It allows me to have this project, which is our dev test site, and also allows me to create another project here, which would be our production site,” engineer Todd German showed. “And, since they’re both tied to different branches, more people can now contribute.” 
+
+## Big businesses
 
 Of course, that also benefits a bigger company even more. When there are multiple chefs in the kitchen, it can be difficult to get the recipe just right. But micro frontends allow “sous chefs” (engineers) to create in their own kitchen and then the “head chef” (QA) can approve the meal before it goes out the door.  
 
@@ -52,10 +54,7 @@ For a bigger business, think of it in terms of having multiple teams within the 
 
 You’re working to build a website and have three teams devoted to: Content, layout, and e-commerce. All three teams work independently on their individual missions, checking off boxes and meeting expectations. Then, everything is integrated on the main branch, delivering the final product to the customer or user.  
 
-![power bi report](/img/Micro Frontends visualization.PNG)
-Image: Micro Frontends in Action
-
-In an ever-changing technological world, micro-frontends are the way of the future. Out with the monolithic frontends of the past. It’s time for a simpler, smarter, more efficient way of building websites.  
+In an ever-changing technological world, micro frontends are the way of the future. Out with the monolithic frontends of the past. It’s time for a simpler, smarter, more efficient way of building websites.  
 
 Now in the user-adoption phase, we encourage you to join today for free and give us your feedback on LowCodeUnit!
 
