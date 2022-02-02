@@ -9,8 +9,6 @@ tags: [website, application, no code, micro-frontend, hosting, engineering]
 hide_table_of_contents: true
 ---
 
-![Aspen Grove](/Fathym-logo-aqua-01.png)
-
 Contrary to how they sound, micro frontends support big teams.  
 
 At Fathym, we’ve been working hard to bring you LowCodeUnit – our micro frontend framework – and now we’re moving out of the production phase and into user adoption with a freemium model.  
