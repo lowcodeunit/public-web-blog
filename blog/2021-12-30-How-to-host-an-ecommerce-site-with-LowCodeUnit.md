@@ -2,7 +2,7 @@
 slug: how-to-host-an-ecommerce-site-with-lowcodeunit
 title: How to host an e-commerce site with LowCodeUnit
 author: Rich Kurtzman
-author_title: Content Creator @ Fathym
+author_title: Brand Communications @ Fathym
 author_url: https://www.lowcodeunit.com
 author_image_url: https://github.com/richkurtzman.png
 tags: [website, application, no code, micro-frontend, hosting, dev ops]

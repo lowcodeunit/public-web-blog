@@ -2,7 +2,7 @@
 slug: how-our-microfrontends-help-businesses-big-and-small
 title: How our micro frontends help businesses big and small
 author: Rich Kurtzman
-author_title: Content Creator @ Fathym
+author_title: Brand Communications @ Fathym
 author_url: https://www.lowcodeunit.com
 author_image_url: https://github.com/richkurtzman.png
 tags: [website, application, no code, micro-frontend, hosting, engineering]
@@ -28,7 +28,7 @@ That’s where our micro frontends take center stage.
 
 Micro frontends as a concept are somewhat simple; they break down the monolithic frontend codebases into smaller, more manageable applications which can be created and delivered by individual teams.  
 
-Within LowCodeUnit, they allow a developer to create a main branch, and then many branches off that. Think of a tree’s trunk, the main branches growing away from it, and then the smaller twigs on the ends of the branches. 
+Within LowCodeUnit, they allow a developer to create a main branch, and then many branches off that. Think of 
 
 It means simple, straightforward routes to your different pages or kinds of utilities, like e-commerce, blogs or technical documentation software like Docusaurus. 
 
