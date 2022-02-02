@@ -9,6 +9,7 @@ tags: [website, application, no code, micro-frontend, hosting, engineering]
 hide_table_of_contents: true
 ---
 
+![Aspen Grove](/Fathym-logo-aqua-01.png)
 
 Contrary to how they sound, micro frontends support big teams.  
 
