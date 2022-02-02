@@ -1,5 +1,5 @@
 ---
-slug: how-to-host-an-ecommerce-site-with-fathym
+slug: how-to-host-an-ecommerce-site-with-lowcodeunit
 title: How to host an e-commerce site with Fathym
 author: Rich Kurtzman
 author_title: Brand Communications @ Fathym
