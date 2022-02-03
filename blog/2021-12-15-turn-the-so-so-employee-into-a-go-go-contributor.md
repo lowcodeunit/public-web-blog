@@ -1,6 +1,6 @@
 ---
 slug: turn-the-so-so-employee-into-a-go-go-contributor-with-lowcodeunit
-title: Turn the So-So Employee into a Go-Go Contributor with LowCodeUnit
+title: Turn the so-so employee into a go-go contributor with LowCodeUnit
 author: Kim Loomis
 author_title: Product Owner @ Fathym
 author_url: https://www.lowcodeunit.com
