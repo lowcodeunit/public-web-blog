@@ -1,5 +1,4 @@
 ---
-slug: why-lowcodeunit-rocks-and-saves-you-time
 title: Why Fathym rocks and saves you time
 author: Rich Kurtzman
 author_title: Brand Communications @ Fathym

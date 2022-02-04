@@ -1,6 +1,5 @@
 ---
-slug: turn-the-so-so-employee-into-a-go-go-contributor-with-lowcodeunit
-title: Turn the so-so employee into a go-go contributor with LowCodeUnit
+title: Turn the so-so employee into a go-go contributor with Fathym
 author: Kim Loomis
 author_title: Product Owner @ Fathym
 author_url: https://www.lowcodeunit.com
@@ -8,7 +7,6 @@ author_image_url:
 tags: [website, application, no code, micro-frontend, hosting, engineering]
 hide_table_of_contents: true
 ---
-
 
 :::note We're Listening
 
@@ -28,6 +26,6 @@ A so-so employee usually means that they are on a "PIP", the dreaded performance
 
 ### Again, that’s where Fathym steps in to help.
 
-Fathym helps address skill gaps in software development. Fathym plays a crucial role in removing the complex tasks that only a handful of savvy senior engineers can tackle. Fathym helps people of varying skill sets rapidly build and deploy cloud-native applications. Tools like [Fathym LowCodeUnit](https://www.lowcodeunit.com/) offer a point-and-click interface and menu configuration that allows easy build, deploy, serving up and management of web projects. No/low coding required.
+Fathym helps address skill gaps in software development. Fathym plays a crucial role in removing the complex tasks that only a handful of savvy senior engineers can tackle. Fathym helps people of varying skill sets rapidly build and deploy cloud-native applications. Tools like [Fathym](https://www.fathym.com/) offer a point-and-click interface and menu configuration that allows easy build, deploy, serving up and management of web projects. No/low coding required.
 
-That PIP of your so-so employee needs to include LowCodeUnit that will augment their skill set. It can give them the needed boost to their productivity and get your websites delivered. Turn that so-so employee into a go-go productive contributor.
+That PIP of your so-so employee needs to include Fathym that will augment their skill set. It can give them the needed boost to their productivity and get your websites delivered. Turn that so-so employee into a go-go productive contributor.

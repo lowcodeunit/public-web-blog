@@ -1,5 +1,5 @@
 ---
-slug: freelance-developers-fathym-saves-you-time-as-a-virtual-developer
+slug: /
 title: Freelance Developers - Fathym saves you time as a virtual developer
 author: Rich Kurtzman
 author_title: Content Creator @ Fathym

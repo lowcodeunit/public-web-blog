@@ -1,5 +1,4 @@
 ---
-slug: meet-team-fathym-george-hatch
 title: Meet Team Fathym - George Hatch
 author: Rich Kurtzman
 author_title: Brand Communications @ Fathym

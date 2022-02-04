@@ -115,13 +115,19 @@ module.exports = {
     [
       '@docusaurus/preset-classic',
       {
-        blog: {
+        docs: {
+          sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: '/',
+          // The lowcodeunit website blog repo
+          // editUrl: 'https://github.com/lowcodeunit/public-web-blog/edit/master/website/blog/',
+        },
+        /* blog: {
           showReadingTime: true,
           routeBasePath: '/',
           postsPerPage: 1,
           // The lowcodeunit website blog repo
           // editUrl: 'https://github.com/lowcodeunit/public-web-blog/edit/master/website/blog/',
-        },
+        }, */
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },

@@ -1,5 +1,4 @@
 ---
-slug: flipping-between-versions-is-a-breeze-with-fathym
 title: Flipping between versions is a breeze with Fathym
 author: Rich Kurtzman
 author_title: Content Creator @ Fathym
