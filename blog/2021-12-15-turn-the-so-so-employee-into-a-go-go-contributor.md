@@ -9,7 +9,6 @@ tags: [website, application, no code, micro-frontend, hosting, engineering]
 hide_table_of_contents: true
 ---
 
-
 :::note We're Listening
 
 "The only thing worse than training your employees and having them leave is not training them and having them stay."
