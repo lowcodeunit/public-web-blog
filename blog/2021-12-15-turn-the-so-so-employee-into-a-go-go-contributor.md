@@ -4,7 +4,7 @@ title: Turn the so-so employee into a go-go contributor with LowCodeUnit
 author: Kim Loomis
 author_title: Product Owner @ Fathym
 author_url: https://www.lowcodeunit.com
-author_image_url:
+author_image_url: https://github.com/kloomis.png
 tags: [website, application, no code, micro-frontend, hosting, engineering]
 hide_table_of_contents: true
 ---
