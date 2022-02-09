@@ -1,4 +1,4 @@
-name: NPM - Release
+name: fathym-opensourceware - $public-web-docusaurus
 
 on:
   push:
@@ -10,10 +10,8 @@ env:
   Branches: master,integration,feature/**
   MainBranch: master
   NPMRegistry: https://registry.npmjs.org/
-  InstallCommand: npm i
-  DeployCommand: npm run deploy
-  Organization: lowcodeunit
-  Repository: public-web-blog
+  InstallCommand: npm ci
+  BuildCommand: npm run build
   Output: ./build
 
 jobs:
@@ -69,24 +67,24 @@ jobs:
 
       # replace text in package.json for main branch
       - name: replace version text for main branch
-        if: ${{ steps.vars.outputs.branchName == env.MainBranch && steps.package_json_exists.outputs.files_exists == 'true' }}
+        if: ${{ steps.vars.outputs.branchName == env.MainBranch }}
         shell: pwsh
         run: (Get-Content -path package.json -Raw) -replace "version patch","version ${{ steps.versionBump.outputs.new_tag }} --no-git-tag-version -f" | Set-Content -Path package.json
 
       # replace text in package.json for dev branches
       - name: replace tag text for dev branches
-        if: ${{ steps.vars.outputs.branchName != env.MainBranch && steps.package_json_exists.outputs.files_exists == 'true' }}
+        if: ${{ steps.vars.outputs.branchName != env.MainBranch }}
         shell: pwsh
         run: (Get-Content -path package.json -Raw) -replace "--access public","--access public --tag ${{ steps.vars.outputs.branchName }}" | Set-Content -Path package.json
 
       - name: replace version text for dev branches
-        if: ${{ steps.vars.outputs.branchName != env.MainBranch && steps.package_json_exists.outputs.files_exists == 'true' }}
+        if: ${{ steps.vars.outputs.branchName != env.MainBranch }}
         shell: pwsh
         run: (Get-Content -path package.json -Raw) -replace "version patch","version ${{ steps.versionBump.outputs.new_tag }}-${{ steps.vars.outputs.branchName }} --no-git-tag-version -f" | Set-Content -Path package.json
 
       # run npm commands
       - uses: actions/setup-node@v2
-        if: ${{ (!!env.InstallCommand || !!env.BuildCommand) && steps.package_json_exists.outputs.files_exists != 'true' }}
+        if: ${{ (!!env.InstallCommand || !!env.BuildCommand) && steps.package_json_exists.outputs.files_exists == 'true' }}
         with:
           node-version: 14
           registry-url: ${{ env.NPMRegistry }}
@@ -96,12 +94,10 @@ jobs:
         if: ${{ !!env.InstallCommand && steps.package_json_exists.outputs.files_exists == 'true' }}
         run: ${{ env.InstallCommand }}
 
-      # build & publish npm packages to npmjs.org
-      - name: npm build & publish
-        if: ${{ !!env.DeployCommand && && steps.package_json_exists.outputs.files_exists == 'true' }}
-        run: ${{ env.DeployCommand }}
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      # build npm
+      - name: npm build
+        if: ${{ !!env.BuildCommand && steps.package_json_exists.outputs.files_exists == 'true' }}
+        run: ${{ env.BuildCommand }}
 
       # publish github artifacts
       - name: Archive production artifacts
