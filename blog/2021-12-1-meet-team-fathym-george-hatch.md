@@ -2,7 +2,7 @@
 slug: meet-team-fathym-george-hatch
 title: Meet Team Fathym - George Hatch
 author: Rich Kurtzman
-author_title: Content Creator @ Fathym
+author_title: Brand Communications @ Fathym
 author_url: https://www.lowcodeunit.com
 author_image_url: https://github.com/richkurtzman.png
 tags: [website, application, no code, micro-frontend, hosting, dev ops]
@@ -15,9 +15,9 @@ Our team features a wide range of folks like front end engineer George Hatch, wh
 
 “I like that we’re a small company, so we don’t have a bunch of pressures from up above. And also being small, it helps that we can be even more agile,” Hatch explained on a January afternoon. “Part of being agile is being able to switch gears, creating a website and then hosting with our own software. All that because the prior week we were working on that -- LowCodeUnit -- and trying to get it a little more user-friendly.” 
 
-We’ve been working hard for months to bring the world LowCodeUnit – an easy, straightforward way to securely host a website without knowing how to code – and now we have moved into the user-adoption phase.  
+We’ve been working hard for months to bring the world LowCodeUnit – an easy, straightforward way to host a website without knowing how to code – and now we have moved into the user-adoption phase.  
 
-Hatch has been crucial when it comes to designing and developing our products’ front end, researching third party tools, and squashing bugs. That includes LowCodeUnit, which he recently used to securely host an online store for his girlfriend’s crystal business.  
+Hatch has been crucial when it comes to designing and developing our products’ front end, researching third party tools, and squashing bugs. That includes LowCodeUnit, which he recently used to securely host an online store for his girlfriend’s [Redwood Crystals business](https://www.lowcodeunit.com/blog/how-to-host-an-ecommerce-site-with-lowcodeunit).  
 
 “That’s one thing that I’ve always wondered, when I graduated, I knew how to build an application, but I don’t know how to get it out into the world for everybody to see it,” Hatch explained. “So I think that’s what really empowered me to use LowCodeUnit. Being a developer and knowing how I can get at least the build out there. Going through LowCodeUnit, now I can take that build and then deploy it out there for the world to see.” 
 
