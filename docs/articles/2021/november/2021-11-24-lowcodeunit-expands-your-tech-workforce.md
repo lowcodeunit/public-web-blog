@@ -1,6 +1,5 @@
 ---
-slug: lowcodeunit-expands-your-tech-workforce
-title: LowCodeUnit expands your tech workforce
+title: Fathym expands your tech workforce
 author: Kim Loomis
 author_title: Product Owner @ Fathym
 author_url: https://www.lowcodeunit.com
@@ -43,6 +42,6 @@ Trade that in for looking for solid problem-solvers with good communication and 
 
 Fathym helps address the imbalance in software development. Over the years, there has been a steady progression of removing the complex tasks that only a handful of senior engineers can tackle. Fathym plays a crucial role in this progression. Fathym helps diverse groups of people rapidly build and deploy cloud-native applications. 
 
-Tools like [Fathym LowCodeUnit](https://www.lowcodeunit.com/) offer a point-and-click interface and menu configuration that allows easy build, deploy, serving up and management of web projects. No/low coding required. Companies that have workforce gaps can employ the Fathym tools and do two impactful things straight away: 1) augment the skills of their current workforce and, 2) make the less typical technology hire.
+Tools like [Fathym](https://www.fathym.com/) offer a point-and-click interface and menu configuration that allows easy build, deploy, serving up and management of web projects. No/low coding required. Companies that have workforce gaps can employ the Fathym tools and do two impactful things straight away: 1) augment the skills of their current workforce and, 2) make the less typical technology hire.
 
 Hiring and managing a team of “Engineers” is not necessary. Hire the Problem Solvers and equip them with a great set of tools.
