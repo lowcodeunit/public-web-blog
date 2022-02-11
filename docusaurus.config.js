@@ -1,9 +1,9 @@
 const path = require('path');
 
 module.exports = {
-  title: 'Fathym Low Code Unit Beta',
+  title: 'Fathym',
   tagline: 'Experience IoT in minutes | No credit card required',
-  url: 'https://www.lowcodeunit.com',
+  url: 'https://www.fathym.com',
   baseUrl: '/blog/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
@@ -24,9 +24,9 @@ module.exports = {
       disableSwitch: true,
     },
     navbar: {
-      title: 'Low Code Unit Beta',
+      title: '',
       logo: {
-        alt: 'Low Code Unit',
+        alt: 'Fathym',
         src: 'img/Fathym-logo-white-01.png',
       },
       items: [

@@ -6,6 +6,7 @@ module.exports = {
       {
         'February': [
           'articles/2022/february/2022-02-03-freelance-developers-fathym-saves-you-time-as-a-virtual-developer',
+          'articles/2022/february/2022-02-10-announcing-fathyms-new-branding',
         ],
         'January': [
           'articles/2022/january/2022-01-30-flipping-versions-a-breeze-with-fathym',
