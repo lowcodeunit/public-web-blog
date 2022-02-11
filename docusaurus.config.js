@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   title: 'Fathym',
-  tagline: 'Experience IoT in minutes | No credit card required',
+  tagline: 'Build, deploy, and scale modern web projects',
   url: 'https://www.fathym.com',
   baseUrl: '/blog/',
   onBrokenLinks: 'throw',
@@ -31,19 +31,13 @@ module.exports = {
       },
       items: [
         {
-          href: 'https://www.lowcodeunit.com/',
+          href: 'https://www.fathym.com/',
           label: 'Home',
           position: 'left',
           target: '_top',
-        },
+        },        
         {
-          href: 'https://www.lowcodeunit.com/pricing',
-          label: 'Pricing',
-          position: 'right',
-          target: '_top',
-        },
-        {
-          href: 'https://www.lowcodeunit.com/docs',
+          href: 'https://www.fathym.com/docs',
           label: 'Docs',
           position: 'right',
           target: '_top',
@@ -54,8 +48,8 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://www.lowcodeunit.com/dashboard',
-          label: 'Sign In',
+          href: 'https://www.fathym.com/dashboard',
+          label: 'Log In',
           position: 'right',
           target: '_top',
         },
@@ -69,15 +63,11 @@ module.exports = {
           items: [
             {
               label: 'Getting Started',
-              to: 'https://www.lowcodeunit.com/dashboard',
-            },
-            {
-              label: 'Pricing',
-              to: 'https://www.lowcodeunit.com/pricing',
+              to: 'https://www.fathym.com/dashboard',
             },
             {
               label: 'Support',
-              to: 'https://www.lowcodeunit.com/docs/introduction/support',
+              to: 'https://www.fathym.com/docs/introduction/support',
             },
           ],
         },
