@@ -1,5 +1,4 @@
 ---
-slug: happy-canyon-road-ecommerce-on-a-road-trip
 title: Happy Canyon Road - e-Commerce on a Road Trip
 author: Michael Gearhardt
 author_title: CTO @ Fathym
@@ -15,7 +14,7 @@ I always remember back to an eBay conference when I was maybe 19 or 20.  A prese
 
 ## Happy Canyon Road and Back
 
-We started our family road trip to Arizona today, stopping for lunch in south Denver, and by the time we reached Happy Canyon Road, I had my laptop out while the boys napped in the back and my wife (pregnant with our 3rd) drove us south for Albuquerque.  I should also note, it is our 12th anniversary, so I won't have a lot of time except for on the road.  Alanis in the background, I wondered what I could do with Fathym's LowCodeUnit product to showcase the possibilities of technology in the modern era.  With any not-invented-here syndrome checked at the door and a handful of 7-hour drive days, let's take a look at where today's technology can take us.
+We started our family road trip to Arizona today, stopping for lunch in south Denver, and by the time we reached Happy Canyon Road, I had my laptop out while the boys napped in the back and my wife (pregnant with our 3rd) drove us south for Albuquerque.  I should also note, it is our 12th anniversary, so I won't have a lot of time except for on the road.  Alanis in the background, I wondered what I could do with Fathym to showcase the possibilities of technology in the modern era.  With any not-invented-here syndrome checked at the door and a handful of 7-hour drive days, let's take a look at where today's technology can take us.
 
 ## The Use Case
 
@@ -23,7 +22,7 @@ A common need (and relatable example to work with) for many enterprises is e-Com
 
 Out of this, we'll want a working open source example, a [complete guide](https://www.lowcodeunit.com/docs/guides/e-commerce/forestry-11ty-jamcart/overview) that provides the step-by-step walkthrough for building it yourself, and this blog so we can shout it from the hill tops.  Cramming all the information necessary to complete this use case into a single blog would come across as a bit much.  This doesn't mean accomplishing it will take a long time, just that you deserve a blueprint and understanding of what and why, then you can dig into the how with the complete guide.
 
-So, without further ado, e-Commerce with 11ty, Forestry, JamCart, and LowCodeUnit...
+So, without further ado, e-Commerce with 11ty, Forestry, JamCart, and Fathym...
 
 Let's take a look at what we're using, why we're using it, and how it plays a role in our completed solution.
 
@@ -39,10 +38,10 @@ There are a number of great options when it comes to our data management needs, 
 
 If we're going to call it an e-commerce example, we'll need to allow our users to add items to a shopping cart and eventually checkout.  Depending on your coding prowess, there are several options for this layer.  From PayPal to Stripe, but for simplicity we'll try out JamCart for this use case.  JamCart provides a simple approach to carts and checkout, really a wrapper of simplicity around Stripe.  We'll have no problem [getting JamCart integrated](https://www.lowcodeunit.com/docs/guides/e-commerce/forestry-11ty-jamcart/develop-site) and up and running.
 
-### The Hosting - LowCodeUnit
+### The Hosting - Fathym
 
-For hosting, we're going to use LowCodeUnit and it's micro-frontend hosting capabilities.  LowCodeUnit is used to automate our project setup, DevOps processes, and hosting of our application.  There is a lot more that LowCodeUnit brings to the table, but that is outside the scope of this use case.  We'll start  by [creating our project](https://www.lowcodeunit.com/docs/guides/e-commerce/forestry-11ty-jamcart/overview) on a free domain, but can always take our site to a custom domain.  In seperate guides and tutorials you'll see how layers of security and micro-frontends can be used to expand the usefulness of your site.
+For hosting, we're going to use Fathym and it's micro-frontend hosting capabilities.  Fathym is used to automate our project setup, DevOps processes, and hosting of our application.  There is a lot more that Fathym brings to the table, but that is outside the scope of this use case.  We'll start  by [creating our project](https://www.lowcodeunit.com/docs/guides/e-commerce/forestry-11ty-jamcart/overview) on a free domain, but can always take our site to a custom domain.  In seperate guides and tutorials you'll see how layers of security and micro-frontends can be used to expand the usefulness of your site.
 
 ## Conclusion
 
-With maybe 8 hours of total computer time under my belt (it was a week long anniversary vacation after all), and about an hour from Happy Canyon Road...  Mission Complete!  e-Commerce running on LowCodeUnit, a [step-by-step walkthrough](https://www.lowcodeunit.com/docs/guides/e-commerce/forestry-11ty-jamcart/overview) and a blog to boot.  All made possible by the ever growing SaaS and Open Source ecosystem.  We look forward to bringing you more examples of simple and focused tools that can support you in your next enterprise project.
+With maybe 8 hours of total computer time under my belt (it was a week long anniversary vacation after all), and about an hour from Happy Canyon Road...  Mission Complete!  e-Commerce running on Fathym, a [step-by-step walkthrough](https://www.lowcodeunit.com/docs/guides/e-commerce/forestry-11ty-jamcart/overview) and a blog to boot.  All made possible by the ever growing SaaS and Open Source ecosystem.  We look forward to bringing you more examples of simple and focused tools that can support you in your next enterprise project.

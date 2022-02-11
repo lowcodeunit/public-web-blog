@@ -1,5 +1,4 @@
 ---
-slug: meet-team-fathym-matt-jackson
 title: Meet Team Fathym - Matt Jackson
 author: Rich Kurtzman
 author_title: Brand Communications @ Fathym

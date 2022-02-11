@@ -1,5 +1,4 @@
 ---
-slug: how-our-microfrontends-help-businesses-big-and-small
 title: How our micro frontends help businesses big and small
 author: Rich Kurtzman
 author_title: Brand Communications @ Fathym
