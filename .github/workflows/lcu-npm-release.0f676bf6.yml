@@ -10,7 +10,7 @@ env:
   Branches: master,integration,feature/**
   MainBranch: master
   NPMRegistry: https://registry.npmjs.org/
-  InstallCommand: npm i
+  InstallCommand: npm ci
   DeployCommand: npm run deploy
   Organization: lowcodeunit
   Repository: public-web-blog
