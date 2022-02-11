@@ -53,6 +53,12 @@ module.exports = {
           position: 'right',
           target: '_top',
         },
+        {
+          href: 'https://www.fathym.com/dashboard/create-project',
+          label: 'Get Started',
+          position: 'right',
+          target: '_top',
+        },
       ],
     },
     footer: {
