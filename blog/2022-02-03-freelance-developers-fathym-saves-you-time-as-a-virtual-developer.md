@@ -3,7 +3,7 @@ slug: freelance-developers-fathym-saves-you-time-as-a-virtual-developer
 title: Freelance Developers - Fathym saves you time as a virtual developer
 author: Rich Kurtzman
 author_title: Content Creator @ Fathym
-author_url: https://www.lowcodeunit.com
+author_url: https://www.fathym.com
 author_image_url: https://github.com/richkurtzman.png
 tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
