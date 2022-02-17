@@ -1,5 +1,4 @@
 ---
-slug: /
 title: Announcing Fathym's new branding
 author: Rich Kurtzman
 author_title: Brand Communications @ Fathym
@@ -8,7 +7,7 @@ author_image_url: https://github.com/richkurtzman.png
 tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
-
+![Fathym Thinky](/img/Fathym-logo-white-01.png)
 Growth. Transformation. Renewal. 
 
 Just like springtime in the Rockies, our Colorado-based tech company is going through an exciting evolution. We offer many powerful products, and they’re all coming under one roof: The [Fathym](https://www.fathym.com) umbrella.  
