@@ -9,7 +9,7 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
-![Fathym is seriously fast](/img/Ferris.jpg)
+![Fathym is seriously fast](/img/ferrisbueller.jpg)
 Consider this the beginning of the end of the term “startup” and the beginning of a new term, “flashup.” 
 
 Startups take planning, investors, bogus promises and best guesses. And what’s the most costly thing startups take? Time.  
