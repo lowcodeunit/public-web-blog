@@ -1,5 +1,4 @@
 ---
-slug: /
 title: Flashup - Buzz word or brilliant idea? 
 author: Rich Kurtzman
 author_title: Brand Communications @ Fathym

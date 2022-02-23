@@ -9,7 +9,7 @@ module.exports = {
           'articles/2022/february/2022-02-10-announcing-fathyms-new-branding',
           'articles/2022/february/2022-02-14-fathym-vs-netlify-and-vercel-micro-frontends',
           'articles/2022/february/2022-02-18-flashup-buzz-word-or-brilliant-idea',
-
+          'articles/2022/february/2022-02-20-angular-vs-react-whichever-you-choose-you-can-use-at-fathym',
         ],
         'January': [
           'articles/2022/january/2022-01-30-flipping-versions-a-breeze-with-fathym',
