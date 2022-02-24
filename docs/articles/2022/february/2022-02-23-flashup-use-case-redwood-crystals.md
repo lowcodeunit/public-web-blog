@@ -18,15 +18,15 @@ We’re into “flashups” here at Fathym.
 
 ![Flashups rock](/img/drakestartupsflashups.jpg)
 
-Flashups can be defined as a new business beginning in an instant. (LINK) That’s in comparison to startups, which take tons of guessing, long business plans with ideas about the future and gathering investors. 
+[Flashups](https://www.fathym.com/blog/articles/2022/february/2022-02-18-flashup-buzz-word-or-brilliant-idea) can be defined as a new business beginning in an instant. That’s in comparison to startups, which take tons of guessing, long business plans with ideas about the future and gathering investors. 
 
 “We don't just want a faster web, we want a web that provides faster results,” Fathym CTO Mike Gearhardt explained. “Performance of an application in terms of load times is one thing, building an application that performs for a business is another.” 
 
 For a creator, it means taking immediate action and building your online presence in minutes.  
 
-In today’s age, we’re focused on instant gratification, and Fathym’s immediacy of hosting satisfies while simultaneously giving small business owners credibility. In medium-sized cities like Boulder or Fort Collins, Colorado supporting small business is the backbone of the local economy. And it makes things a lot easier for owners if they can prove legitimacy with a website, especially one with e-commerce abilities.  
+In today’s age, we’re focused on instant gratification, and Fathym’s immediacy of hosting satisfies while simultaneously giving small business owners credibility. In medium-sized cities like Boulder or Fort Collins, Colorado supporting small business is the backbone of the local economy. And it makes things a lot easier for owners if they can prove legitimacy with a website, especially [one with e-commerce abilities.](https://www.fathym.com/blog/articles/2021/december/2021-12-30-How-to-host-an-ecommerce-site-with-fathym)  
 
-Our front-end engineer George Hatch recently put Fathym to work hosting his partner’s website RedwoodCrystals.com (LINK) using open-source, third-party applications. That’s what makes it so fast to build! 
+Our front-end engineer George Hatch recently put Fathym to work hosting his partner’s website [RedwoodCrystals.com](https://www.redwoodcrystals.com) using open-source, third-party applications. That’s what makes it so fast to build! 
 
 That, and the fact that Fathym is a micro frontends platform, allowing developers to use not only a host of open-source apps, but also a variety of JavaScript frameworks (React, Angular, Vue and more) together. 
 
