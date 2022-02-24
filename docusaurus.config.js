@@ -140,14 +140,14 @@ module.exports = {
         redirects: [
           // /docs/oldDoc -> /docs/newDoc
           {
-            to: '/blog/articles/2022/february/2022-02-20-angular-vs-react-whichever-you-choose-you-can-use-at-fathym',
+            to: '/blog/articles/2022/february/2022-02-18-flashup-buzz-word-or-brilliant-idea',
             from: ['/blog/'],
           },
           // Redirect from multiple old paths to the new path
-          {
-            to: '/docs/newDoc2',
-            from: ['/docs/oldDocFrom2019', '/docs/legacyDocFrom2016'],
-          },
+          //{
+          //  to: '/docs/newDoc2',
+          //  from: ['/docs/oldDocFrom2019', '/docs/legacyDocFrom2016'],
+          //},
         ],
         //createRedirects(existingPath) {
         //  if (existingPath.includes('/community')) {
