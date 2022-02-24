@@ -10,9 +10,6 @@ module.exports = {
   organizationName: 'lowcodeunit', // Usually your GitHub org/user name.
   projectName: 'public-web-blog', // Usually your repo name.
   themeConfig: {
-    gtag: {
-      trackingID: 'G-NEWEXH7W8C',
-    },
     oribi: {
       trackingID: 'XzcwMzAwMzkyNA',
     },
@@ -117,6 +114,9 @@ module.exports = {
           // The lowcodeunit website blog repo
           // editUrl: 'https://github.com/lowcodeunit/public-web-blog/edit/master/website/blog/',
         },
+        gtag: {
+          trackingID: 'G-NEWEXH7W8C',
+        },
         /* blog: {
           showReadingTime: true,
           routeBasePath: '/',
@@ -131,4 +131,35 @@ module.exports = {
     ],
   ],
   // plugins: [path.resolve(__dirname, 'plugins/oribi')],
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        fromExtensions: ['html', 'htm'], // /myPage.html -> /myPage
+        toExtensions: ['exe', 'zip'], // /myAsset -> /myAsset.zip (if latter exists)
+        redirects: [
+          // /docs/oldDoc -> /docs/newDoc
+          {
+            to: '/blog/articles/2022/february/2022-02-20-angular-vs-react-whichever-you-choose-you-can-use-at-fathym',
+            from: ['/blog/'],
+          },
+          // Redirect from multiple old paths to the new path
+          {
+            to: '/docs/newDoc2',
+            from: ['/docs/oldDocFrom2019', '/docs/legacyDocFrom2016'],
+          },
+        ],
+        //createRedirects(existingPath) {
+        //  if (existingPath.includes('/community')) {
+        //    // Redirect from /docs/team/X to /community/X and /docs/support/X to /community/X
+        //    return [
+        //      existingPath.replace('/community', '/docs/team'),
+        //      existingPath.replace('/community', '/docs/support'),
+        //    ];
+        //  }
+        //  return undefined; // Return a falsy value: no redirect created
+        //},
+      },
+    ],
+  ],
 };

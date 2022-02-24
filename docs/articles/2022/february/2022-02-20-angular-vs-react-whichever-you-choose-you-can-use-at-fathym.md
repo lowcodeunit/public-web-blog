@@ -1,5 +1,4 @@
 ---
-slug: /
 title: Angular vs. React - Whichever you choose, you can use at Fathym
 author: Rich Kurtzman
 author_title: Brand Communications @ Fathym
