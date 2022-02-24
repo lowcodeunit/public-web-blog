@@ -1,5 +1,5 @@
 ---
-title: Angular vs. React - Whichever you choose, you can use at Fathym
+title: Angular vs. React | Whichever you choose, you can use at Fathym
 author: Rich Kurtzman
 author_title: Brand Communications @ Fathym
 author_url: https://www.fathym.com
@@ -58,7 +58,7 @@ So, which one will you use; React or Angular?
 
 The good news is, you can use one or the other, or both with Fathym. That’s thanks to the fact that Fathym is a micro-frontends platform.  
 
-What are micro-frontends? (LINK to our blog on MFE) Simply, it’s breaking down monolithic frontends into smaller pieces. That means individual developers or teams can work on their own projects – like a Blog or Photo Gallery – while others are working on, say, the e-commerce store. And everything comes together seamlessly in a single site. 
+[What are micro-frontends?](https://www.fathym.com/blog/articles/2022/february/2022-02-14-fathym-vs-netlify-and-vercel-micro-frontends) Simply, it’s breaking down monolithic frontends into smaller pieces. That means individual developers or teams can work on their own projects – like a Blog or Photo Gallery – while others are working on, say, the e-commerce store. And everything comes together seamlessly in a single site. 
 
 Our working analogy is this: Imagine an aspen grove, where all the individual trees are tied together in one, massive root system. So, really, they are all one living entity (your site or application). Now, imagine that aspen grove but where all the trees are different species -- lodgepole pine, maple, aspen etc. -- representing the different projects you can host on individual “routes” in Fathym.  
 

@@ -1,5 +1,5 @@
 ---
-title: Fathym vs. Netlify and Vercel - Micro Frontends open up possibilities
+title: Fathym vs. Netlify and Vercel | Micro Frontends open up possibilities
 author: Rich Kurtzman
 author_title: Brand Communications @ Fathym
 author_url: https://www.fathym.com
