@@ -141,7 +141,7 @@ module.exports = {
           // /docs/oldDoc -> /docs/newDoc
           {
             to: '/articles/2022/february/2022-02-18-flashup-buzz-word-or-brilliant-idea',
-            from: ['/docs/'],
+            from: ['/docs/', '/blog/'],
           },
           // Redirect from multiple old paths to the new path
           //{
