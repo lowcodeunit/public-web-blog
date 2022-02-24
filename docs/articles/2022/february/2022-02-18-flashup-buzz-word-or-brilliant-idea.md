@@ -1,5 +1,5 @@
 ---
-title: Flashup - Buzz word or brilliant idea? 
+title: Flashup | Buzz word or brilliant idea? 
 author: Rich Kurtzman
 author_title: Brand Communications @ Fathym
 author_url: https://www.fathym.com
