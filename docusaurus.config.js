@@ -135,13 +135,13 @@ module.exports = {
     [
       '@docusaurus/plugin-client-redirects',
       {
-        fromExtensions: ['html', 'htm'], // /myPage.html -> /myPage
-        toExtensions: ['exe', 'zip'], // /myAsset -> /myAsset.zip (if latter exists)
+        fromExtensions: ['html', 'htm', 'md'], // /myPage.html -> /myPage
+        toExtensions: ['exe', 'zip', 'md'], // /myAsset -> /myAsset.zip (if latter exists)
         redirects: [
           // /docs/oldDoc -> /docs/newDoc
           {
             to: '/articles/2022/february/2022-02-18-flashup-buzz-word-or-brilliant-idea',
-            from: ['/docs/', '/blog/'],
+            from: ['/docs/'],
           },
           // Redirect from multiple old paths to the new path
           //{
