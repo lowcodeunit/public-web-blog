@@ -140,7 +140,7 @@ module.exports = {
         redirects: [
           // /docs/oldDoc -> /docs/newDoc
           {
-            to: '/docs/articles/2022/february/2022-02-18-flashup-buzz-word-or-brilliant-idea',
+            to: '/articles/2022/february/2022-02-18-flashup-buzz-word-or-brilliant-idea',
             from: ['/blog/'],
           },
           // Redirect from multiple old paths to the new path
