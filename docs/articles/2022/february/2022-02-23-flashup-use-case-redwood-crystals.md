@@ -1,5 +1,4 @@
 ---
-slug: /
 title: Flashup use case | Redwood Crystals, a small business
 author: Rich Kurtzman
 author_title: Brand Communications @ Fathym
