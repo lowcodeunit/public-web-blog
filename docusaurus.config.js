@@ -10,9 +10,6 @@ module.exports = {
   organizationName: 'lowcodeunit', // Usually your GitHub org/user name.
   projectName: 'public-web-blog', // Usually your repo name.
   themeConfig: {
-    gtag: {
-      trackingID: 'G-NEWEXH7W8C',
-    },
     oribi: {
       trackingID: 'XzcwMzAwMzkyNA',
     },
@@ -116,6 +113,9 @@ module.exports = {
           routeBasePath: '/',
           // The lowcodeunit website blog repo
           // editUrl: 'https://github.com/lowcodeunit/public-web-blog/edit/master/website/blog/',
+        },
+        gtag: {
+          trackingID: 'G-NEWEXH7W8C',
         },
         /* blog: {
           showReadingTime: true,
