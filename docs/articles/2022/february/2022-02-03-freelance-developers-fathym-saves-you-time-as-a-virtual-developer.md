@@ -1,5 +1,5 @@
 ---
-title: Freelance Developers - Fathym saves you time as a virtual developer
+title: Freelance Developers | Fathym saves you time as a virtual developer
 author: Rich Kurtzman
 author_title: Content Creator @ Fathym
 author_url: https://www.lowcodeunit.com
