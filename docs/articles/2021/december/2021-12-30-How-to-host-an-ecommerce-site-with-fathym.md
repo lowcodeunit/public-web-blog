@@ -8,6 +8,7 @@ tags: [website, application, no code, micro-frontend, hosting, dev ops]
 hide_table_of_contents: true
 ---
 
+![Redwood Crystals](/img/redwoodcrystalsandsnipcart.png)
 
 In today’s world, just about anyone could benefit from having their own website.  
 
