@@ -1,5 +1,5 @@
 ---
-title: Angular vs. React | Whichever you choose, you can use at Fathym
+title: Angular vs React | Whichever you choose, you can use at Fathym
 author: Rich Kurtzman
 author_title: Brand Communications @ Fathym
 author_url: https://www.fathym.com

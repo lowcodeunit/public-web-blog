@@ -11,6 +11,7 @@ module.exports = {
           'articles/2022/february/2022-02-18-flashup-buzz-word-or-brilliant-idea',
           'articles/2022/february/2022-02-20-angular-vs-react-whichever-you-choose-you-can-use-at-fathym',
           'articles/2022/february/2022-02-23-flashup-use-case-redwood-crystals',
+          'articles/2022/february/2022-02-28-angular-vs-react-vs-vue-you-choose',
     
         ],
         'January': [
