@@ -7,6 +7,7 @@ module.exports = {
   baseUrl: '/blog/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
+  trailingSlash: true,
   organizationName: 'lowcodeunit', // Usually your GitHub org/user name.
   projectName: 'public-web-blog', // Usually your repo name.
   themeConfig: {
