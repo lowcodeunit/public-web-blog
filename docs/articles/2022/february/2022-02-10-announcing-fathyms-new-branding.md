@@ -7,6 +7,9 @@ author_image_url: https://github.com/richkurtzman.png
 tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
+
+> February 10, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
+
 ![Fathym Thinky](/img/Fathym-logo-white-01.png)
 Growth. Transformation. Renewal. 
 

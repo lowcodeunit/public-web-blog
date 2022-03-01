@@ -8,6 +8,7 @@ tags: [website, application, no code, micro-frontend, hosting, engineering]
 hide_table_of_contents: true
 ---
 
+> January 14, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
 ### So, you want to host a website. But, with so many sites, why?
 

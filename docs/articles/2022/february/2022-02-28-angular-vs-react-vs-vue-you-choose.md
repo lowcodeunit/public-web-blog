@@ -8,6 +8,8 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
+> February 28, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
+
 ![Fathym is fast.](/img/angularblocks.jpeg)
 
 When you’re looking for a JavaScript framework, there are a ton of options out there. When you and your team are deciding on which one to pick, it could be reliant on: The size of the project, the size of the team needed or, simply, on what framework your developers know best.  

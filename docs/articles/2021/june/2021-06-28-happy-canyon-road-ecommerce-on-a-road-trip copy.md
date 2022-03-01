@@ -8,6 +8,8 @@ tags: [website, application, no code, micro-frontend, ecommerce]
 hide_table_of_contents: true
 ---
 
+> June 28, 2021 by Michael Gearhardt, _CTO @ Fathym_
+
 Coding has come a long way from the days when I shell programmed my TI-83 with physics and calculus programs, maybe even a Mortal Kombat stick fighter or two.  New ways of programing computers have evolved from C++, VB Script, C#, and Java to Javascript, Flash, Javascript again, paython, Go and on and on and on.  Every step meant to further remove the developer from "How" in order to focus on "What" and "Why".  This is our constant focus at Fathym.  How do we make more technology more accessible to more people?  Can we move people further up the stack, even closer to solving the why with what the customer needs without the need for understanding all that underpins enterprise grade software?  
 
 I always remember back to an eBay conference when I was maybe 19 or 20.  A presenter came on stage talking about how they (2 coders) used a satelite internet connection, some ebay APIs, and an ice fishing shack to develop their multi-million dollar enterprise.  The thought of such simplicity for all developers has been a focal point of my entire development philosophy for the better part of 2 decades.  Let's try this out a bit, and see what we can do with a hotspot from my phone, some SaaS and Open Source tools, and a Ford Expedition.
