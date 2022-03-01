@@ -70,7 +70,7 @@ So, which one will you use; React or Angular or Vue?  
 
 The good news is, you can use one or the other, or all three with Fathym. That’s thanks to the fact that Fathym is a micro-frontends platform. 
 
-[What are micro-frontends](https://www.fathym.com/blog/articles/2022/january/2022-01-20-how-our-microfontends-help-businesses-big-and-small)? Simply, it’s breaking down monolithic frontends into smaller pieces. That means individual developers or teams can work on their own projects – like a Blog or Photo Gallery – while others are working on, say, the [e-commerce store(https://www.fathym.com/blog/articles/2021/december/2021-12-30-How-to-host-an-ecommerce-site-with-fathym)]. And everything comes together seamlessly in a single site. 
+[What are micro-frontends](https://www.fathym.com/blog/articles/2022/january/2022-01-20-how-our-microfontends-help-businesses-big-and-small)? Simply, it’s breaking down monolithic frontends into smaller pieces. That means individual developers or teams can work on their own projects – like a Blog or Photo Gallery – while others are working on, say, the [e-commerce store](https://www.fathym.com/blog/articles/2021/december/2021-12-30-How-to-host-an-ecommerce-site-with-fathym). And everything comes together seamlessly in a single site. 
 
 Our working analogy is this: Imagine an aspen grove, where all the individual trees are tied together in one, massive root system. So, really, they are all one living entity (your site or application). Now, imagine that aspen grove but where all the trees are different species -- lodgepole pine, maple, aspen etc. -- representing the different projects you can host on individual “routes” in Fathym.  
 
