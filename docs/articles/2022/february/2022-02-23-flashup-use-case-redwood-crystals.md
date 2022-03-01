@@ -8,6 +8,8 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
+> February 23, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
+
 ![Fathym is fast.](/img/soup.jpg)
 
 Out with the old, in with the new.  

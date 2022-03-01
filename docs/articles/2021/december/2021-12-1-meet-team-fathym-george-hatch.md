@@ -8,6 +8,8 @@ tags: [website, application, no code, micro-frontend, hosting, dev ops]
 hide_table_of_contents: true
 ---
 
+> December 1, 2021 by Rich Kurtzman, _Brand Communications @ Fathym_
+
 Here at Fathym, we may be creating amazing tools and products which live in cyberspace, but we’re down to earth, too.  
 
 Our team features a wide range of folks like front end engineer George Hatch, who’s been with us for more than three years, joining out of college.  

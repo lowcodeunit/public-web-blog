@@ -8,6 +8,8 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
+> January 30, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
+
 We’ve all been there before. You make a change to your site and you need to get it live. Or you make a change to your site and you need someone else to review it. And then you need to get it live. Once it’s live you might realize that something’s wrong and you need to roll back to an earlier version.  
 
 Whether you’re a small team or an enterprise, the question remains the same, “How do you easily and quickly switch between versions of your code without disrupting your business?” 

@@ -8,6 +8,8 @@ tags: [website, application, no code, micro-frontend, hosting, engineering]
 hide_table_of_contents: true
 ---
 
+> December 15, 2021 by Kim Loomis, _Product Owner @ Fathym_
+
 ### Jobs have never been so secure. Bosses have stopped firing people.
 
 That's the headline of a CNN Business article this week. Firings and layoffs have nearly stopped as employers do everything they can to keep their all important staff. There are about three job openings for every two job seekers according to latest statistics. With there being more jobs open than job seekers, employers are retaining employees that otherwise they may have let go in the past.
