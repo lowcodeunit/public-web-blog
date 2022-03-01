@@ -8,6 +8,8 @@ tags: [website, application, no code, micro-frontend, hosting, dev ops]
 hide_table_of_contents: true
 ---
 
+> December 10, 2021 by Rich Kurtzman, _Brand Communications @ Fathym_
+
 At Fathym, we speak multiple coding languages. But we also understand the importance of speaking “human.” 
 
 While we’re working behind the scenes, creating tremendous tools like [Fathym](http://www.lowcodeunit.com/blog/why-fathym-rocks-and-saves-you-time), we’re also toiling away, figuring out how to best connect with our customers.  

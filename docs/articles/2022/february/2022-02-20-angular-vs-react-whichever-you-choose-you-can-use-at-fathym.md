@@ -8,6 +8,8 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
+> February 20, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
+
 ![Angular is a standard. But is is better than React?](/img/angularcode.jpeg)
 
 If you’re a developer, you’re likely into using Angular or React, or maybe both, depending on the project.  

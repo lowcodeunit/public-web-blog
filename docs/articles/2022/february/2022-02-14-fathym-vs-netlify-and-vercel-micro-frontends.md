@@ -8,6 +8,8 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
+> February 14, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
+
 ![Microservices a.k.a. Micro Frontends](/img/AdobeStock_microservices.jpeg)
 When it comes to hosting, there are some familiar names out there in Netlify and Vercel. Fathym may be the new kid on the block, but we’re bringing some new ideas, too. 
 

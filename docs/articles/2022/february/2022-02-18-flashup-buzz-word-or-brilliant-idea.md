@@ -8,6 +8,8 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
+> February 18, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
+
 ![Fathym is seriously fast](/img/ferrisbueller.jpg)
 Consider this the beginning of the end of the term “startup” and the beginning of a new term, “flashup.” 
 
