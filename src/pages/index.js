@@ -6,7 +6,7 @@ const Home = () => {
     let redirect =
       'articles/2022/february/2022-02-28-angular-vs-react-vs-vue-you-choose';
 
-    if (!location.pathname.endsWith('/')) {
+    if (!window.location.pathname.endsWith('/')) {
       redirect = `/${redirect}`;
     }
   });
