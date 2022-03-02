@@ -4,6 +4,10 @@ module.exports = {
   articles: {
     2022: [
       {
+      'March': [
+        'articles/2022/march/2022-03-02-introducing-fathyms-social-ui',
+
+        ],
         'February': [
           'articles/2022/february/2022-02-03-freelance-developers-fathym-saves-you-time-as-a-virtual-developer',
           'articles/2022/february/2022-02-10-announcing-fathyms-new-branding',
