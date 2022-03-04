@@ -10,6 +10,10 @@ hide_table_of_contents: true
 
 > January 20, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
+![](/img/mfrontendsvis.PNG) 
+
+(Credit: Micro Frontends in Action)
+
 Contrary to how they sound, micro frontends support big teams.  
 
 We’ve been working hard to bring you Fathym, our micro frontend platform. And now we’re moving out of the engineering phase and into user adoption phase with a freemium model.  
