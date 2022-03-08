@@ -3,7 +3,7 @@ import { Redirect } from '@docusaurus/router';
 
 const Home = () => {
   let redirect =
-    'articles/2022/march/2022-03-04-analyst-says-no-code-space-expected-to-grow-three-times';
+  'articles/2022/march/2022-03-08-flashups-give-beauty-to-startups';
 
   useEffect(() => {
     if (!window.location.pathname.endsWith('/')) {
