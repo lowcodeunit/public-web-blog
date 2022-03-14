@@ -8,6 +8,7 @@ module.exports = {
         'articles/2022/march/2022-03-02-introducing-fathyms-social-ui',
         'articles/2022/march/2022-03-04-analyst-says-no-code-space-expected-to-grow-three-times',
         'articles/2022/march/2022-03-08-flashups-give-beauty-to-startups',
+        'articles/2022/march/2022-03-14-a-simple-micro-frontends-explainer',
 
 
         ],
