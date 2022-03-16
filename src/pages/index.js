@@ -3,7 +3,7 @@ import { Redirect } from '@docusaurus/router';
 
 const Home = () => {
   let redirect =
-  'articles/2022/march/2022-03-14-a-simple-micro-frontends-explainer';
+  'articles/2022/march/2022-03-16-how-i-blog-in-markdown';
 
   useEffect(() => {
     if (!window.location.pathname.endsWith('/')) {
