@@ -21,6 +21,10 @@ The micro frontends approach means breaking down that bigger structure into bite
 
 With Netlify and Vercel, if multiple developers are working on the same site, there’s only one GitHub repository. Sure, each developer can create their own branch while working on tasks, and merge back into the main branch when they’re done. But if “Team Photo Gallery” is not done with their task, then “Team Store” and “Team Blog” both must wait before they can update the production site – because they all share the same GitHub repository. 
 
+UPDATE: With Vercel, Netlify and other cloud hosting solutions, like Amazon Lightsail and Azure Static Web Apps, you can work to achieve some aspects of micro frontends. This often involves a series of server rewrite rules, mono-repos and hosting across multiple domains. That may be right for your organization, but with Fathym we are exploring micro frontends as a core part of your team workflow, as defined by others in the space.
+
+For more: [Martin Fowler on Micro Frontends.](https://martinfowler.com/articles/micro-frontends.html)
+
 The differentiator with Fathym is your entire site doesn’t have to be in one GitHub repo. Teams can make as many different repos as they desire, based on the site they’re building. With micro frontends, each repo is tied to a route, like website.com/blog or /store or /photos. This allows teams to scale and release products independently of other teams. “Team Store” and “Team Blog” can both release updates to the production site, without worrying if “Team Photo Gallery” is behind schedule. 
 
  
