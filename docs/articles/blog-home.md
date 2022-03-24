@@ -21,10 +21,26 @@ Micro frontends as a concept started showing up on the radar of developers and o
 
 [Continue reading...](articles/2022/march/2022-03-14-a-simple-micro-frontends-explainer)
 
+## Headless WordPress made easy with Gatsby
 
+![](/img/gatsbylogo-home.jpg) 
+
+WordPress is widely regarded as one of the most popular content management systems in the world.  
+
+In fact, as of late 2021, [WordPress powered 35% of the top 1 million websites in the world](https://gracethemes.com/wordpress-is-still-the-most-popular-cms-choice-top-trends-in-2020-and-predictions-for-2021/). That’s remarkable! 
+
+Why is it so popular?  
+
+First and foremost, it’s free to download and use. However, if you want to customize it, WordPress does charge a fee for their templates and plug-ins.  
+
+[Continue reading...](articles/2022/march/2022-03-24-headless-wordpress-made-easy-with-gatsby)
+
+
+
+ 
 ## How I blog in markdown with Docusaurus
 
-![](/img/blogcode-200-wide.jpg) 
+![](/img/blogcode-home.jpg) 
  
 Full disclosure: I’m not a coder. Or a developer. I don’t even know how to spell HTML. Wait… 
 
