@@ -10,6 +10,8 @@ module.exports = {
         'articles/2022/march/2022-03-08-flashups-give-beauty-to-startups',
         'articles/2022/march/2022-03-14-a-simple-micro-frontends-explainer',
         'articles/2022/march/2022-03-16-how-i-blog-in-markdown',
+        'articles/2022/march/2022-03-24-headless-wordpress-made-easy-with-gatsby',
+
 
 
 
