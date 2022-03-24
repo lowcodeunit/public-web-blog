@@ -2,7 +2,8 @@ module.exports = {
   docs: {
   },
   articles: {
-    2022: [
+    'Home':['articles/blog-home'],
+    ' 2022': [ //Note: the extra space in front of 2022 is on purpose. It changes it from a number to a string so it doesn't get auto ordered.
       {
       'March': [
         'articles/2022/march/2022-03-02-introducing-fathyms-social-ui',
@@ -24,7 +25,6 @@ module.exports = {
           'articles/2022/february/2022-02-20-angular-vs-react-whichever-you-choose-you-can-use-at-fathym',
           'articles/2022/february/2022-02-23-flashup-use-case-redwood-crystals',
           'articles/2022/february/2022-02-28-angular-vs-react-vs-vue-you-choose',
-    
         ],
         'January': [
           'articles/2022/january/2022-01-30-flipping-versions-a-breeze-with-fathym',
@@ -33,7 +33,7 @@ module.exports = {
         ],
       },      
     ],
-    2021: [
+    ' 2021': [ //Note: the extra space in front of 2021 is on purpose. It changes it from a number to a string so it doesn't get auto ordered.
       {
         'December': [
           'articles/2021/december/2021-12-30-How-to-host-an-ecommerce-site-with-fathym',
