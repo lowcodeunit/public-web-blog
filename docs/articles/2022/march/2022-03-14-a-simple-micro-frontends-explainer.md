@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 > March 14, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![No code launch](/img/microfrontendsvisfathym.png)
+![No code launch](/img/MFERReactGatsbyAngular.png)
 
 The world of tech is all about advancing, improving, and evolving. Sometimes quickly, and sometimes it takes a while for changes to catch on.  
 

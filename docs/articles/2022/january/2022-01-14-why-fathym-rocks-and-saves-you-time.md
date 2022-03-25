@@ -10,6 +10,7 @@ hide_table_of_contents: true
 
 > January 14, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
+![Fathym](/img/logo.png)
 ### So, you want to host a website. But, with so many sites, why?
 
 Even with the millions of websites out there, you’re unique. You’re special. You can bring something to the world which has never been seen before, from your personal perspective.
