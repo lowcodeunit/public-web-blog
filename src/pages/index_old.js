@@ -3,7 +3,7 @@ import { Redirect } from '@docusaurus/router';
 
 const Home = () => {
   let redirect =
-  'articles/2022/march/2022-03-24-headless-wordpress-made-easy-with-gatsby';
+  'articles/2022/march/2022-03-29-headless-wordpress-using-eleventy';
 
   useEffect(() => {
     if (!window.location.pathname.endsWith('/')) {
