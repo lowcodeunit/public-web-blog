@@ -21,6 +21,19 @@ Micro frontends as a concept started showing up on the radar of developers and o
 
 [Continue reading...](articles/2022/march/2022-03-14-a-simple-micro-frontends-explainer)
 
+
+## Headless WordPress using Eleventy
+
+![](/img/11tylogo.png)
+
+WordPress is extremely popular. It's used by millions of websites around the world because it's user-friendly and free to start. 
+
+However, there are many downsides.
+
+That's where a headless WordPress option comes into play. And in this case, 11ty is the content management system we're using to show you how to do it all easily. 
+
+[Continue reading...](articles/2022-03-29-headless-wordpress-using-eleventy)
+
 ## Headless WordPress made easy with Gatsby
 
 ![](/img/gatsbylogo-home.jpg) 
@@ -34,25 +47,6 @@ Why is it so popular?
 First and foremost, it’s free to download and use. However, if you want to customize it, WordPress does charge a fee for their templates and plug-ins.  
 
 [Continue reading...](articles/2022/march/2022-03-24-headless-wordpress-made-easy-with-gatsby)
-
-
-
- 
-## How I blog in markdown with Docusaurus
-
-![](/img/blogcode-home.jpg) 
- 
-Full disclosure: I’m not a coder. Or a developer. I don’t even know how to spell HTML. Wait… 
-
-The truth is, what I am is an artist. I paint, create furniture out of wood, I create dishes in the kitchen, and I write.  
-
-Those two things – being a developer and an artist – don’t necessarily have to be on opposite ends of the spectrum, though. Artists can, and do, work within limits and rules. Although, they’re probably not as extensive as the rules of the road when writing code, think of the many confusing rules of the English language.  
-
-For our blogs at Fathym, I start with a template. There’s the slug, title, author name, my URL, my author image (located on GitHub) and tags. It’s important to get all these right, but they’re simple to fill out.  
-
-[Continue reading...](articles/2022/march/2022-03-16-how-i-blog-in-markdown)
-
-
 
 ## Join Fathym 
 
