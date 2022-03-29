@@ -32,7 +32,7 @@ However, there are many downsides.
 
 That's where a headless WordPress option comes into play. And in this case, 11ty is the content management system we're using to show you how to do it all easily. 
 
-[Continue reading...](articles/2022-03-29-headless-wordpress-using-eleventy)
+[Continue reading...](articles/2022/march/2022-03-29-headless-wordpress-using-eleventy)
 
 ## Headless WordPress made easy with Gatsby
 
