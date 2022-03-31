@@ -8,7 +8,7 @@ tags: [website, headless wordpress, no code, micro-frontend, gatsby, low code]
 hide_table_of_contents: true
 ---
 
-> March 24, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
+> March 29, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
 ![](/img/11tylogo.png)
 
