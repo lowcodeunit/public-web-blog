@@ -9,17 +9,17 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
-## A simple Micro Frontends explainer
+## Addressing micro frontends crticisms | Payload size
 
-![No code launch](/img/microfrontendsvisfathym.png)
+![No code launch](/img/MFEzoom.jpg)
 
-The world of tech is all about advancing, improving, and evolving. Sometimes quickly, and sometimes it takes a while for changes to catch on.  
+Many years ago, we embraced micro frontends. Even before the term was coined.  
 
-When it comes to micro frontends, it’s been a longer process to acceptance, but we’ve fully embraced all the positive possibilities they bring.  
+Now, the proof is in the pudding.  
 
-Micro frontends as a concept started showing up on the radar of developers and others in the space back in 2016. And then it gained even more prominence with [Martin Fowler’s piece](https://martinfowler.com/articles/micro-frontends.html) on the frontend architecture in 2019.  
+Many big-time corporations are using micro frontends in 2022 – IKEA, Spotify, HelloFresh – and that’s helping others become more curious if the architecture is right for their company, too. Fathym’s micro frontends platform is the wave of the future.  
 
-[Continue reading...](articles/2022/march/2022-03-14-a-simple-micro-frontends-explainer)
+[Continue reading...](articles/2022/march/2022-03-31-addressing-micro-frontend-criticisms-payload)
 
 
 ## Headless WordPress using Eleventy
