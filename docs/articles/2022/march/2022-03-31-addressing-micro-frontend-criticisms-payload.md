@@ -52,7 +52,7 @@ While this is true, we work our way around large download sizes by creating ligh
 
 Specifically, our frontends are lighter weight when we’re able to use static site generators for certain aspects of the website. At Fathym, we’re lowering the bar in terms of coding experience needed to build a site, and part of that is using low-code and no-code site builders.  
 
-[One example is Docusaurus](http://fathym.com/blog/articles/2022/march/2022-03-16-how-i-blog-in-markdown), which we use for our blogs, as well as our technical documentation. [Another is Gatsby](http://fathym.com/blog/articles/2022/march/2022-03-24-headless-wordpress-made-easy-with-gatsby) (our blog example above) and then there’s Plasmic, which is a wonderfully performative and easy-to-use site generator. In fact, we like it so much, we currently use it for our main page.  
+[One example is Docusaurus](http://fathym.com/blog/articles/2022/march/2022-03-16-how-i-blog-in-markdown), which we use for our blogs, as well as our technical documentation. [Another is Gatsby](http://fathym.com/blog/articles/2022/march/2022-03-24-headless-wordpress-made-easy-with-gatsby) (our blog example above) and then there’s Plasmic, which is a wonderfully performative and easy-to-use site generator. In fact, we like it so much, we currently use it for our home page.  
 
 Site generators are not only less to load, they can also be pre-generated/pre-loaded to improve speed and dodge downloads.  
 
