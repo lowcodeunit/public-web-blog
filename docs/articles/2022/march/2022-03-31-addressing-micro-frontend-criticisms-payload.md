@@ -48,13 +48,19 @@ As Martin Fowler explained it:
 
 > “For example, if every micro frontend includes its own copy of React, then we're forcing our customers to download React n times. There is a direct relationship between page performance and user engagement/conversion, and much of the world runs on internet infrastructure much slower than those in highly-developed cities are used to, so we have many reasons to care about download sizes.” 
 
-While this is true, we work our way around large download sizes by creating lightweight micro frontends, including only what is necessary.  
+While this is true, we work our way around large download sizes by creating lightweight micro frontends, including only what is necessary.
 
-Specifically, our frontends are lighter weight when we’re able to use static site generators for certain aspects of the website. At Fathym, we’re lowering the bar in terms of coding experience needed to build a site, and part of that is using low-code and no-code site builders.  
+We do want to make it clear, that you as the developer have the freedom to create your site however you see fit. You _can_ use React to build every, single page. However, we warn against that not only due to payload size, but because it's still closely related to the _monolithic frontend_ in that way, too.
+
+Instead, we invite you to use React (or Angular etc.) for one part of your website, and use a static site generator, or even a lighter weight framework like Vue.js or Svelte for other pages. 
+
+React is well-known as a popular JavaScript library, but its bundle sizes are larger, meaning slower websites on the user end. Vue and Svelte are much smaller and still pack a lot of customization to create eye-popping sites.
+
+Our frontends are lighter weight when we’re able to use static site generators for certain aspects of the website. At Fathym, we’re focusing on inclusivity and lowering the bar in terms of coding experience needed to build a site, and part of that is using low-code and no-code site builders.  
 
 [One example is Docusaurus](http://fathym.com/blog/articles/2022/march/2022-03-16-how-i-blog-in-markdown), which we use for our blogs, as well as our technical documentation. [Another is Gatsby](http://fathym.com/blog/articles/2022/march/2022-03-24-headless-wordpress-made-easy-with-gatsby) (our blog example above) and then there’s Plasmic, which is a wonderfully performative and easy-to-use site generator. In fact, we like it so much, we currently use it for our home page.  
 
-Site generators are not only less to load, they can also be pre-generated/pre-loaded to improve speed and dodge downloads.  
+Site generators are not only lighter to load, they can also be pre-generated/pre-loaded to improve speed and dodge downloads.  
 
 ## Fathym FTW 
 
