@@ -5,6 +5,10 @@ module.exports = {
     'Home':['articles/blog-home'],
     ' 2022': [ //Note: the extra space in front of 2022 is on purpose. It changes it from a number to a string so it doesn't get auto ordered.
       {
+      'April': [
+        'articles/2022/april/2022-04-04-fastest-way-to-evaluate-azure',
+
+      ],
       'March': [
         'articles/2022/march/2022-03-31-addressing-micro-frontend-criticisms-payload',
         'articles/2022/march/2022-03-29-headless-wordpress-using-eleventy',
