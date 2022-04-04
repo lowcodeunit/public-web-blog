@@ -22,6 +22,17 @@ Many big-time corporations are using micro frontends in 2022 – IKEA, Spotify, 
 [Continue reading...](articles/2022/march/2022-03-31-addressing-micro-frontend-criticisms-payload)
 
 
+## The fastest way to evaluate Azure, IoT and serverless functions
+
+![](/img/MFERPlasmicGatsbyDocuReact.png)
+
+From web hosting to creating exciting developer tools and building IoT solutions, Fathym is a company which prides itself on having a lot of productive irons in the fire.
+
+And one may wonder why we’re exploring all of these avenues at the same time.
+
+Simply, because they all interconnect.
+
+Continue reading
 ## Headless WordPress using Eleventy
 
 ![](/img/11tylogo.png)
@@ -34,19 +45,6 @@ That's where a headless WordPress option comes into play. And in this case, 11ty
 
 [Continue reading...](articles/2022/march/2022-03-29-headless-wordpress-using-eleventy)
 
-## Headless WordPress made easy with Gatsby
-
-![](/img/gatsbylogo-home.jpg) 
-
-WordPress is widely regarded as one of the most popular content management systems in the world.  
-
-In fact, as of late 2021, [WordPress powered 35% of the top 1 million websites in the world](https://gracethemes.com/wordpress-is-still-the-most-popular-cms-choice-top-trends-in-2020-and-predictions-for-2021/). That’s remarkable! 
-
-Why is it so popular?  
-
-First and foremost, it’s free to download and use. However, if you want to customize it, WordPress does charge a fee for their templates and plug-ins.  
-
-[Continue reading...](articles/2022/march/2022-03-24-headless-wordpress-made-easy-with-gatsby)
 
 ## Join Fathym 
 
