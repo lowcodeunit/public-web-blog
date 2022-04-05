@@ -32,7 +32,7 @@ And one may wonder why we’re exploring all of these avenues at the same time.
 
 Simply, because they all interconnect.
 
-Continue reading
+[Continue reading...](articles/2022/april/2022-04-04-fastest-way-to-evaluate-azure)
 ## Headless WordPress using Eleventy
 
 ![](/img/11tylogo.png)
