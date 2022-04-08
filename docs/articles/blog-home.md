@@ -8,6 +8,17 @@ author_image_url: https://github.com/richkurtzman.png
 tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
+## Flashup your arcade, or website, today!
+
+![](/img/arcademachines.jpg)
+
+Flashups are a new concept which our CEO, Matt Smith, created a few weeks ago. And it can be used multiple ways.  
+
+As a noun, a flashup is a startup business that gets off the ground in a hurry. Like the Space Shuttle, there’s an ignition and then it’s off into orbit. That’s our hope when helping businesses big and small get off the ground.  
+
+For example, we worked with a small, local business called Redwood Crystals in Fort Collins, CO and helped them get their business online in record time.   
+
+[Continue reading...](articles/2022/april/2022-04-07-flashup-your-arcade)
 
 ## Addressing micro frontends crticisms | Payload size
 
