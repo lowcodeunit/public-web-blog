@@ -22,7 +22,7 @@ We’re a cloud computing, software-developing company; things can get boring if
 
 ## Fathym Arcade
 
-That’s where the [Fathym Arcade](arcade.fathym.com) comes in.  
+That’s where the [Fathym Arcade](https://arcade.fathym.com) comes in.  
 
 We welcome developers using our new [Social UI](https://www.fathym.com/blog/articles/2022/march/2022-03-02-introducing-fathyms-social-ui) to add these to your dashboard and flashup your site.  
 
