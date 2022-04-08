@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 > January 20, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![](/img/mfrontendsvis.PNG) 
+![](/img/MFERAngularSvelteAngularDocu.png) 
 
 (Credit: Micro Frontends in Action)
 
