@@ -8,6 +8,21 @@ author_image_url: https://github.com/richkurtzman.png
 tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
+
+## Headless WordPress using Vue
+
+![](/img/vuejsscreen.jpeg)
+
+Within WordPress, creators are limited. They’re boxed into whatever plugins the CMS has already built.  
+
+Instead, developers have the ability to create new and unique design layouts. You can decide how best to display your content, and how your end-users interact with that content.  
+
+Let’s say you’re a fashion company. You can have a gallery of the latest T-shirts you’ve designed. But, when the user clicks the picture, they’re taken to a new page, which is a video of the model walking through the streets in that shirt.  
+
+When using Vue.js as your the head of your WordPress, the options are basically limitless! 
+
+[Continue reading...](articles/2022/april/2022-04-11-headless-wordpress-vue)
+
 ## Flashup your arcade, or website, today!
 
 ![](/img/arcademachines.jpg)
@@ -44,17 +59,6 @@ And one may wonder why we’re exploring all of these avenues at the same time.
 Simply, because they all interconnect.
 
 [Continue reading...](articles/2022/april/2022-04-04-fastest-way-to-evaluate-azure)
-## Headless WordPress using Eleventy
-
-![](/img/11tylogo.png)
-
-WordPress is extremely popular. It's used by millions of websites around the world because it's user-friendly and free to start. 
-
-However, there are many downsides.
-
-That's where a headless WordPress option comes into play. And in this case, 11ty is the content management system we're using to show you how to do it all easily. 
-
-[Continue reading...](articles/2022/march/2022-03-29-headless-wordpress-using-eleventy)
 
 
 ## Join Fathym 
