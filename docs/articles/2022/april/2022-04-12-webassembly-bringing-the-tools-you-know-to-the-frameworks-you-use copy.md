@@ -13,7 +13,7 @@ hide_table_of_contents: true
 
 ![VUE JS]()
 
-The javascript frameworks we use are widely regarded as the most popular way to develop frontend applications.
+The javascript frameworks we all use are widely regarded as the most popular way to develop frontend applications.
 
 Whether using react and angular for their complete feature sets or svelte and vue for their lightweight footprint, if you've built a website in the last decade, then you've used one of these or the 100s of other javascript frameworks available today.
 
