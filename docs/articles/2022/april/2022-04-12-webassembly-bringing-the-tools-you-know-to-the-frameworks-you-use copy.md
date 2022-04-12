@@ -1,5 +1,5 @@
 ---
-title: Bringing the tools you know to the frameworks we use
+title: WebAssembly, bringing the tools you know to the frameworks we use
 author: Michael Gearhardt
 author_title: CTO @ Fathym
 author_url: https://www.fathym.com
