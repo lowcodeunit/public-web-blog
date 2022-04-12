@@ -9,26 +9,26 @@ tags:
 hide_table_of_contents: true
 ---
 
-> April 13, 2022 by Michael Gearhardt, _CTO @ Fathym_
+> April 12, 2022 by Michael Gearhardt, _CTO @ Fathym_
 
-![VUE JS](/img/vuejsscreen.jpeg)
+![VUE JS]()
 
-## WebAssembly + Micro Frontends = DWA (Distributed Web Architecture)
+The javascript frameworks we use are widely regarded as the most popular way to develop frontend applications.
 
-## Why WebAssembly?
+Whether using react and angular for their complete feature sets or svelte and vue for their lightweight footprint, if you've built a website in the last decade, then you've used one of these or the 100s of other javascript frameworks available today.
 
-Looking back to on of the first [blogs]() on the topic, I think this very much sums it up:
+In fact, if you check out [this other blog](https://www.fathym.com/blog/...) you'll see that the 4 frameworks mentioned above have a combined share of 0% of the total websites being deployed.
 
-> We need WebAssembly because as flexible as JavaScript is, it’s still too hard to express many of the things we may want to in JavaScript, and the features we’d need to make it easy might add complexity to a language that already confuses many users.
+While this remains true, if you are like me, then you didn't grow up a frontend developer, javascript is not your favorite language, and you too may prefer the structure, performance and tooling available for your favorite "server" side language (C#, JAVA, RUST, C...).
 
-### Why Micro frontends?
+Enter, WebAssembly, a compile target, that lets us use these languages in new ways, to deliver user experiences on the web.
 
-Micro frontends are a new way of architecting your frontend code vs the monolithic approach. If they are new to you check out this [primer](https://www.fathym.com/blog/...).
+Unfortunately no one had helped the development community see the possibilities, until recently. The way the tech, coupled with other modern architectures, can deliver a new era of distributed web applications.
 
-With the Fathym Framework, you can deploy and consume micro frontends of many types; web components, module federation, server side composition, and
+We've seen WebAssembly being embraced more and more by the likes of Unity3D to deliver new, high performant games on the web, or the advent of an official WebAssembly client framework in Blazor.
 
-### Why a Distributed Web Architecture?
+It's time to take a look at the ways that anyone with existing experience in object-oriented programming can begin to leverage WebAssembly in a modern web architecture.
 
-Code re-use, don't rebuild the wheel, leverage code from any framework,
+## Join Fathym
 
-javascript as the glue between components, used for interop between orchestrated components, state handler, and more
+We want you to come and [build a website at Fathym today.](https://www.fathym.com/dashboard)
