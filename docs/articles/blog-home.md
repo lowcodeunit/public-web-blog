@@ -9,6 +9,19 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
+## Ranking JavaScript frameworks by popularity
+
+![](/img/javacoder.jpeg)
+
+No matter your experience level, you likely have a favorite JavaScript framework you use.  
+
+Most developers do have favorites, and for a variety of reasons.  
+
+Popularity, usability, support, features and flexibility; these are all some of the reasons developers give as to why they pick one over another. And, when you find one that works, why go out and learn the ever-growing list of options?  
+
+While there may be different variables to consider for each individual developer, popularity is certainly incredibly important. 
+
+[Continue Reading...](articles/2022/april/2022-04-13-micro-frontend-popularity)
 ## Headless WordPress using Vue
 
 ![](/img/vuejsscreen.jpeg)
