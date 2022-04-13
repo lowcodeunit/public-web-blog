@@ -52,4 +52,4 @@ So, jump in and have fun, and then let your creativity run wild in terms of what
 
  ## Join Fathym
 
-We want you to come and [build a website at Fathym today.](www.fathym.com/dashboard)
+We want you to come and [build a website at Fathym today.](https://www.fathym.com/dashboard)
