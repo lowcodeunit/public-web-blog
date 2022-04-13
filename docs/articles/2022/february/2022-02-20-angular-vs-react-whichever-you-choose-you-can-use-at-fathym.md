@@ -76,6 +76,6 @@ So, Angular vs React? With Fathym, it doesn’t have to be an either/or situatio
 
 ## Join Fathym  
 
-Now in the user-adoption phase, we encourage you to [join today for free](www.fathym.com/dashboard)!
+Now in the user-adoption phase, we encourage you to [join today for free](https://www.fathym.com/dashboard)!
  
 

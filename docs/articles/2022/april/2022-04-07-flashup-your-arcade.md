@@ -38,7 +38,7 @@ As a verb, flashup can mean to “level up” an existing website or business, t
 
 ## Flashup your arcade or website
 
-We can help you flashup and entire arcade, on your own dashboard – and then level up your website – for free by [joining Fathym today!](www.fathym.com/dashboardS) 
+We can help you flashup and entire arcade, on your own dashboard – and then level up your website – for free by [joining Fathym today!](https://www.fathym.com/dashboard) 
 
 **Of course, the arcade is just a fun, exciting way to show off how you can use our [micro frontends](https://www.fathym.com/blog/articles/2022/march/2022-03-14-a-simple-micro-frontends-explainer) platform to create an entire website in mere minutes by using open-source GitHub repositories.**  
 

@@ -45,4 +45,4 @@ Being able to put together a website build in a jiffy allows businesses to go fr
 
 ## Join Fathym   
 
-We encourage you to join [Fathym](www.fathym.com/dashboard) today, for free, and give us feedback on what you like and dislike. We actively engage with our community and want to add the features you want the most.  
+We encourage you to join [Fathym](https://www.fathym.com/dashboard) today, for free, and give us feedback on what you like and dislike. We actively engage with our community and want to add the features you want the most.  

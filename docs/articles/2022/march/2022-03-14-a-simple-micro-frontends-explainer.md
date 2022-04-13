@@ -70,4 +70,4 @@ Micro frontends aren’t a new concept, but they are the wave of the future. [Ma
 
 ## Join Fathym 
 
-[We invite you to sign up](www.fathym.com/dashboard) for our freemium platform now, not only to achieve your goals, but to have a little fun while you’re at it, too. 
+[We invite you to sign up](https://www.fathym.com/dashboard) for our freemium platform now, not only to achieve your goals, but to have a little fun while you’re at it, too. 

@@ -53,4 +53,4 @@ In an ever-changing technological world, micro-frontends are the way of the futu
 
 Now in the user-adoption phase, we encourage you to join today for free and give us your feedback on Fathym! 
 
-Join [Fathym](www.fathym.com/dashboard) today!
+Join [Fathym](https://www.fathym.com/dashboard) today!

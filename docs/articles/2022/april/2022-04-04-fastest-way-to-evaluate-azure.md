@@ -78,6 +78,6 @@ In this example, the home page (root) is built out of Plasmic, another great sta
 
 But, imagine you're using micro frontends to instead display your IoT data. You can build the technical documentation out of Docusaurus, your home page out of Plasmic, but instead of a blog, maybe you want a real-time graph for the data. Or, many graphs running at once! Then, you could even have a blog that just keeps team members up to date on the happenings and findings of that IoT data.
 
-We want you to come and [build a website at Fathym today.](www.fathym.com/dashboard)
+We want you to come and [build a website at Fathym today.](https://www.fathym.com/dashboard)
 
 Our [Fathym Platform is micro frontends architecture.](https://www.fathym.com/blog/articles/2022/march/2022-03-14-a-simple-micro-frontends-explainer) That means freedom, customization, and an ability to f[lashup a website in mere minutes.](https://www.fathym.com/blog/articles/2022/february/2022-02-18-flashup-buzz-word-or-brilliant-idea) Seriously.  

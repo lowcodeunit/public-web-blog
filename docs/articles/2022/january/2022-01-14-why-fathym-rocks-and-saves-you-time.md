@@ -61,4 +61,4 @@ Fathym helped me be able to get that out there and understand, ‘OK, so I push 
 - Real humans – We’re here to help, as is our [technical documentation](https://www.lowcodeunit.com/docs) found here.
 - While we are releasing Fathym in a freemium way right now, it won’t always be that way. So, we invite you to jump on board this train before it leaves the station!
 
-Join [Fathym](www.fathym.com/dashboard) today!
+Join [Fathym](https://www.fathym.com/dashboard) today!

@@ -56,6 +56,6 @@ At Fathym, we give you the tools you need to succeed. Especially if you have the
 
 ## Join Fathym  
 
-Now in the user-adoption phase, we encourage you to [join today for free](www.fathym.com/dashboard)!
+Now in the user-adoption phase, we encourage you to [join today for free](https://www.fathym.com/dashboard)!
  
 

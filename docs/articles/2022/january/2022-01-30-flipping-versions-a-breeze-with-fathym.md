@@ -35,4 +35,4 @@ With Fathym, changing between versions of your code is a breeze. It helps you st
 
 And thanks to Fathym being a micro frontends platform,  the possibilities are endless. Multiple engineers and QA resources  can be working on multiple projects at the same time, switching between versions of their code, all working towards a larger goal.  
 
-Currently, we are offering [Fathym](www.fathym.com/dashboard) for free, so we invite you to come use it and give us your feedback today! 
+Currently, we are offering [Fathym](https://www.fathym.com/dashboard) for free, so we invite you to come use it and give us your feedback today! 

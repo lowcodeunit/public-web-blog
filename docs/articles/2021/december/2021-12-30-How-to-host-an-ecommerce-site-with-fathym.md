@@ -62,4 +62,4 @@ With Fathym, you own your code. That means you could take it anywhere you like i
 
 Right now, we’re in the exciting phase of bringing our phenomenal products to you. Currently, as we look to bring on users and improve our product, Fathym is being offered as a “freemium” program. We’d love you to jump in, join in and build something special today! 
 
-Join [Fathym](www.fathym.com/dashboard) today!
+Join [Fathym](https://www.fathym.com/dashboard) today!

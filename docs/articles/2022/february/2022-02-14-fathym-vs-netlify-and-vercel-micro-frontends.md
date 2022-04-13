@@ -41,4 +41,4 @@ Along with micro frontends, Fathym also provides release management, built-in se
 
 ## Join Fathym   
 
-We encourage you to join [Fathym](www.fathym.com/dashboard) today, for free, and give us feedback on what you like and dislike. We actively engage with our community and want to add the features you want the most.  
+We encourage you to join [Fathym](https://www.fathym.com/dashboard) today, for free, and give us feedback on what you like and dislike. We actively engage with our community and want to add the features you want the most.  

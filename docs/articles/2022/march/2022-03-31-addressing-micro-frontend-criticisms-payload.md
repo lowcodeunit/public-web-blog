@@ -70,4 +70,4 @@ Fathym’s micro frontends platform [allows the use of popular frameworks like A
 
 Fathym is currently in its freemium stage and we encourage you to join today! Hosting a micro frontend site on Fathym is simple, quick and free. 
 
-[We invite you to sign up for Fathym now](www.fathym.com/dashboard), not only to achieve your goals, but to have a little fun while you’re at it, too. 
+[We invite you to sign up for Fathym now](https://www.fathym.com/dashboard), not only to achieve your goals, but to have a little fun while you’re at it, too. 

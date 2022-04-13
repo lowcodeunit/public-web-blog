@@ -84,4 +84,4 @@ Fathym is free to try, it’s extremely easy to use and it’s secure.
  
  ## Join Fathym
 
-We want you to come and [build a website at Fathym today.](www.fathym.com/dashboard)
+We want you to come and [build a website at Fathym today.](https://www.fathym.com/dashboard)

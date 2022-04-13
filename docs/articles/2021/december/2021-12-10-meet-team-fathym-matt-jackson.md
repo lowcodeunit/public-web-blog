@@ -42,4 +42,4 @@ Currently, Fathym is moving from our development stage to user adoption, and Jac
 
 So, if you’re thinking about joining, know Jackson, Loomis and a whole host of capable folks are here to help, here to keep everything running on the back end and here to “speak human” to you, too.   
 
-Join [Fathym](www.fathym.com/dashboard) today!
+Join [Fathym](https://www.fathym.com/dashboard) today!

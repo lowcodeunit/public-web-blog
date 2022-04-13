@@ -64,4 +64,4 @@ Because Gatsby is much faster than traditional WordPress sites, it’s a better 
 
 ## Join Fathym 
 
-Transfer your WordPress website over to [Fathym today and try it out for free](www.fathym.com/dashboard) with Gatsby. And once you see the improved speed and user experience, we have a feeling you’ll stick around.  
+Transfer your WordPress website over to [Fathym today and try it out for free](https://www.fathym.com/dashboard) with Gatsby. And once you see the improved speed and user experience, we have a feeling you’ll stick around.  

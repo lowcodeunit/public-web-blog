@@ -37,4 +37,4 @@ Now that Fathym has turned the corner and moved into the user-adoption phase, ou
 
 Build anything you can Fathym.  
 
-Join [Fathym](www.fathym.com/dashboard) today for free and let us know how we can improve this robust tool for you. We value and appreciate feedback from our users.
+Join [Fathym](https://www.fathym.com/dashboard) today for free and let us know how we can improve this robust tool for you. We value and appreciate feedback from our users.

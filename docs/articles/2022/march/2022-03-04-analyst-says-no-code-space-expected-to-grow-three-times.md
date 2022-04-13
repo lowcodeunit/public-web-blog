@@ -58,4 +58,4 @@ At Fathym, we’re a solution to your development and hosting needs.
 
 ## Join Fathym 
 
-[We invite you to sign up](www.fathym.com/dashboard) for our freemium platform now, not only to achieve your goals, but to have a little fun while you’re at it, too. 
+[We invite you to sign up](https://www.fathym.com/dashboard) for our freemium platform now, not only to achieve your goals, but to have a little fun while you’re at it, too. 

@@ -62,4 +62,4 @@ To go one step further, we’ve actually put 11ty to use. [Fathym’s George Hat
 
 The result was easy-to-use content management, and a website with eCommerce abilities – hosted by Fathym – which he was able to [flashup in mere minutes thanks to 11ty as well as our micro frontends.](https://www.fathym.com/blog/articles/2022/february/2022-02-23-flashup-use-case-redwood-crystals) 
 
-Transfer your WordPress [website over to Fathym today](www.fathym.com/dashboard) and try it out for free with Eleventy. And once you see the improved speed and user experience, we have a feeling you’ll stick around. 
+Transfer your WordPress [website over to Fathym today](https://www.fathym.com/dashboard) and try it out for free with Eleventy. And once you see the improved speed and user experience, we have a feeling you’ll stick around. 

@@ -54,7 +54,7 @@ For teams, the feed allows everyone to see what each individual developer is wor
 
 The Fathym platform is a powerful tool for businesses big and small. The [virtual developer](https://www.fathym.com/blog/articles/2022/february/2022-02-03-freelance-developers-fathym-saves-you-time-as-a-virtual-developer) on the back end takes away the need for some human labor, saving both time and money. The ability to use multiple JavaScript frameworks like Angular and/or React give options to those building sites. And for those needing a site built rapidly – [a Flashup](https://www.fathym.com/blog/articles/2022/february/2022-02-18-flashup-buzz-word-or-brilliant-idea), if you will – Fathym allows you to get a site up in minutes. 
 
-[We invite you to sign up](www.fathym.com/dashboard) for our freemium platform now, not only to achieve your goals, but to have a little fun while you’re at it, too. 
+[We invite you to sign up](https://www.fathym.com/dashboard) for our freemium platform now, not only to achieve your goals, but to have a little fun while you’re at it, too. 
 
  
 

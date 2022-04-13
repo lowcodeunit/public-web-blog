@@ -34,4 +34,4 @@ As we continue to forage ahead along unknown paths, exploring and innovating alo
 
 We’re thrilled to be on the precipice of bringing all these wonderful applications to you, to get your valuable feedback and to continue to improve the world in small, meaningful ways online.  
 
-Join [Fathym](www.fathym.com/dashboard) today!
+Join [Fathym](https://www.fathym.com/dashboard) today!

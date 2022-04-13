@@ -52,4 +52,4 @@ We utilize GitHub as our code repository, and then use multiple different open-s
 
 From hosting – using your own custom domain – to complete customization, Fathym is a freelance developer’s dream. Even better: We’re currently in the user-adoption phase! 
 
-Join [Fathym](www.fathym.com/dashboard) today for free and let us know how we can improve this robust tool for you. We value and appreciate feedback from our users.  
+Join [Fathym](https://www.fathym.com/dashboard) today for free and let us know how we can improve this robust tool for you. We value and appreciate feedback from our users.  
