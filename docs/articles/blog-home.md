@@ -9,6 +9,15 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
+## How to garden better | IoT soil moisture sensor
+
+![](/img/gardeniot1.jpeg)
+
+Spring is an exciting time, especially when you live in a place that enjoys all four seasons. That much is true here in Colorado, where we had a somewhat mild winter, but it’s still one of the most exciting times of year. Temperatures are increasing, the birds and bees are fluttering around and that means it’s time to start thinking about gardening plans.
+
+And with IoT Ensemble, you can take your gardening to the next level. 
+
+[Continue reading...](articles/2022/april/2022-04-18-iot-garden-soil-moisture-sensor)
 ## Ranking JavaScript frameworks by popularity
 
 ![](/img/javacoder.jpeg)
@@ -59,19 +68,6 @@ Now, the proof is in the pudding.
 Many big-time corporations are using micro frontends in 2022 – IKEA, Spotify, HelloFresh – and that’s helping others become more curious if the architecture is right for their company, too. Fathym’s micro frontends platform is the wave of the future.  
 
 [Continue reading...](articles/2022/march/2022-03-31-addressing-micro-frontend-criticisms-payload)
-
-
-## The fastest way to evaluate Azure, IoT and serverless functions
-
-![](/img/MFERPlasmicGatsbyDocuReact.png)
-
-From web hosting to creating exciting developer tools and building IoT solutions, Fathym is a company which prides itself on having a lot of productive irons in the fire.
-
-And one may wonder why we’re exploring all of these avenues at the same time.
-
-Simply, because they all interconnect.
-
-[Continue reading...](articles/2022/april/2022-04-04-fastest-way-to-evaluate-azure)
 
 
 ## Join Fathym 
