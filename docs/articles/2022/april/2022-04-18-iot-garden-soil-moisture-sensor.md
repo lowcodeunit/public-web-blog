@@ -96,7 +96,7 @@ But, how can you read the data?
 
 By using your SparkFun Thing’s WiFi connectability, you can easily transfer all that data anywhere you’d like. We suggest using IoT Ensemble.  
 
-[IoT Ensemble is an easy and free platform](LINK) which helps compile data.  
+[IoT Ensemble is an easy and free platform](https://www.fathym.com/iot) which helps compile data.  
 
 Then, you can build a Power BI Report, and create a dashboard and/or website for free at Fathym.com. Display that data however you’d like to. It’s really that simple.  
 
