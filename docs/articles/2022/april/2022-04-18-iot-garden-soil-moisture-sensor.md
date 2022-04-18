@@ -62,6 +62,7 @@ And while at its core, gardening is one of the simplest things people can do –
 
 There are a litany of options out there, but the one we’re going to focus on today is a soil moisture sensor.  
 
+![](/img/gadeniot3.jpeg)
 ## Soil moisture sensor 
 
 A soil moisture sensor is one of the most important pieces of tech you can buy for a garden.  
@@ -76,7 +77,7 @@ You want enough light, but not too much that it raises the temperature and dries
 
 And to make sure your soil doesn’t start looking like a desert, that’s where the soil moisture sensor comes into play.  
 
-## Senor 
+## Sensor 
 
 There are a ton of different soil moisture sensors available, but for this case we’re going to use SparkFun’s soil moisture sensor.  
 
