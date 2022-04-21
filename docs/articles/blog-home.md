@@ -9,6 +9,19 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
+## 4 JavaScript frameworks you should know
+
+![](/img/reactvueangular.jpg)
+
+Some companies pride themselves as being on the cutting edge.  
+
+Here at Fathym, we’ve been ahead of the curve for a long time when it comes to micro frontends.  
+
+In recent years, micro frontends have gained a great deal of popularity. That only makes things all the sweeter now that we’ve worked to become experts in the field and others are starting to catch on and catch up. 
+
+Luckily, within micro frontends, developers can use whichever JavaScript framework they like the best. 
+
+(Continue reading...](articles/2022/april/2022-04-21-four-javascript-frameworks-you-should-know)
 ## How to garden better | IoT soil moisture sensor
 
 ![](/img/gardeniot1.jpeg)
