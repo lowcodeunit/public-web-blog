@@ -21,7 +21,7 @@ In recent years, micro frontends have gained a great deal of popularity. That on
 
 Luckily, within micro frontends, developers can use whichever JavaScript framework they like the best. 
 
-(Continue reading...](articles/2022/april/2022-04-21-four-javascript-frameworks-you-should-know)
+[Continue reading...](articles/2022/april/2022-04-21-four-javascript-frameworks-you-should-know)
 ## How to garden better | IoT soil moisture sensor
 
 ![](/img/gardeniot1.jpeg)
@@ -57,19 +57,6 @@ Let’s say you’re a fashion company. You can have a gallery of the latest T-s
 When using Vue.js as your the head of your WordPress, the options are basically limitless! 
 
 [Continue reading...](articles/2022/april/2022-04-11-headless-wordpress-vue)
-
-## Flashup your arcade, or website, today!
-
-![](/img/arcademachines.jpg)
-
-Flashups are a new concept which our CEO, Matt Smith, created a few weeks ago. And it can be used multiple ways.  
-
-As a noun, a flashup is a startup business that gets off the ground in a hurry. Like the Space Shuttle, there’s an ignition and then it’s off into orbit. That’s our hope when helping businesses big and small get off the ground.  
-
-For example, we worked with a small, local business called Redwood Crystals in Fort Collins, CO and helped them get their business online in record time.   
-
-[Continue reading...](articles/2022/april/2022-04-07-flashup-your-arcade)
-
 ## Addressing micro frontends crticisms | Payload size
 
 ![No code launch](/img/MFEzoom.jpg)
