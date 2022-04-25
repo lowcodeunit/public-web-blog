@@ -9,6 +9,31 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
+## Developers | Join our Discord Live, learn Svelte deployment
+
+![](/img/discordnewlogo.png)
+
+In the spirit of collaboration and inclusivity – two of our core values – we invite any and all developers to join us at our Discord Live. 
+
+Come join us virtually on [Wednesday, April 27 at 2 p.m. MDT on our Discord Channel!](https://discord.com/invite/qh3eCBgpC5) 
+
+Our Director of Engineering Jeremy Tomlinson will be teaching developers a lot during the meeting.  
+
+[Continue reading...](articles/2022/april/2022-04-25-developers-join-our-discord-live-svelte-photo)
+
+
+## Why you should deploy a Svelte website instead of watching documentaries
+
+![](/img/abercrombiestore.jpg)
+
+Have you seen the new Abercrombie and Fitch documentary on Netflix? While *trying* to watch it this week, the concepts of brand management and flexibility were clear. 
+
+As with the former clothing giant, brands today must be flexible and able to adapt their messaging in a hurry, or fall victim to closing down. 
+
+By deploying a website with Svelte, you can not only quickly launch a site, but change it whenever and however necessary. 
+
+[Continue reading...](articles/2022/april/2022-04-22-deploy-svelte-instead-of-documentaries)
+
 ## 4 JavaScript frameworks you should know
 
 ![](/img/reactvueangular.jpg)
@@ -57,19 +82,6 @@ Let’s say you’re a fashion company. You can have a gallery of the latest T-s
 When using Vue.js as your the head of your WordPress, the options are basically limitless! 
 
 [Continue reading...](articles/2022/april/2022-04-11-headless-wordpress-vue)
-## Addressing micro frontends crticisms | Payload size
-
-![No code launch](/img/MFEzoom.jpg)
-
-Many years ago, we embraced micro frontends. Even before the term was coined.  
-
-Now, the proof is in the pudding.  
-
-Many big-time corporations are using micro frontends in 2022 – IKEA, Spotify, HelloFresh – and that’s helping others become more curious if the architecture is right for their company, too. Fathym’s micro frontends platform is the wave of the future.  
-
-[Continue reading...](articles/2022/march/2022-03-31-addressing-micro-frontend-criticisms-payload)
-
-
 ## Join Fathym 
 
 [We invite you to sign up](https://www.fathym.com/dashboard) for our freemium platform now, not only to achieve your goals, but to have a little fun while you’re at it, too. 
