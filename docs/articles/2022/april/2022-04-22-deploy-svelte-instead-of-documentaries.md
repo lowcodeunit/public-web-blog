@@ -30,7 +30,7 @@ But branding and marketing do not always make sense.
 
 What does make sense is that the A&F I remember is no longer. The business and their values had to change. Watch the documentary [White Hot, The Rise & Fall of Abercrombie & Fitch](https://www.netflix.com/title/81323741) – the change had to happen for a variety of reasons. And along with that, their digital presence had to change. 
 
-## Brand and digital presense flexibility 
+## Brand and digital presence flexibility 
 
 Let’s bring this all back to you. (I don’t really want to talk about A&F, but it is interesting.)  
 
