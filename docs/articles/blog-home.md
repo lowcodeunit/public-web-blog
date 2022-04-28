@@ -9,18 +9,15 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
-## Developers | Join our Discord Live, learn Svelte deployment
+## Fathym is now Generally Available 
 
-![](/img/discordnewlogo.png)
+![](/img/fathymbubbles.png)
 
-In the spirit of collaboration and inclusivity – two of our core values – we invite any and all developers to join us at our Discord Live. 
+At the start of 2022 we released Fathym in beta. Since then it’s been incredible to see the reaction, with over 15,000 signups and 5,000 sites and web applications deployed on Fathym. Through this period, we have received valuable feedback from users and were able to put that to work by resolving bugs while improving speed and performance. 
 
-Come join us virtually on [Wednesday, April 27 at 2 p.m. MDT on our Discord Channel!](https://discord.com/invite/qh3eCBgpC5) 
+Today, we are delighted to announce that Fathym has concluded the beta period and is now generally available. We are particularly excited to unveil extended functionality and features so you can do even more and scale development through our paid plans. 
 
-Our Director of Engineering Jeremy Tomlinson will be teaching developers a lot during the meeting.  
-
-[Continue reading...](articles/2022/april/2022-04-25-developers-join-our-discord-live-svelte-photo)
-
+[Continue reading...](/articles/2022/april/2022-04-28-general-release-blog)
 
 ## Why you should deploy a Svelte website instead of watching documentaries
 
