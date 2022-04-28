@@ -45,8 +45,14 @@ module.exports = {
           position: 'right',
         },
         {
+          href: 'https://www.fathym.com/pricing',
+          label: 'Pricing',
+          position: 'right',
+          target: '_top',
+        },
+        {
           href: 'https://www.fathym.com/dashboard',
-          label: 'Log In',
+          label: 'Login',
           position: 'right',
           target: '_top',
         },
