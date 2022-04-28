@@ -50,7 +50,7 @@ Fathym is built on Azure for enterprise grade infrastructure and security. Bring
 
 Get started for free in our shared infrastructure environment and scale to a managed cloud or to your own environment with full access to your infrastructure and code in Azure. As you scale with our paid plans, you can also avail of single sign-on (including custom branded) and access control, serverless functions, application modifiers and platform white labeling.  
 
-Check out our pricing page to learn more and don’t hesitate to reach out to us with any questions to find out what works best for you and your team. 
+Check out our [pricing page](https://https://www.fathym.com/pricing/) to learn more and don’t hesitate to reach out to us with any questions to find out what works best for you and your team. 
 
 ## Get started today 
 
