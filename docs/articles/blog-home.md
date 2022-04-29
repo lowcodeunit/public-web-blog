@@ -9,6 +9,17 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
+## Use your time efficiently, scale as you grow with Fathym
+
+![](/img/growthcomputer.jpeg)
+
+As we move forward through 2022, Fathym is evolving at a fast and furious pace. And now we want to help your business scale as you grow.  
+
+For years, we’ve been in the business of assisting other businesses – and individuals – grow in terms of knowledge, with their digital presence online as well as growing the scope of their operations.  
+
+Now, in our [general release phase](https://www.fathym.com/blog/articles/2022/april/2022-04-28-general-release-blog), we’re ready to assist you in using your time efficiently as you scale.  
+
+[Continue reading...](/articles/2022/april/2022-04-29-scale-as-you-grow)
 ## Fathym is now Generally Available 
 
 ![](/img/fathymbubbles.png)
@@ -66,19 +77,6 @@ Popularity, usability, support, features and flexibility; these are all some of 
 While there may be different variables to consider for each individual developer, popularity is certainly incredibly important. 
 
 [Continue Reading...](articles/2022/april/2022-04-13-micro-frontend-popularity)
-## Headless WordPress using Vue
-
-![](/img/vuejsscreen.jpeg)
-
-Within WordPress, creators are limited. They’re boxed into whatever plugins the CMS has already built.  
-
-Instead, developers have the ability to create new and unique design layouts. You can decide how best to display your content, and how your end-users interact with that content.  
-
-Let’s say you’re a fashion company. You can have a gallery of the latest T-shirts you’ve designed. But, when the user clicks the picture, they’re taken to a new page, which is a video of the model walking through the streets in that shirt.  
-
-When using Vue.js as your the head of your WordPress, the options are basically limitless! 
-
-[Continue reading...](articles/2022/april/2022-04-11-headless-wordpress-vue)
 ## Join Fathym 
 
 [We invite you to sign up](https://www.fathym.com/dashboard) for our freemium platform now, not only to achieve your goals, but to have a little fun while you’re at it, too. 
