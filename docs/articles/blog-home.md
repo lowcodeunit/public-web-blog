@@ -9,6 +9,15 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
+## Core Values | Inclusivity Introduction
+
+![](/img/inclusivitylogo.jpeg)
+
+As we continue to grow at Fathym, we’re defining our core values, our pillars if you will. And the first one we’ve identified is inclusivity.  
+
+We aim to include anyone and everyone who wants to build their website from the ground up. Our pricing is inclusive – free to start – as is our goal of lowering the bar in terms of what it takes to build a website. Our inclusivity continues with micro frontends – use your favorite JavaScript Framework – and we take feedback from users seriously.  
+
+[Continue reading...](articles/2022/may/2022-05-02-core-values-inclusivity-introduction)
 ## Use your time efficiently, scale as you grow with Fathym
 
 ![](/img/growthcomputer.jpeg)
@@ -64,19 +73,6 @@ Spring is an exciting time, especially when you live in a place that enjoys all 
 And with IoT Ensemble, you can take your gardening to the next level. 
 
 [Continue reading...](articles/2022/april/2022-04-18-iot-garden-soil-moisture-sensor)
-## Ranking JavaScript frameworks by popularity
-
-![](/img/javacoder.jpeg)
-
-No matter your experience level, you likely have a favorite JavaScript framework you use.  
-
-Most developers do have favorites, and for a variety of reasons.  
-
-Popularity, usability, support, features and flexibility; these are all some of the reasons developers give as to why they pick one over another. And, when you find one that works, why go out and learn the ever-growing list of options?  
-
-While there may be different variables to consider for each individual developer, popularity is certainly incredibly important. 
-
-[Continue Reading...](articles/2022/april/2022-04-13-micro-frontend-popularity)
 ## Join Fathym 
 
 [We invite you to sign up](https://www.fathym.com/dashboard) for our freemium platform now, not only to achieve your goals, but to have a little fun while you’re at it, too. 
