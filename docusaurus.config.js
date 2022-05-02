@@ -28,13 +28,13 @@ module.exports = {
       },
       items: [
         {
-          href: 'https://www.fathym.com/',
+          to: 'https://www.fathym.com/',
           label: 'Home',
           position: 'left',
           target: '_top',
         },        
         {
-          href: 'https://www.fathym.com/docs',
+          to: 'https://www.fathym.com/docs',
           label: 'Docs',
           position: 'right',
           target: '_top',
@@ -45,19 +45,19 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://www.fathym.com/pricing',
+          to: 'https://www.fathym.com/pricing',
           label: 'Pricing',
           position: 'right',
           target: '_top',
         },
         {
-          href: 'https://www.fathym.com/dashboard',
+          to: 'https://www.fathym.com/dashboard',
           label: 'Login',
           position: 'right',
           target: '_top',
         },
         {
-          href: 'https://www.fathym.com/dashboard/create-project',
+          to: 'https://www.fathym.com/dashboard/create-project',
           label: 'Get Started',
           position: 'right',
           target: '_top',
