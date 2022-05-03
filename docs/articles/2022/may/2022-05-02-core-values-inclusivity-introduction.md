@@ -30,7 +30,7 @@ One of our goals of the Fathym platform is to lower the bar for those who want t
 
 As an introduction to the world of coding, we allow users to use low and no-code solutions, like static site builders which require very little knowledge to use.  
 
-For instance, our head of Brand Communications, Rich Kurtzman, uses [Docusaurus to write and post his blogs](https://www.fathym.com/blog/articles/2022/march/2022-03-16-how-i-blog-in-markdown). He had zero developing experience (LINK MEDIUM) when he came to the company earlier this year, but now he dives into VSCode and has figured out how to make markdown work for him.  
+For instance, our head of Brand Communications, Rich Kurtzman, uses [Docusaurus to write and post his blogs](https://www.fathym.com/blog/articles/2022/march/2022-03-16-how-i-blog-in-markdown). He had zero developing experience when he came to the company earlier this year, but now he dives into VSCode and has figured out how to make markdown work for him.  
 
 Similarly, our George Hatch used [static site generator 11ty to create his Redwood Crystals website](https://www.fathym.com/blog/articles/2022/february/2022-02-23-flashup-use-case-redwood-crystals). While he does have developing experience, the goal was to “flashup” a website, or create it in a matter of minutes instead of days or weeks.  
 
