@@ -34,7 +34,9 @@ This micro approach to development provides the flexibility and control needed t
 
 ## Stay in sync 
 
-Collaborating and keeping updated with your teammate’s requests and deploys has never been easier than through our intuitive social interface. Through your feed you can view the details for each build and navigate to the GitHub repository. View previews of your builds at the click of a button. 
+Collaborating and keeping updated with your teammate’s requests and deploys has never been easier than through our intuitive social interface. Through your feed you can view the details for each build and navigate to the GitHub repository. View previews of your builds at the click of a button.
+
+[Read more on our Social UI here.](/articles/2022/march/2022-03-02-introducing-fathyms-social-ui)
 
 ![](/img/fathymsocialui.jpg)
 
@@ -51,6 +53,8 @@ Fathym is built on Azure for enterprise grade infrastructure and security. Bring
 Get started for free in our shared infrastructure environment and scale to a managed cloud or to your own environment with full access to your infrastructure and code in Azure. As you scale with our paid plans, you can also avail of single sign-on (including custom branded) and access control, serverless functions, application modifiers and platform white labeling.  
 
 Check out our [pricing page](https://www.fathym.com/pricing/) to learn more and don’t hesitate to reach out to us with any questions to find out what works best for you and your team. 
+
+[Read more about Scale as you Grow here.](/articles/2022/april/2022-04-29-scale-as-you-grow)
 
 ## Get started today 
 
