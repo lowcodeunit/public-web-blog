@@ -9,6 +9,15 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
+## Figma + FireJet + Fathym = Fantastic
+
+![](/img/figmaf.png)
+
+Now that we are into the [general release](https://www.fathym.com/blog/articles/2022/april/2022-04-28-general-release-blog) phase of business, we’re excited to show developers how our virtual developer can make your life easier. And help you build websites faster.  
+
+Speaking of building websites fast, today we’re specifically talking about using Figma and a plugin FireJet, which has seemingly turned the design and development world on its head, starting with the design first. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/may/2022-05-10-figma-firejet-fathym-fantastic)
 ## Core Values | Inclusivity Introduction
 
 ![](/img/inclusivitylogo.jpeg)
@@ -17,7 +26,7 @@ As we continue to grow at Fathym, we’re defining our core values, our pillars 
 
 We aim to include anyone and everyone who wants to build their website from the ground up. Our pricing is inclusive – free to start – as is our goal of lowering the bar in terms of what it takes to build a website. Our inclusivity continues with micro frontends – use your favorite JavaScript Framework – and we take feedback from users seriously.  
 
-[Continue reading...](articles/2022/may/2022-05-02-core-values-inclusivity-introduction)
+[Continue reading here](articles/2022/may/2022-05-02-core-values-inclusivity-introduction)
 ## Use your time efficiently, scale as you grow with Fathym
 
 ![](/img/growthcomputer.jpeg)
@@ -28,7 +37,7 @@ For years, we’ve been in the business of assisting other businesses – and in
 
 Now, in our [general release phase](https://www.fathym.com/blog/articles/2022/april/2022-04-28-general-release-blog), we’re ready to assist you in using your time efficiently as you scale.  
 
-[Continue reading...](/articles/2022/april/2022-04-29-scale-as-you-grow)
+[Continue reading here](/articles/2022/april/2022-04-29-scale-as-you-grow)
 ## Fathym is now Generally Available 
 
 ![](/img/fathymbubbles.png)
@@ -37,19 +46,7 @@ At the start of 2022 we released Fathym in beta. Since then it’s been incredib
 
 Today, we are delighted to announce that Fathym has concluded the beta period and is now generally available. We are particularly excited to unveil extended functionality and features so you can do even more and scale development through our paid plans. 
 
-[Continue reading...](/articles/2022/april/2022-04-28-general-release-blog)
-
-## Why you should deploy a Svelte website instead of watching documentaries
-
-![](/img/abercrombiestore.jpg)
-
-Have you seen the new Abercrombie and Fitch documentary on Netflix? While *trying* to watch it this week, the concepts of brand management and flexibility were clear. 
-
-As with the former clothing giant, brands today must be flexible and able to adapt their messaging in a hurry, or fall victim to closing down. 
-
-By deploying a website with Svelte, you can not only quickly launch a site, but change it whenever and however necessary. 
-
-[Continue reading...](articles/2022/april/2022-04-22-deploy-svelte-instead-of-documentaries)
+[Continue reading here](/articles/2022/april/2022-04-28-general-release-blog)
 
 ## 4 JavaScript frameworks you should know
 
@@ -63,7 +60,7 @@ In recent years, micro frontends have gained a great deal of popularity. That on
 
 Luckily, within micro frontends, developers can use whichever JavaScript framework they like the best. 
 
-[Continue reading...](articles/2022/april/2022-04-21-four-javascript-frameworks-you-should-know)
+[Continue reading here](articles/2022/april/2022-04-21-four-javascript-frameworks-you-should-know)
 ## How to garden better | IoT soil moisture sensor
 
 ![](/img/gardeniot1.jpeg)
@@ -72,7 +69,7 @@ Spring is an exciting time, especially when you live in a place that enjoys all 
 
 And with IoT Ensemble, you can take your gardening to the next level. 
 
-[Continue reading...](articles/2022/april/2022-04-18-iot-garden-soil-moisture-sensor)
+[Continue reading here](articles/2022/april/2022-04-18-iot-garden-soil-moisture-sensor)
 ## Join Fathym 
 
 [We invite you to sign up](https://www.fathym.com/dashboard) for our freemium platform now, not only to achieve your goals, but to have a little fun while you’re at it, too. 
