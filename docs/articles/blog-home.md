@@ -9,6 +9,16 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
+## Businesses aren't using IoT data effectively, report says | IoT Ensemble can help
+
+![](/img/developer3screens.jpeg)
+
+Inmarsat interviewed over 450 businesses from across oil and mining, transportation, agriculture and other sectors, with 86% saying they don’t use IoT data well enough. 
+
+But our IoT Ensemble can help companies looking to organize their data, to be able to share it within the company and to third parties for analysis and much more. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/may/2022-05-11-businesses-arent-using-iot-data)
+
 ## Figma + FireJet + Fathym = Fantastic
 
 ![](/img/figmaf.png)
