@@ -6,6 +6,7 @@ module.exports = {
     ' 2022': [ //Note: the extra space in front of 2022 is on purpose. It changes it from a number to a string so it doesn't get auto ordered.
       {
       'May': [
+        'articles/2022/may/2022-05-13-use-figma-as-headless-wordpress',
         'articles/2022/may/2022-05-11-businesses-arent-using-iot-data',
         'articles/2022/may/2022-05-10-figma-firejet-fathym-fantastic',
         'articles/2022/may/2022-05-02-core-values-inclusivity-introduction',
