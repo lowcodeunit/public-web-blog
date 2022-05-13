@@ -9,6 +9,17 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
+## How to use Figma as a headless WordPress
+
+![](/img/Figma2.png)
+
+The end goal of a User Interface is for it to be user-friendly, exciting and fun!  
+
+So, why not start there and work backwards? That’s what Figma has done.  
+
+Now, everyone from the designers to marketers and even developers or the CEO can get in on the fun and help show off what their vision might be. What’s so nice about the collaboration model is, considering how specialized some companies are, one may be surprised where the best ideas come from.
+
+[Continue reading how to make a headless WordPress with Figma](https://www.fathym.com/blog/articles/2022/may/2022-05-13-use-figma-as-headless-wordpress)
 ## Businesses aren't using IoT data effectively, report says | IoT Ensemble can help
 
 ![](/img/developer3screens.jpeg)
@@ -71,15 +82,7 @@ In recent years, micro frontends have gained a great deal of popularity. That on
 Luckily, within micro frontends, developers can use whichever JavaScript framework they like the best. 
 
 [Continue reading here](articles/2022/april/2022-04-21-four-javascript-frameworks-you-should-know)
-## How to garden better | IoT soil moisture sensor
 
-![](/img/gardeniot1.jpeg)
-
-Spring is an exciting time, especially when you live in a place that enjoys all four seasons. That much is true here in Colorado, where we had a somewhat mild winter, but it’s still one of the most exciting times of year. Temperatures are increasing, the birds and bees are fluttering around and that means it’s time to start thinking about gardening plans.
-
-And with IoT Ensemble, you can take your gardening to the next level. 
-
-[Continue reading here](articles/2022/april/2022-04-18-iot-garden-soil-moisture-sensor)
 ## Join Fathym 
 
 [We invite you to sign up](https://www.fathym.com/dashboard) for our freemium platform now, not only to achieve your goals, but to have a little fun while you’re at it, too. 
