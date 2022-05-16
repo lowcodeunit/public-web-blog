@@ -9,6 +9,19 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
+## Using micro frontends to display our Arcade
+
+![](/img/arcadescreenshot.png)
+
+Back in the day, there were a few things that were great about childhood.  
+
+Saturday morning cartoons. Breakfast for dinner. Staying up past your bedtime.  
+
+And going to the arcade with a pocket full of quarters. Those neon lights blinking with the sound of tickets printing out of the machines. Trying to win prizes you’d never play with again and forcing your little brother to run up the skeeball machine to cheat the system. 
+
+We created an arcade in order to display how micro frontends work.
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/may/2022-05-16-arcade-and-micro-frontends)
 ## How to use Figma as a headless WordPress
 
 ![](/img/Figma2.png)
@@ -48,17 +61,7 @@ As we continue to grow at Fathym, we’re defining our core values, our pillars 
 We aim to include anyone and everyone who wants to build their website from the ground up. Our pricing is inclusive – free to start – as is our goal of lowering the bar in terms of what it takes to build a website. Our inclusivity continues with micro frontends – use your favorite JavaScript Framework – and we take feedback from users seriously.  
 
 [Continue reading here](articles/2022/may/2022-05-02-core-values-inclusivity-introduction)
-## Use your time efficiently, scale as you grow with Fathym
 
-![](/img/growthcomputer.jpeg)
-
-As we move forward through 2022, Fathym is evolving at a fast and furious pace. And now we want to help your business scale as you grow.  
-
-For years, we’ve been in the business of assisting other businesses – and individuals – grow in terms of knowledge, with their digital presence online as well as growing the scope of their operations.  
-
-Now, in our [general release phase](https://www.fathym.com/blog/articles/2022/april/2022-04-28-general-release-blog), we’re ready to assist you in using your time efficiently as you scale.  
-
-[Continue reading here](/articles/2022/april/2022-04-29-scale-as-you-grow)
 ## Fathym is now Generally Available 
 
 ![](/img/fathymbubbles.png)
