@@ -9,6 +9,20 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
+## Using our arcade to help explain micro frontends
+
+Back in the day, there were a few things that were great about childhood.  
+
+Saturday morning cartoons. Breakfast for dinner. Staying up past your bedtime.  
+
+And going to the arcade with a pocket full of quarters. Those neon lights blinking with the sound of tickets printing out of the machines. Trying to win prizes you’d never play with again and forcing your little brother to run up the skeeball machine to cheat the system. 
+
+Our arcade is the example of how we use micro frontends at Fathym.
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/may/2022-05-16-arcade-and-micro-frontends)
+
+
+
 ## How to use Figma as a headless WordPress
 
 ![](/img/Figma2.png)
