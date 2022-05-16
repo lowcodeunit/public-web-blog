@@ -54,7 +54,7 @@ Previously, someone could host a game like the way we did, but it would have bee
 
 We leave the options open to you, the user! We hope this has been informative and fun.
 
-![](/img/pacmanthinky.mp4)
+<div><iframe src="https://player.vimeo.com/video/709228104?h=59a1c3a57b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="New Recording - 5/12/2022, 1:25:53 PM"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 ## Join Fathym 
 
