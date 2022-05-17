@@ -54,9 +54,9 @@ According to [Inmarsat](https://www.inmarsat.com/en/index.html), a majority of b
 
 Inmarsat interviewed over 450 businesses from across oil and mining, transportation, agriculture and other sectors, with 86% saying they don’t use IoT data well enough. 
 
->“While our latest research shows that the majority of today’s organisations are now gathering IoT data, >there is still plenty more that businesses need to do to derive the maximum benefit from it. 
+>“While our latest research shows that the majority of today’s organisations are now gathering IoT data, there is still plenty more that businesses need to do to derive the maximum benefit from it. 
 
->The ultimate measure of an IoT project’s success is how it improves the way a company and its partner >eco-system operates. This is largely resultant on the type of data extracted and how it is shared and >turned into practical and actionable business insights in a timely manner.” 
+>The ultimate measure of an IoT project’s success is how it improves the way a company and its partner eco-system operates. This is largely resultant on the type of data extracted and how it is shared and turned into practical and actionable business insights in a timely manner.” 
 
 More specifically, 46% of respondents said there was a delay between data collection and delivery, while another 33% cited a lack of IoT strategy completely.  
 

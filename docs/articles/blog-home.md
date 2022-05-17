@@ -9,7 +9,19 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
+## As American manufacturing sees resurgence, robotics will be at the center of companies' digital transformation
+
+![](/img/manufacturing.jpg)
+
+According to the [New York Times in January of this year](https://www.nytimes.com/2022/01/05/business/economy/supply-chain-reshoring-us-manufacturing.html), onshoring – or the bringing back of manufacturing to America – is already happening.
+
+As more manufacturing turns toward robotics and automation, the deluge of data will mean an increased need for IoT software. IoT Ensemble can help.
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/may/2022-05-17-american-manufacturing-resurgence)
+
 ## Using our arcade to help explain micro frontends
+
+![](/img/arcadescreenshot.png)
 
 Back in the day, there were a few things that were great about childhood.  
 
@@ -20,7 +32,6 @@ And going to the arcade with a pocket full of quarters. Those neon lights blinki
 Our arcade is the example of how we use micro frontends at Fathym.
 
 [Continue reading here](https://www.fathym.com/blog/articles/2022/may/2022-05-16-arcade-and-micro-frontends)
-
 
 
 ## How to use Figma as a headless WordPress
@@ -62,17 +73,7 @@ As we continue to grow at Fathym, we’re defining our core values, our pillars 
 We aim to include anyone and everyone who wants to build their website from the ground up. Our pricing is inclusive – free to start – as is our goal of lowering the bar in terms of what it takes to build a website. Our inclusivity continues with micro frontends – use your favorite JavaScript Framework – and we take feedback from users seriously.  
 
 [Continue reading here](articles/2022/may/2022-05-02-core-values-inclusivity-introduction)
-## Use your time efficiently, scale as you grow with Fathym
 
-![](/img/growthcomputer.jpeg)
-
-As we move forward through 2022, Fathym is evolving at a fast and furious pace. And now we want to help your business scale as you grow.  
-
-For years, we’ve been in the business of assisting other businesses – and individuals – grow in terms of knowledge, with their digital presence online as well as growing the scope of their operations.  
-
-Now, in our [general release phase](https://www.fathym.com/blog/articles/2022/april/2022-04-28-general-release-blog), we’re ready to assist you in using your time efficiently as you scale.  
-
-[Continue reading here](/articles/2022/april/2022-04-29-scale-as-you-grow)
 ## Fathym is now Generally Available 
 
 ![](/img/fathymbubbles.png)
@@ -83,19 +84,6 @@ Today, we are delighted to announce that Fathym has concluded the beta period an
 
 [Continue reading here](/articles/2022/april/2022-04-28-general-release-blog)
 
-## 4 JavaScript frameworks you should know
-
-![](/img/reactvueangular.jpg)
-
-Some companies pride themselves as being on the cutting edge.  
-
-Here at Fathym, we’ve been ahead of the curve for a long time when it comes to micro frontends.  
-
-In recent years, micro frontends have gained a great deal of popularity. That only makes things all the sweeter now that we’ve worked to become experts in the field and others are starting to catch on and catch up. 
-
-Luckily, within micro frontends, developers can use whichever JavaScript framework they like the best. 
-
-[Continue reading here](articles/2022/april/2022-04-21-four-javascript-frameworks-you-should-know)
 
 ## Join Fathym 
 
