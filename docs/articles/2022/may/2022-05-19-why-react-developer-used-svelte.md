@@ -1,5 +1,5 @@
 ---
-title: Why a React engineer used Svelte to build his online arcade 
+title: Why a React developer used Svelte to build his online arcade 
 author: Rich Kurtzman
 author_title: Brand Communications @ Fathym
 author_url: https://www.fathym.com
