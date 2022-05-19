@@ -9,6 +9,17 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
+## Why a React developer used Svelte on his Arcade
+
+![](/img/arcadeinterior.png)
+
+If you build websites, you likely have a favorite JavaScript framework you use.  
+
+And it shouldn’t come as a surprise. Once you learn a specific framework (or library, in the case of React), you know the ins and outs of it. You learn how to get things done in an efficient manner. You pick up the tips and tricks for fixing issues.  
+
+So, why'd a React developer use Svelte for his arcade? 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/may/2022-05-19-why-react-developer-used-svelte)
 ## As American manufacturing sees resurgence, robotics will be at the center of companies' digital transformation
 
 ![](/img/manufacturing.jpg)
@@ -64,15 +75,6 @@ Now that we are into the [general release](https://www.fathym.com/blog/articles/
 Speaking of building websites fast, today we’re specifically talking about using Figma and a plugin FireJet, which has seemingly turned the design and development world on its head, starting with the design first. 
 
 [Continue reading here](https://www.fathym.com/blog/articles/2022/may/2022-05-10-figma-firejet-fathym-fantastic)
-## Core Values | Inclusivity Introduction
-
-![](/img/inclusivitylogo.jpeg)
-
-As we continue to grow at Fathym, we’re defining our core values, our pillars if you will. And the first one we’ve identified is inclusivity.  
-
-We aim to include anyone and everyone who wants to build their website from the ground up. Our pricing is inclusive – free to start – as is our goal of lowering the bar in terms of what it takes to build a website. Our inclusivity continues with micro frontends – use your favorite JavaScript Framework – and we take feedback from users seriously.  
-
-[Continue reading here](articles/2022/may/2022-05-02-core-values-inclusivity-introduction)
 
 ## Fathym is now Generally Available 
 
