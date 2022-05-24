@@ -9,6 +9,18 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
+## How to build a headless WordPress with React
+
+![](/img/reactlogo.png)
+
+WordPress is widely regarded as one of the most popular content management systems in the world.  
+
+But, there are some drawbacks. Lack of strong security, need for expensive plugins and slow websites. 
+
+A headless WordPress is the solution to all those issues, especially when it's built with React. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/may/2022-05-24-headless-wordpress-with-react)
+
 ## Why a React developer used Svelte on his Arcade
 
 ![](/img/arcadeinterior.png)
@@ -44,18 +56,6 @@ Our arcade is the example of how we use micro frontends at Fathym.
 
 [Continue reading here](https://www.fathym.com/blog/articles/2022/may/2022-05-16-arcade-and-micro-frontends)
 
-
-## How to use Figma as a headless WordPress
-
-![](/img/Figma2.png)
-
-The end goal of a User Interface is for it to be user-friendly, exciting and fun!  
-
-So, why not start there and work backwards? That’s what Figma has done.  
-
-Now, everyone from the designers to marketers and even developers or the CEO can get in on the fun and help show off what their vision might be. What’s so nice about the collaboration model is, considering how specialized some companies are, one may be surprised where the best ideas come from.
-
-[Continue reading how to make a headless WordPress with Figma](https://www.fathym.com/blog/articles/2022/may/2022-05-13-use-figma-as-headless-wordpress)
 ## Businesses aren't using IoT data effectively, report says | IoT Ensemble can help
 
 ![](/img/developer3screens.jpeg)
@@ -66,16 +66,6 @@ But our IoT Ensemble can help companies looking to organize their data, to be ab
 
 [Continue reading here](https://www.fathym.com/blog/articles/2022/may/2022-05-11-businesses-arent-using-iot-data)
 
-## Figma + FireJet + Fathym = Fantastic
-
-![](/img/figmaf.png)
-
-Now that we are into the [general release](https://www.fathym.com/blog/articles/2022/april/2022-04-28-general-release-blog) phase of business, we’re excited to show developers how our virtual developer can make your life easier. And help you build websites faster.  
-
-Speaking of building websites fast, today we’re specifically talking about using Figma and a plugin FireJet, which has seemingly turned the design and development world on its head, starting with the design first. 
-
-[Continue reading here](https://www.fathym.com/blog/articles/2022/may/2022-05-10-figma-firejet-fathym-fantastic)
-
 ## Fathym is now Generally Available 
 
 ![](/img/fathymbubbles.png)
@@ -85,8 +75,6 @@ At the start of 2022 we released Fathym in beta. Since then it’s been incredib
 Today, we are delighted to announce that Fathym has concluded the beta period and is now generally available. We are particularly excited to unveil extended functionality and features so you can do even more and scale development through our paid plans. 
 
 [Continue reading here](/articles/2022/april/2022-04-28-general-release-blog)
-
-
 ## Join Fathym 
 
 [We invite you to sign up](https://www.fathym.com/dashboard) for our freemium platform now, not only to achieve your goals, but to have a little fun while you’re at it, too. 
