@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 > May 10, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![](/img/figmaf.png)
+![](https://www.fathym.com/img/figmaf.png)
 
 We’ve been working diligently over the last few years, building, refining and launching our Fathym platform, which puts freedom, [inclusivity](https://www.fathym.com/blog/articles/2022/may/2022-05-02-core-values-inclusivity-introduction) and collaboration at your fingertips. 
 
@@ -97,7 +97,7 @@ But again, one doesn’t have to be a developer to stand a website up. Not anymo
 Just as the way Figma has worked to make design approachable by anyone, we at Fathym strive to do the same with website development.  
 
 ## Figma + Firejet + Fathym = F-yeah! 
-![](/img/figmafirejetfathymlogos.png)
+![](https://www.fathym.com/img/figmafirejetfathymlogos.png)
 
 So, you started with Figma as a design tool. You dragged, you dropped, you added all the pictures and written content you needed to get your website looking wonderful. 
 
@@ -117,6 +117,6 @@ So, now you can design something inspiring, a website which is beautiful, useful
 
 After [signing up for a free account here,](https://www.fathym.com/dashboard) creators will be led into the [Social UI.](https://www.fathym.com/blog/articles/2022/march/2022-03-02-introducing-fathyms-social-ui) From there, it’s easy to see progress in real time, simple to view pull requests from GitHub, and straightforward to deploy an app. Figma is a team-oriented tool, and so is Fathym! As your team works on projects, everyone can stay in tune with changes and updates.  
 
-![](/img/socialuifigma.png)
+![](https://www.fathym.com/img/socialuifigma.png)
 
 We’re inviting folks to sign up for free today, try out our cloud hosting – powered by Microsoft Azure -- and enjoy seven days of free hosting of your beautifully built Figma design.  

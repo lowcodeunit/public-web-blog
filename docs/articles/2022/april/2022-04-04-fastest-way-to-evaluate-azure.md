@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 > April 4, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![](/img/iotensemblegraphic.png)
+![](https://www.fathym.com/img/iotensemblegraphic.png)
 
 From web hosting to creating exciting developer tools and building IoT solutions, Fathym is a company which prides itself on having a lot of productive irons in the fire.  
 
@@ -72,7 +72,7 @@ If you have zero coding experience, you can use a [static site generator like Ga
 
 If you have a bit of developing experience, you can go further as our [Social UI](https://www.fathym.com/blog/articles/2022/march/2022-03-02-introducing-fathyms-social-ui) will help you walk through the micro frontends adventure. The benefits are numerous and include: Using multiple JavaScript languages, and mixing them with SSGs, smaller teams and smaller codebases, and therefore faster website builds.  
 
-![](/img/MFERPlasmicGatsbyDocuReact.png)
+![](https://www.fathym.com/img/MFERPlasmicGatsbyDocuReact.png)
 
 In this example, the home page (root) is built out of Plasmic, another great static site generator. The blog was created with Gatsby – possibly a headless Wordpress -- and technical documentation was done with one of our favorites, Docusaurus. Meanwhile, the admin was built in react.  
 

@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 > March 16, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![](/img/blogcode.jpeg)
+![](https://www.fathym.com/img/blogcode.jpeg)
 
 Full disclosure: I’m not a coder. Or a developer. I don’t even know how to spell HTML. Wait… 
 

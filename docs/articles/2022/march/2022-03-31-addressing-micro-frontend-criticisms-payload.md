@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 > March 31, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![](/img/MFEzoom.jpg)
+![](https://www.fathym.com/img/MFEzoom.jpg)
 
 Many years ago, we embraced micro frontends. Even before the term was coined.  
 
@@ -26,7 +26,7 @@ At its core, micro frontends simply means taking a monolithic front end — the 
 
 The benefits of using micro frontends are numerous. One can break down that bigger codebase into smaller pieces, which means faster builds as well as faster fixes. Updates can be performed on one part of a site without having downtime for the entire site. Also, multiple different JavaScript frameworks can be used on one single project.  
 
-![](/img/MFERReactGatsbyAngular.png)
+![](https://www.fathym.com/img/MFERReactGatsbyAngular.png)
 
 In this example, the homepage was built in React, one of the most popular frameworks out there. The forum was created in Angular. Meanwhile, the blog was created in Gatsby, and the static site generator Docusaurus runs the technical documentation. 
 

@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 > April 13, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![](/img/javacoder.jpeg)
+![](https://www.fathym.com/img/javacoder.jpeg)
 
 No matter your experience level, you likely have a favorite JavaScript framework you use.  
 
@@ -42,14 +42,14 @@ According to [Stack Overflow’s 2021 survey](https://insights.stackoverflow.com
 
 In our upciming piece “4 micro frontend frameworks you should know in 2022” we note React was fourth (69.28%), Vue was fifth (64.41%) and Angular was ninth (55.82%). Here’s a look at the top-15:  
 
-![](/img/lovedframeworks.png)
+![](https://www.fathym.com/img/lovedframeworks.png)
 
 ## Most dreaded 
 
 On the flip side, there are six frameworks listed in the survey which are more dreaded than they are loved.  
 
 Angularjs, not to be confused with Angular, was the most dreaded with 76.82% saying they disliked it more than liked it. Drupal was right behind with a 75.27% dreaded vote, followed by jQuery (64.71%) and ASP.NET (63.6%).  
-![](/img/dreadedframeworks.png)
+![](https://www.fathym.com/img/dreadedframeworks.png)
 
 ## Want to try  
 
@@ -57,7 +57,7 @@ When it comes to most-wanted – developers who weren’t using the framework, b
 
 And here’s another way to visualize it. It combines those who have used a framework and would/woundn’t use it again, those who have heard/not heard of it and want to learn it and those who haven’t heard of a particular framework. 
 
-![](/img/frameworkswhoused.png)
+![](https://www.fathym.com/img/frameworkswhoused.png)
 
 ## Conclusion 
 
@@ -67,7 +67,7 @@ Another thing that the new ones (Vue and Svelte) have over the older frameworks 
 
 In the end, the choice is yours as to which you want to use for your project. None of the four major frameworks listed here are going anywhere any time soon, so you can feel confident in using them.  
 
-[](/img/MFERReactGatsbyAngular.png)
+[](https://www.fathym.com/img/MFERReactGatsbyAngular.png)
 
 ## Join Fathym  
 

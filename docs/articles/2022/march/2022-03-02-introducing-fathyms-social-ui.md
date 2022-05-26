@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 > March 2, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![Fathym Social UI](/img/fathymsocialui.jpg)
+![Fathym Social UI](https://www.fathym.com/img/fathymsocialui.jpg)
 
 It’s an exciting time at Fathym.  
 

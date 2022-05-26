@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 May 17, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![](/img/manufacturing.jpg)
+![](https://www.fathym.com/img/manufacturing.jpg)
 
 Whether you’re looking to buy a car, a new TV or a refrigerator, you’ve likely felt the pains of the global supply chain issues.  
 
@@ -33,7 +33,7 @@ Unfortunately, the chip shortage is expected to continue into 2024. But, in more
 But even if there is an onshoring phenomenon happening, does that mean the American workforce will grow? Not necessarily. 
 
 ### IoT Ensemble dashboard
-![](/img/robotics-in-automation-dashboard.jpg)
+![](https://www.fathym.com/img/robotics-in-automation-dashboard.jpg)
 
 ## Rise of Robotics 
 
@@ -97,7 +97,7 @@ At Fathym, we present IoT Ensemble.
 
 All your IoT data can now be accessed in one place. Or, if you’re a massive manufacturer, that data can be accessed in multiple places, with multiple dashboards and applications constructed for multiple clients.  
 
-![](/img/iot-ensemble-dashboard.png)
+![](https://www.fathym.com/img/iot-ensemble-dashboard.png)
 
 What makes IoT Ensemble special? 
 

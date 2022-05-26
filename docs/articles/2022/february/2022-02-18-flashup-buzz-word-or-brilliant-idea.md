@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 > February 18, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![Fathym is seriously fast](/img/ferrisbueller.jpg)
+![Fathym is seriously fast](https://www.fathym.com/img/ferrisbueller.jpg)
 Consider this the beginning of the end of the term “startup” and the beginning of a new term, “flashup.” 
 
 Startups take planning, investors, bogus promises and best guesses. And what’s the most costly thing startups take? Time.  
@@ -21,7 +21,7 @@ Instead, flashups are businesses which can get started in a hurry. They start in
 
 “Our competitors talk about building apps. We’ve always been about building businesses and opportunities,” Gearhardt continued. 
 
-![Fathym is seriously fast](/img/MicrosoftTeams-image.png)
+![Fathym is seriously fast](https://www.fathym.com/img/MicrosoftTeams-image.png)
 
 Fathym takes pride in being able to utilize the best open-source applications out there, and then turn them into a working website, hosted by us and run by our virtual developers in the background. All in mere minutes. Really! 
 

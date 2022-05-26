@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 May 19, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![](/img/arcadeinterior.png)
+![](https://www.fathym.com/img/arcadeinterior.png)
 
 If you build websites, you likely have a favorite JavaScript framework you use.  
 
@@ -32,7 +32,7 @@ Interestingly, though, there’s a newcomer on the scene [in SvelteJS.](https://
 
 Svelte was released in 2016 by Rich Harris and has been adopted by a great group of massive companies like Apple, Square, Spotify and more. And according to that same survey by Stackoverflow, Svelte is now the [No. 1 most-popular framework](https://www.fathym.com/blog/articles/2022/april/2022-04-13-micro-frontend-popularity) out there. In fact, 71.47% of developers love using it.  
 
-![](/img/frameworksloved.png)
+![](https://www.fathym.com/img/frameworksloved.png)
 
 What makes both Svelte and React similar are the wonderfully interactive, dazzling sites they can build. But it should be noted that the average app size when using Svelte is a mere 1.6Kb, whereas the smallest one can make a React app is 42.2Kb, which is with ReactDOM.  
 
@@ -46,7 +46,7 @@ One of the reasons he used Svelte was because of its high-performance ability, a
 
 Jack designed the carousel-style display, as well as the landing page for all the games.  
 
-![](/img/arcadescreenshot.png)
+![](https://www.fathym.com/img/arcadescreenshot.png)
 
 The intention of the Fathym Arcade was to simply and [clearly illustrate how we use micro frontends.](https://www.fathym.com/blog/articles/2022/may/2022-05-16-arcade-and-micro-frontends) The page was built in Svelte, but each of those games were built in different JavaScript languages. They’re all open-source, and since we give you the link to their repos, you can immediately add one of those games to your new website project if you wish.  
 
@@ -60,7 +60,7 @@ Of course, that’s part of the brilliance of micro frontends: Developers can us
 
 Many in the developer community have raved about the shallow learning curve of Svelte, as well as its being lightweight in design. That’s a big reason why so many who have heard of the framework want to try to use it, as the following graphic illustrates.  
 
-![](/img/frameworkswhoused.png)
+![](https://www.fathym.com/img/frameworkswhoused.png)
 
 Of course, since it was a new framework to him, there were some hurdles with using Svelte.  
 

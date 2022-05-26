@@ -11,7 +11,7 @@ hide_table_of_contents: true
 
 ## How to build a headless WordPress with React
 
-![](/img/reactlogo.png)
+![](https://www.fathym.com/img/reactlogo.png)
 
 WordPress is widely regarded as one of the most popular content management systems in the world.  
 
@@ -23,7 +23,7 @@ A headless WordPress is the solution to all those issues, especially when it's b
 
 ## Why a React developer used Svelte on his Arcade
 
-![](/img/arcadeinterior.png)
+![](https://www.fathym.com/img/arcadeinterior.png)
 
 If you build websites, you likely have a favorite JavaScript framework you use.  
 
@@ -34,7 +34,7 @@ So, why'd a React developer use Svelte for his arcade?
 [Continue reading here](https://www.fathym.com/blog/articles/2022/may/2022-05-19-why-react-developer-used-svelte)
 ## As American manufacturing sees resurgence, robotics will be at the center of companies' digital transformation
 
-![](/img/manufacturing.jpg)
+![](https://www.fathym.com/img/manufacturing.jpg)
 
 According to the [New York Times in January of this year](https://www.nytimes.com/2022/01/05/business/economy/supply-chain-reshoring-us-manufacturing.html), onshoring – or the bringing back of manufacturing to America – is already happening.
 
@@ -44,7 +44,7 @@ As more manufacturing turns toward robotics and automation, the deluge of data w
 
 ## Using our arcade to help explain micro frontends
 
-![](/img/arcadescreenshot.png)
+![](https://www.fathym.com/img/arcadescreenshot.png)
 
 Back in the day, there were a few things that were great about childhood.  
 
@@ -58,7 +58,7 @@ Our arcade is the example of how we use micro frontends at Fathym.
 
 ## Businesses aren't using IoT data effectively, report says | IoT Ensemble can help
 
-![](/img/developer3screens.jpeg)
+![](https://www.fathym.com/img/developer3screens.jpeg)
 
 Inmarsat interviewed over 450 businesses from across oil and mining, transportation, agriculture and other sectors, with 86% saying they don’t use IoT data well enough. 
 
@@ -68,7 +68,7 @@ But our IoT Ensemble can help companies looking to organize their data, to be ab
 
 ## Fathym is now Generally Available 
 
-![](/img/fathymbubbles.png)
+![](https://www.fathym.com/img/fathymbubbles.png)
 
 At the start of 2022 we released Fathym in beta. Since then it’s been incredible to see the reaction, with over 15,000 signups and 5,000 sites and web applications deployed on Fathym. Through this period, we have received valuable feedback from users and were able to put that to work by resolving bugs while improving speed and performance. 
 

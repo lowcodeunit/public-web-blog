@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 > May 2, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![](/img/inclusivitylogo.jpeg)
+![](https://www.fathym.com/img/inclusivitylogo.jpeg)
 
 As we continue to grow at Fathym, we’re defining our core values, our pillars if you will. And the first one we’ve identified is inclusivity.  
 
@@ -55,7 +55,7 @@ So, a writer with no coding experience could still create your blog – from the
 
 Micro frontends allow for flexibility and openness, but they are inclusive because anyone can use the framework or SSG that suits them best.  
 
-![](/img/MFERAngularSvelteAngularDocu.png)
+![](https://www.fathym.com/img/MFERAngularSvelteAngularDocu.png)
 
 ## Inclusivity in feedback 
 

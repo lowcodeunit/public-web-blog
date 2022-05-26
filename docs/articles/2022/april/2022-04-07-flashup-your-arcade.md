@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 > April 7, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![](/img/arcademachines.jpg)
+![](https://www.fathym.com/img/arcademachines.jpg)
 
 Imagine for a second it’s a simpler time. It’s Friday night, you’re at Pizza Hut and sitting in the corner are those couple of arcade games. It’s party time!  
 

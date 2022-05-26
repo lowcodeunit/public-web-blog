@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 > March 24, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![](/img/gatsbylogo.jpeg)
+![](https://www.fathym.com/img/gatsbylogo.jpeg)
 
 WordPress is widely regarded as one of the most popular content management systems in the world.  
 

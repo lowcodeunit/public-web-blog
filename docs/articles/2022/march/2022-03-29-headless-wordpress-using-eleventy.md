@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 > March 29, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![](/img/11tylogo.png)
+![](https://www.fathym.com/img/11tylogo.png)
 
 WordPress is widely regarded as one of the most popular content management systems in the world.  
 
@@ -44,7 +44,7 @@ Headless might sound scary – like something from The Walking Dead – but it j
 
 In this example, we’ll be using Eleventy (11ty), a “simpler static site generator” as they call themselves.  
 
-![Winnie](/img/eleventy11ty.jpg)
+![Winnie](https://www.fathym.com/img/eleventy11ty.jpg)
 
 What makes Eleventy so great?  
 
