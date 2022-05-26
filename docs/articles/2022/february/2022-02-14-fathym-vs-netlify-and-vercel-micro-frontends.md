@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 > February 14, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![Microservices a.k.a. Micro Frontends](/img/AdobeStock_microservices.jpeg)
+![Microservices a.k.a. Micro Frontends](https://www.fathym.com/img/AdobeStock_microservices.jpeg)
 When it comes to hosting, there are some familiar names out there in Netlify and Vercel. Fathym may be the new kid on the block, but we’re bringing some new ideas, too. 
 
 The most important differentiator for Fathym is micro frontends. Fathym not only hosts your site, but it’s hosted with our micro frontends platform. No more monolithic architecture behind the scenes, at least, not with us.  

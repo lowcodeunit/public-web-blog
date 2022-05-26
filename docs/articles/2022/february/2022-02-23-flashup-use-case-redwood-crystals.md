@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 > February 23, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![Fathym is fast.](/img/soup.jpg)
+![Fathym is fast.](https://www.fathym.com/img/soup.jpg)
 
 Out with the old, in with the new.  
 
@@ -18,7 +18,7 @@ The term “startups” is like, so 90s.
 
 We’re into “flashups” here at Fathym. 
 
-![Flashups rock](/img/drakestartupsflashups.jpg)
+![Flashups rock](https://www.fathym.com/img/drakestartupsflashups.jpg)
 
 [Flashups](https://www.fathym.com/blog/articles/2022/february/2022-02-18-flashup-buzz-word-or-brilliant-idea) can be defined as a new business beginning in an instant. That’s in comparison to startups, which take tons of guessing, long business plans with ideas about the future and gathering investors. 
 
@@ -52,7 +52,7 @@ That goes for developers, small business owners, or corporations.
 
 At Fathym, we give you the tools you need to succeed. Especially if you have the need...for speed.  
 
-![Need for speed.](/img/needforspeed.jpg)
+![Need for speed.](https://www.fathym.com/img/needforspeed.jpg)
 
 ## Join Fathym  
 

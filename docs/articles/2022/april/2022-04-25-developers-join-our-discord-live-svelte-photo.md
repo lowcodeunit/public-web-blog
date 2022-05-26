@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 > April 25, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![](/img/discordnewlogo.png)
+![](https://www.fathym.com/img/discordnewlogo.png)
 
 Just as we’re leveling up as a company, one of our goals is to help developers and businesses grow, too.  
 

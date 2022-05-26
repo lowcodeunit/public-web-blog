@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 > May 11, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![](/img/developer3screens.jpeg)
+![](https://www.fathym.com/img/developer3screens.jpeg)
 
 Sometimes, as new technologies emerge, we are surrounded by them so quickly, they become ubiquitous.  
 
@@ -66,7 +66,7 @@ If delivery is a problem – or security is a worry, as with some of the respond
 
 Our platform is able to collect and visualize sensor data in real-time. And dashboards can be outfitted with wonderfully flexible interactivity. Users can select data points and see how they relate to others, or where they land in terms of time and date etc.  
 
-![](/img/powerbireport.png)
+![](https://www.fathym.com/img/powerbireport.png)
 
 And in terms of security, dashboards are so easily customizable, managers can be assured the data is only being shared with the personnel who absolutely need it. By using [micro frontends](https://www.fathym.com/blog/articles/2022/march/2022-03-14-a-simple-micro-frontends-explainer), we can limit the accessibility to sensitive information. For example, each dashboard will basically act as its own website, and each dashboard can have its own password to log in.  
 

@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 May 24, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![](/img/reactlogo.png)
+![](https://www.fathym.com/img/reactlogo.png)
 
 WordPress is widely regarded as one of the most popular content management systems in the world.  
 
@@ -71,7 +71,7 @@ A framework’s (or JavaScript library, as React is) popularity is important bec
 
 According to StackOverflow’s 2021 survey of developers, React was the fourth-most popular JavaScript framework to use last year. In fact, [69.28% of respondents said they “love” to use it,](https://www.fathym.com/blog/articles/2022/april/2022-04-13-micro-frontend-popularity) with 30% saying they dread using React.  
 
-![](/img/frameworksloved.png)
+![](https://www.fathym.com/img/frameworksloved.png)
 
 Popularity is also important because there’s a robust community out there which can answer questions if you run into issues.  
 

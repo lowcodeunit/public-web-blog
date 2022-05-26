@@ -9,7 +9,7 @@ tags: [website, application, no code, micro-frontend]
 hide_table_of_contents: true
 ---
 <!-- 
-![Low Code Unit Diagram](/img/lowcodeunit-diagram.png) -->
+![Low Code Unit Diagram](https://www.fathym.com/img/lowcodeunit-diagram.png) -->
 
 In a lot of ways, application building is still way to hard.  Sure, there are a number of way out there to host your websites and applications, but how do you create those sharp looking sites while still developing thee enterprise value we need?  How do we leverage unique solutions while still providing our consistent brand/UX?  How do we reliably deliver our solutions across our customer base?  
 
@@ -27,7 +27,7 @@ Low Code Unit eliminates this pain by providing the best practice IoT cloud infr
 
 Low Code Unit leverages Microsoft Azure to provide a shared cloud environment. You do not need any knowledge of Azure or even an Azure account to get started. Let us handle the heavy lifting of automating and managing your best practice cloud environment while you focus on visualizing data or application delivery.
 
-![Dashboard New](/img/screenshots/dashboard-new.png)
+![Dashboard New](https://www.fathym.com/img/screenshots/dashboard-new.png)
 
 ### Simply Connect your Device and View your Data
 
@@ -35,19 +35,19 @@ Low Code Unit is focused on helping you to connect devices, understand data, and
 
 When you sign up for your free account of Low Code Unit, you can enable emulated device data to see it immediately flowing through your dashboard. To connect a physical device, simply enroll a unique device name. You will be provided with a connection string and SAS token, along with detailed documentation, to connect your device.
 
-![Emulated Device Telemetry](/img/screenshots/dashboard-emulated-telemetry.png)
+![Emulated Device Telemetry](https://www.fathym.com/img/screenshots/dashboard-emulated-telemetry.png)
 
 Low Code Unit provides a Devices Telemetry table that displays payload messages of your emulated and connected device data. You can easily view and copy payload schema and send sample device messages into the system. We provide a best practice schema that we recommend for sending IoT messages. This allows for the collection of device data, sensor readings and sensor metadata to deliver a rich, pre-configured IoT experience.
 
-![Dashboard Devices Telemetry Table Payload](/img/screenshots/dashboard-devices-telemetry-table-payload.png)
+![Dashboard Devices Telemetry Table Payload](https://www.fathym.com/img/screenshots/dashboard-devices-telemetry-table-payload.png)
 
 Low Code Unit also provides the open-source dashboard Freeboard as an out of the box example of how to visualize your data. You can use this tool to create and locally save custom visualizations and later load them into view.
 
-![Devices Freeboard](/img/screenshots/dashboard-devices-freeboard.png)
+![Devices Freeboard](https://www.fathym.com/img/screenshots/dashboard-devices-freeboard.png)
 
 The main goal of any IoT Solution is to collect device data and successfully bring it into your preferred tools for visualization, application development, AI, machine learning, and more. Low Code Unit provides APIs for storing and sending data downstream to other services, such as Power BI or Azure Machine Learning.
 
-![Storage Access](/img/screenshots/dashboard-storage-access.png)
+![Storage Access](https://www.fathym.com/img/screenshots/dashboard-storage-access.png)
 
 ## Scale as you Grow
 

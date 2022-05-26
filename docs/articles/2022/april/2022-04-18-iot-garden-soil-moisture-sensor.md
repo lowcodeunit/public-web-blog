@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 > April 18, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![](/img/gardeniot1.jpeg)
+![](https://www.fathym.com/img/gardeniot1.jpeg)
 
 April showers bring May flowers, or so the rhyme goes.  
 
@@ -62,7 +62,7 @@ And while at its core, gardening is one of the simplest things people can do –
 
 There are a litany of options out there, but the one we’re going to focus on today is a soil moisture sensor.  
 
-![](/img/gadeniot3.jpeg)
+![](https://www.fathym.com/img/gadeniot3.jpeg)
 ## Soil moisture sensor 
 
 A soil moisture sensor is one of the most important pieces of tech you can buy for a garden.  
@@ -103,7 +103,7 @@ Then, you can build a Power BI Report, and create a dashboard and/or website for
 
 Here's how that can look: 
 
-![](/img/powerbireport.png)
+![](https://www.fathym.com/img/powerbireport.png)
 
 [Read how to connect your devices to IoT Ensemble here.](https://www.fathym.com/iot/docs/getting-started/connecting-first-device) 
 

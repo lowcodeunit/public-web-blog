@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 > April 28, 2022 by Kilian Carroll, _Marketing Strategy @ Fathym_
 
-![](/img/fathymbubbles.png)
+![](https://www.fathym.com/img/fathymbubbles.png)
 
 At the start of 2022 we released Fathym in beta. Since then it’s been incredible to see the reaction, with over 15,000 signups and 5,000 sites and web applications deployed on Fathym. Through this period, we have received valuable feedback from users and were able to put that to work by resolving bugs while improving speed and performance. 
 
@@ -26,7 +26,7 @@ Getting started is as simple as connecting your GitHub repository and selecting 
 
 Fathym’s powerful runtime and Distributed File System (DFS) enables you to seamlessly build your site as a series of micro frontends or micro sites. Instead of building your site or app as a difficult to maintain monolith, with Fathym you can break down development into smaller, autonomous micro frontends that can be easily composed as one site.  
 
-![](/img/MFERAngularSvelteAngularDocu.png)
+![](https://www.fathym.com/img/MFERAngularSvelteAngularDocu.png)
 
 This leads to smaller, incremental deployments, more manageable and cohesive codebases, and allows for multiple teams to work on projects concurrently. Testing and release management are much simpler, as are the ability to rewrite, change or update parts of the frontend incrementally.  
 
@@ -38,7 +38,7 @@ Collaborating and keeping updated with your teammate’s requests and deploys ha
 
 [Read more on our Social UI here.](/articles/2022/march/2022-03-02-introducing-fathyms-social-ui)
 
-![](/img/fathymsocialui.jpg)
+![](https://www.fathym.com/img/fathymsocialui.jpg)
 
 ## Deploy with confidence 
 

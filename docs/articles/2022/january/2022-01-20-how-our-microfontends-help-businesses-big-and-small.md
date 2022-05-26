@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 > January 20, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![](/img/MFERAngularSvelteAngularDocu.png) 
+![](https://www.fathym.com/img/MFERAngularSvelteAngularDocu.png) 
 
 (Credit: Micro Frontends in Action)
 
@@ -35,7 +35,7 @@ With Fathym, you can create a site that’s composed of multiple GitHub repos an
 
 Think of a hypothetical super aspen grove where all the trees are connected to the same root system (your site), but each tree in the super grove doesn't have to be an aspen. Some of the trees could be maples (your docs), pines (your blogs), birch (your store), cedar, cherry, etc. So, they all make up the same grove, but each route (think of /docs or /blogs on your site) can be a different type of tree (different GitHub repos or NPM packages). You can also choose branches off those trees - not just the tree itself. And beyond branches - even different versions and builds of those branches. Micro frontends are changing the game and making the management of sites scale across independent teams. 
 
-![Aspen Grove](/img/AdobeStock_102372931_Preview.jpeg)  
+![Aspen Grove](https://www.fathym.com/img/AdobeStock_102372931_Preview.jpeg)  
 
  “It allows me to have my main site and then multiple ‘routes’ for the other areas of my site. One route /store for our eCommerce store, and another route /photos for our photo gallery,” engineer Todd German showed. “And, since they’re both tied to different GitHub repos, more people can now contribute.” 
 

@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 > February 3, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![](/img/animecoder.jpeg)
+![](https://www.fathym.com/img/animecoder.jpeg)
 
 Tackling a project alone can leave you feeling like a defensive back trying to take down NFL superstar Derek Henry.  
 

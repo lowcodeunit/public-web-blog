@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 May 16, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![](/img/arcadescreenshot.png)
+![](https://www.fathym.com/img/arcadescreenshot.png)
 
 Back in the day, there were a few things that were great about childhood.  
 
@@ -24,7 +24,7 @@ At Fathym, we’re serious about building businesses. We’re focused on cloud-h
 
 But, we also know how to get down.  
 
-![](/img/officegif.gif)
+![](https://www.fathym.com/img/officegif.gif)
 
 That’s part of the reason we brought you the [Fathym Arcade](https://www.arcade.fathym.com/). To be able to go and play a bunch of fun, entertaining games for free right on our website.  
 
@@ -38,7 +38,7 @@ Well, it turns out it’s a perfect way for us to show off our micro frontends a
 
 What are micro frontends? Simply, it’s the breaking down of the frontend into individual, autonomous, smaller frontends.  
 
-![](/img/MFERReactGatsbyAngular.png)
+![](https://www.fathym.com/img/MFERReactGatsbyAngular.png)
 
 In this illustration, you can see a visual representation of how we put micro frontends to work. Each page is its own, self-contained entity, and in this example, each one is run by a different framework. [Read more about what micro frontends are here.](https://www.fathym.com/blog/articles/2022/march/2022-03-14-a-simple-micro-frontends-explainer)
 

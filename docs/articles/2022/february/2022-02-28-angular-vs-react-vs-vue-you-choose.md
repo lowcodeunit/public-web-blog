@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 > February 28, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![Fathym is fast.](/img/angularblocks.jpeg)
+![Fathym is fast.](https://www.fathym.com/img/angularblocks.jpeg)
 
 When you’re looking for a JavaScript framework, there are a ton of options out there. When you and your team are deciding on which one to pick, it could be reliant on: The size of the project, the size of the team needed or, simply, on what framework your developers know best.  
 
@@ -46,13 +46,13 @@ Compared to the other two on this list, Vue may just be the easiest to learn. It
 
 According to Stack Overflow, Angular comfortably held the lead over React until 2018. That’s when the two had the same number of users. And since then, React has only continued to grow at a fast rate, becoming the most popular framework. Vue is in fifth among all frameworks.  
 
-![](/img/vuereactgithub.JPG)
+![](https://www.fathym.com/img/vuereactgithub.JPG)
 
 As you can see here, React has 146k stars and 28.1k forks compared to 79k stars and 16.2k forks for Angular. Vue.js is actualy way ahead of both; Vue has 511K stars. Also, there are 73k React repositories compared to 31k Vue.js and 27k Angular ones. While this is somewhat imperfect, it illustrates that React is being used more on GitHub, which is where we at Fathym use for our git repository.   
 
 As for actual users, a poll by Stack Overflow in 2020 indicated that 71% of users of React would use it again, compared to 41% of Vue users and only 22% of Angular users. Another 12% have heard of React and want to learn it, 34% have heard of Vue and want to learn and 36% have heard of Angular and want to learn that framework.   
 
-![](/img/frameworkswhoused.png) 
+![](https://www.fathym.com/img/frameworkswhoused.png) 
 
 ## Angular vs React vs Vue performance  
 
@@ -62,7 +62,7 @@ When it comes to tools and flexibility, React is the winner. They give the devel
 
 In general, React is a faster way to create a single page, especially one with vibrant user interfaces. Angular is slower but can be used by bigger teams who are working toward the same goals. Vue is somewhere in the middle, and unlike React and Angular who have massive corporations using them, Vue does not have enterprise-level support.  
 
-![](/img/surveyusers.png)
+![](https://www.fathym.com/img/surveyusers.png)
 
 ## Angular and React and Vue.js in Fathym  
 
@@ -76,7 +76,7 @@ Our working analogy is this: Imagine an aspen grove, where all the individual tr
 
 The reason they are different species of trees is because you, the developer, can use a GitHub repo for one piece of your site (/blog) and NPM for another (/store). And maybe more powerfully, you can also use different frameworks for each piece of your site. For example, use React for /blog and Angular for /store. Again, to your site visitors it looks and feels like a normal site. But with Fathym, you can harness micro frontends to scale your software delivery across independent, autonomous teams. 
 
-![](/img/DavidDeveloper.PNG)
+![](https://www.fathym.com/img/DavidDeveloper.PNG)
 
 In terms of Vue.js, Angular, and React, we have engineers who use all of them.  
 

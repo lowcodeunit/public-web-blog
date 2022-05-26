@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 > April 21, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![](/img/reactvueangular.jpg)
+![](https://www.fathym.com/img/reactvueangular.jpg)
 
 Some companies pride themselves as being on the cutting edge.  
 
@@ -40,7 +40,7 @@ Micro frontends are:
 
 - Give the ability to rewrite, change or update parts of frontend incrementally. That means fixing bugs or changing features of a site doesn’t force the site to be down for maintenance. 
 
-![](/img/MFERAngularSvelteAngularDocu.png) 
+![](https://www.fathym.com/img/MFERAngularSvelteAngularDocu.png) 
 
 Because micro frontends are separate, smaller pieces of the whole, each one can be created with a different JavaScript framework if you so choose. Or a mix of frameworks and static site generators, too.  
 

@@ -8,7 +8,7 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
-![versions](/img/versions.jpeg)
+![versions](https://www.fathym.com/img/versions.jpeg)
 > January 30, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
 We’ve all been there before. You make a change to your site and you need to get it live. Or you make a change to your site and you need someone else to review it. And then you need to get it live. Once it’s live you might realize that something’s wrong and you need to roll back to an earlier version.  
