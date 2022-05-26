@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 > March 4, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![No code launch](/img/blastoff.jpeg)
+![No code launch](https://www.fathym.com/img/blastoff.jpeg)
 
 Developers are in as high demand as new Wordle puzzles.  
 

@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 > February 20, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![Angular is a standard. But is is better than React?](/img/angularcode.jpeg)
+![Angular is a standard. But is is better than React?](https://www.fathym.com/img/angularcode.jpeg)
 
 If you’re a developer, you’re likely into using Angular or React, or maybe both, depending on the project.  
 
@@ -36,13 +36,13 @@ It takes a little bit longer to set up than Angular but React can help deliver a
 
 According to Stack Overflow, Angular comfortably held the lead over React until 2018. That’s when the two had the same number of users. And since then, React has only continued to grow at a fast rate, becoming the most popular framework.  
 
-![GitHub Rates](/img/githubratesangularreact.png)
+![GitHub Rates](https://www.fathym.com/img/githubratesangularreact.png)
 
 As you can see here, React has 146k stars and 28.1k forks compared to 79k stars and 16.2k forks for Angular. Also, there are 79k React repositories compared to 27k Angular ones. While this is somewhat imperfect, it illustrates that React is being used more on GitHub, which is what Fathym uses for our git repository.  
 
 As for actual users, a poll by Stack Overflow in 2020 indicated that 71% of users of React would use it again, compared to only 22% of Angular users. Another 12% have heard of React and want to learn it, while 36% have heard of Angular and want to learn that framework.  
 
-![Angular vs React users](/img/angularvsreactusage.png)
+![Angular vs React users](https://www.fathym.com/img/angularvsreactusage.png)
 
 ## Angular vs React performance 
 
@@ -52,7 +52,7 @@ When it comes to tools and flexibility, React is the clear-cut winner. They give
 
 In general, React is a faster way to create a single page, especially one with vibrant user interfaces. Angular is slower but can be used by bigger teams who are working toward the same goals. 
 
-![Survey of users. Credit: Stack Overflow](/img/surveyusers.png)
+![Survey of users. Credit: Stack Overflow](https://www.fathym.com/img/surveyusers.png)
 
 ## Angular and React in Fathym 
 
@@ -66,7 +66,7 @@ Our working analogy is this: Imagine an aspen grove, where all the individual tr
 
 The reason they are different species of trees is because you, the developer, can use a GitHub repo for one piece of your site (/blog) and NPM for another (/store). And maybe more powerfully, you can also use different frameworks for each piece of your site. For example, use React for /blog and Angular for /store. Again, to your site visitors it looks and feels like a normal site. But with Fathym, you can harness micro frontends to scale your software delivery across independent, autonomous teams. 
 
-![David Developer in the super Aspen grove.](/img/DavidDeveloper.PNG)
+![David Developer in the super Aspen grove.](https://www.fathym.com/img/DavidDeveloper.PNG)
 
 In terms of Angular and React, Fathym has engineers who use both. 
 

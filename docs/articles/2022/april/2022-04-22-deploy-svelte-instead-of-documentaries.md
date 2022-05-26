@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 > April 22, 2022 by Kim Loomis, _Product Owner @ Fathym_
 
-![](/img/abercrombiestore.jpg)
+![](https://www.fathym.com/img/abercrombiestore.jpg)
 
 I watched -- ok, let me rephrase -- I tried to watch the Abercrombie & Fitch documentary last night. But I just couldn’t finish it. It brought back all those uncomfortable memories from the mall.  
 
@@ -26,7 +26,7 @@ I went in a few times. It was dark inside. And I found it odd that a clothing st
 
 But branding and marketing do not always make sense. 
 
-![](/img/sveltefathym.png)
+![](https://www.fathym.com/img/sveltefathym.png)
 
 What does make sense is that the A&F I remember is no longer. The business and their values had to change. Watch the documentary [White Hot, The Rise & Fall of Abercrombie & Fitch](https://www.netflix.com/title/81323741) – the change had to happen for a variety of reasons. And along with that, their digital presence had to change. 
 

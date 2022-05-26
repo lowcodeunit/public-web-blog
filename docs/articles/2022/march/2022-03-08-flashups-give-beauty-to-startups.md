@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 > March 8, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![No code launch](/img/beautyandbeast.jpg)
+![No code launch](https://www.fathym.com/img/beautyandbeast.jpg)
 
 A tale as old as time, it includes beauty and "the beast.” 
 

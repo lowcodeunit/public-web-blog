@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 > April 29, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![](/img/growthcomputer.jpeg)
+![](https://www.fathym.com/img/growthcomputer.jpeg)
 
 As we move forward through 2022, Fathym is evolving at a fast and furious pace. And now we want to help your business scale as you grow.  
 
@@ -37,7 +37,7 @@ That means looking for people who can contribute to your organization no matter 
 Finding folks who are readily available to take on any task you throw their way will lead to you being able to scale your team by allowing the individual to grow their own abilities. 
 
 ### Develop “citizen developers” 
-![](/img/MFERPlasmicGatsbyDocuReact.png)
+![](https://www.fathym.com/img/MFERPlasmicGatsbyDocuReact.png)
 
 Now we’re talking about scaling your team without increasing the number of employees.  
 

@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 > March 14, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![No code launch](/img/MFERReactGatsbyAngular.png)
+![No code launch](https://www.fathym.com/img/MFERReactGatsbyAngular.png)
 
 The world of tech is all about advancing, improving, and evolving. Sometimes quickly, and sometimes it takes a while for changes to catch on.  
 
@@ -22,7 +22,7 @@ Micro frontends as a concept started showing up on the radar of developers and o
 
 At its core, micro frontends simply means taking that monolith on the front end – the rigid, immovable, indivisible – and breaking it down into smaller pieces.  
 
-![](/img/ancientmonolith.png)
+![](https://www.fathym.com/img/ancientmonolith.png)
 
 Imagine working on this ancient monolith. It must have taken many artists, working together simultaneously, to get it all complete and cohesive. Now, imagine that complex, beautiful work of art is a web page, and the multiple artists are multiple engineers and developers. Or, they could be marketers, content creators etc. taking on smaller tasks. We’re continuously aiming to lower the bar in terms of what is needed to build a site on Fathym.  
 
@@ -42,7 +42,7 @@ Micro frontends are:
 
 - Give the ability to rewrite, change or update parts of frontend incrementally. That means fixing bugs or changing features of a site doesn’t force the site to be down for maintenance. 
 
-![](/img/mfrontendsvis.PNG)
+![](https://www.fathym.com/img/mfrontendsvis.PNG)
 
 ## Benefits for teams 
 

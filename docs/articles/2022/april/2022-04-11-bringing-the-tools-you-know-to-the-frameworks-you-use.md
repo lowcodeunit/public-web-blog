@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 > April 12, 2022 by Michael Gearhardt, _CTO @ Fathym_
 
-![](/img/vuejsscreen.jpeg)
+![](https://www.fathym.com/img/vuejsscreen.jpeg)
 
 The javascript frameworks we use, are widely regarded as the most popular way to develop frontend applications.
 
