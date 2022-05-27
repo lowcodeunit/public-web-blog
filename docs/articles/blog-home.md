@@ -9,6 +9,17 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
+## How to garden better with an environmental sensor
+
+![](https://www.fathym.com/img/gardeniot2.jpeg)
+
+There are a ton of different sensors available, but for this case we’re going to use SparkFun’s environmental sensor. 
+
+SparkFun is a Boulder-based company just like us at Fathym, and they make great products.  
+
+This [environmental sensor](https://www.sparkfun.com/products/16466) combines four different sensors into one. At a mere $22.50, it’s relatively inexpensive way to get a ton of quality information with the single sensor.
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/may/2022-05-27-garden-better-environmental-sensor)
 ## How to build a headless WordPress with React
 
 ![](/img/reactlogo.png)
