@@ -1,5 +1,5 @@
 ---
-title: How to garden better witn an environmental sensor
+title: How to garden better with an environmental sensor
 author: Rich Kurtzman
 author_title: Brand Communications @ Fathym
 author_url: https://www.fathym.com
