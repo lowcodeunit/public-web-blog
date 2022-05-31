@@ -19,7 +19,7 @@ Here, we explain how a person can dip their toes into the micro frontends univer
 
 As we explain how it's done here, we will also have a Dicord Live tomorrow (Wed, June 1 at 2 p.m. MDT) to walk folks through how it's done. 
 
-[Continue reading here](https://www.fathym.com/blog/articles/2022/may/2022/05-31-modularize-your-monolith-one-page)
+[Continue reading here](https://www.fathym.com/blog/articles/2022/may/2022-05-31-modularize-your-monolith-one-page)
 ## How to garden better with an environmental sensor
 ![](https://www.fathym.com/img/gardeniot2.jpeg)
 
