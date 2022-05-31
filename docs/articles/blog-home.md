@@ -9,6 +9,17 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
+## How to modularize your monolith frontend, transition at your pace
+
+![](https://www.fathym.com/img/MFERPlasmicGatsbyDocuReact.png)
+
+Being frontend agnostic means we don't care if developers use the tried and true monolith or the newer-aged modular approach to building a website.
+
+Here, we explain how a person can dip their toes into the micro frontends universe and break one piece of their monolith apart. 
+
+As we explain how it's done here, we will also have a Dicord Live tomorrow (Wed, June 1 at 2 p.m. MDT) to walk folks through how it's done. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/may/2022/05-31-modularize-your-monolith-one-page)
 ## How to garden better with an environmental sensor
 ![](https://www.fathym.com/img/gardeniot2.jpeg)
 
@@ -66,16 +77,6 @@ And going to the arcade with a pocket full of quarters. Those neon lights blinki
 Our arcade is the example of how we use micro frontends at Fathym.
 
 [Continue reading here](https://www.fathym.com/blog/articles/2022/may/2022-05-16-arcade-and-micro-frontends)
-
-## Businesses aren't using IoT data effectively, report says | IoT Ensemble can help
-
-![](https://www.fathym.com/img/developer3screens.jpeg)
-
-Inmarsat interviewed over 450 businesses from across oil and mining, transportation, agriculture and other sectors, with 86% saying they don’t use IoT data well enough. 
-
-But our IoT Ensemble can help companies looking to organize their data, to be able to share it within the company and to third parties for analysis and much more. 
-
-[Continue reading here](https://www.fathym.com/blog/articles/2022/may/2022-05-11-businesses-arent-using-iot-data)
 
 ## Fathym is now Generally Available 
 
