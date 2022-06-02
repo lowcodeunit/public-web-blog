@@ -9,6 +9,15 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
+## Attaining inclusivity by using low-code and no-code apps
+
+![](https://www.fathym.com/img/nocodeboard.jpeg)
+
+Low-code and no-code builders have been on the rise lately, and what makes them wonderful is the way they lower the bar for users in terms of expertise needed. Now, with a low -- and especially a no-code builder -- a "citizen developer" on your team can possibly do a lot more than before. 
+
+As our Fathym platform is open to folks using no-code and low-code softwares, now almost anyone can stand up their own website, for free, and quickly. That means our goal of inclusivity is being realized. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/june/2022-06-02-inclusivity-with-low-and-no-code)
 ## How to modularize your monolith frontend, transition at your pace
 
 ![](https://www.fathym.com/img/MFERPlasmicGatsbyDocuReact.png)
@@ -54,15 +63,6 @@ And it shouldn’t come as a surprise. Once you learn a specific framework (or l
 So, why'd a React developer use Svelte for his arcade? 
 
 [Continue reading here](https://www.fathym.com/blog/articles/2022/may/2022-05-19-why-react-developer-used-svelte)
-## As American manufacturing sees resurgence, robotics will be at the center of companies' digital transformation
-
-![](https://www.fathym.com/img/manufacturing.jpg)
-
-According to the [New York Times in January of this year](https://www.nytimes.com/2022/01/05/business/economy/supply-chain-reshoring-us-manufacturing.html), onshoring – or the bringing back of manufacturing to America – is already happening.
-
-As more manufacturing turns toward robotics and automation, the deluge of data will mean an increased need for IoT software. IoT Ensemble can help.
-
-[Continue reading here](https://www.fathym.com/blog/articles/2022/may/2022-05-17-american-manufacturing-resurgence)
 
 ## Using our arcade to help explain micro frontends
 
