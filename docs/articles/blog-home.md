@@ -9,6 +9,16 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
+## Watch | Learn how to modularize your monolith
+
+![](https://www.fathym.com/img/socialuimonolith.png)
+
+
+In early June, we wrapped up our second Discord Live session. And we should report it was a success.  
+
+Now, you can watch the video and follow along.
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/june/2022-06-03-watch-modularize-your-monolith)
 ## Attaining inclusivity by using low-code and no-code apps
 
 ![](https://www.fathym.com/img/nocodeboard.jpeg)
@@ -39,18 +49,6 @@ SparkFun is a Boulder-based company just like us at Fathym, and they make great 
 This [environmental sensor](https://www.sparkfun.com/products/16466) combines four different sensors into one. At a mere $22.50, it’s relatively inexpensive way to get a ton of quality information with the single sensor.
 
 [Continue Reading here](https://www.fathym.com/blog/articles/2022/may/2022-05-27-garden-better-environmental-sensor)
-
-## How to build a headless WordPress with React
-
-![](https://www.fathym.com/img/reactlogo.png)
-
-WordPress is widely regarded as one of the most popular content management systems in the world.  
-
-But, there are some drawbacks. Lack of strong security, need for expensive plugins and slow websites. 
-
-A headless WordPress is the solution to all those issues, especially when it's built with React. 
-
-[Continue reading here](https://www.fathym.com/blog/articles/2022/may/2022-05-24-headless-wordpress-with-react)
 
 ## Why a React developer used Svelte on his Arcade
 
