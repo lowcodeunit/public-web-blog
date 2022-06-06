@@ -6,6 +6,7 @@ module.exports = {
     ' 2022': [ //Note: the extra space in front of 2022 is on purpose. It changes it from a number to a string so it doesn't get auto ordered.
       {
       'June': [
+        'articles/2022/june/2022-06-06-go-fully-modular-frontend',
         'articles/2022/june/2022-06-03-watch-modularize-your-monolith',
         'articles/2022/june/2022-06-02-inclusivity-with-low-and-no-code',
 

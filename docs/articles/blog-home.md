@@ -8,6 +8,17 @@ author_image_url: https://github.com/richkurtzman.png
 tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
+## Go fully modular with micro frontends
+
+![](https://www.fathym.com/img/newmfe2.png) 
+
+One of the misconceptions about micro frontends is the way the architecture actually works. At least, with us.  
+
+In the past – and even still today – some would break a single page, say the homepage, down to multiple components. That’s not exactly how we do micro frontends.  
+
+Instead, in the fully modular approach, each page is created by a separate team or developer. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/june/2022-06-06-go-fully-modular-frontend)
 
 ## Watch | Learn how to modularize your monolith
 
@@ -39,16 +50,6 @@ Here, we explain how a person can dip their toes into the micro frontends univer
 As we explain how it's done here, we will also have a Dicord Live tomorrow (Wed, June 1 at 2 p.m. MDT) to walk folks through how it's done. 
 
 [Continue reading here](https://www.fathym.com/blog/articles/2022/may/2022-05-31-modularize-your-monolith-one-page)
-## How to garden better with an environmental sensor
-![](https://www.fathym.com/img/gardeniot2.jpeg)
-
-There are a ton of different sensors available, but for this case we’re going to use SparkFun’s environmental sensor. 
-
-SparkFun is a Boulder-based company just like us at Fathym, and they make great products.  
-
-This [environmental sensor](https://www.sparkfun.com/products/16466) combines four different sensors into one. At a mere $22.50, it’s relatively inexpensive way to get a ton of quality information with the single sensor.
-
-[Continue Reading here](https://www.fathym.com/blog/articles/2022/may/2022-05-27-garden-better-environmental-sensor)
 
 ## Why a React developer used Svelte on his Arcade
 
