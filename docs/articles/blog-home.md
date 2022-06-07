@@ -8,6 +8,15 @@ author_image_url: https://github.com/richkurtzman.png
 tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
+## Lessons learned working remotely at a new company
+
+![](https://www.fathym.com/img/work-from-home2.jpg)
+
+With the "Great Resignation" came millions of workers changing jobs and industries. 
+
+That's what happened with our Brand Communications person, Rich Kurtzman, who started at Fathym as his first remote job. He looks at some lessons learned over the last six months. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/june/2022-06-07-work-from-home-lessons)
 ## Go fully modular with micro frontends
 
 ![](https://www.fathym.com/img/newmfe2.png) 
