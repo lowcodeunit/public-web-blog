@@ -8,6 +8,19 @@ author_image_url: https://github.com/richkurtzman.png
 tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
+
+## Addressing micro frontend criticisms | Environmental Differences
+
+![](https://www.fathym.com/img/devshelpingdevs2.png) 
+
+In 2019, when Martin Fowler wrote about micro frontends, Cam Jackson argued three different downsides to the frontend architecture style. 
+
+Payload size -- we already addressed -- environmental differences and operational governance. We're working our way through all three, with this blog specifically focused on environmental differences. 
+
+Read how we tackle the issue at Fathym.
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/june/2022-06-09-micro-frontend-criticisms-environmental-differences)
+
 ## Lessons learned working remotely at a new company
 
 ![](https://www.fathym.com/img/work-from-home2.jpg)
@@ -39,26 +52,6 @@ In early June, we wrapped up our second Discord Live session. And we should repo
 Now, you can watch the video and follow along.
 
 [Continue reading here](https://www.fathym.com/blog/articles/2022/june/2022-06-03-watch-modularize-your-monolith)
-## Attaining inclusivity by using low-code and no-code apps
-
-![](https://www.fathym.com/img/nocodeboard.jpeg)
-
-Low-code and no-code builders have been on the rise lately, and what makes them wonderful is the way they lower the bar for users in terms of expertise needed. Now, with a low -- and especially a no-code builder -- a "citizen developer" on your team can possibly do a lot more than before. 
-
-As our Fathym platform is open to folks using no-code and low-code softwares, now almost anyone can stand up their own website, for free, and quickly. That means our goal of inclusivity is being realized. 
-
-[Continue reading here](https://www.fathym.com/blog/articles/2022/june/2022-06-02-inclusivity-with-low-and-no-code)
-## How to modularize your monolith frontend, transition at your pace
-
-![](https://www.fathym.com/img/MFERPlasmicGatsbyDocuReact.png)
-
-Being frontend agnostic means we don't care if developers use the tried and true monolith or the newer-aged modular approach to building a website.
-
-Here, we explain how a person can dip their toes into the micro frontends universe and break one piece of their monolith apart. 
-
-As we explain how it's done here, we will also have a Dicord Live tomorrow (Wed, June 1 at 2 p.m. MDT) to walk folks through how it's done. 
-
-[Continue reading here](https://www.fathym.com/blog/articles/2022/may/2022-05-31-modularize-your-monolith-one-page)
 
 ## Why a React developer used Svelte on his Arcade
 
