@@ -62,6 +62,8 @@ Our frontends are lighter weight when we’re able to use static site generators
 
 Site generators are not only lighter to load, they can also be pre-generated/pre-loaded to improve speed and dodge downloads.  
 
+[Continue reading about how we're addressing micro frontend criticisms, with how we work through environmental differences here.](https://www.fathym.com/blog/articles/2022/june/2022-06-09-micro-frontend-criticisms-environmental-differences)
+
 ## Fathym FTW 
 
 So, the choice is yours when developing on Fathym. You can build a site with whichever framework you like or are best trained in, or you can [flashup a website](http://fathym.com/blog/articles/2022/february/2022-02-23-flashup-use-case-redwood-crystals) in mere minutes by using static site builders.  
