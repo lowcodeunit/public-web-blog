@@ -68,7 +68,7 @@ A framework’s popularity is important because it’s an indicator of how well 
 
 According to StackOverflow’s 2021 survey of developers, Angular was the ninth-most popular JavaScript framework to use last year. In fact, [55.82% of respondents said they “love” to use it](https://www.fathym.com/blog/articles/2022/april/2022-04-13-micro-frontend-popularity), with 45% saying they dread using Angular.  
 
-PIC of Popularity 
+![](https://www.fathym.com/img/frameworksloved.png)
 
 Popularity is also important because there’s a robust community out there which can answer questions if you run into issues.  
 
