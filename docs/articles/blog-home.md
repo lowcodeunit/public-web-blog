@@ -9,6 +9,15 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
+## How to build a headless WordPress with Angular
+
+![](https://www.fathym.com/img/angularcomp.png)
+
+WordPress is one of the most popular website content management systems in the world today. However, it does have some downsides. 
+
+Using a different frontend -- like Angular -- while using WordPress on the back end gives developers a ton of flexibility in terms of customization, helps with security and more.
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/june/2022-06-13-headless-wordpress-angular)
 ## Addressing micro frontend criticisms | Environmental Differences
 
 ![](https://www.fathym.com/img/devshelpingdevs2.png) 
