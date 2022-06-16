@@ -97,4 +97,4 @@ By using your SparkFun Thing’s WiFi connectability, you can easily transfer al
 
 Then, you can build a Power BI Report, and host it for free at Fathym.com. Then, you can build a Power BI Report with the device data and host it for free at Fathym.com. 
 
-[Join Fathym today!](https://www.fathym.com/dashboard) 
+[Join Fathym today.](https://www.fathym.com/dashboard) 
