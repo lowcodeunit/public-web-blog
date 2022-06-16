@@ -9,6 +9,15 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
+## How to garden better with a UV light sensor
+
+![](https://www.fathym.com/img/gardeniot4.jpeg) 
+
+Gardening is an amazing way to connect with the earth and your food. And now you can do so even better with high-tech garden sensors. 
+
+In the last of our series on these sensors, read about how a Sparkfun UV light sensor can help attain better fruits and vegetables this year. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/june/2022-06-16-iot-garden-sensor-uv)
 ## How to build a headless WordPress with Angular
 
 ![](https://www.fathym.com/img/angularcomp.png)
@@ -30,15 +39,6 @@ Read how we tackle the issue at Fathym.
 
 [Continue reading here](https://www.fathym.com/blog/articles/2022/june/2022-06-09-micro-frontend-criticisms-environmental-differences)
 
-## Lessons learned working remotely at a new company
-
-![](https://www.fathym.com/img/work-from-home2.jpg)
-
-With the "Great Resignation" came millions of workers changing jobs and industries. 
-
-That's what happened with our Brand Communications person, Rich Kurtzman, who started at Fathym as his first remote job. He looks at some lessons learned over the last six months. 
-
-[Continue reading here](https://www.fathym.com/blog/articles/2022/june/2022-06-07-work-from-home-lessons)
 ## Go fully modular with micro frontends
 
 ![](https://www.fathym.com/img/newmfe2.png) 
@@ -73,21 +73,6 @@ And it shouldn’t come as a surprise. Once you learn a specific framework (or l
 So, why'd a React developer use Svelte for his arcade? 
 
 [Continue reading here](https://www.fathym.com/blog/articles/2022/may/2022-05-19-why-react-developer-used-svelte)
-
-## Using our arcade to help explain micro frontends
-
-![](https://www.fathym.com/img/arcadescreenshot.png)
-
-Back in the day, there were a few things that were great about childhood.  
-
-Saturday morning cartoons. Breakfast for dinner. Staying up past your bedtime.  
-
-And going to the arcade with a pocket full of quarters. Those neon lights blinking with the sound of tickets printing out of the machines. Trying to win prizes you’d never play with again and forcing your little brother to run up the skeeball machine to cheat the system. 
-
-Our arcade is the example of how we use micro frontends at Fathym.
-
-[Continue reading here](https://www.fathym.com/blog/articles/2022/may/2022-05-16-arcade-and-micro-frontends)
-
 ## Fathym is now Generally Available 
 
 ![](https://www.fathym.com/img/fathymbubbles.png)
