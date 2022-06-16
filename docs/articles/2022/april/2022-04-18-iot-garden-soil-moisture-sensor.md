@@ -110,3 +110,5 @@ Here's how that can look:
 ## Join Fathym  
 
 We want you to come and [build a website at Fathym today.](https://www.fathym.com/dashboard)
+
+[Continue reading about the Sparkfun UV sensor here](https://www.fathym.com/blog/articles/2022/june/2022-06-16-iot-garden-sensor-uv)
