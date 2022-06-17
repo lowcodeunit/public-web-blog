@@ -11,7 +11,7 @@ hide_table_of_contents: true
 
 ## How to garden better with a UV light sensor
 
-![](https://www.fathym.com/img/gardeniot4.jpeg) 
+![](https://www.fathym.com/img/gardeniot4.png) 
 
 Gardening is an amazing way to connect with the earth and your food. And now you can do so even better with high-tech garden sensors. 
 
