@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 June 16, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![](https://www.fathym.com/img/gardeniot4.jpeg) 
+![](https://www.fathym.com/img/gardeniot4.png) 
 
 April showers bring May flowers, or so the rhyme goes. While it was a dry April in Colorado, it surely was a wet May, helping everything come alive in rebirth.  
 
