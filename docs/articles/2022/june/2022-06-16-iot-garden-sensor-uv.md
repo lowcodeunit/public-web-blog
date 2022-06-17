@@ -55,9 +55,9 @@ No matter if it’s your first or 10th garden, there are ways to improve.
 
 And while at its core, gardening is one of the simplest things people can do – planting seeds in the dirt and watching them grow – one way to improve your growing efforts is by turning to high-tech gadgets.  
 
-There are a litany of options out there, but the one we’re going to focus on today is an environmental sensor. 
+There are a litany of options out there, but the one we’re going to focus on today is a UV light sensor. 
 
-## Environmental sensor 
+## UV light sensor 
 
 In our previous post about [IoT gardening, we talked about a soil moisture sensor.](https://www.fathym.com/blog/articles/2022/april/2022-04-18-iot-garden-soil-moisture-sensor) It certainly is one of the most important pieces of tech you can buy for a garden.  
 
@@ -95,6 +95,6 @@ By using your SparkFun Thing’s WiFi connectability, you can easily transfer al
 
 [IoT Ensemble is an easy and free platform](https://www.fathym.com/dashboard/iot) which helps compile data.  
 
-Then, you can build a Power BI Report, and host it for free at Fathym.com. Then, you can build a Power BI Report with the device data and host it for free at Fathym.com. 
+Then, you can build a Power BI Report, and host it for free at Fathym.com.
 
 [Join Fathym today.](https://www.fathym.com/dashboard) 
