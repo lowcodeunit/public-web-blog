@@ -36,9 +36,11 @@ We’ve already seen that growth and trend in the direction of many more compani
 
 As, [Venture Beat explained here,](https://venturebeat.com/2021/10/13/low-code-no-code-increases-efficiency-in-retail-and-beyond/) low-code/no-code use increased from 34% of organizations reporting in 2018/19 to 41% in 2020/21. One positive impact of the COVID-19 pandemic has been an increase in remote work, and the low-code/no-code universe lends itself to remote work, too, because it’s simpler and easier to understand. Meaning there’s less need for help from senior engineers/managers.  
 
+Further reading: [Examining the positives and negatives of no-code tools.](https://www.fathym.com/blog/articles/2022/june/2022-06-28-positives-and-negatives-of-no-code-tools)
+
 So, how can your company start taking advantage of the low-code/no-code universe?  
 
-Fathym, a [micro frontends platform](https://www.fathym.com/blog/articles/2022/february/2022-02-14-fathym-vs-netlify-and-vercel-micro-frontends), is exactly how.  
+Fathym, a [modular frontends platform](https://www.fathym.com/blog/articles/2022/february/2022-02-14-fathym-vs-netlify-and-vercel-micro-frontends), is exactly how.  
 
 Fathym is a modern webhosting service which is positioning itself as a leader in the low-code/no-code sphere. We’re doing so thanks to our platform acting as a [virtual developer](https://www.fathym.com/blog/articles/2022/february/2022-02-03-freelance-developers-fathym-saves-you-time-as-a-virtual-developer) behind the scenes.  
 
