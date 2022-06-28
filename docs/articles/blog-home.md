@@ -9,6 +9,19 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
+## Positives and negatives of no-code tools explained
+
+![](https://www.fathym.com/img/nocodenice.png)
+
+No-code, no problem?  
+
+Not necessarily.  
+
+There are certainly many positives to using no-code apps and site-builders, but there are definite downsides to using them, too.  
+
+Let’s take a look at both the positives and negatives of no-code builders.
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/june/2022-06-28-positives-and-negatives-of-no-code-tools)
 ## How to garden better with a UV light sensor
 
 ![](https://www.fathym.com/img/gardeniot4.png) 
