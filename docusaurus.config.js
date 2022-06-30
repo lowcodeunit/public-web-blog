@@ -85,7 +85,7 @@ module.exports = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/lowcodeunit',
+              to: 'https://stackoverflow.com/questions/tagged/lowcodeunit',
             },
             //{
             //  label: 'Discord',
@@ -93,11 +93,11 @@ module.exports = {
             //},
             {
               label: 'Twitter',
-              href: 'https://twitter.com/fathymit',
+              to: 'https://twitter.com/fathymit',
             },
             {
               label: 'Instagram',
-              href: 'https://instagram.com/fathymit',
+              to: 'https://instagram.com/fathymit',
             },
           ],
         },
@@ -106,7 +106,7 @@ module.exports = {
           items: [
             {
               label: 'Learn More',
-              href: 'https://www.fathym.com',
+              to: 'https://www.fathym.com',
             },
           ],
         },
