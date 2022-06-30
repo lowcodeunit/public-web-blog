@@ -52,9 +52,9 @@ Now, moving onto environmental differences, Martin Fowler’s 2019 blog explains
 
 There are two different ways we are able to address this issue.  
 
-First, thanks to the new and improved version/definition of micro frontends – which we think of as fully modular (LINK) – each and every frontend is hosted on it’s own route. Therefore, there is no shared container, as was the old way of thinking about micro frontends, and there are no integration issues.  
+First, thanks to the new and improved version/definition of micro frontends – which we think of as [fully modular](https://www.fathym.com/blog/articles/2022/june/2022-06-06-go-fully-modular-frontend)  – each and every frontend is hosted on it’s own route. Therefore, there is no shared container, as was the old way of thinking about micro frontends, and there are no integration issues.  
 
-For example, if your homepage is built in React (www.yoursite.com) and your forum is built in Angular (www.yoursite.com/forum), they’re separate repositories, they’re hosted on different routes and managed by different teams. Although they appear to be running on the same domain, they are completely modular and independent of one another – thus, no integration issues.  
+For example, if your homepage is built in React ex. www.yoursite.com and your forum is built in Angular ex. www.yoursite.com/forum, they’re separate repositories, they’re hosted on different routes and managed by different teams. Although they appear to be running on the same domain, they are completely modular and independent of one another – thus, no integration issues.  
 
 ![](https://www.fathym.com/img/MFERReactGatsbyAngular.png)
 
