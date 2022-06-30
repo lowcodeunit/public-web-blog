@@ -93,7 +93,11 @@ module.exports = {
             //},
             {
               label: 'Twitter',
-              href: 'https://twitter.com/lowcodeunit',
+              href: 'https://twitter.com/fathymit',
+            },
+            {
+              label: 'Instagram',
+              href: 'https://instagram.com/fathymit',
             },
           ],
         },
