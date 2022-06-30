@@ -97,4 +97,6 @@ By using your SparkFun Thing’s WiFi connectability, you can easily transfer al
 
 Then, you can build a Power BI Report, and host it for free at Fathym.com.
 
+[Watch how to setup your own IoT Ensemble account and get running today here.](https://www.fathym.com/blog/articles/2022/june/2022-06-30-watch-iot-ensemble-overview)
+
 [Join Fathym today.](https://www.fathym.com/dashboard) 

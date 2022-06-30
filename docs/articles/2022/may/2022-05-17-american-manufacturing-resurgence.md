@@ -111,4 +111,6 @@ Those graphs are also interactive, allowing the viewer to easily decipher how ce
 
 IoT is all about data and information. Those in the automation game will need to know a lot about their new robot employees. Temperature, oil life, wear and tear on parts and more can be kept in check by using the right IoT solution. That data can also help the human managers find efficiency issues and make the most out of the opportunity.  
 
+[Watch how to setup your own IoT Ensemble account and get running today here.](https://www.fathym.com/blog/articles/2022/june/2022-06-30-watch-iot-ensemble-overview)S
+
 We encourage you to join [Fathym today](https://www.fathym.com/iot/dashboard) for free and dive into the world of IoT Ensemble.  
