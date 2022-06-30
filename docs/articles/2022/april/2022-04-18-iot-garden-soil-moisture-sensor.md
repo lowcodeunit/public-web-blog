@@ -107,6 +107,8 @@ Here's how that can look:
 
 [Read how to connect your devices to IoT Ensemble here.](https://www.fathym.com/iot/docs/getting-started/connecting-first-device) 
 
+[Watch how to setup your own IoT Ensemble account and get running today here.](https://www.fathym.com/blog/articles/2022/june/2022-06-30-watch-iot-ensemble-overview)
+
 ## Join Fathym  
 
 We want you to come and [build a website at Fathym today.](https://www.fathym.com/dashboard)

@@ -9,6 +9,16 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
+## WATCH | IoT Ensemble overview
+
+![](https://www.fathym.com/img/iotensemblegraphic.png)
+
+IoT Ensemble is our powerful yet easy-to-use, out-of-the-box IoT software solution.
+
+Want to see how easy it is to use? Watch our IoT Ensemble overview video tutorial and connect your devices' APIs quickly today. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/june/2022-06-30-watch-iot-ensemble-overview)
+
 ## Positives and negatives of no-code tools explained
 
 ![](https://www.fathym.com/img/nocodenice.png)
@@ -86,15 +96,7 @@ And it shouldn’t come as a surprise. Once you learn a specific framework (or l
 So, why'd a React developer use Svelte for his arcade? 
 
 [Continue reading here](https://www.fathym.com/blog/articles/2022/may/2022-05-19-why-react-developer-used-svelte)
-## Fathym is now Generally Available 
 
-![](https://www.fathym.com/img/fathymbubbles.png)
-
-At the start of 2022 we released Fathym in beta. Since then it’s been incredible to see the reaction, with over 15,000 signups and 5,000 sites and web applications deployed on Fathym. Through this period, we have received valuable feedback from users and were able to put that to work by resolving bugs while improving speed and performance. 
-
-Today, we are delighted to announce that Fathym has concluded the beta period and is now generally available. We are particularly excited to unveil extended functionality and features so you can do even more and scale development through our paid plans. 
-
-[Continue reading here](/articles/2022/april/2022-04-28-general-release-blog)
 ## Join Fathym 
 
 [We invite you to sign up](https://www.fathym.com/dashboard) for our freemium platform now, not only to achieve your goals, but to have a little fun while you’re at it, too. 

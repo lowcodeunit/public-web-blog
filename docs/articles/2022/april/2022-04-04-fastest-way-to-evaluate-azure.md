@@ -32,6 +32,7 @@ For a business, it may mean connecting manufacturing lines and individual contro
 
 For a DIY-er, creating a simple temperature monitor or soil moisture monitor for your house plants is easy using a Raspberry Pi or a board from SparkFun. Then, you can use IoT Ensemble to decipher all that data and get some use out of it.  
 
+[Watch how to setup your own IoT Ensemble account and get running today here.](https://www.fathym.com/blog/articles/2022/june/2022-06-30-watch-iot-ensemble-overview)
 ## Azure web hosting 
 
 We host all that IoT data – and others’ websites – on Microsoft Azure. 
