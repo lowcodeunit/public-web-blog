@@ -5,6 +5,10 @@ module.exports = {
     'Home':['articles/blog-home'],
     ' 2022': [ //Note: the extra space in front of 2022 is on purpose. It changes it from a number to a string so it doesn't get auto ordered.
       {
+      'July': [
+        'articles/2022/july/2022-07-05-no-code-tools-usage-will-increase',
+
+      ],
       'June': [
         'articles/2022/june/2022-06-30-watch-iot-ensemble-overview',
         'articles/2022/june/2022-06-28-positives-and-negatives-of-no-code-tools',
