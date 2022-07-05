@@ -9,6 +9,16 @@ tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
 
+## Report | No-code tools usage will increase for years to come
+
+![](https://www.fathym.com/img/nocode3.png)
+
+No-code tools have increasingly become an important piece of the puzzle for those wanting to create a website with little-to-no technical experience. 
+
+Over the last two years, no-code tools usage boomed, and it's only expected to continue to grow for the next three-plus years.
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/july/2022-07-05-no-code-tools-usage-will-increase)
+
 ## WATCH | IoT Ensemble overview
 
 ![](https://www.fathym.com/img/iotensemblegraphic.png)
@@ -32,15 +42,6 @@ There are certainly many positives to using no-code apps and site-builders, but 
 Let’s take a look at both the positives and negatives of no-code builders.
 
 [Continue reading here](https://www.fathym.com/blog/articles/2022/june/2022-06-28-positives-and-negatives-of-no-code-tools)
-## How to garden better with a UV light sensor
-
-![](https://www.fathym.com/img/gardeniot4.png) 
-
-Gardening is an amazing way to connect with the earth and your food. And now you can do so even better with high-tech garden sensors. 
-
-In the last of our series on these sensors, read about how a Sparkfun UV light sensor can help attain better fruits and vegetables this year. 
-
-[Continue reading here](https://www.fathym.com/blog/articles/2022/june/2022-06-16-iot-garden-sensor-uv)
 ## How to build a headless WordPress with Angular
 
 ![](https://www.fathym.com/img/angularcomp.png)

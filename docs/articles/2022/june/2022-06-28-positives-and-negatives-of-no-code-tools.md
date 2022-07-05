@@ -22,7 +22,7 @@ Let’s take a look at both the positives and negatives of no-code builders.
 
 ## The rise in no-code usage 
 
-Simply, no-code tools have been around for about 20 years and they do open the doors to just about anyone being able to design a website. And according to [Zapier’s no-code report](https://zapier.com/blog/no-code-report/), the usage of no-code tools have boomed over the last two years (2020-2022).  
+Simply, no-code tools have been around for about 20 years and they do open the doors to just about anyone being able to design a website. And according to [Zapier’s no-code report](https://zapier.com/blog/no-code-report/), the usage of no-code tools have boomed over the last two years (2020-2022). [Continue reading here about increasing usage of no-code tools.](https://www.fathym.com/blog/articles/2022/july/2022-07-05-no-code-tools-usage-will-increase)
 
 Not only have they risen in popularity, but some believe they will only continue to grow a great deal, and quickly, [predicting a tripling by the year 2024.](https://www.fathym.com/blog/articles/2022/march/2022-03-04-analyst-says-no-code-space-expected-to-grow-three-times) 
 
