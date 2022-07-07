@@ -8,6 +8,17 @@ author_image_url: https://github.com/richkurtzman.png
 tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
+## How to use Netlify CMS and host with Fathym
+
+![](https://www.fathym.com/img/netlifycmsfathym.png)
+
+Building a website from scratch can seem like a daunting task.  
+
+Especially if you’re not a web developer.  
+
+One option is to use a content management system, or CMS, a static site generator (or JavaScript) and then utilize a hosting service to stand up your site. In this case, let's use Netlify CMS and Fathym together.
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022-07-07-use-netlify-cms-host-with-fathym)
 
 ## Report | No-code tools usage will increase for years to come
 
