@@ -84,6 +84,21 @@ No-code tools themselves – and their companies – may be agile tech startups 
 
 With typical JavaScript – and deeper, modular frontends – a traditional developer creates the code and owns it, meaning they can take it to different platforms if they want to, or need to.  
 
+Here’s a list of our findings: 
+- Squarespace 
+- Shopify 
+- Wix 
+- Bubble 
+- Softr 
+- Dorik 
+- Webflow 
+- Appy Pie 
+- Tilda 
+- Weebly 
+- Zyro 
+- Carrd 
+- ClickUp 
+
 ## Conclusion 
 
 Whether you love them or loathe them, no-code tools are here to stay. 
