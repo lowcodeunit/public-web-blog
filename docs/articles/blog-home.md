@@ -8,6 +8,18 @@ author_image_url: https://github.com/richkurtzman.png
 tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
+## Why you should use no-code tools with hosting flexibility
+
+![](https://www.fathym.com/img/nocodepencil.png)
+
+No-code tools are great: They're easy to use, quick to learn and offer fast turnarounds on projects. 
+
+However, many of the most popular no-code tools also lock in the users to the tools' hosting. 
+
+Instead, look for a no-code builder with hosting flexibility. 
+
+[Continue Reading here](https://www.fathym.com/blog/articles/2022/july/2022-07-11-use-no-code-tools-with-hosting-flexibility)
+
 ## How to use Netlify CMS and host with Fathym
 
 ![](https://www.fathym.com/img/netlifycmsfathym.png)
@@ -30,16 +42,6 @@ Over the last two years, no-code tools usage boomed, and it's only expected to c
 
 [Continue reading here](https://www.fathym.com/blog/articles/2022/july/2022-07-05-no-code-tools-usage-will-increase)
 
-## WATCH | IoT Ensemble overview
-
-![](https://www.fathym.com/img/iotensemblegraphic.png)
-
-IoT Ensemble is our powerful yet easy-to-use, out-of-the-box IoT software solution.
-
-Want to see how easy it is to use? Watch our IoT Ensemble overview video tutorial and connect your devices' APIs quickly today. 
-
-[Continue reading here](https://www.fathym.com/blog/articles/2022/june/2022-06-30-watch-iot-ensemble-overview)
-
 ## Positives and negatives of no-code tools explained
 
 ![](https://www.fathym.com/img/nocodenice.png)
@@ -53,15 +55,7 @@ There are certainly many positives to using no-code apps and site-builders, but 
 Let’s take a look at both the positives and negatives of no-code builders.
 
 [Continue reading here](https://www.fathym.com/blog/articles/2022/june/2022-06-28-positives-and-negatives-of-no-code-tools)
-## How to build a headless WordPress with Angular
 
-![](https://www.fathym.com/img/angularcomp.png)
-
-WordPress is one of the most popular website content management systems in the world today. However, it does have some downsides. 
-
-Using a different frontend -- like Angular -- while using WordPress on the back end gives developers a ton of flexibility in terms of customization, helps with security and more.
-
-[Continue reading here](https://www.fathym.com/blog/articles/2022/june/2022-06-13-headless-wordpress-angular)
 ## Addressing micro frontend criticisms | Environmental Differences
 
 ![](https://www.fathym.com/img/devshelpingdevs2.png) 

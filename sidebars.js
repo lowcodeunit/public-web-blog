@@ -6,6 +6,7 @@ module.exports = {
     ' 2022': [ //Note: the extra space in front of 2022 is on purpose. It changes it from a number to a string so it doesn't get auto ordered.
       {
       'July': [
+        'articles/2022/july/2022-07-11-use-no-code-tools-with-hosting-flexibility',
         'articles/2022/july/2022-07-07-use-netlify-cms-host-with-fathym',
         'articles/2022/july/2022-07-05-no-code-tools-usage-will-increase',
 
