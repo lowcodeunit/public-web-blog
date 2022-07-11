@@ -4,7 +4,7 @@ author: Rich Kurtzman
 author_title: Brand Communications @ Fathym
 author_url: https://www.fathym.com
 author_image_url: https://github.com/richkurtzman.png
-tags: [website, Netlify, no-code tools, Netlify CMS, Fathym, host, Azure]
+tags: [website, no-code tools, Plasmic, Squarespace, Shopify, Fathym, host, Azure]
 hide_table_of_contents: true
 ---
 
