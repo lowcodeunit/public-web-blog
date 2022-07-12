@@ -1,5 +1,5 @@
 ---
-title: Ranking JavaScript frameworks by popularity
+title: Ranking JavaScript frameworks by popularity for 2021
 author: Rich Kurtzman
 author_title: Brand Communications @ Fathym
 author_url: https://www.fathym.com

@@ -86,7 +86,7 @@ Luckily, with no-code increasing in usage, the number of no-code builders are gr
 
 Another great option is Plasmic. We have enjoyed using Plasmic here at Fathym, and it powers [our marketing site](https://www.fathym.com/) and our modern, modular JAMstack platform allows us to use other tools – like React.js -- alongside Plasmic seamlessly. 
 
-“The whole idea is to allow non-developers, such as designers, folks in marketing etc. to be able to create experiences and pages otherwise in the context of very code-driven Next.js websites,” co-founder Yang Zhang said in this live demo on YouTube. He also explained one of the pain points they found with no-code builders is how restrictive they can be, including forcing you to host on their platform; Plasmic is open in terms of hosting.  
+“The whole idea is to allow non-developers, such as designers, folks in marketing etc. to be able to create experiences and pages otherwise in the context of very code-driven Next.js websites,” [co-founder Yang Zhang said in this live demo on YouTube.](https://www.youtube.com/watch?v=pcVzNR6FBAQ) He also explained one of the pain points they found with no-code builders is how restrictive they can be, including forcing you to host on their platform; Plasmic is open in terms of hosting.  
 
 Once building your site in Plasmic, publish your code to GitHub so you can host it outside of Plasmic. It’s really that easy. 
 
