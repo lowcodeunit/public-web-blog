@@ -8,6 +8,16 @@ author_image_url: https://github.com/richkurtzman.png
 tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
+
+## Ranking JavaScript frameworks by popularity for 2022
+
+![](https://www.fathym.com/img/compandcoffee.png)
+
+There are an increasing number of JavaScript frameworks floating around cyberspace these days, and picking a popular one is important for multiple reasons. 
+
+We examine why it's important, and then, how developers voted in terms of which frameworks were most popular. Compared to 2021, there are a ton of newcomers to the list, including a new No. 1!
+
+[Continue Reading here](https://www.fathym.com/blog/articles/2022/july/2022-07-13-ranking-javascript-frameworks-by-popularity-2022)
 ## Why you should use no-code tools with hosting flexibility
 
 ![](https://www.fathym.com/img/nocodepencil.png)
