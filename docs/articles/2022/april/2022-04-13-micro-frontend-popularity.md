@@ -69,6 +69,7 @@ In the end, the choice is yours as to which you want to use for your project. No
 
 [](https://www.fathym.com/img/MFERReactGatsbyAngular.png)
 
+[Check out our writeup on the most popular JavaScript frameworks for 2022 here!](https://www.fathym.com/blog/articles/2022/july/2022-07-13-ranking-javascript-frameworks-by-popularity-2022)
 ## Join Fathym  
 
 Come to Fathym and start using micro frontends, where you have the freedom to use any or all of the frameworks we talked about here. Thanks to the way [micro frontends works](https://www.fathym.com/blog/articles/2022/march/2022-03-14-a-simple-micro-frontends-explainer) you can even use multiple different frameworks in your single project.  
