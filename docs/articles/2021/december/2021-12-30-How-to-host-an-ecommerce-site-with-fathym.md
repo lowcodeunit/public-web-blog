@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 > December 30, 2021 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![Redwood Crystals](https://www.fathym.comhttps://www.fathym.com/img/redwoodcrystalsandsnipcart.png)
+![Redwood Crystals](https://www.fathym.com/img/redwoodcrystalsandsnipcart.png)
 
 In today’s world, just about anyone could benefit from having their own website.  
 
