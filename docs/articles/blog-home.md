@@ -8,6 +8,17 @@ author_image_url: https://github.com/richkurtzman.png
 tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
+## Discover IoT Ensemble and everything it can deliver your business
+
+![](https://www.fathym.com/img/iotensemble2.png)
+
+At Fathym, we have multiple platforms. 
+
+We may be more well known for our Fathym Platform -- assisting web developers in building and hosting their websites -- but IoT Ensemble is a crucial offering by us as well. 
+
+IoT Ensemble was developed to help businesses big and small connect their devices, to store and collect the data from those devices, and help with all the heavy lifting in Microsoft Azure. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/july/2022-07-15-discover-iot-ensemble)
 
 ## Ranking JavaScript frameworks by popularity for 2022
 
