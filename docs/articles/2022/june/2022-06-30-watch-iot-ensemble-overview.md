@@ -4,7 +4,7 @@ author: Rich Kurtzman
 author_title: Brand Communications @ Fathym
 author_url: https://www.fathym.com
 author_image_url: https://github.com/richkurtzman.png
-tags: [website, IoT, IoT Ensemble, JAMstack, Fathym, IoT software, video, IoT turorial]
+tags: [website, IoT, IoT Ensemble, JAMstack, Fathym, IoT software, video, IoT turorial, IIoT software]
 hide_table_of_contents: true
 ---
 
@@ -45,5 +45,7 @@ Whether you’re a giant manufacturer, a small and local business or an individu
 ## Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hQaVqLzAmIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+
+[Continue to discover IoT Ensemble here.](https://www.fathym.com/blog/articles/2022/july/2022-07-15-discover-iot-ensemble)
 
 Have questions? [Refer to the docs](https://www.fathym.com/iot/docs), or [sign up for a free account and reach out!](https://www.fathym.com/dashboard) 
