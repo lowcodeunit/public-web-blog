@@ -8,7 +8,6 @@ author_image_url: https://github.com/richkurtzman.png
 tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
-
 ## Why I love the Pomodoro Technique for work from home
 
 ![](https://www.fathym.com/img/pomodorotimer.png)
