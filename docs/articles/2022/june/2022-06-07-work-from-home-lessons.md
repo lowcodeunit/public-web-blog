@@ -50,6 +50,8 @@ If I do that, I’m immediately racking my brain and searching for answers, to g
 
 **Lesson learned:** The lesson here is, if you’re working from home, you need to turn off when you turn your work computer off. There’s always tomorrow to work on that project (as long as it’s not time-sensitive). Oh, and taking a few minutes to throw a load of laundry in will not only reduce your stress, but likely your partner’s too. 
 
+[Adding onto that lesson, the Pomodoro Technique has been really helpful lately!](https://www.fathym.com/blog/articles/2022/july/2022-07-19-pomodoro-technique)
+
 ## It’s isolating 
 
 Working from home is isolating. It just is. 

@@ -8,6 +8,17 @@ author_image_url: https://github.com/richkurtzman.png
 tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
+
+## Why I love the Pomodoro Technique for work from home
+
+![](https://www.fathym.com/img/pomodorotimer.png)
+
+Working from home is wonderful, but it can be difficult to stay on task and make sure to take breaks. 
+
+That's why I adopted the Pomodoro Technique. Read all about why and how it works here.
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/july/2022-07-19-pomodoro-technique)
+
 ## Discover IoT Ensemble and everything it can deliver your business
 
 ![](https://www.fathym.com/img/iotensemble2.png)
