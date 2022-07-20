@@ -22,7 +22,7 @@ In fact, [there were three lessons I learned in the first six months of working 
 
 And stuff like this:  
 
-
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">And some people want to end working from home 🤣 <a href="https://t.co/IHU7b6PfdE">pic.twitter.com/IHU7b6PfdE</a></p>&mdash; Wu-Tang Is For The Children (@WUTangKids) <a href="https://twitter.com/WUTangKids/status/1549100315751989251?ref_src=twsrc%5Etfw">July 18, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Work-life balance 
 
@@ -58,7 +58,7 @@ It’s simply breaking down the day into smaller time increments.
 
 Pomodoro means working in 25-minute, focused segments, then taking a 5-minute break. Repeat that four times, and then take a longer break, of 15-30 minutes (or more).  
 
-![Image credit Sketchplanations](https://www.fathym.com/img/sketchplanationspomo.png)
+![Image credit Sketchplanations](https://www.fathym.com/img/sketchplanationspomo.jpg)
 
 ## Why use the pomodoro technique 
 
@@ -128,6 +128,12 @@ Another tip: You can plan out your pomos. I haven’t for the most part (actuall
 
 For all those reasons, I love using the pomodoro technique for breaking up my work day and my tasks at [Fathym](https://www.fathym.com/dashboard). 
 
-I'm grateful for the culture at Fathym, which is 100% remote work, and how it has allowed me to provide better care for my dog, be there for my pregnant wife, attend ultrasounds and even take better care of my garden. 
+I'm grateful for the culture at Fathym, which is 100% remote work, and how it has allowed me to be there for my pregnant wife, attend ultrasounds , provide better care for my dog and even take better care of my garden.   
 
-Work from home is wonderful and I wish it for anyone who's able to do so.
+Work from home is wonderful and I wish it for anyone who's able to do so. 
+
+And for those that want to learn more about the awesome place I work – let me tell you a little bit about Fathym. As I mentioned, I’m new to the tech world and all the glorious things it has to offer. And it’s taken me a little bit to fully grasp the mind-blowing tech that Fathym’s been rolling out. For those that have been around and already understand the pain and suffering involved with hosting and securing web projects in the cloud, you’re going to love Fathym!  
+
+Fathym helps you develop, automate, and manage the delivery of modern web projects in the cloud. We take control of DevOps processes and CI/CD pipelines with a complete platform for hosting, securing, scaling, continuously building, and deploying your applications. And there’s more! Fathym helps you [integrate multiple repos, tech stacks, frameworks,](https://www.fathym.com/blog/articles/2022/june/2022-06-06-go-fully-modular-frontend) [no-code builders](https://www.fathym.com/blog/articles/2022/july/2022-07-11-use-no-code-tools-with-hosting-flexibility) and data sources together under one domain. Like the pic below illustrates. Like I said, it’s pretty mind-blowing. 
+
+![](https://www.fathym.com/img/MFERPlasmicGatsbyDocuReact.png)
