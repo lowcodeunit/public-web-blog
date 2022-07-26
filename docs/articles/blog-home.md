@@ -8,16 +8,18 @@ author_image_url: https://github.com/richkurtzman.png
 tags: [website, application, no code, micro-frontend, hosting, low code]
 hide_table_of_contents: true
 ---
-## Why I love the Pomodoro Technique for work from home
 
-![](https://www.fathym.com/img/pomodorotimer.png)
+## How to use Gruerilla IoT for end-to-end encrypted messaging
 
-Working from home is wonderful, but it can be difficult to stay on task and make sure to take breaks. 
+![](https://www.fathym.com/img/encryptionkey.png)
 
-That's why I adopted the Pomodoro Technique. Read all about why and how it works here.
+In our current world, most everyone can communicate easily and quickly thanks to the smartphones in our pockets. 
 
-[Continue reading here](https://www.fathym.com/blog/articles/2022/july/2022-07-19-pomodoro-technique)
+But, what happens when someone wants to read your texts, emails or direct messages? Sure, there are encrypted messaging apps, but what if someone went a level higher and hacked into the OS and intalled a keylogger?
 
+That pushed us to dream up an end-to-end ecrypted messaging device. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/july/2022-07-26-guerilla-iot-end-to-end-messenger)
 ## Discover IoT Ensemble and everything it can deliver your business
 
 ![](https://www.fathym.com/img/iotensemble2.png)
@@ -51,18 +53,6 @@ Instead, look for a no-code builder with hosting flexibility.
 
 [Continue Reading here](https://www.fathym.com/blog/articles/2022/july/2022-07-11-use-no-code-tools-with-hosting-flexibility)
 
-## How to use Netlify CMS and host with Fathym
-
-![](https://www.fathym.com/img/netlifycmsfathym.png)
-
-Building a website from scratch can seem like a daunting task.  
-
-Especially if you’re not a web developer.  
-
-One option is to use a content management system, or CMS, a static site generator (or JavaScript) and then utilize a hosting service to stand up your site. In this case, let's use Netlify CMS and Fathym together.
-
-[Continue reading here](https://www.fathym.com/blog/articles/2022/july/2022-07-07-use-netlify-cms-host-with-fathym)
-
 ## Report | No-code tools usage will increase for years to come
 
 ![](https://www.fathym.com/img/nocode3.png)
@@ -86,18 +76,6 @@ There are certainly many positives to using no-code apps and site-builders, but 
 Let’s take a look at both the positives and negatives of no-code builders.
 
 [Continue reading here](https://www.fathym.com/blog/articles/2022/june/2022-06-28-positives-and-negatives-of-no-code-tools)
-
-## Addressing micro frontend criticisms | Environmental Differences
-
-![](https://www.fathym.com/img/devshelpingdevs2.png) 
-
-In 2019, when Martin Fowler wrote about micro frontends, Cam Jackson argued three different downsides to the frontend architecture style. 
-
-Payload size -- we already addressed -- environmental differences and operational governance. We're working our way through all three, with this blog specifically focused on environmental differences. 
-
-Read how we tackle the issue at Fathym.
-
-[Continue reading here](https://www.fathym.com/blog/articles/2022/june/2022-06-09-micro-frontend-criticisms-environmental-differences)
 
 ## Go fully modular with micro frontends
 
