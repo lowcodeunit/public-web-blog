@@ -62,7 +62,7 @@ Secure Device ([Arduino](https://store-usa.arduino.cc/products/arduino-uno-rev3/
 
 ## Conclusion
 
-As you can see, the important link in between the secure devices is Fathym and our IoT Ensemble platform. IoT Ensemble allows you to easily and quickly connect device APIs and it acts as your virtual app developer, managing the Microsoft Azure complexity. IoT Ensemble handles all of the heavy lifting in Azure, securely hosting your data in the cloud. 
+As you can see, the important link in between the secure devices is Fathym and our [IoT Ensemble platform.](https://www.fathym.com/blog/july/2022-07-15-discover-iot-ensemble) IoT Ensemble allows you to easily and quickly connect device APIs and it acts as your virtual app developer, managing the Microsoft Azure complexity. IoT Ensemble handles all of the heavy lifting in Azure, securely hosting your data in the cloud. 
 
 Take encryption to the next level with Fathym and this end-to-end encrypted messaging device.  
 
