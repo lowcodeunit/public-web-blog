@@ -119,3 +119,5 @@ Now you can still use WordPress to input all the written content of your blog, b
 ## Join Fathym 
 
 We invite you to [join Fathym](https://www.fathym.com/dashboard) today for free and give our Social UI and micro frontends a try.  
+
+[Further reading: Ranking CMS by popularity for 2022](https://www.fathym.com/blog/articles/2022/july/2022-07-28-ranking-cms-on-popularity-2022)

@@ -87,3 +87,5 @@ Finally, bring that new headless WordPress site over to Fathym for your hosting 
 Fathym is free to try, it’s extremely easy to use and it’s secure.  
 
 [Join Fathym today!](https://www.fathym.com/dashboard) 
+
+[Further reading: Ranking CMS by popularity for 2022](https://www.fathym.com/blog/articles/2022/july/2022-07-28-ranking-cms-on-popularity-2022)
