@@ -71,3 +71,5 @@ Then, use a static site generator like Gatsby or 11ty, or even a JavaScript fram
 Finally, host your new site on Fathym using Microsoft Azure. 
 
 [Join Fathym today](https://www.fathym.com/dashboard) to host your website, build your own with our micro frontends platform, and/or to utilize everything [IoT Ensemble](https://www.fathym.com/iot/) has to offer.  
+
+[Further reading: Ranking CMS by popularity for 2022](https://www.fathym.com/blog/articles/2022/july/2022-07-28-ranking-cms-on-popularity-2022)

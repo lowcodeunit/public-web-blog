@@ -4,7 +4,7 @@ author: Rich Kurtzman
 author_title: Brand Communications @ Fathym
 author_url: https://www.fathym.com
 author_image_url: https://github.com/richkurtzman.png
-tags: [IoT, DIY, encryption, end-to-end encryption, ]
+tags: [IoT, DIY, encryption, end-to-end encryption, IoT Ensemble]
 hide_table_of_contents: true
 ---
 
