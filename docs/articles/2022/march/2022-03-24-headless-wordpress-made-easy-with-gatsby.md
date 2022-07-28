@@ -65,3 +65,5 @@ Because Gatsby is much faster than traditional WordPress sites, it’s a better 
 ## Join Fathym 
 
 Transfer your WordPress website over to [Fathym today and try it out for free](https://www.fathym.com/dashboard) with Gatsby. And once you see the improved speed and user experience, we have a feeling you’ll stick around.  
+
+[Further reading: Ranking CMS by popularity for 2022](https://www.fathym.com/blog/articles/2022/july/2022-07-28-ranking-cms-on-popularity-2022)

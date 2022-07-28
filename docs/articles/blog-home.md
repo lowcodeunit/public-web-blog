@@ -5,10 +5,21 @@ author: Rich Kurtzman
 author_title: Brand Communications @ Fathym
 author_url: https://www.fathym.com
 author_image_url: https://github.com/richkurtzman.png
-tags: [website, application, no code, micro-frontend, hosting, low code]
+tags: [website, Fathym Blog, CMS, no-code, JavaScript, micro frontends, IoT]
 hide_table_of_contents: true
 ---
 
+## Ranking CMS by popularity and satisfaction for 2022
+
+![](https://www.fathym.com/img/popularcms2022.png)
+
+CMS, or Content Management Systems, have become synonymous in the world of content creation, blogging, selling things online and more. 
+
+While WordPress continues to dominate the world of CMS, there are othere are new options on the scene like Strapi, Contentful and many others. 
+
+We look at Jamstack.org's survey of developers and see which CMS are most popular, and which are also leaving users most satisfied. 
+
+[Continue Reading here](https://www.fathym.com/blog/articles/2022/july/2022-07-28-ranking-cms-on-popularity-2022)
 ## How to use Gruerilla IoT for end-to-end encrypted messaging
 
 ![](https://www.fathym.com/img/encryptionkey.png)
