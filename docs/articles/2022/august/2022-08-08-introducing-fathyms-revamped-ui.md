@@ -85,7 +85,7 @@ I am going to create a dashboard route. In this case I am deploying our angular 
 
 You can also deploy additional routes through npm or zip upload.  
 
-As you can see here, we now have 5 routes in our project, with /dashboard an [Angular-built subdirectory](composablefrontend.fathym-it.com/dashboard/) off composablefrontend.fathym-it.com. 
+As you can see here, we now have 5 routes in our project, with /dashboard an [Angular-built subdirectory](https://composablefrontend.fathym-it.com/dashboard/) off composablefrontend.fathym-it.com. 
 
 ![](https://www.fathym.com/img/ui11.png)
 
