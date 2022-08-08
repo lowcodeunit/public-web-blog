@@ -69,7 +69,7 @@ Let’s quickly dive into how you can edit and add to your projects. From the li
 
 This modular frontend example template was set up to show how you can structure your web project as a series of modular frontends. In this example we’re using Plasmic (a no code, visual builder), Gatsby and Docusarus (static site generators) and React (the popular JavaScript library). 
 
-These pages are configured as ‘routes’ or subdirectories off your main domain (in this case, [composablefrontend.fathym-it.com](composablefrontend.fathym-it.com)). The Plasmic homepage is /, the [Gatsby blog is /blog](composablefrontend.fathym-it.com/blog), the [Docusaurus docs are /docs](composablefrontend.fathym-it.com/docs), and the starter template built from [React is /admin](composablefrontend.fathym-it.com/admin). 
+These pages are configured as ‘routes’ or subdirectories off your main domain (in this case, [composablefrontend.fathym-it.com](https://composablefrontend.fathym-it.com)). The Plasmic homepage is /, the [Gatsby blog is /blog](https://composablefrontend.fathym-it.com/blog), the [Docusaurus docs are /docs](https://composablefrontend.fathym-it.com/docs), and the starter template built from [React is /admin](https://composablefrontend.fathym-it.com/admin). 
 
 ![](https://www.fathym.com/img/ui8.png)
 
