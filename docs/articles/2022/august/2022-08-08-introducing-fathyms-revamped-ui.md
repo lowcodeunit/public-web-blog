@@ -4,13 +4,13 @@ author: Kilian Carroll
 author_title: Marketing @ Fathym
 author_url: https://www.fathym.com
 author_image_url: https://github.com/richkurtzman.png
-tags: [CMS, CMS popularity, WordPress, Headless WordPress, Contentful, Squarespace, Shopify]
+tags: [Fathym, Fathym UI, Fathym user interface, deploy, modular, composable, devops]
 hide_table_of_contents: true
 ---
 
 August 8, 2022 by Kilian Carroll, _Marketing @ Fathym_
 
-![](https://www.fathym.com/img/ui1.png)
+![](https://www.fathym.com/img/fathymbubbles.png)
 
 We are delighted to introduce a revamped user interface for Fathym! This year has been a whirlwind of rapid user adoption, invaluable feedback and product iteration. Thank you to the over 29,000 people who have tried out Fathym so far and to those that have provided extremely helpful feedback. 
 

@@ -10,7 +10,7 @@ hide_table_of_contents: true
 ---
 ## Introducing Fathym's new revamped user interface
 
-![](https://www.fathym.com/img/ui1.png)
+![](https://www.fathym.com/img/fathymbubbles.png)
 
 We are delighted to introduce a revamped user interface for Fathym! This year has been a whirlwind of rapid user adoption, invaluable feedback and product iteration. Thank you to the over 29,000 people who have tried out Fathym so far and to those that have provided extremely helpful feedback. 
 
