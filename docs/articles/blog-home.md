@@ -8,6 +8,23 @@ author_image_url: https://github.com/richkurtzman.png
 tags: [website, Fathym Blog, CMS, no-code, JavaScript, micro frontends, IoT]
 hide_table_of_contents: true
 ---
+## Why we loved using Plasmic for our marketing page 
+
+![](https://www.fathym.com/img/plasmiclogo2.png)
+
+There are a ton of no-code builders in the world, but we chose Plasmic to create our marketing/homepage. And we're happy with that choice for multiple reasons. 
+
+We break down what Plasmic is and how easy to use it is, too. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/august/2022-08-10-why-we-loved-using-plasmic-for-our-marketing-page)
+## Introducing Fathym's integration with Plasmic
+
+![](https://www.fathym.com/img/plasmicfathym5.png)
+
+We are excited to launch [our integration](https://www.plasmic.app/integrations) with Plasmic! 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/august/2022-08-10-introducing-fathym-plasmic-integration)
+
 ## Introducing Fathym's new revamped user interface
 
 ![](https://www.fathym.com/img/fathymbubbles.png)

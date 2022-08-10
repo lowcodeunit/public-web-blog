@@ -7,6 +7,8 @@ module.exports = {
       {
       
       'August': [
+        'articles/2022/august/2022-08-10-why-we-loved-using-plasmic-for-our-marketing-page',
+        'articles/2022/august/2022-08-10-introducing-fathym-plasmic-integration',
         'articles/2022/august/2022-08-08-introducing-fathyms-revamped-ui',
 
       ],
