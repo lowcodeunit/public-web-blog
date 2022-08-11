@@ -54,9 +54,6 @@ This screenshot shows how the homepage looks on Fathym.com. We wanted a place to
 In fact, it was so easy to use, our Director of Engineering and Brand person designed the home page together in March, 2022.  
 
 “Plasmic has some great templates to help you get started,” Tomlinson continued. “We found the right template for Fathym and started making changes immediately. We had the first revision of our marketing site up in less than 30 mins.” 
-
-And then our marketing person came in, wanted the moving graphics, and redesigned it from the ground up a few months later. We were able to run an A/B test and the latest home page, with the moving graphics, has won out in terms of traffic. 
-
 ## Technical stuff: GitHub, hosting etc. 
 
 So, you may be asking yourself, “OK, Plasmic sounds like a fantastic design tool, but how do I move from design to a live website?” 
