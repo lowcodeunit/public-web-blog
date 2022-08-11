@@ -37,4 +37,4 @@ Deploying and hosting your Plasmic-generated GitHub repos on Fathym couldn’t b
 
 5. Hit deploy and let Fathym handle the rest.  
 
-To dig further into our integration with Plasmic, and to find out how you can host on Fathym through npm, [read more in our docs.](https://www.fathym.com/docs/guides/deploying/site-builders/plasmic-sites) Or [read our other blog about how great Plasmic is as a tool.](https://www.fathym.com/blog/articles/2022/august/2022-08-10-introducing-fathym-plasmic-integration
+To dig further into our integration with Plasmic, and to find out how you can host on Fathym through npm, [read more in our docs.](https://www.fathym.com/docs/guides/deploying/site-builders/plasmic-sites) Or [read our other blog about how great Plasmic is as a tool.](https://www.fathym.com/blog/articles/2022/august/2022-08-10-introducing-fathym-plasmic-integration)
