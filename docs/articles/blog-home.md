@@ -5,9 +5,21 @@ author: Rich Kurtzman
 author_title: Brand Communications @ Fathym
 author_url: https://www.fathym.com
 author_image_url: https://github.com/richkurtzman.png
-tags: [website, Fathym Blog, CMS, no-code, JavaScript, micro frontends, IoT]
+tags: [website, Fathym Blog, CMS, no-code, JavaScript, micro frontends, IoT, modular frontend]
 hide_table_of_contents: true
 ---
+
+## Modular frontends are fantastically functional
+
+![](https://www.fathym.com/img/smilingdev.png)
+
+Modular frontends are the way of the future. 
+
+They make building a website easier with smaller codebases, simpler upgrades and deployments and more. 
+
+The modular approach is awesome if you're using multiple JavaScript frameworks, no-code tools and static page generators together. Or, simply use the same framework for every route and page on your site.
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022-08-16-modular-frontends-fantastically-functional)
 ## Why we loved using Plasmic for our marketing page 
 
 ![](https://www.fathym.com/img/plasmiclogo2.png)
@@ -43,17 +55,7 @@ While WordPress continues to dominate the world of CMS, there are othere are new
 We look at Jamstack.org's survey of developers and see which CMS are most popular, and which are also leaving users most satisfied. 
 
 [Continue Reading here](https://www.fathym.com/blog/articles/2022/july/2022-07-28-ranking-cms-on-popularity-2022)
-## How to use Gruerilla IoT for end-to-end encrypted messaging
 
-![](https://www.fathym.com/img/encryptionkey.png)
-
-In our current world, most everyone can communicate easily and quickly thanks to the smartphones in our pockets. 
-
-But, what happens when someone wants to read your texts, emails or direct messages? Sure, there are encrypted messaging apps, but what if someone went a level higher and hacked into the OS and intalled a keylogger?
-
-That pushed us to dream up an end-to-end ecrypted messaging device. 
-
-[Continue reading here](https://www.fathym.com/blog/articles/2022/july/2022-07-26-guerilla-iot-end-to-end-messenger)
 ## Discover IoT Ensemble and everything it can deliver your business
 
 ![](https://www.fathym.com/img/iotensemble2.png)
@@ -110,41 +112,6 @@ There are certainly many positives to using no-code apps and site-builders, but 
 Let’s take a look at both the positives and negatives of no-code builders.
 
 [Continue reading here](https://www.fathym.com/blog/articles/2022/june/2022-06-28-positives-and-negatives-of-no-code-tools)
-
-## Go fully modular with micro frontends
-
-![](https://www.fathym.com/img/newmfe2.png) 
-
-One of the misconceptions about micro frontends is the way the architecture actually works. At least, with us.  
-
-In the past – and even still today – some would break a single page, say the homepage, down to multiple components. That’s not exactly how we do micro frontends.  
-
-Instead, in the fully modular approach, each page is created by a separate team or developer. 
-
-[Continue reading here](https://www.fathym.com/blog/articles/2022/june/2022-06-06-go-fully-modular-frontend)
-
-## Watch | Learn how to modularize your monolith
-
-![](https://www.fathym.com/img/socialuimonolith.png)
-
-
-In early June, we wrapped up our second Discord Live session. And we should report it was a success.  
-
-Now, you can watch the video and follow along.
-
-[Continue reading here](https://www.fathym.com/blog/articles/2022/june/2022-06-03-watch-modularize-your-monolith)
-
-## Why a React developer used Svelte on his Arcade
-
-![](https://www.fathym.com/img/arcadeinterior.png)
-
-If you build websites, you likely have a favorite JavaScript framework you use.  
-
-And it shouldn’t come as a surprise. Once you learn a specific framework (or library, in the case of React), you know the ins and outs of it. You learn how to get things done in an efficient manner. You pick up the tips and tricks for fixing issues.  
-
-So, why'd a React developer use Svelte for his arcade? 
-
-[Continue reading here](https://www.fathym.com/blog/articles/2022/may/2022-05-19-why-react-developer-used-svelte)
 
 ## Join Fathym 
 
