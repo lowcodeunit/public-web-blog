@@ -19,7 +19,7 @@ They make building a website easier with smaller codebases, simpler upgrades and
 
 The modular approach is awesome if you're using multiple JavaScript frameworks, no-code tools and static page generators together. Or, simply use the same framework for every route and page on your site.
 
-[Continue reading here](https://www.fathym.com/blog/articles/2022-08-16-modular-frontends-fantastically-functional)
+[Continue reading here](https://www.fathym.com/blog/articles/2022/august/2022-08-16-modular-frontends-fantastically-functional)
 ## Why we loved using Plasmic for our marketing page 
 
 ![](https://www.fathym.com/img/plasmiclogo2.png)
