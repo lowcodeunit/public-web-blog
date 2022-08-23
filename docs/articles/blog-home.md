@@ -9,6 +9,15 @@ tags: [website, Fathym Blog, CMS, no-code, JavaScript, micro frontends, IoT, mod
 hide_table_of_contents: true
 ---
 
+Report | Azure edges out AWS as most-used cloud by buisinesses
+
+![](https://www.fathym.com/img/azureaws.png)
+
+For the first time ever, Microsoft Azure is being used by more small and medium businesses than AWS. That's true for enterprise-level businesses as well. 
+
+Thanks to our "virtual cloud architect" we ease all the pain and suffering surrounding setting up your website in the Azure cloud. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/2022-08-19-azure-edges-out-aws)
 ## Modular frontends are fantastically functional
 
 ![](https://www.fathym.com/img/smilingdev.png)
