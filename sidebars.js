@@ -7,6 +7,7 @@ module.exports = {
       {
       
       'August': [
+        'articles/2022/august/2022-08-19-azure-edges-out-aws',
         'articles/2022/august/2022-08-16-modular-frontends-fantastically-functional',
         'articles/2022/august/2022-08-10-why-we-loved-using-plasmic-for-our-marketing-page',
         'articles/2022/august/2022-08-10-introducing-fathym-plasmic-integration',
