@@ -17,7 +17,7 @@ For the first time ever, Microsoft Azure is being used by more small and medium 
 
 Thanks to our "virtual cloud architect" we ease all the pain and suffering surrounding setting up your website in the Azure cloud. 
 
-[Continue reading here](https://www.fathym.com/blog/articles/2022/2022-08-19-azure-edges-out-aws)
+[Continue reading here](https://www.fathym.com/blog/articles/2022/august/2022-08-19-azure-edges-out-aws)
 ## Modular frontends are fantastically functional
 
 ![](https://www.fathym.com/img/smilingdev.png)
