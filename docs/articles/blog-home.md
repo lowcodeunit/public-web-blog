@@ -9,6 +9,14 @@ tags: [website, Fathym Blog, CMS, no-code, JavaScript, micro frontends, IoT, mod
 hide_table_of_contents: true
 ---
 
+## Fathym on the Views on Vue Podcast
+
+![](https://www.fathym.com/img/viewsonvue.png)
+
+Our Director of Engineering Jeremy Tomlinson and Brand Communications representative Rich Kurtzman were happy to be part of the Views on Vue Podcast in mid-August. 
+
+[Click here to listen in!](https://www.fathym.com/blog/articles/202/august/2022-08-25-views-on-vue)
+
 Report | Azure edges out AWS as most-used cloud by buisinesses
 
 ![](https://www.fathym.com/img/azureaws.png)
