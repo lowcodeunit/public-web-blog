@@ -15,7 +15,7 @@ hide_table_of_contents: true
 
 Our Director of Engineering Jeremy Tomlinson and Brand Communications representative Rich Kurtzman were happy to be part of the Views on Vue Podcast in mid-August. 
 
-[Click here to listen in!](https://www.fathym.com/blog/articles/202/august/2022-08-25-views-on-vue)
+[Click here to listen in!](https://www.fathym.com/blog/articles/2022/august/2022-08-25-views-on-vue)
 
 Report | Azure edges out AWS as most-used cloud by buisinesses
 
