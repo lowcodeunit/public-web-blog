@@ -9,6 +9,14 @@ tags: [website, Fathym Blog, CMS, no-code, JavaScript, micro frontends, IoT, mod
 hide_table_of_contents: true
 ---
 
+## 3 frameworks and 1 runtime developers should know in 2022
+
+The world of frontend website development is ever-changing. There are some slick, new tools out there which are really popular, too. 
+
+We look at the positives and negatives of next.js, node.js, nuxt.js and Phoenix Framework here. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/august/2022-08-29-three-fameworks-and-1-runtime)
+
 ## Fathym on the Views on Vue Podcast
 
 ![](https://www.fathym.com/img/viewsonvue.png)
