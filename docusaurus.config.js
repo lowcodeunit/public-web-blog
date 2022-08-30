@@ -24,7 +24,7 @@ module.exports = {
       title: '',
       logo: {
         alt: 'Fathym',
-        src: 'img/Fathym-logo-white-01.png',
+        src: 'https://www.fathym.com/img/Fathym-logo-white-01.png',
       },
       items: [
         {
