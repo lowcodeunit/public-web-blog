@@ -1,6 +1,6 @@
 {
   "name": "@lowcodeunit/public-web-blog",
-  "version": "1.57.127",
+  "version": "1.57.128",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
