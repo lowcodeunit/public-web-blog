@@ -5,9 +5,19 @@ author: Rich Kurtzman
 author_title: Brand Communications @ Fathym
 author_url: https://www.fathym.com
 author_image_url: https://github.com/richkurtzman.png
-tags: [website, Fathym Blog, CMS, no-code, JavaScript, micro frontends, IoT, modular frontend]
+tags: [website, Fathym Blog, CMS, no-code, JavaScript, micro frontends, IoT, modular frontend, composable frontend architecture]
 hide_table_of_contents: true
 ---
+
+## Explaining composable frontend architecture as simply as possible
+
+![](https://www.fathym.com/img/newmfe.png)
+
+Looking for the perfect frontend experience?
+
+Compose your solution with ease today. Learn about composable frontends, how they work and how they can create sensational sites and web apps today.
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/september/2022-09-01-explaining-composable-frontend-architecture-as-simply-as-possible)
 
 ## 3 frameworks and 1 runtime developers should know in 2022
 
