@@ -48,7 +48,7 @@ Finally, **no-code** means what it implies: No code. There is no need to know, u
 
 Now, with Fathym’s composable frontends, you can use all three – high-code, low-code and no-code tools – together in one website! Or, simply use your favorite of the three; like a website completely designed and built with only no-code tools.  
 
-“Bringing a series of no-code tools together to make an application can take your total application cost from $100,000 to $100. That's insane,” Fathym CEO Matt Smith explained in August, 2022. “That's a collapse in the world of technology. That's a revolution.” 
+“Bringing a series of no-code tools together to make an application can take your total application cost from $100,000 to $100. That's insane,” Fathym CEO Matt Smith explained recently. “That's a collapse in the world of technology. That's a revolution.” 
 
 ## Join the composable frontend revolution 
 
@@ -82,7 +82,7 @@ We’re talking a baby boomer with zero technical abilities or a kindergartener 
 
 Composable or combinatorial frontend architecture is amazing.  
 
-It’s a differentiator for Fathym as compared to big-name hosting competitors because they do not fully embrace composable architecture, we do. In the modern world of composable applications, most of that composability is often presented at the headless, API layer. Fathym facilitates that but also believes there should be true composability on the frontend, presentation layer too. 
+ In the modern world of composable applications, most of that composability is often presented at the headless, API layer. Fathym facilitates that but also believes there should be true composability on the frontend, presentation layer too. 
 
 By using combinatorial frontends, there are many benefits.  
 
