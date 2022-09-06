@@ -34,8 +34,7 @@ Modular frontends are the structure we need to build composable frontends on top
 
 What exactly are composable frontends?  
 
-They’re open-source based tools which are put together in any combination the developer – or citizen developer – wants to use. That means using high-code, low-code or no-code tools all together.  
-
+It's GitHub repos, NPM packages, zip files, etc. which are put together in any combination the developer – or citizen developer – wants to use. That means using high-code, low-code or no-code all together.
 ### High-code vs. Low-code vs. No-code 
 
 In the world of web development, there are three classifications of tools: High-code, low-code and no-code.  
