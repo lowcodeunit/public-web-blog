@@ -9,6 +9,15 @@ tags: [website, Fathym Blog, CMS, no-code, JavaScript, micro frontends, IoT, mod
 hide_table_of_contents: true
 ---
 
+## Positives and negatives of Next.js
+
+![](https://www.fathym.com/img/nextjslogo.png)
+
+There are a bunch of newer JavaScript frameworks, and Next.js is really popular lately. 
+
+We take a look at the positives and negatives of the framework here. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/september/2022-09-07-positives-and-negatives-of-nextjs)
 ## Explaining composable frontend architecture as simply as possible
 
 ![](https://www.fathym.com/img/newmfe.png)
