@@ -7,6 +7,7 @@ module.exports = {
       {
       
       'September': [
+        'articles/2022/september/2022-09-07-positives-and-negatives-of-nextjs',
         'articles/2022/september/2022-09-01-explaining-composable-frontend-architecture-as-simply-as-possible',
 
       ],  
