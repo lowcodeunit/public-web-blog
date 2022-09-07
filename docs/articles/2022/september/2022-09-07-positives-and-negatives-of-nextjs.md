@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 September 7, 2022 by Rich Kurtzman, _Brand Communications @ Fathym_
 
-![](https://www.fathym.com/img/nextjslogo.png)
+![](https://www.fathym.com/img/newnextjslogo.png)
 
 Developing a website should be a freeing experience.  
 
