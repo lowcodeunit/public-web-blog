@@ -16,7 +16,7 @@ Developing a website should be a freeing experience.
 
 Freedom to pick whatever framework you want to use, if you utilize high-code.  
 
-Within [Fathym’s composable frontend architecture,](LINK) you can use any JavaScript framework (and even some others) to build one aspect of your website. And then, if you wish, use a different framework, or a combination of high-code, low-code and no-code builders.  
+Within [Fathym’s composable frontend architecture,](https://www.fathym.com/blog/articles/2022/september/2022-09-01-explaining-composable-frontend-architecture-as-simply-as-possible) you can use any JavaScript framework (and even some others) to build one aspect of your website. And then, if you wish, use a different framework, or a combination of high-code, low-code and no-code builders.  
 
 Brilliant, right? Right.  
 
