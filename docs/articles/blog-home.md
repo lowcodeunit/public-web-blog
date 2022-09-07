@@ -11,7 +11,7 @@ hide_table_of_contents: true
 
 ## Positives and negatives of Next.js
 
-![](https://www.fathym.com/img/nextjslogo.png)
+![](https://www.fathym.com/img/newnextjslogo.png)
 
 There are a bunch of newer JavaScript frameworks, and Next.js is really popular lately. 
 
