@@ -9,6 +9,13 @@ tags: [website, Fathym Blog, CMS, no-code, JavaScript, micro frontends, IoT, mod
 hide_table_of_contents: true
 ---
 
+## CHIPS and Science Act leads to today’s groundbreaking of Intel’s $20B plant 
+
+![](https://www.fathym.com/img/chipcloseup.png)
+
+Intel broke ground on a new $20 billion plant on Friday, and it signals a new American manufacturing resurgence. The semiconductor chips which will be made in the plant will be used in cars, phones and even IoT equipment which will help run the plants themselves. 
+
+Fathym's IoT Ensemble can help businesses tackle the influx of data as manufacturing comes back to the US. 
 ## Positives and negatives of Next.js
 
 ![](https://www.fathym.com/img/newnextjslogo.png)
