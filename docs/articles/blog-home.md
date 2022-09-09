@@ -15,7 +15,9 @@ hide_table_of_contents: true
 
 Intel broke ground on a new $20 billion plant on Friday, and it signals a new American manufacturing resurgence. The semiconductor chips which will be made in the plant will be used in cars, phones and even IoT equipment which will help run the plants themselves. 
 
-Fathym's IoT Ensemble can help businesses tackle the influx of data as manufacturing comes back to the US. 
+Fathym's IoT Ensemble can help businesses tackle the influx of data as manufacturing comes back to the US.
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/september/2022-09-09-chips-and-science-act-leads-to-intel-plant)
 ## Positives and negatives of Next.js
 
 ![](https://www.fathym.com/img/newnextjslogo.png)
