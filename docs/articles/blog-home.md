@@ -9,6 +9,13 @@ tags: [website, Fathym Blog, CMS, no-code, JavaScript, micro frontends, IoT, mod
 hide_table_of_contents: true
 ---
 
+## When baseball, sportsmanship and unprofessionalism collide to ruin a young fan’s experience 
+
+![](https://www.fathym.com/img/coorsfield.png)
+
+Going to an MLB ballpark is supposed to be a fun, memorable time for young fans. Instead, these young boys were treated unfairly by an unprofessional pitcher on the Arizona Diamondbacks. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/september/2022-09-12-baseball-unprofessionalism-ruin-young-fan-experience)
 ## CHIPS and Science Act leads to today’s groundbreaking of Intel’s $20B plant 
 
 ![](https://www.fathym.com/img/chipcloseup.png)
@@ -99,74 +106,6 @@ We are excited to launch [our integration](https://www.plasmic.app/integrations)
 We are delighted to introduce a revamped user interface for Fathym! This year has been a whirlwind of rapid user adoption, invaluable feedback and product iteration. Thank you to the over 29,000 people who have tried out Fathym so far and to those that have provided extremely helpful feedback. 
 
 [Continue reading here](https://www.fathym.com/blog/articles/2022/august/2022-08-08-introducing-fathyms-revamped-ui)
-## Ranking CMS by popularity and satisfaction for 2022
-
-![](https://www.fathym.com/img/popularcms2022.png)
-
-CMS, or Content Management Systems, have become synonymous in the world of content creation, blogging, selling things online and more. 
-
-While WordPress continues to dominate the world of CMS, there are othere are new options on the scene like Strapi, Contentful and many others. 
-
-We look at Jamstack.org's survey of developers and see which CMS are most popular, and which are also leaving users most satisfied. 
-
-[Continue Reading here](https://www.fathym.com/blog/articles/2022/july/2022-07-28-ranking-cms-on-popularity-2022)
-
-## Discover IoT Ensemble and everything it can deliver your business
-
-![](https://www.fathym.com/img/iotensemble2.png)
-
-At Fathym, we have multiple platforms. 
-
-We may be more well known for our Fathym Platform -- assisting web developers in building and hosting their websites -- but IoT Ensemble is a crucial offering by us as well. 
-
-IoT Ensemble was developed to help businesses big and small connect their devices, to store and collect the data from those devices, and help with all the heavy lifting in Microsoft Azure. 
-
-[Continue reading here](https://www.fathym.com/blog/articles/2022/july/2022-07-15-discover-iot-ensemble)
-
-## Ranking JavaScript frameworks by popularity for 2022
-
-![](https://www.fathym.com/img/compandcoffee.png)
-
-There are an increasing number of JavaScript frameworks floating around cyberspace these days, and picking a popular one is important for multiple reasons. 
-
-We examine why it's important, and then, how developers voted in terms of which frameworks were most popular. Compared to 2021, there are a ton of newcomers to the list, including a new No. 1!
-
-[Continue Reading here](https://www.fathym.com/blog/articles/2022/july/2022-07-13-ranking-javascript-frameworks-by-popularity-2022)
-## Why you should use no-code tools with hosting flexibility
-
-![](https://www.fathym.com/img/nocodepencil.png)
-
-No-code tools are great: They're easy to use, quick to learn and offer fast turnarounds on projects. 
-
-However, many of the most popular no-code tools also lock in the users to the tools' hosting. 
-
-Instead, look for a no-code builder with hosting flexibility. 
-
-[Continue Reading here](https://www.fathym.com/blog/articles/2022/july/2022-07-11-use-no-code-tools-with-hosting-flexibility)
-
-## Report | No-code tools usage will increase for years to come
-
-![](https://www.fathym.com/img/nocode3.png)
-
-No-code tools have increasingly become an important piece of the puzzle for those wanting to create a website with little-to-no technical experience. 
-
-Over the last two years, no-code tools usage boomed, and it's only expected to continue to grow for the next three-plus years.
-
-[Continue reading here](https://www.fathym.com/blog/articles/2022/july/2022-07-05-no-code-tools-usage-will-increase)
-
-## Positives and negatives of no-code tools explained
-
-![](https://www.fathym.com/img/nocodenice.png)
-
-No-code, no problem?  
-
-Not necessarily.  
-
-There are certainly many positives to using no-code apps and site-builders, but there are definite downsides to using them, too.  
-
-Let’s take a look at both the positives and negatives of no-code builders.
-
-[Continue reading here](https://www.fathym.com/blog/articles/2022/june/2022-06-28-positives-and-negatives-of-no-code-tools)
 
 ## Join Fathym 
 
