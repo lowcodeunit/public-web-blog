@@ -8,6 +8,15 @@ author_image_url: https://github.com/richkurtzman.png
 tags: [website, Fathym Blog, CMS, no-code, JavaScript, micro frontends, IoT, modular frontend, composable frontend architecture]
 hide_table_of_contents: true
 ---
+## The Science of Defiance | Tom Brady plays on 
+
+![](https://www.fathym.com/img/biometricsdumbell.png)
+
+Biometrics have become well-known in recent years, helping everyone track steps, heart rates and sleep. 
+
+But one of the earliest adopters was the NFL and specificaly Tom Brady, who's used biometrics to extend his NFL career to 21 years. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/september/2022-09-14-biometrics-tom-brady-and-NFL)
 
 ## When baseball, sportsmanship and unprofessionalism collide to ruin a young fan’s experience 
 

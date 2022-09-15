@@ -7,6 +7,7 @@ module.exports = {
       {
       
       'September': [
+        'articles/2022/september/2022-09-14-biometrics-tom-brady-and-NFL',
         'articles/2022/september/2022-09-12-baseball-unprofessionalism-ruin-young-fan-experience',
         'articles/2022/september/2022-09-09-chips-and-science-act-leads-to-intel-plant',
         'articles/2022/september/2022-09-07-positives-and-negatives-of-nextjs',
