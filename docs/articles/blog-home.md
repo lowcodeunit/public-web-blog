@@ -8,6 +8,16 @@ author_image_url: https://github.com/richkurtzman.png
 tags: [website, Fathym Blog, CMS, no-code, JavaScript, micro frontends, IoT, modular frontend, composable frontend architecture]
 hide_table_of_contents: true
 ---
+
+## How to turn your Figma designs into enterprise-ready apps
+
+![](https://www.fathym.com/img/figmafathymazure.png)
+
+Figma's acquisition by Adobe for $20 billion on Thursday was major news. 
+
+Here, we look at how enterprises can use Figma to design wonderful web apps and then use Fathym and our Microsoft Azure cloud to host those apps. Or, enterprises can scale to their own cloud when needed.
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/september/2022-09-15-turn-figma-designs-into-enterprise-ready-apps)
 ## The Science of Defiance | Tom Brady plays on 
 
 ![](https://www.fathym.com/img/biometricsdumbell.png)
