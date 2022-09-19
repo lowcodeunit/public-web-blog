@@ -8,6 +8,15 @@ author_image_url: https://github.com/richkurtzman.png
 tags: [website, Fathym Blog, CMS, no-code, JavaScript, micro frontends, IoT, modular frontend, composable frontend architecture]
 hide_table_of_contents: true
 ---
+## What are biometrics and how can they help improve health?
+
+![](https://www.fathym.com/img/biometriclungs.png)
+
+Biometrics are an ever-expanding field which are impacting most people on a daily basis, usually in a good way. 
+
+Many are tracking their health data using "wearables" and then setting goals and working toward healthier lives. We examine a few options for wearables, the health data they track and more here.
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/september/2022-09-19-what-are-biometrics-how-can-they-help-health)
 
 ## How to turn your Figma designs into enterprise-ready apps
 
