@@ -4,7 +4,7 @@ author: Rich Kurtzman
 author_title: Brand Communications @ Fathym
 author_url: https://www.fathym.com
 author_image_url: https://github.com/richkurtzman.png
-tags: [Fathym, ]
+tags: [Fathym, biometrics, biotechnology, tech, wearables, fitbit, apple watch, emotibit, health, workout, data]
 hide_table_of_contents: true
 ---
 
@@ -91,7 +91,7 @@ Biometrics have already begun to revolutionize our everyday lives.
 
 Wearable fitness trackers are now recording the data and helping to improve the health of nearly 350 million people, and growing. 
 
-From a [press release](https://www.prnewswire.com/news-releases/the-wearable-market-will-see-344-9-million-shipments-in-2022-with-sports-fitness-and-wellness-trackers-leading-the-way-301469513.html): 
+[According to ABI Research](https://www.prnewswire.com/news-releases/the-wearable-market-will-see-344-9-million-shipments-in-2022-with-sports-fitness-and-wellness-trackers-leading-the-way-301469513.html): 
 
 “According to a recent study from global technology intelligence firm ABI Research, the number of wearables shipped worldwide in 2020 increased to 259.63 million, with sports, fitness, and wellness trackers accounting for 112.15 million and Smartwatches 74.30 million. Now, due to the increasing number of use cases and improved features, the upward trend is predicted to continue. In 2021, 304.69 million wearables shipped globally. In 2022, the wearable market is projected to reach 344.9 million of shipments worldwide, a growth increase of 13.2%.” 
 
