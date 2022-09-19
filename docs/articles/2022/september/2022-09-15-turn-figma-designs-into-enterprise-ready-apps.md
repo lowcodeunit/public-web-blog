@@ -1,7 +1,7 @@
 ---
 title: How to turn your Figma designs into enterprise-ready apps
 author: Rich Kurtzman
-author_title: Product Owner @ Fathym
+author_title: Brand Communications @ Fathym
 author_url: https://www.fathym.com
 author_image_url: https://github.com/richkurtzman.png
 tags: [Fathym, Figma, Adobe, Azure, Microsoft Azure, web apps, web hosting, cloud provisioning]
