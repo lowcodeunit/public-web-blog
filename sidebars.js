@@ -7,6 +7,7 @@ module.exports = {
       {
       
       'September': [
+        'articles/2022/september/2022-09-22-how-nfl-uses-biometrics',
         'articles/2022/september/2022-09-19-what-are-biometrics-how-can-they-help-health',
         'articles/2022/september/2022-09-15-turn-figma-designs-into-enterprise-ready-apps',
         'articles/2022/september/2022-09-14-biometrics-tom-brady-and-NFL',
