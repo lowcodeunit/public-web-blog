@@ -8,6 +8,16 @@ author_image_url: https://github.com/richkurtzman.png
 tags: [website, Fathym Blog, CMS, no-code, JavaScript, micro frontends, IoT, modular frontend, composable frontend architecture]
 hide_table_of_contents: true
 ---
+
+## How the NFL uses biometrics to thrill fans
+
+![](https://www.fathym.com/img/footballfield.png)
+
+The National Football League has been tracking biological data of players on the field since 2017. 
+
+With that tracking comes amazing looks at many aspects of the game. That includes the speed of the players, the routes they run on the field as well as "Stat That" statistics. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/september/2022-09-22-how-nfl-uses-biometrics)
 ## What are biometrics and how can they help improve health?
 
 ![](https://www.fathym.com/img/biometriclungs.png)
