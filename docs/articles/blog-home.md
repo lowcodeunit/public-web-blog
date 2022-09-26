@@ -9,6 +9,14 @@ tags: [website, Fathym Blog, CMS, no-code, JavaScript, micro frontends, IoT, mod
 hide_table_of_contents: true
 ---
 
+## Habistack keeps railways on the fast track
+
+![](https://www.fathym.com/img/trainmountains.jpg)
+
+Habistack is a robust, feature-rich API that offers a powerful suite of weather forecasting and open-source data visualization tools. The Habistack API allows the railroads to keep constant outlook on what is happening across the U.S.
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/september/2022-09-26-habistack-keeps-railways-on-fast-track)
+
 ## How the NFL uses biometrics to thrill fans
 
 ![](https://www.fathym.com/img/footballfield.png)
@@ -120,30 +128,6 @@ They make building a website easier with smaller codebases, simpler upgrades and
 The modular approach is awesome if you're using multiple JavaScript frameworks, no-code tools and static page generators together. Or, simply use the same framework for every route and page on your site.
 
 [Continue reading here](https://www.fathym.com/blog/articles/2022/august/2022-08-16-modular-frontends-fantastically-functional)
-## Why we loved using Plasmic for our marketing page 
-
-![](https://www.fathym.com/img/plasmiclogo2.png)
-
-There are a ton of no-code builders in the world, but we chose Plasmic to create our marketing/homepage. And we're happy with that choice for multiple reasons. 
-
-We break down what Plasmic is and how easy to use it is, too. 
-
-[Continue reading here](https://www.fathym.com/blog/articles/2022/august/2022-08-10-why-we-loved-using-plasmic-for-our-marketing-page)
-## Introducing Fathym's integration with Plasmic
-
-![](https://www.fathym.com/img/plasmicfathym5.png)
-
-We are excited to launch [our integration](https://www.plasmic.app/integrations) with Plasmic! 
-
-[Continue reading here](https://www.fathym.com/blog/articles/2022/august/2022-08-10-introducing-fathym-plasmic-integration)
-
-## Introducing Fathym's new revamped user interface
-
-![](https://www.fathym.com/img/fathymbubbles.png)
-
-We are delighted to introduce a revamped user interface for Fathym! This year has been a whirlwind of rapid user adoption, invaluable feedback and product iteration. Thank you to the over 29,000 people who have tried out Fathym so far and to those that have provided extremely helpful feedback. 
-
-[Continue reading here](https://www.fathym.com/blog/articles/2022/august/2022-08-08-introducing-fathyms-revamped-ui)
 
 ## Join Fathym 
 
