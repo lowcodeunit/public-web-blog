@@ -94,7 +94,7 @@ Our team at Fathym is chock full of football fans. Especially of our hometown De
 
 But more importantly, Fathym is diving head first into the biometrics world.  
 
-Over the next few months, we’ll be bringing you content about how biometrics and sports intersect, about an exciting company we’re working to partner with called [EmotiBit](https://www.emotibit.com/) and even how biometrics has a chance to change the world for the better, soon. 
+Over the next few months, we’ll be bringing you content about how biometrics and sports intersect, about an exciting company [EmotiBit](https://www.emotibit.com/) and even how biometrics has a chance to change the world for the better, soon. 
 
 ## More biometrics reading
 - [Tom Brady and the science of defiance](https://www.fathym.com/blog/articles/2022/september/2022-09-14-biometrics-tom-brady-and-NFL)
