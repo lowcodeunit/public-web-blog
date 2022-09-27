@@ -9,6 +9,16 @@ tags: [website, Fathym Blog, CMS, no-code, JavaScript, micro frontends, IoT, mod
 hide_table_of_contents: true
 ---
 
+## How Habistack takes a deluge of data to make accurate weather forecasts 
+
+![](https://www.fathym.com/img/fathymbubbles2.png)
+
+Habistack, the feature-rich API that offers a powerful suite of weather forecasting and open-source data visualization tools, can help a wide variety of industries. 
+
+We look at the data Habistack measures, and how it uses machine learning and AI to create accurate weather forecasts.
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/september/2022-09-27-habistack-takes-data-makes-accurate-weather-forecasts)
+
 ## Habistack keeps railways on the fast track
 
 ![](https://www.fathym.com/img/trainmountains.jpg)

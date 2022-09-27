@@ -1,10 +1,10 @@
 ---
 title: Habistack keeps railways on the fast track
 author: Kim Loomis
-author_title: Brand Communications @ Fathym
+author_title: Product Owner @ Fathym
 author_url: https://www.fathym.com
 author_image_url: https://github.com/richkurtzman.png
-tags: [Fathym, Habistack, railways, weather, weather data, weather forecasts, Habistack and railways, IoT]
+tags: [Fathym, Habistack, railways, weather, weather data, weather forecasts, Habistack and railways]
 hide_table_of_contents: true
 ---
 
