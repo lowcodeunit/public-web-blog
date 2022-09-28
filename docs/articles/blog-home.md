@@ -5,9 +5,19 @@ author: Rich Kurtzman
 author_title: Brand Communications @ Fathym
 author_url: https://www.fathym.com
 author_image_url: https://github.com/richkurtzman.png
-tags: [website, Fathym Blog, CMS, no-code, JavaScript, micro frontends, IoT, modular frontend, composable frontend architecture]
+tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composable frontend architecture, Habistack, weather, weather forecasting, hurricane]
 hide_table_of_contents: true
 ---
+
+## Habistack | Knowing when and where a hurricane will hit
+
+![](https://www.fathym.com/img/hurricane.png)
+
+Hurricane Ian is nearing a Category 5 and hitting the west coast of Florida hard. 
+
+We look at how hurricanes are created, and how Fathym's Habistack can help track storms of this magnitude. Not only that, Habistack can help those in the path of the storm evacuate to safety using Proadject. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/september/2022-09-28-habistack-knowing-when-and-where-a-hurricane-will-hit)
 
 ## How Habistack takes a deluge of data to make accurate weather forecasts 
 

@@ -7,6 +7,7 @@ module.exports = {
       {
       
       'September': [
+        'articles/2022/september/2022-09-28-habistack-knowing-when-and-where-a-hurricane-will-hit',
         'articles/2022/september/2022-09-27-habistack-takes-data-makes-accurate-weather-forecasts',
         'articles/2022/september/2022-09-26-habistack-keeps-railways-on-fast-track',
         'articles/2022/september/2022-09-22-how-nfl-uses-biometrics',
