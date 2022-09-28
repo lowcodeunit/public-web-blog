@@ -141,4 +141,6 @@ Those drones will also need to know about the many adverse conditions; wind, hea
 
 ## Conclusion  
 
-Habistack is extremely intelligent weather forecasting powered by machine learning and AI. It can be used in a wide range of industries to help them better predict and prepare for changing weather and for enterprises to be able to keep their workforce on track through inclement weather better.  
+Habistack is extremely intelligent weather forecasting powered by machine learning and AI. It can be used in a wide range of industries to help them better predict and prepare for changing weather and for enterprises to be able to keep their workforce on track through inclement weather better.
+
+[Here's a look at how Habistack tracked Hurricane Ian and gave an evacuation route to Jacksonville from Tampa Bay, too.](https://www.fathym.com/blog/articles/2022/september/2022-09-28-habistack-knowing-when-and-where-a-hurricane-will-hit)
