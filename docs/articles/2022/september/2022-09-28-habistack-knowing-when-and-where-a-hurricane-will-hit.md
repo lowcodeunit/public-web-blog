@@ -89,6 +89,9 @@ This call would be pasted into the “POST” call Request Body on the [Habistac
 
 ![](https://www.fathym.com/img/habistackdashboard.png)
 
+#### Request Body
+
+```console
 
 { 
 
@@ -310,7 +313,7 @@ This call would be pasted into the “POST” call Request Body on the [Habistac
 
 } 
 
- 
+ ```
 
 ## Example Data Returned 
 The call will return data like below under the Responses section. 
@@ -321,7 +324,9 @@ The measurement of WindGust can be found in the Habistack documentation and is m
 
 That’s some significant wind happening! 
 
- 
+ #### Response Body
+
+```console
 
   { 
 
@@ -589,4 +594,4 @@ That’s some significant wind happening!
 
 ] 
 
- 
+```
