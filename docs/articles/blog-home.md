@@ -9,6 +9,15 @@ tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composa
 hide_table_of_contents: true
 ---
 
+## 5 great drives to see aspens changing colors in Colorado
+
+![](https://www.fathym.com/img/trees1.jpg) 
+
+Fall means the aspens are changing from green to beautifully bright golden colors. We look at five great drives to take around the Centennial State to get your leaf peepin' fix. 
+
+Habistack and pRoadject together can help people plan their adventures up high, Rocky Mountain passes.
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/september/2022-09-30-five-great-drives-to-see-aspens-change-colors-in-colorado)
 ## Habistack | Knowing when and where a hurricane will hit
 
 ![](https://www.fathym.com/img/hurricane.png)
