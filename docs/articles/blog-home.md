@@ -9,6 +9,15 @@ tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composa
 hide_table_of_contents: true
 ---
 
+## 5 reasons you should be using modular frontnends
+
+![](https://www.fathym.com/img/modular.jpg) 
+
+Modular frontends are flexible and functional. 
+
+We give all the great benefits of using modular frontends, including scalability, independent teams and more. 
+
+[Continue reading](https://www.fathym.com/blog/articles/2022/october/2022-10-04-five-reasons-to-use-modular-frontends)
 ## 5 great drives to see aspens changing colors in Colorado
 
 ![](https://www.fathym.com/img/trees1.jpg) 
