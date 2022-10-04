@@ -120,7 +120,7 @@ Being able to use no-code tools also empowers the “citizen developers” on yo
 
 This graphic helps bring it all together. Not only are you using a combination of tools together for the site, but you can see how the independence of the teams works, and how each update isn’t affecting the others.  
 
-![](https:www.fathym.com/img/newmfetree.png) 
+![](https://www.fathym.com/img/newmfetree.png) 
 
 ## Conclusion 
 
