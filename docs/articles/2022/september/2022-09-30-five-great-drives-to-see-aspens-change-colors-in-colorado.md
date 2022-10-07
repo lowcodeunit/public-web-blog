@@ -30,7 +30,7 @@ It’s no secret that Rocky Mountain National Park is a favorite of locals as we
 
 In fact, it’s so popular, there are some special rules to getting in. But, they’re worth it! 
 
-In order to limit the amount of visitors in the part at one time, [RMNP started their “timed entry” reservations in 2019](https://www.nps.gov/romo/planyourvisit/timed-entry-permit-system.htm). That means, if you go to the park between 9 am –3 pm, you will have to have an entry reservation and can only enter during that time. There’s even a special Bear Lake corridor permit which is in effect from 6 am-5 pm.  
+In order to limit the amount of visitors in the part at one time, [RMNP started their “timed entry” reservations in 2019](https://www.nps.gov/romo/planyourvisit/timed-entry-permit-system.htm). That means, if you go to the park between 9 am – 3 pm, you will have to have an entry reservation and can only enter during that time. There’s even a special Bear Lake corridor permit which is in effect from 6 am - 5 pm.  
 
 The good news is, if you can get there by 9 am, you don’t need a permit! Or choose to come in the afternoon if you wish, or get online and reserve a timeframe. 
 
@@ -98,7 +98,7 @@ Habistack combines the world's best weather forecasts with statistics-based, mac
 
 By [signing up for a free Fathym account](https://www.fathym.com/dashboard/forecast), now anyone can plan their fantastic fall drive trips with ease and know what to expect in terms of the weather.  
 
-Here’s an example of pRoadject and Habistack working together to show what the weather will be like on Trail Ridge Road in Rocky Mountain National Park on Sat. Oct 1, 2022: 
+Here’s an example of Proadject and Habistack working together to show what the weather will be like on Trail Ridge Road in Rocky Mountain National Park on Sat. Oct 1, 2022: 
 
 ![](https://www.fathym.com/img/estestograndlake.png) 
 

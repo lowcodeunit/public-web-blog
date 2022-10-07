@@ -7,6 +7,7 @@ module.exports = {
       {
       
       'October': [
+        'articles/2022/october/2022-10-07-how-habistack-helps-make-road-trips-better',
         'articles/2022/october/2022-10-04-five-reasons-to-use-modular-frontends',
 
       ],

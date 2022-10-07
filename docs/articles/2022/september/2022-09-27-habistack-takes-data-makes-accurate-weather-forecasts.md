@@ -111,7 +111,7 @@ For many Americans, the transition from driving into the office and back home ev
 
 For others, offices have reopened and people are commuting once again.  
 
-Habistack allows drivers to input their route and predict the weather along the entire way. That’s not just powerful for the daily commute, but for longer, multi-day road trips as well.  
+Habistack allows drivers to input their route and predict the weather along the entire way. That’s not just powerful for the daily commute, but for [longer, multi-day road trips as well.](https://www.fathym.com/blog/articles/2022/october/2022-10-07-how-habistack-helps-make-road-trips-better)  
 
 Living in a place like Colorado – where Fathym is headquartered – a road trip within just the Centennial State can mean elevation changes of 5,000 feet, driving treacherous mountain passes, and camping at elevation where the temperature drops greatly at nightfall. Be prepared and get the most out of your road trips with Habistack. 
 
