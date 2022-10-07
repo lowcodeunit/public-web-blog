@@ -9,6 +9,15 @@ tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composa
 hide_table_of_contents: true
 ---
 
+## How Habistack helps make road trips safer and easier
+
+![](https://www.fathym.com/img/roadtrip.jpg) 
+
+Road trips are fun ways to get out of town for the weekend, or enjoy a week exploring the world around you. 
+
+Now, using Habistack and our app Proadject, you can make those road trips safer and easier by knowing what weather to expect along the entire route of your journey. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/october/2022-10-07-how-habistack-helps-make-road-trips-better)
 ## 5 reasons you should be using modular frontnends
 
 ![](https://www.fathym.com/img/modular.jpg) 
