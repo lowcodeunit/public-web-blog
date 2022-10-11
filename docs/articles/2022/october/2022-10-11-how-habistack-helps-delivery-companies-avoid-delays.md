@@ -12,6 +12,12 @@ October 11, 2022 by Rich kurtzman, _Brand Communications @ Fathym_
 
 ![](https://www.fathym.com/img/deliverytruck.jpg) 
 
+**In this piece:** 
+
+- Introduction to Habistack API
+- Habistack can help delivery companies by forecasting weather on their routes and delivery areas
+- Using that state-of-the-art technology, companies like UPS could run more efficiently
+
 Delivery truck drivers are considered to have one of the best and top-paying jobs for those without college degrees.  
 
 Per US News, being a delivery truck driver falls in their Top-25 best jobs, [ranking No. 17 overall.](https://money.usnews.com/careers/best-jobs/rankings/best-jobs-without-a-college-degree) 

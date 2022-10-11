@@ -12,6 +12,12 @@ October 7, 2022 by Rich kurtzman, _Brand Communications @ Fathym_
 
 ![](https://www.fathym.com/img/roadtrip.jpg) 
 
+**In this piece:** 
+
+- Introduction to Habistack API
+- Using Habistack and Proadject together to plan a road trip from Denver to Steamboat Springs, CO 
+- Illustrating how Proadject and Habistack help plan safer travel
+
 In this modern age, most people live in urban areas.  
 
 In fact, it’s nearly 83% do [per this.](https://en.wikipedia.org/wiki/Urbanization_by_country) 
