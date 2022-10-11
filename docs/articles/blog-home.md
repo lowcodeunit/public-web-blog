@@ -17,7 +17,7 @@ Delivery companies -- like UPS, Amazon and FedEx -- have seem a boom in shipment
 
 And as the demands on drivers increases, one way to avoid delays is to have robust weather forecasting. That's where Habistack comes in.
 
-[Continue reading here](https://www.fathym.com/blog/articles/2022/october/2022-10-11-how-habistack-helps-deliver-companies-avoid-delays)
+[Continue reading here](https://www.fathym.com/blog/articles/2022/october/2022-10-11-how-habistack-helps-delivery-companies-avoid-delays)
 
 
 ## How Habistack helps make road trips safer and easier
