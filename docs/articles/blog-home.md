@@ -5,9 +5,20 @@ author: Rich Kurtzman
 author_title: Brand Communications @ Fathym
 author_url: https://www.fathym.com
 author_image_url: https://github.com/richkurtzman.png
-tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composable frontend architecture, Habistack, weather, weather forecasting, hurricane]
+tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composable frontend architecture, Habistack, weather, weather forecasting, hurricane, UPS, FedEx, Amazon, delivery company]
 hide_table_of_contents: true
 ---
+
+## How Habistack helps delivery companies avoid delays
+
+![](https://www.fathym.com/img/deliverytruck.jpg) 
+
+Delivery companies -- like UPS, Amazon and FedEx -- have seem a boom in shipments over the course of the pandemic. 
+
+And as the demands on drivers increases, one way to avoid delays is to have robust weather forecasting. That's where Habistack comes in.
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/october/2022-10-11-how-habistack-helps-deliver-companies-avoid-delays)
+
 
 ## How Habistack helps make road trips safer and easier
 
@@ -26,7 +37,7 @@ Modular frontends are flexible and functional.
 
 We give all the great benefits of using modular frontends, including scalability, independent teams and more. 
 
-[Continue reading](https://www.fathym.com/blog/articles/2022/october/2022-10-04-five-reasons-to-use-modular-frontends)
+[Continue reading here](https://www.fathym.com/blog/articles/2022/october/2022-10-04-five-reasons-to-use-modular-frontends)
 ## 5 great drives to see aspens changing colors in Colorado
 
 ![](https://www.fathym.com/img/trees1.jpg) 
