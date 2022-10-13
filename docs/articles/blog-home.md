@@ -9,6 +9,15 @@ tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composa
 hide_table_of_contents: true
 ---
 
+## Green Dragons and Greener Pastures | Big Farming is Big Business and Big Science
+
+![](https://www.fathym.com/img/lancasterfarm.jpeg) 
+
+Farming foods is an essential piece of our food supply. In order to grow efficiently, understanding and utilizing science is crucial. 
+
+A look at how Habistack's weather forecasting API as well as its machine-learning capabilities would have helped an old-school farmer, and how they can help modern farmers today, too.
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/october/2022-10-13-farming-is-big-business-and-big-science)
 ## How Habistack helps delivery companies avoid delays
 
 ![](https://www.fathym.com/img/deliverytruck.jpg) 
