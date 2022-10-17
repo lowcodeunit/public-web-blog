@@ -9,6 +9,14 @@ tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composa
 hide_table_of_contents: true
 ---
 
+## Positives and negatives of Nuxt.js
+
+![](https://www.fathym.com/img/nuxt.png) 
+
+There are many framework options to build websites and web apps. Nuxt.js is newer on the scene of JavaScript frameworks, but it's quickly risen in popularity. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/october/2022-10-17-positives-and-negatives-of-nuxt)
+
 ## Green Dragons and Greener Pastures | Big Farming is Big Business and Big Science
 
 ![](https://www.fathym.com/img/lancasterfarm.jpeg) 
