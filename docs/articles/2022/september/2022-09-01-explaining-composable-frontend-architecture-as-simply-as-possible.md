@@ -57,7 +57,7 @@ For experienced developers, who can use and manipulate JavaScript frameworks, it
 
 ![](https://www.fathym.com/img/MFERReactReactReactDocu.png) 
 
-At the very least, composable frontends allows for dividing and delegating tasks. It’s a way to divide and conquer bigger goals, faster.  
+At the very least, composable frontends allow for dividing and delegating tasks. It’s a way to divide and conquer bigger goals, faster.  
 
 Since each section of your site is a separate “route,” or micro app, and can be maintained by different individuals or teams of devs, it means multiple people working concurrently on their own goals while the entire group works to satisfy the larger objective.  
 
@@ -93,7 +93,7 @@ Second, composable frontends save money for small, medium, and enterprise-level 
 
 And by using those no-code tools, companies can cut the oversight of DevOps teams, further saving money.  
 
-“Composable frontends and no-code tools – *plus Fathym* –  allow you not to have a DevOps team,” Smith continued. “They allow you to start getting more done faster for far less money. We're not talking like $5 less. We're talking in order to order of magnitude.” 
+“Composable frontends and no-code tools – *plus Fathym* –  allow you not to have a DevOps team,” Smith continued. “They allow you to start getting more done faster for far less money. We're not talking like $5 less. We're talking in an order of magnitude.” 
 
 Finally, combinatorial frontends allow for incredible flexibility and freedom when building a site. Stack your micro apps however you see fit. Use JavaScript – and multiple, different frameworks – alongside no-code and low-code tools. Or, use the same framework for your entire site, but still breaking it up into those micro apps which means: Smaller codebases, easier fixes, faster deployments and much more.  
 
