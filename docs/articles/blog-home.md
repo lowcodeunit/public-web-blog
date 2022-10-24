@@ -11,7 +11,7 @@ hide_table_of_contents: true
 
 ## How Habistack assists campers prepare for the elements
 
-![](https://www.fathy.com/img/camping1.jpg)
+![](https://www.fathym.com/img/camping1.jpg)
 
 Camping is an exciting way to get away from the internet and cell phone coverage while simultaneously getting outdoors and into nature. 
 
