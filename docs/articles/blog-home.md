@@ -9,6 +9,15 @@ tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composa
 hide_table_of_contents: true
 ---
 
+## How Habistack assists campers prepare for the elements
+
+![](https://www.fathy.com/img/camping1.jpg)
+
+Camping is an exciting way to get away from the internet and cell phone coverage while simultaneously getting outdoors and into nature. 
+
+Of course, there's a reason why we've built houses and cities; being in nature means being subjected to the elements! Knowing what weather to prepare for helps everyone enjoy camping and Habistack weather forecasting API has your back. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/october/2022-10-24-how-habistack-helps-with-camping)
 ## Positives and negatives of Nuxt.js
 
 ![](https://www.fathym.com/img/nuxt.png) 
