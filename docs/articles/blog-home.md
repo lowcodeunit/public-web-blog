@@ -9,6 +9,15 @@ tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composa
 hide_table_of_contents: true
 ---
 
+## High-code vs. Low-code vs. No-code | Which is best for your business?
+
+![](https://www.fathym.com/img/highlowno3.jpg) 
+
+If you're building a website or web app, there are multiple different ways to go about it. Do you want to use high-code -- developing from scratch -- low-code or no-code tools? 
+
+Within Fathym's composable frontends, businesses can use a combination of all three. We dive into what high, low and no-code tools are, how they work and what to consider when picking one. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/october/2022-10-26-high-code-low-code-no-code)
 ## How Habistack assists campers prepare for the elements
 
 ![](https://www.fathym.com/img/camping1.jpg)
