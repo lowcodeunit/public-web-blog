@@ -7,6 +7,7 @@ module.exports = {
       {
       
       'October': [
+        'articles/2022/october/2022-10-26-high-code-low-code-no-code',
         'articles/2022/october/2022-10-24-how-habistack-helps-with-camping',
         'articles/2022/october/2022-10-17-positives-and-negatives-of-nuxt',
         'articles/2022/october/2022-10-13-farming-is-big-business-and-big-science',
