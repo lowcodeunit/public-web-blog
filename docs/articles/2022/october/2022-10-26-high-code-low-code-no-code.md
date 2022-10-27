@@ -47,7 +47,7 @@ What that means simply is smaller frontends. There are smaller codebases per “
 
 Plus, when modular frontends are being used, updates to one route will not impact the other routes. For enterprises who have complex web development teams and subteams, this means multiple teams (or individuals) can work concurrently, which is a time and money-saver.  
 
-![](https:www.fathym.com/img/MFEzoom.jpg) 
+![](https://www.fathym.com/img/MFEzoom.jpg) 
 
 **Examples of high-code tools** 
 
