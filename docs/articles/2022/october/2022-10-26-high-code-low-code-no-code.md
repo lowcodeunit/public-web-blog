@@ -33,7 +33,7 @@ In the world of web development, there are three classifications of tools: High-
 
 ### **High-code** 
 
-High-code refers to a developer using JavaScript (or another programming language) to create something from scratch or by using some open source solutions, too. That takes a lot of work as well as expertise in building a site or web app after starting with a blank screen. It’s a time-consuming process, of building and testing and then fixing bugs. But Fathym certainly supports that workflow. 
+High-code refers to a developer using JavaScript (or another programming language) to create something from scratch or by using some open-source solutions, too. That takes a lot of work as well as expertise in building a site or web app after starting with a blank screen. It’s a time-consuming process, of building and testing and then fixing bugs. But Fathym certainly supports that workflow. 
 
 High-code is used by experts, the developers and coders. The benefit of using high-code is being able to design and create whatever is needed and wanted by the organization. There are no limits, or at least, very few limits to what can be created. 
 
@@ -79,7 +79,7 @@ A look at Docusaurus for our blogs.
 - [Docusaurus for our docs and currently our blog, too.](https://www.fathym.com/blog/articles/2022/march/2022-03-16-how-i-blog-in-markdown) 
 - Pixiebrix  
 - Mendix 
-- Applian 
+- Appian 
 
 ### No-code 
 
@@ -87,7 +87,7 @@ Finally, **no-code** means what it implies: No code. There is no need to know, u
 
 No-code tools are usually visual builders or design programs which allow anyone – with any experience – to design and build a website’s frontend or a web app’s user interface. Then, the no-code tool takes those designs and creates the code, allowing users to integrate it into their codebase. Read more about the [positives and negatives of no-code tools from our previous blog, here.](https://www.fathym.com/blog/articles/2022/june/2022-06-28-positives-and-negatives-of-no-code-tools)  
 
-No-code is really where the rise of “citizen developers” come into play. Simply, anyone from baby boomers to kindergarteners can build websites and web apps with no-code tools. That’s the reason makers are embracing them. 
+No-code is really where “citizen developers” can help out. Simply, anyone from baby boomers to kindergarteners can build websites and web apps with no-code tools. That’s the reason makers are embracing them. 
 
 The reason businesses are adopting them is simple; they save money.  
 
