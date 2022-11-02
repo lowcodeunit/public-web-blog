@@ -6,6 +6,10 @@ module.exports = {
     ' 2022': [ //Note: the extra space in front of 2022 is on purpose. It changes it from a number to a string so it doesn't get auto ordered.
       {
       
+      'November': [
+        'articles/2022/november/2022-11-02-how-trucking-companies-can-save-money-with-route-based-forecasts',
+        
+      ],
       'October': [
         'articles/2022/october/2022-10-26-high-code-low-code-no-code',
         'articles/2022/october/2022-10-24-how-habistack-helps-with-camping',
