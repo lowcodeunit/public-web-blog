@@ -66,7 +66,7 @@ The best part about it is trucking companies can customize their apps, creating 
 
 ## Habistack helps makes trucking companies profitable 
 
-From [Zappia’s report on trucking:](https://www.zippia.com/advice/trucking-industry-statistics/)  
+From [Zippia’s report on trucking:](https://www.zippia.com/advice/trucking-industry-statistics/)  
 
 “Most trucking companies fail because their costs are higher than their income. Often trucking companies encounter high operational costs and struggle to pull in enough customers or high-paying freight to cover those costs, which causes them to fail. 
 
