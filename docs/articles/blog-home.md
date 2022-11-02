@@ -9,6 +9,16 @@ tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composa
 hide_table_of_contents: true
 ---
 
+## How trucking companies can save money with route-based forecasts 
+
+![](https://www.fathym.com/img/semitruckmountains.jpg) 
+
+Trucking companies account for 72.5% of American freight and bring all types of goods to our doorsteps and into our local communities. 
+
+Now those same companies can save money by using Habistack weather forecasting API and create apps to help drivers avoid weather-related delays. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/november/2022-11-02-how-trucking-companies-can-save-money-with-route-based-forecasts)
+
 ## High-code vs. Low-code vs. No-code | Which is best for your business?
 
 ![](https://www.fathym.com/img/highlowno3.jpg) 
