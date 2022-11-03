@@ -64,7 +64,7 @@ As you can see, there will be some rainy conditions later in the drive, and it s
 
 The best part about it is trucking companies can customize their apps, creating smart systems which benefit their company.  
 
-## Habistack helps makes trucking companies profitable 
+## Habistack helps make trucking companies profitable 
 
 From [Zippia’s report on trucking:](https://www.zippia.com/advice/trucking-industry-statistics/)  
 
