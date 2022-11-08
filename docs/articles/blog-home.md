@@ -9,6 +9,16 @@ tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composa
 hide_table_of_contents: true
 ---
 
+## Composable vs. Modular frontends and how they work together
+
+![](https://www.fathym.com/img/MFER4blogs5.png)
+
+Modular frontend architecture means building smaller frontends. Composable frontends are built on top of modular architecture, and they mean using a combination of high, low, or no-code tools together in one UI/UX. 
+
+Together, companies and developers have ultimate flexibility and freedom when it comes to building a website or micro app. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/november/2022-11-07-composable-vs-modular-frontends-and-how-they-work)
+
 ## How trucking companies can save money with route-based forecasts 
 
 ![](https://www.fathym.com/img/semitruckmountains.jpg) 
