@@ -7,6 +7,7 @@ module.exports = {
       {
       
       'November': [
+        'articles/2022/november/2022-11-10-fathym-named-among-top-colorado-iot-companies',
         'articles/2022/november/2022-11-07-composable-vs-modular-frontends-and-how-they-work',
         'articles/2022/november/2022-11-02-how-trucking-companies-can-save-money-with-route-based-forecasts',
         

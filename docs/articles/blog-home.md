@@ -8,7 +8,13 @@ author_image_url: https://github.com/richkurtzman.png
 tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composable frontend architecture, Habistack, weather, weather forecasting, hurricane, UPS, FedEx, Amazon, delivery company]
 hide_table_of_contents: true
 ---
+## Fathym named among top Colorado IoT, big data companies 
 
+![](https://www.fathym.com/img/iotensemble.png)
+
+We're honored to be named to Colorado's best IoT companies as well as Colorado's best big data companies. Here, we explain some of what IoT Ensemble can bring to small, medium and enterprise-level businesses. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/november/2022-11-10-fathym-named-among-top-colorado-iot-companies)
 ## Composable vs. Modular frontends and how they work together
 
 ![](https://www.fathym.com/img/MFER4blogs5.png)
