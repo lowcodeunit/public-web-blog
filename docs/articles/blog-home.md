@@ -5,9 +5,18 @@ author: Rich Kurtzman
 author_title: Brand Communications @ Fathym
 author_url: https://www.fathym.com
 author_image_url: https://github.com/richkurtzman.png
-tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composable frontend architecture, Habistack, weather, weather forecasting, hurricane, UPS, FedEx, Amazon, delivery company]
+tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composable frontend architecture, Habistack, weather, weather forecasting, hurricane, UPS, FedEx, Amazon, delivery company, IoHT, cloud, Microsoft Azure]
 hide_table_of_contents: true
 ---
+
+## Forbes projects Internet of Healthcare Things as a top-4 IoT trend in 2023 
+![](https://www.fathym.com/img/iothealthcare.png) 
+
+As the Internet of Things becomes more pervasive in everyday life, the Internet of Healthcare Things will continue to grow, too. 
+
+Many of us have taken part in virtual health visits over the last few years, and as IoHT sensors become better, doctors and nurses will be able to monitor patients from home. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/november/2022-11-14-forbes-projects-internet-of-healthcare-things-as-top-4-iot-trend-in-2023)
 ## Fathym named among top Colorado IoT, big data companies 
 
 ![](https://www.fathym.com/img/iotensemble.png)

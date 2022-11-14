@@ -7,6 +7,7 @@ module.exports = {
       {
       
       'November': [
+        'articles/2022/november/2022-11-14-forbes-projects-internet-of-healthcare-things-as-top-4-iot-trend-in-2023',
         'articles/2022/november/2022-11-10-fathym-named-among-top-colorado-iot-companies',
         'articles/2022/november/2022-11-07-composable-vs-modular-frontends-and-how-they-work',
         'articles/2022/november/2022-11-02-how-trucking-companies-can-save-money-with-route-based-forecasts',
