@@ -9,6 +9,15 @@ tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composa
 hide_table_of_contents: true
 ---
 
+## As snow falls across Colorado, Habistack weather forecasting API gives drivers crucial information 
+
+![](https://www.fathym.com/img/springsuptochyenne.png)
+
+There's a big snowstorm across most of Colorado and into Wyoming today, all along the front range. 
+
+We explain how Habistack weather forecasting API not only gives accurate forecasts but can help drivers make commutes safely. Habistack gives drivers information on the road state -- icy, wet, snowy -- along with delay risk and more. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/november/2022-11-17-habistack-gives-crucial-information-in-snow-storm)
 ## Forbes projects Internet of Healthcare Things as a top-4 IoT trend in 2023 
 ![](https://www.fathym.com/img/iothealthcare.png) 
 
