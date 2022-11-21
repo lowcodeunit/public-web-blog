@@ -8,7 +8,15 @@ author_image_url: https://github.com/richkurtzman.png
 tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composable frontend architecture, Habistack, weather, weather forecasting, hurricane, UPS, FedEx, Amazon, delivery company, IoHT, cloud, Microsoft Azure]
 hide_table_of_contents: true
 ---
+## Biotech, Biomanufacturing get a shot in the arm as US looks to end cancer
 
+![](https://www.fathym.com/img/biotechguy.png)
+
+US president Joe Biden announced the "cancer moonshot" in September, and along with that, America will invest heavily in biotech and biomanufacturing. 
+
+Fathym’s out-of-the-box cloud solutions can power biotechnology and biomanufacturing vendors or researchers to get their apps off the ground quicker. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/november/2022-11-21-biotech-biomanufacturing-get-shot-in-the-arm-with-cancer-moonshot)
 ## As snow falls across Colorado, Habistack weather forecasting API gives drivers crucial information 
 
 ![](https://www.fathym.com/img/springsuptochyenne.png)
