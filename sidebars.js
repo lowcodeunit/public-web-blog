@@ -7,6 +7,7 @@ module.exports = {
       {
       
       'November': [
+        'articles/2022/november/2022-11-29-how-ai-based-forecasts-can-help-refrigerated-trucks-keep-their-cool',
         'articles/2022/november/2022-11-21-biotech-biomanufacturing-get-shot-in-the-arm-with-cancer-moonshot',
         'articles/2022/november/2022-11-17-habistack-gives-crucial-information-in-snow-storm',
         'articles/2022/november/2022-11-14-forbes-projects-internet-of-healthcare-things-as-top-4-iot-trend-in-2023',
