@@ -8,6 +8,16 @@ author_image_url: https://github.com/richkurtzman.png
 tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composable frontend architecture, Habistack, weather, weather forecasting, hurricane, UPS, FedEx, Amazon, delivery company, IoHT, cloud, Microsoft Azure]
 hide_table_of_contents: true
 ---
+## How AI-based forecasts can help refrigerated trucks keep their cool
+
+![](https://www.fathym.com/img/refrigeratedtrucks.png)
+
+Like any type of delivery, refrigerated trucks have a target delivery time. But, uniquely, those "refer" trucks are under more pressure to deliver their goods on time, otherwise perishible items will spoil. 
+
+With AI and machine learning, Habistack weather forecasting API gives drivers and companies the ability to know what weather could delay deliveries. And how to avoid it.
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/november/2022-11-29-how-ai-based-forecasts-can-help-refrigerated-trucks-keep-their-cool)
+
 ## Biotech, Biomanufacturing get a shot in the arm as US looks to end cancer
 
 ![](https://www.fathym.com/img/biotechguy.png)
