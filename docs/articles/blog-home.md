@@ -8,6 +8,16 @@ author_image_url: https://github.com/richkurtzman.png
 tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composable frontend architecture, Habistack, weather, weather forecasting, hurricane, UPS, FedEx, Amazon, delivery company, IoHT, cloud, Microsoft Azure]
 hide_table_of_contents: true
 ---
+## FIFA smart soccer balls are tip of technological iceberg in sports 
+
+![](https://www.fathym.com/img/worldcupsoccerball.png)
+
+Sports are being aided and altered by technology, and FIFA's new soccer ball is another example of that. 
+
+Their new World Cup soccer ball features two sensors which determines types of movement and speed as well as the location of the ball on the pitch. That's helping referees determine if a player is offside or not, as the USMNT was against Iran on Tuesday. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/december/2022-12-01-fifa-smart-soccer-balls-tip-of-technological-iceberg-in-sports)
+
 ## How AI-based forecasts can help refrigerated trucks keep their cool
 
 ![](https://www.fathym.com/img/refrigeratedtrucks.png)
