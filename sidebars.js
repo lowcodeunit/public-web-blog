@@ -5,7 +5,10 @@ module.exports = {
     'Home':['articles/blog-home'],
     ' 2022': [ //Note: the extra space in front of 2022 is on purpose. It changes it from a number to a string so it doesn't get auto ordered.
       {
-      
+      'December':[
+        'articles/2022/december/2022-12-01-fifa-smart-soccer-balls-tip-of-technological-iceberg-in-sports',
+
+      ],
       'November': [
         'articles/2022/november/2022-11-29-how-ai-based-forecasts-can-help-refrigerated-trucks-keep-their-cool',
         'articles/2022/november/2022-11-21-biotech-biomanufacturing-get-shot-in-the-arm-with-cancer-moonshot',
