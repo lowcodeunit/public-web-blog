@@ -8,6 +8,14 @@ author_image_url: https://github.com/richkurtzman.png
 tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composable frontend architecture, Habistack, weather, weather forecasting, hurricane, UPS, FedEx, Amazon, delivery company, IoHT, cloud, Microsoft Azure]
 hide_table_of_contents: true
 ---
+## Go Directly to the Top of the Mountain! | How Fathym helps the Ski Industry with its Season Pass Technology 
+
+![](https://www.fathym.com/img/epicpass-skiresort.png)
+
+December means it's ski season! And Fathym is excited to be partnered with Vail Resorts and Telluride, helping them communicated and keeping skiers and snowboarders on the mountains with ease. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/december/2022-12-07-how-fathym-helps-ski-industry-with-season-pass-technology)
+
 ## FIFA smart soccer balls are tip of technological iceberg in sports 
 
 ![](https://www.fathym.com/img/worldcupsoccerball.png)
