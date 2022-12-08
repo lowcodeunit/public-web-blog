@@ -5,9 +5,19 @@ author: Rich Kurtzman
 author_title: Brand Communications @ Fathym
 author_url: https://www.fathym.com
 author_image_url: https://github.com/richkurtzman.png
-tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composable frontend architecture, Habistack, weather, weather forecasting, hurricane, UPS, FedEx, Amazon, delivery company, IoHT, cloud, Microsoft Azure]
+tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composable frontend architecture, Habistack, weather, weather forecasting, hurricane, UPS, FedEx, Amazon, delivery company, IoHT, cloud, Microsoft Azure, ChatGPT, AI, Artificial Intelligence, Lensa.ai, Midjourney]
 hide_table_of_contents: true
 ---
+
+![](https://www.fathym.com/img/aiguy.png) 
+
+AI is having a moment.  
+
+From ChatGPT to Lensa.ai to MidJourney and even our own Habistack; artificial intelligence is already changing our world and will only continue to as time goes on. 
+
+We explore ChatGPT and how that will/is affecting writing and software development. Then we dive into AI-generated art and the ethics behind it. And finally, how AI-ML work together. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/december/2022-12-08-three-ways-ai-is-transforming-the-world-chatgpt)
 ## Go Directly to the Top of the Mountain! | How Fathym helps the Ski Industry with its Season Pass Technology 
 
 ![](https://www.fathym.com/img/epicpass-skiresort.png)
