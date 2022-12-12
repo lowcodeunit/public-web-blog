@@ -8,6 +8,7 @@ author_image_url: https://github.com/richkurtzman.png
 tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composable frontend architecture, Habistack, weather, weather forecasting, hurricane, UPS, FedEx, Amazon, delivery company, IoHT, cloud, Microsoft Azure, ChatGPT, AI, Artificial Intelligence, Lensa.ai, Midjourney]
 hide_table_of_contents: true
 ---
+## [3 ways AI is transforming our world already, including ChatGPT](https://www.fathym.com/blog/articles/2022/december/2022-12-08-three-ways-ai-is-transforming-the-world-chatgpt)
 
 ![](https://www.fathym.com/img/aiguy.png) 
 
