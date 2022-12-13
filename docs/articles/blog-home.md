@@ -5,9 +5,23 @@ author: Rich Kurtzman
 author_title: Brand Communications @ Fathym
 author_url: https://www.fathym.com
 author_image_url: https://github.com/richkurtzman.png
-tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composable frontend architecture, Habistack, weather, weather forecasting, hurricane, UPS, FedEx, Amazon, delivery company, IoHT, cloud, Microsoft Azure, ChatGPT, AI, Artificial Intelligence, Lensa.ai, Midjourney]
+tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composable frontend architecture, Habistack, weather, weather forecasting, hurricane, UPS, FedEx, Amazon, delivery company, IoHT, cloud, Microsoft Azure, ChatGPT, AI, Artificial Intelligence, Lensa.ai, Midjourney, ChatGPT3]
 hide_table_of_contents: true
 ---
+
+## [How AI chatbots could replace human writers | And what writers can do about it](https://www.fathym.com/blog/articles/2022/december/2022-12-13-how-ai-could-replace-human-writers)
+
+![](https://www.fathym.com/img/aiwriter.png) 
+
+Artificial intelligence is taking off lately, with ChatGPT seeing over 1 million users in the two weeks since it was introduced. 
+
+ChatGPT3 is so advanced, it writes in a "human-like way" and it's not too far fetched to see how it could replace human writers in the near future. 
+
+In fact, when asking ChatGPT to define AI, it included concerns that "AI could automate jobs" and others. 
+
+So, will AI replace human writers? And what can humans do to fight back?
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/december/2022-12-13-how-ai-could-replace-human-writers)
 ## [3 ways AI is transforming our world already, including ChatGPT](https://www.fathym.com/blog/articles/2022/december/2022-12-08-three-ways-ai-is-transforming-the-world-chatgpt)
 
 ![](https://www.fathym.com/img/aiguy.png) 
