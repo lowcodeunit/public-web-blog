@@ -9,6 +9,16 @@ tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composa
 hide_table_of_contents: true
 ---
 
+## [What markets are driving demand for IoT and how big is IoT projected to get?](https://www.fathym.com/blog/articles/2022/december/2022-12-19-what-markets-drive-demand-for-iot)
+
+![](https://www.fathym.com/img/smartcitywifi.jpg) 
+
+The Internet of Things (IoT) is currently growing at a rapid pace and is projected to do so for years to come. 
+
+What is the cause in the rise of data being produced, and which markets are driving that demand? We look at smart cities, wearables, smart homes and more. 
+
+[Continue reading here](https://www.fathym.com/blog/articles/2022/december/2022-12-19-what-markets-drive-demand-for-iot)
+
 ## [How AI chatbots could replace human writers | And what writers can do about it](https://www.fathym.com/blog/articles/2022/december/2022-12-13-how-ai-could-replace-human-writers)
 
 ![](https://www.fathym.com/img/aiwriter.png) 
