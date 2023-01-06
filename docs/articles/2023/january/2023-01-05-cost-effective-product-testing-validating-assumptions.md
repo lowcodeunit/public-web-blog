@@ -38,7 +38,6 @@ Because new products are a gamble, companies will try to do product introduction
 
 ![](https://www.fathym.com/img/shoeinventory.jpg) 
 
-Various high heels on stacked show boxes 
 
 A case in point is Zappos. The founder of the company did not want to invest in shoe inventory until he could prove that consumers wanted it. So, he took pictures of shoes and posted them on his website. When someone bought a pair of shoes, he would go to the store, buy them, and ship them to the consumer. But Zappos did not have any inventory itself, even though on the website, it appeared that it did. 
 

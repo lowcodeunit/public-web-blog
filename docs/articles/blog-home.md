@@ -13,7 +13,7 @@ hide_table_of_contents: true
 
 ![](https://www.fathym.com/img/growthchart.jpg) 
 
-If businesses want to progress, it's imporant for them to take calculated risks. We give many methodologies for businesses to validate their assumptions. 
+If businesses want to progress, it's important for them to take calculated risks. We give many methodologies for businesses to validate their assumptions. 
 
 [Continue reading here](https://www.fathym.com/blog/articles/2023/january/2023-01-05-cost-effective-product-testing-validating-assumptions) 
 ## [What markets are driving demand for IoT and how big is IoT projected to get?](https://www.fathym.com/blog/articles/2022/december/2022-12-19-what-markets-drive-demand-for-iot)
