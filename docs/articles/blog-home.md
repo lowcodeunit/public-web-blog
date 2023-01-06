@@ -9,6 +9,14 @@ tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composa
 hide_table_of_contents: true
 ---
 
+## [Report | ChatGPT creator OpenAI valued at $29 billion in talks with investors](https://www.fathym.com/blog/articles/2023/january/2023-01-06-chatgpt-creator-openai-valued-at-$29-billion)
+
+![](https://www.fathym.com/img/openailogo.png)
+
+ChatGPT has taken the world by storm lately. Now, OpenAI is valued at $29 billion. We look at how ChatGPT has already changed the world and how it will continue to. Included: Will it take over for Google?
+
+[Continue reading here](https://www.fathym.com/blog/articles/2023/january/2023-01-06-chatgpt-creator-openai-valued-at-$29-billion)
+
 ## [Cost Effective Product Testing – Taking Risks and Validating Assumptions](https://www.fathym.com/blog/articles/2023/2023-01-05-cost-effective-product-testing-validating-assumptions) 
 
 ![](https://www.fathym.com/img/growthchart.jpg) 
