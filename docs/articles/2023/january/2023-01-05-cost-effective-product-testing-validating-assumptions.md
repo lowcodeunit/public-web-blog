@@ -8,7 +8,9 @@ tags: [Product testing, risk taking, business, Fathym, Fathym Platform, Microsof
 hide_table_of_contents: true
 ---
 
-> January 5, 2023 by Kim Loomis, _Product Owner @ Fathym_
+January 5, 2023 by Kim Loomis, _Product Owner @ Fathym_
+
+![](https://www.fathym.com/img/growthchart.jpg)
 
 In this article: 
 
