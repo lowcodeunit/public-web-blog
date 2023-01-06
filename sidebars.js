@@ -3,6 +3,13 @@ module.exports = {
   },
   articles: {
     'Home':['articles/blog-home'],
+    ' 2023': [ //Note: the extra space in front of 2021 is on purpose. It changes it from a number to a string so it doesn't get auto ordered.
+      {
+        'January': [
+          'articles/2023/january/2023-01-05-cost-effective-product-testing-validating-assumptions',
+        ],
+      },      
+    ],
     ' 2022': [ //Note: the extra space in front of 2022 is on purpose. It changes it from a number to a string so it doesn't get auto ordered.
       {
       'December':[
