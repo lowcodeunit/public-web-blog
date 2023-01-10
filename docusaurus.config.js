@@ -20,6 +20,16 @@ module.exports = {
       // Useful if you want to support a single color mode
       disableSwitch: true,
     },
+    zoom: {
+      selector: '.markdown :not(em) > img',
+      config: {
+        // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+        background: {
+          light: 'rgb(24,25,26)',
+          dark: 'rgb(24,25,26)',
+        }
+      }
+    },
     navbar: {
       title: '',
       logo: {
@@ -140,5 +150,9 @@ module.exports = {
       },
     ],
   ],
-  // plugins: [path.resolve(__dirname, 'plugins/oribi')],
+  plugins: [
+    require.resolve('docusaurus-plugin-image-zoom'),
+  // plugins: [path.resolve(__dirname, 'plugins/oribi')]
+],
+
 };
