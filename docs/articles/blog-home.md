@@ -8,7 +8,13 @@ author_image_url: https://github.com/richkurtzman.png
 tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composable frontend architecture, Habistack, weather, weather forecasting, hurricane, UPS, FedEx, Amazon, delivery company, IoHT, cloud, Microsoft Azure, ChatGPT, AI, Artificial Intelligence, Lensa.ai, Midjourney, ChatGPT3]
 hide_table_of_contents: true
 ---
+## [How to simplify QA by testing frontends in production](https://www.fathym.com/blog/articles/2023/january/2023-01-11-how-to-simplify-qa-by-testing-frontends-in-production)
 
+![](https://www.fathym.com/img/softwaretesting.jpg) 
+
+Testing software is a crucial part of the development cycle. At Fathym, we test in production, and here we explain how that simplifies QA.
+
+[Continue reading here](https://www.fathym.com/blog/articles/2023/january/2023-01-11-how-to-simplify-qa-by-testing-frontends-in-production)
 ## [Report | ChatGPT creator OpenAI valued at $29 billion in talks with investors](https://www.fathym.com/blog/articles/2023/january/2023-01-06-chatgpt-creator-openai-valued-at-$29-billion)
 
 ![](https://www.fathym.com/img/openailogo.png)
