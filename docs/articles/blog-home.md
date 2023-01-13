@@ -5,9 +5,17 @@ author: Rich Kurtzman
 author_title: Brand Communications @ Fathym
 author_url: https://www.fathym.com
 author_image_url: https://github.com/richkurtzman.png
-tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composable frontend architecture, Habistack, weather, weather forecasting, hurricane, UPS, FedEx, Amazon, delivery company, IoHT, cloud, Microsoft Azure, ChatGPT, AI, Artificial Intelligence, Lensa.ai, Midjourney, ChatGPT3]
+tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composable frontend architecture, Habistack, weather, weather forecasting, hurricane, UPS, FedEx, Amazon, delivery company, IoHT, cloud, Microsoft Azure, ChatGPT, AI, Artificial Intelligence, Lensa.ai, Midjourney, ChatGPT3, postgresql, azure database]
 hide_table_of_contents: true
 ---
+
+## [PostgreSQL Database Storage and Azure](https://www.fathym.com/blog/articles/2023/january/2023-01-13-postgresql-database-storage-and-azure)
+
+![](https://www.fathym.com/img/databaseisometric.jpg) 
+
+Azure Database is a better production deployment target for PostgreSQL storage, and we explain why here.
+
+[Continue reading here](https://www.fathym.com/blog/articles/2023/january/2023-01-13-postgresql-database-storage-and-azure)
 ## [How to simplify QA by testing frontends in production](https://www.fathym.com/blog/articles/2023/january/2023-01-11-how-to-simplify-qa-by-testing-frontends-in-production)
 
 ![](https://www.fathym.com/img/softwaretesting.jpg) 
