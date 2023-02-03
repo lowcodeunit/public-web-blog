@@ -5,14 +5,14 @@ module.exports = {
     'Home':['articles/blog-home'],
     ' 2023': [ //Note: the extra space in front of 2021 is on purpose. It changes it from a number to a string so it doesn't get auto ordered.
       {
-        'February': [
-          'articles/2023/february/2023-02-06-composable-low-code-application-development',
-        ],
-        'January': [
-          'articles/2023/january/2023-01-13-postgresql-database-storage-and-azure',
-          'articles/2023/january/2023-01-11-how-to-simplify-qa-by-testing-frontends-in-production',
-          'articles/2023/january/2023-01-06-chatgpt-creator-openai-valued-at-$29-billion',
-          'articles/2023/january/2023-01-05-cost-effective-product-testing-validating-assumptions',
+      'February': [
+        'articles/2023/february/2023-02-06-composable-low-code-application-development',
+      ],
+      'January': [
+        'articles/2023/january/2023-01-13-postgresql-database-storage-and-azure',
+        'articles/2023/january/2023-01-11-how-to-simplify-qa-by-testing-frontends-in-production',
+        'articles/2023/january/2023-01-06-chatgpt-creator-openai-valued-at-$29-billion',
+        'articles/2023/january/2023-01-05-cost-effective-product-testing-validating-assumptions',
         ],
       },      
     ],
