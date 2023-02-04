@@ -1,7 +1,7 @@
 ---
 title: Unlocking the true power of composable low code application development for the enterprise
 author: Kilian Carroll
-author_title: Product Owner @ Fathym
+author_title: Product Marketing @ Fathym
 author_url: https://www.lowcodeunit.com
 author_image_url: 
 tags: [low code, risk taking, business, Fathym, Fathym Platform, Microsoft Azure, Azure, landing pages, composable]
