@@ -15,7 +15,6 @@ hide_table_of_contents: true
 In today's fast-paced digital world, companies are looking for ways to increase efficiency and accelerate application delivery
 
 [Continue reading here](https://www.fathym.com/blog/articles/2023/february/2023-02-06-composable-low-code-application-development)
-
 ## [PostgreSQL Database Storage and Azure](https://www.fathym.com/blog/articles/2023/january/2023-01-13-postgresql-database-storage-and-azure)
 
 ![](https://www.fathym.com/img/databaseisometric.jpg) 
