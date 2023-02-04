@@ -47,5 +47,3 @@ With Fathym, organizations can consolidate their various no/low-code tools with 
 Ultimately, while Fathym offers a streamlined deployment and hosting platform, it is not another cloud. Users can get started in a [shared SaaS cloud](https://www.fathym.com/dashboard/), but for organisations, applications hosted on Fathym are deployed to their Azure cloud. In this way there is absolutely no vendor lock-in or compromised IP ownership. Fathym is like a virtual developer, setting up mature development and DevOps workflows that deploy into a customer's own repositories and Azure infrastructure.
 
 Whether through the rapid and democratized composition of software solutions through LowCodeUnits, or the consolidation of no/low-code tools through Fathym's hosting environment on Azure, organisations can accelerate and streamline their low-code journey without vendor lock-in or compromising IP ownership.
-
-
