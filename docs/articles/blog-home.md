@@ -8,7 +8,13 @@ author_image_url: https://github.com/richkurtzman.png
 tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composable frontend architecture, Habistack, weather, weather forecasting, hurricane, UPS, FedEx, Amazon, delivery company, IoHT, cloud, Microsoft Azure, ChatGPT, AI, Artificial Intelligence, Lensa.ai, Midjourney, ChatGPT3, postgresql, azure database]
 hide_table_of_contents: true
 ---
+## [Unlocking the true power of composable low-code application development for the enterprise](https://www.fathym.com/blog/articles/2023/february/2023-02-06-composable-low-code-application-development)
 
+![](https://www.fathym.com/img/Abstract_Cubes.png) 
+
+In today's fast-paced digital world, companies are looking for ways to increase efficiency and accelerate application delivery
+
+[Continue reading here](https://www.fathym.com/blog/articles/2023/february/2023-02-06-composable-low-code-application-development)
 ## [PostgreSQL Database Storage and Azure](https://www.fathym.com/blog/articles/2023/january/2023-01-13-postgresql-database-storage-and-azure)
 
 ![](https://www.fathym.com/img/databaseisometric.jpg) 
