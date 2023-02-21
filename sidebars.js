@@ -7,6 +7,7 @@ module.exports = {
       {
       'February': [
         'articles/2023/february/2023-02-06-composable-low-code-application-development',
+        'articles/2023/february/2023-02-21-power-of-the-iceberg-concept',
       ],
       'January': [
         'articles/2023/january/2023-01-13-postgresql-database-storage-and-azure',
