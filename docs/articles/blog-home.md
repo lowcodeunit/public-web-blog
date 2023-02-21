@@ -8,6 +8,13 @@ author_image_url: https://github.com/richkurtzman.png
 tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composable frontend architecture, Habistack, weather, weather forecasting, hurricane, UPS, FedEx, Amazon, delivery company, IoHT, cloud, Microsoft Azure, ChatGPT, AI, Artificial Intelligence, Lensa.ai, Midjourney, ChatGPT3, postgresql, azure database]
 hide_table_of_contents: true
 ---
+## [The power of the “iceberg concept” in software development](https://www.fathym.com/blog/articles/2023/february/2023-02-21-power-of-the-iceberg-concept)
+
+![](https://www.fathym.com/img/iceberg-vector.png) 
+
+In this blog post, we'll explore the iceberg concept in software development and how it can help us create better products.
+
+[Continue reading here](https://www.fathym.com/blog/articles/2023/february/2023-02-21-power-of-the-iceberg-concept)
 ## [Unlocking the true power of composable low-code application development for the enterprise](https://www.fathym.com/blog/articles/2023/february/2023-02-06-composable-low-code-application-development)
 
 ![](https://www.fathym.com/img/Abstract_Cubes.png) 

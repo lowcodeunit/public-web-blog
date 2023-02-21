@@ -6,6 +6,7 @@ module.exports = {
     ' 2023': [ //Note: the extra space in front of 2023 is on purpose. It changes it from a number to a string so it doesn't get auto ordered.
       {
       'February': [
+        'articles/2023/february/2023-02-21-power-of-the-iceberg-concept',
         'articles/2023/february/2023-02-06-composable-low-code-application-development',
       ],
       'January': [
