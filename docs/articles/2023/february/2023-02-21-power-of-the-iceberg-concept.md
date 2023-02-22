@@ -54,4 +54,4 @@ So, what's the solution? Start with the user experience first and build the tech
 
 ## Future-proofed development 
 
-The power of the iceberg concept lies in its ability to balance simplicity and complexity in software development. By offering users and organisations a simple and easy-to-use starting point, Fathym creates an entry point that sets the tone for the ongoing development of your solutions and products. By providing options for custom workflow configuration and vendor selection, Fathym gives you an open, future-proofed development pathway where control and IP ownership are firmly in your hands.
+The power of the iceberg concept lies in its ability to balance simplicity and complexity in software development. By offering users and organizations a simple and easy-to-use starting point, Fathym creates an entry point that sets the tone for the ongoing development of your solutions and products. By providing options for custom workflow configuration and vendor selection, Fathym gives you an open, future-proofed development pathway where control and IP ownership are firmly in your hands.
