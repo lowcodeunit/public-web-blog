@@ -8,6 +8,13 @@ author_image_url: https://github.com/richkurtzman.png
 tags: [website, Fathym Blog, no-code, JavaScript, IoT, modular frontend, composable frontend architecture, Habistack, weather, weather forecasting, hurricane, UPS, FedEx, Amazon, delivery company, IoHT, cloud, Microsoft Azure, ChatGPT, AI, Artificial Intelligence, Lensa.ai, Midjourney, ChatGPT3, postgresql, azure database]
 hide_table_of_contents: true
 ---
+## [Define and Standardize: How automation allows traditional and citizen developers to work in concert](https://www.fathym.com/blog/articles/2023/march/2023-03-14-automate-development-flow)
+
+![](https://www.fathym.com/img/dev_coding.png) 
+
+In today's fast-paced world, enterprises require solutions to be delivered quickly and efficiently
+
+[Continue reading here](https://www.fathym.com/blog/articles/2023/march/2023-03-14-automate-development-flow)
 ## [The power of the “iceberg concept” in software development](https://www.fathym.com/blog/articles/2023/february/2023-02-21-power-of-the-iceberg-concept)
 
 ![](https://www.fathym.com/img/iceberg-vector.png) 
